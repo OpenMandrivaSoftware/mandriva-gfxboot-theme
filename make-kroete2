@@ -1,0 +1,541 @@
+#!/usr/bin/perl
+#
+
+use strict;
+use GD;
+
+my ($size, $imgfile, $file) = @ARGV;
+open my $f, ">$file" or usage();
+binmode $f;
+my ($buf);
+my $res;
+
+my $image = GD::Image->new($imgfile);
+
+my $width = $image->width;
+my $height = $image->height;
+
+my $limit = 200;
+my $middlex = int($width / 2);
+my $middley = int($height / 2);
+print "$width $middlex, $height $middley\n";
+my $index = $image->getPixel($middlex,$middley);
+my ($r,$g,$b) = $image->rgb($index);
+
+if ($r > $limit && $g > $limit && $b > $limit) {
+    die "FATAL: pixel $middlex, $middley must not be white ($r, $g, $b)\n"
+}
+my @data;
+my ($x, $y) = ($middlex, $middley);
+#my @dir = ( [ 2, 0, ['00', '00'] ], [ -2, 0, ['01', '01']], [ 0, 2, ['11', '11']], [0, -2, ['10', '10']], [ 1, 0, ['00'] ], [ -1, 0, ['01'] ], [ 0, 1, ['11'] ], [ 0, -1, ['10']] );
+my @dir = (
+    [ 1, 0, ['00'] ], [ -1, 0, ['01'] ], [ 0, -1, ['11'] ], [ 0, 1, ['10']]
+);
+
+my %done;
+my $prev = $dir[0];
+while (@data < $size * 4) {
+    my $sc = $size;
+    my ($X, $Y);
+    my $cmd;
+    my @d = sort { rand 1 <=> rand 1 } @dir;
+    for my $d ($prev, @d) {
+	my ($dx, $dy, $c) = @$d;
+	my ($nx, $ny) = ($x + $dx, $y + $dy);
+	next if $nx > $width || $nx < 0 || $ny > $height || $ny < 0;
+	my $index = $image->getPixel($nx,$ny);
+	($r,$g,$b) = $image->rgb($index);
+	#print "Testing $nx, $ny ($r, $g, $b): ";
+	if ($r < $limit && $g < $limit & $b < $limit) {
+	    if ($done{$nx}{$ny} <= $sc) {
+		#	print "ok";
+		$sc = $done{$nx}{$ny};
+		$cmd = $c;
+		$X = $nx;
+		$Y = $ny;
+		$prev = $d
+	    }
+	}
+	#print "\n"
+    }
+    $X || $Y or die "FATAL: wrong pixel use ($X, $Y)";
+    push @data, @$cmd;
+    # mark the neighborhood
+    $done{$X}{$Y} += 4;
+    my $index = $image->getPixel($X+2,$Y);
+    ($r,$g,$b) = $image->rgb($index);
+    if ($r > $limit && $g > $limit && $b > $limit) {
+	$done{$X+1}{$Y} += 2
+    }
+    my $index = $image->getPixel($X+2,$Y+2);
+    ($r,$g,$b) = $image->rgb($index);
+    if ($r > $limit && $g > $limit && $b > $limit) {
+	$done{$X+1}{$Y+1} += 1;
+    }
+    my $index = $image->getPixel($X+2,$Y-2);
+    ($r,$g,$b) = $image->rgb($index);
+    if ($r > $limit && $g > $limit && $b > $limit) {
+	$done{$X+1}{$Y-1} += 1;
+    }
+    my $index = $image->getPixel($X-2,$Y);
+    ($r,$g,$b) = $image->rgb($index);
+    if ($r > $limit && $g > $limit && $b > $limit) {
+	$done{$X-1}{$Y} += 2;
+    }
+    my $index = $image->getPixel($X-2,$Y+2);
+    ($r,$g,$b) = $image->rgb($index);
+    if ($r > $limit && $g > $limit && $b > $limit) {
+	$done{$X-1}{$Y+1} += 1;
+    }
+    my $index = $image->getPixel($X-2,$Y-2);
+    ($r,$g,$b) = $image->rgb($index);
+    if ($r < $limit && $g > $limit && $b > $limit) {
+	$done{$X-1}{$Y-1} += 1;
+    }
+    my $index = $image->getPixel($X,$Y+2);
+    ($r,$g,$b) = $image->rgb($index);
+    if ($r > $limit && $g > $limit && $b > $limit) {
+	$done{$X}{$Y+1} += 2;
+    }
+    my $index = $image->getPixel($X,$Y-2);
+    ($r,$g,$b) = $image->rgb($index);
+    if ($r > $limit && $g > $limit && $b > $limit) {
+	$done{$X}{$Y-1} += 2;
+    }
+    $x = $X;
+    $y = $Y;
+    #print "$X, $Y ($r, $g, $b)\n";
+}
+
+# my $png_data = $image->png;
+# open (DISPLAY,"| display -") || die;
+# binmode DISPLAY;
+# print DISPLAY $png_data;
+# close DISPLAY;
+
+my $im = new GD::Image($width,$height) || die;
+my $black = $im->colorAllocate(0,0,0);       
+my $white = $im->colorAllocate(255,255,255);       
+my $x = $middlex;
+my $y = $middley;
+
+for (my $i; $i < @data; $i += 4) {
+    my $cmd;
+    for (my $j; $j < 4; $j++) { 
+	my $n = $data[$i+$j];
+	$cmd .= $n;
+	if ($n eq '00') {
+	    $x++
+	} elsif ($n eq '01') {
+	    $x--
+	} elsif ($n eq '10') {
+	    $y++	
+	} elsif ($n eq '11') {
+	    $y--
+	}
+	$im->setPixel($x,$y,$white)
+    }
+    my $val = unpack('C', pack('b8', $cmd));
+    my $cal = $val ^ 0xaa;
+    print $f pack('C', $cal);
+}
+my $png_data = $im->png;
+open (DISPLAY,"| display -") || die;
+binmode DISPLAY;
+print DISPLAY $png_data;
+close DISPLAY;
+
+my $left = (($size * 4) - @data);
+$buf = '00010001' x $left;
+my $count = $left*8;
+$res = pack("b$count", $buf);
+print $f $res;
+close $f;
+exit;
+
+# 00 right
+# 01 left
+# 10 bottom
+# 11 top
+
+my @data = (qw(
+    # moon
+01010101
+01100110
+01100110
+01100110
+01100110
+01011001
+01011001
+01010110
+01010110
+01010101
+10010101
+01010101
+10010101
+01010101
+01010111
+01010111
+01011101
+01110111
+01110111
+01110111
+01111111
+01111111
+01111111
+11111111
+11111101
+11111101
+11111111
+11111111
+11111111
+11111100
+11111111
+11111111
+11111100
+11111111
+11111100
+11111100
+11111100
+11111100
+11001100
+11111100
+11001100
+11111100
+11111100
+11001100
+11001100
+11111111
+01110111
+01010110
+01100110
+01100110
+01100110
+10100110
+01101010
+01100110
+01101010
+10101010
+10011010
+01101010
+10101010
+10100110
+10101010
+10100110
+10101010
+10101010
+10101010
+10101010
+10101010
+10101010
+10101010
+10101000
+10101010
+10101010
+10101000
+10101010
+10101000
+10101000
+10101000
+10001000
+10101000
+10001000
+10001000
+10000000
+10001000
+10000000
+10001000
+10000000
+10000000
+10000000
+00000000
+10000000
+00000000
+00000011
+00000011
+00110011
+00110011
+00110011
+00110011
+11110011
+11001100
+11001100
+11111100
+11111100
+11111111
+11111100
+11111111
+11111111
+00001000
+00100010
+00100010
+00100010
+00100010
+00100010
+00100010
+00100010
+00100010
+00100010
+00100010
+00100010
+00100010
+00100010
+00100010
+00100010
+00100010
+00100010
+00100010
+00110011
+00111111
+11111111
+11111111
+11111111
+11111101
+11111111
+11111111
+11111111
+11111111
+11111111
+11111101
+11111111
+11111111
+11111111
+11001111
+11001111
+11001100
+11001100
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+10101001
+10101001
+10101001
+10101001
+10101001
+00100010
+00000011
+11111100
+11111100
+11111100
+11111100
+11111100
+10001000
+10001010
+10001000
+10001010
+10001000
+10001010
+00000011
+11110111
+01110111
+01111111
+01110111
+01111111
+11110000
+00000000
+00000000
+00000011
+00111101
+11010101
+01010101
+01010101
+01010101
+11001100
+11111100
+11001100
+11111100
+11001100
+11111111
+11010111
+01100110
+10101001
+10101001
+10011001
+10101001
+10011001
+10011011
+11011101
+11111101
+11011101
+11111101
+11011101
+11011101
+10011001
+00101010
+10001000
+10001000
+10101000
+10001000
+10101000
+11011101
+11010101
+11010101
+11010101
+11010101
+11010101
+11010101
+11010101
+11010101
+11010101
+11010101
+11010101
+11010101
+11010101
+11011101
+11011111
+11011101
+11011111
+11011111
+11011111
+11011111
+11011111
+11111111
+11011111
+11111111
+11011111
+11111111
+11011111
+11111111
+11011101
+11010101
+01100110
+01100110
+01101010
+01100110
+01101010
+01100110
+01101010
+01100110
+01101010
+01100110
+01101010
+01100110
+01101010
+01100110
+01101010
+01100110
+01101010
+01100101
+01011101
+01011101
+01001101
+01011101
+01010101
+01011101
+01010101
+01011101
+01010101
+01010101
+01110101
+01010101
+01110101
+01100110
+10100010
+10100010
+10001000
+10001010
+10001000
+10001010
+10001000
+10001010
+10001000
+10001010
+10001000
+10001010
+10011010
+10101001
+10101010
+10011010
+10011001
+10101001
+10011001
+10101001
+10011001
+10101001
+10011001
+10101001
+10011001
+10101001
+10100010
+10001000
+00000011
+00000000
+00000011
+00000000
+00000011
+00000000
+00000011
+00000000
+00000011
+00000000
+00000011
+00000000
+00000010
+10001000
+)
+);
+
+# my $c;
+# for (my $i; $i < 256; $i++) {
+#    for (my $j; $j < 32; $j++) {
+#        my $cal = $c ^ 0xaa;
+#        print $f pack('C', $cal);
+#    }
+#    for (my $j; $j < 32; $j++) {
+#        my $val = unpack('C', pack('b8', '00000000'));
+#        my $cal = $val ^ 0xaa;
+#        print $f pack('C', $cal);
+#    }
+#    $c++;
+# }
+my $im = new GD::Image(400,400) || die;
+my $black = $im->colorAllocate(0,0,0);       
+my $white = $im->colorAllocate(255,255,255);       
+my $x = 200;
+my $y = 200;
+for (my $i; $i < @data; $i++) {
+    foreach my $n ($data[$i] =~ /([01]{2})/g){
+	if ($n eq '00') {
+	    $x++
+	} elsif ($n eq '01') {
+	    $x--
+	} elsif ($n eq '10') {
+	    $y++	
+	} elsif ($n eq '11') {
+	    $y--
+	}
+	$im->setPixel($x,$y,$white)
+    }
+    my $val = unpack('C', pack('b8', $data[$i]));
+    my $cal = $val ^ 0xaa;
+    print $f pack('C', $cal);
+}
+my $png_data = $im->png;
+open (DISPLAY,"| display -") || die;
+binmode DISPLAY;
+print DISPLAY $png_data;
+close DISPLAY;
+
+my $left = (16384 - @data);
+$buf = '00010001' x $left;
+my $count = $left*8;
+$res = pack("b$count", $buf);
+print $f $res;
+close $f;
+exit;
+
+sub usage {
+    print "\nusage:\n\n\t\tperl-kroete <size> <image file> <output file>\n\n";
+    exit
+}
+

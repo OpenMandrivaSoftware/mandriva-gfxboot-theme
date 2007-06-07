@@ -1,0 +1,259 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<body>
+
+<!-- help=install -->
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="main">Käynnistyslataimen ohje</a></h3>
+Tervetuloa <em>&product;</em><br><br>
+
+Käytä tätä valikkoa halutun toiminnon valitsemiseen. Jos sinulla on ongelmia ohjejärjestelmän käytössä, paina
+<em>F1</em> päästäksesi ohjejärjestelmän <a href="#help">kuvaukseen</a>. Tämän valikon päätoiminnot ovat:<br><br>
+
+<a href="#harddisk">Käynnistä kiintolevyltä</a>: Tämä valinta ei tee mitään järjestelmällesi. Se käynnistää ainoastaan aiemmin asennetun käyttöjärjestelmän.<br><br>
+
+<a href="#linux">Asennus</a>: Tämä asennustila toimii useimmissa tietokoneissa. Jos koet järjestelmän lukkiutumisen käynnistyksen yhteydessä tai ongelmia laitteiston tunnistuksessa, kuten levyasemaohjaimet ja verkkokortit, kokeile jotain seuraavista asennus-valinnoista. <br><br>
+
+<a href="#noacpi">Asennus -- ACPI pois käytöstä</a>: Useissa nykyisin myytävistä tietokoneista on epätäydellinen tai viallinen ACPI toteutus. Tämä valinta poistaa ACPI:n tuen ytimestä, mutta silti käyttää useita suorituskykyyn liittyviä ominaisuuksia, kuten DMA:ta IDE-kiintolevyille.   <br><br>
+
+<a href="#failsafe">Asennus -- Turvalliset asetukset</a>: Jos et onnistunut tekemään <em>Asennus</em>ta, tämä valinta voi ratkaista tilanteen.<br><br>
+
+<a href="#rescue">Pelastusjärjestelmä</a>: Tämä käynnistyslevynkuva käynnistää pienen Linux-järjestelmän keskusmuistiin (RAM). Tämä on käytännöllistä jos järjestelmä ei käynnisty kunnolla. Tämän järjestelmän käynnistyttyä kirjaudu pääkäyttäjänä (root). <br><br>
+
+<a href="#memtest">Muistitesti</a>: Muistin testaaminen on käytännöllistä muutenkin kuin uusien muistimoduulien asentamisen jälkeen. Muistitesti on rasitustesti suurelle osalle tietokonettasi, ja se voi indikoida laitteisto ongelmista.  <br><br>
+
+<a href="#opt">Käynnistysvalinnat</a>: Käynnistysvalinnoissa voit muuttaa kokonaisuudessaan järjestelmäsi käyttäytymistä. Nämä ovat ytimen asetuksia.<br><br>
+
+<a href="#help">F1 Ohje</a>: Tämä ohje on asiayhteys riippuvainen. Se näyttää eri näkymän riippuen valitusta kohdasta käynnistysruudulla Tästä ohjejärjestelmästä on myös kuvaus saatavilla.<br><br>
+
+<a href="#videomode">F2 Videotila</a>: Valitse erilaisten näytön resoluutioiden välillä asennuksen aikana. Jos kohtaat ongelmia graafisessa asennuksessa, <em>tekstitila</em> voi olla toimiva vaihtoehto sinulle.<br><br>
+
+<a href="#install_src">F3 Asennuksen lähde</a>: Valitse käytettävä asennuslähde.<br><br>
+
+<a href="#keytable">F4 Kieli</a>: Aseta käynnistyslataimessa käytettävä kieli ja näppäimistökartta.<br><br>
+
+<a href="#driverupdate">F5 Ajurin päivitys</a>: Erittäin uusissa koneissa ajurin päivitystä saatetaan tarvita järjestelmän asennuksessa.<br><br>
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="help">Ohjejärjestelmän käyttö</a></h3>
+
+Käynnistyslataimen ohje on asiayhteys riippuvainen. Se antaa sinulle tietoja valitusta valikon kohdasta tai, jos olet muokkaamassa käynnistysvalintoja, se yrittää etsiä tietoja valinnasta, jonka päällä kursori on.<br>
+<br>
+Ohjausnäppäimet<br><br>
+
+  <em>Nuoli ylös</em>: korostaa seuraavan linkin<br>
+  <em>Nuoli alas</em>: korostaa seuraavan linkin<br>
+  <em>Nuoli vasemmalle</em>, <em>Askelpalautin</em>: palaa edelliseen aiheeseen<br>
+  <em>Nuoli oikealle</em>, <em>Enter</em>, <em>Välilyönti</em>: seuraa linkkiä<br>
+  <em>Page Up</em>: vierittää sivun ylöspäin<br>
+  <em>Page Down</em>: vierittää sivun alaspäin<br>
+  <em>Home</em>: menee sivun alkuun<br>
+  <em>End</em>: menee sivun loppuun<br>
+  <em>Esc</em>: lopeta ohje<br>
+
+<br><br>Palaa <a href="#main">Aloitussivulle</a>
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="driverupdate">Ajurin päivitys</a></h3>
+
+Jos tarvitset päivityslevykettä tai CD-ROM:a, paina <em>F5</em>. Käynnistyslatain pyytää syöttämään ajurin päivitysmedian Linux:n ytimen lataamisen jälkeen.<br><br>
+
+Ajurin päivitys on yleensä levyke, missä on uusi versio laitteistoajurista tai virheenkorjauksesta joka tarvitaan asennuksen aikana.
+
+<br><br>Palaa <a href="#main">Aloitussivulle</a>
+
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="videomode">Videotilan valinta</a></h3>
+
+Paina <em>F2</em> saadaksesi luettelon videotiloista, joita näytönohjaimesi tukee. Korkein tila, jota monitorisi voi käyttää on esivalittuna.<br><br>
+
+On mahdollista, että monitoriasi ei onnistuttu tunnistamaan automaattisesti. Tällaisessa tapauksessa valitse haluamasi tila manuaalisesti.<br><br>
+
+Jos järjestelmälläsi on ongelmia näytönohjaimen kanssa asennuksen aikana, <em>tekstitilaa</em> voidaan käyttää väliaikaisena ratkaisuna.
+
+<br><br>Palaa <a href="#main">Aloitussivulle</a>
+
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="keytable">Kieli ja näppäimistökartan valinta</a></h3>
+
+Paina <em>F4</em> vaihtaaksesi käynnistyslataimen käyttämää kieltä ja näppäimistökarttaa. 
+
+<br><br>Palaa <a href="#main">Aloitussivulle</a>
+
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="install_src">Asennuksen lähde</a></h3>
+
+Paina <em>F3</em> valitaksesi asennuslähteen.<br><br>
+
+Tämä on sama kuin käyttäisi <a href="#o_install">asenna</a>
+käynnistysvalintaa.
+
+<br><br>Palaa <a href="#main">Aloitussivulle</a>
+
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="linux">Asennus</a></h3>
+
+Valitse <em>Asennus</em> aloittaaksesi oletusasennuksen. <a href="#opt">Käynnistysvalinnassa</a> nnettuja valintoja käytetään käynnistyksen yhteydessä. Tämä kohta ottaa käyttöön monia yleisesti käytössä olevia laitteiston ominaisuuksia. <br><br>
+
+<br><br>Palaa <a href="#main">Aloitussivulle</a>
+
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="harddisk">Käynnistä kiintolevyltä</a></h3>
+
+Valitse <em>Käynnistä asennettu käyttöjärjestelmä</em> käynnistääksesi paikalliselle kiintolevylle asennetun järjestelmän. Tämä järjestelmä tulee olla oikein asennettu, koska vain ensimmäisen levyn MBR (Master Boot Record) käynnistetään. Ensimmäisen kiintolevyn laite-ID on tietokoneen BIOS:n tarjoama. <br><br>
+
+Käytä tätä jos unohdit poistaa CD:n tai DVD:n asemasta, ja haluat käynnistää tietokoneen kiintolevyltä.<br><br>
+
+<br><br>Palaa <a href="#main">Aloitussivulle</a>
+
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="noacpi">Asennus -- ACPI pois käytöstä</a></h3>
+
+Aivan uudet laitteet vaativat joskus ACPI:n hallitsemaan keskeytyksiä. ACPI korvaa täysin vanhan APM-järjestelmän <br><br>
+
+Valitse <em>Asennus -- ACPI pois käytöstä</em> jos kohtaat ongelmia ytimen latuksen aikana. Tunnettuja ongelmia tietokoneissa ACPI:n kanssa ovat:
+<br><br>
+
+   * ydin pysähtyy käynnistyksessä<br>
+   * PCI-kortteja ei tunnisteta tai niitä ei alusteta oikein<br><br>
+
+
+<br><br>Palaa <a href="#main">Aloitussivulle</a>
+
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="failsafe">Asennus -- Turvalliset asetukset</a></h3>
+
+Valitse <em>Asennus -- Turvalliset asetukset</em> jos kohtaat pysähtymisiä asennuksen aikana tai toistamattomia virheitä. Tämä valinta poistaa DMA:n IDE-asemien käytöstä ja kaikki virranhallinta toiminnot. Katso myös ytimen valinnat
+<a href="#o_acpi">acpi</a> ja <a href="#o_ide">ide</a>.
+
+<br><br>Palaa <a href="#main">Aloitussivulle</a>
+
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="rescue">Pelastusjärjestelmä</a></h3>
+
+<em>Pelastusjärjestelmä</em> on pieni RAM-levypohjainen järjestelmä. Sieltä on mahdollista tehdä kaikenlaisia muutoksia asennettuun järjestelmään. Koska vain alemmantason työkalut ovat järjestelmän käytettävissä, se on suunnattu asiantuntijoille.<br><br>
+
+<br><br>Palaa <a href="#main">Aloitussivulle</a>
+
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="memtest">Muistitesti</a></h3>
+
+Mukana oleva <em>Muistitesti</em> tarjoaa hyvät mahdollisuudet järjestelmän laitteiston rasituskokeeseen. Päätarkoitus on tunnistaa rikkoontunut RAM, mutta se rasittaa myös useita muita järjestelmän osia. <br>
+
+Ei ole mitään takeita, että muisti olisi kunnossa vaikka virheitä ei löydy, mutta yleensä useimmat muistiviat löydetään.<br>
+
+<br><br>Palaa <a href="#main">Aloitussivulle</a>
+
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="opt">Käynnistysvalinnat</a></h3>
+
+Käytettävissä on kahden tyyppisiä käynnistysvalintoja: Asennusohjelmaan vaikuttavat valinnat sekä ytimen valinnat. Jotkin yleisimmistä valinnoista ovat: <br><br>
+
+a) asennusvalinnat<br>
+<br>
+  <a href="#o_install">asennus</a> -- valitse asennuslähde<br>
+  <a href="#network">verkkovalinnat</a> -- verkkovalinnat<br>
+<br><br>
+b) ytimen valinnat<br>
+<br>
+  <a href="#o_splash">splash</a> -- vaikuta splash-ruudun käyttäytymiseen<br>
+  <a href="#o_acpi">acpi</a> -- advanced configuration and power interface<br>
+  <a href="#o_ide">ide</a> -- ohjaa IDE-alijärjestelmää<br>
+
+<br><br>Palaa <a href="#main">Aloitussivulle</a>
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="o_install">Asennusvalinnat: asennus</a></h3>
+
+Oletuksena paikalliset CD-ROM:t etsitään asennuslähteiksi. Verkkoasennukseen valitse
+<em>asennus</em>-valinta. Mahdollisia asennustapoja ovat<br>
+  * FTP<br>
+  * NFS<br>
+  * HTTP<br>
+Käytettävä syntaksi on kuin standardi URL. Esimerkiksi, jos palvelimesi löytyy osoitteesta 192.168.0.1 ja haluat tehdä NFS-pohjaisen asennuksen tämän palvelimen hakemistosta /install, määritä lähde seuraavasti:<br><br>
+
+  <em>install=nfs://192.168.0.1/install</em><br><br>
+
+Verkkokortti määritetään joko <em>dhcp</em> tai sinun täytyy määrittää parametrit itse kuten <a href="#network">verkkovalinnat</a> kohdassa kuvataan.<br>
+
+<br><br>Palaa <a href="#opt">Käynnistysvalintoihin</a>
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="o_splash">Ytimen valinnat: splash</a></h3>
+
+
+splash-ruutu on kuva, joka näytetään järjestelmän käynnistyksen yhteydessä.<br>
+<br>
+<em>splash=0</em><br><br> splash-ruutu on poistettu käytöstä. Tämä voi olla käytännöllistä vanhoilla monitoreilla tai jos ongelmia ilmenee.<br>
+<br>
+<em>splash=verbose</em><br><br> Ottaa käyttöön splash-ruudun, ydin- ja käynnistysviestit näkyvät silti.<br>
+<br>
+<em>splash=silent</em><br><br>
+Ottaa käyttöön splash-ruudun, mutta ei viestejä. Näiden sijasta näytetään edistymispalkki.<br>
+<br>
+Palaa <a href="#opt">Käynnistysvalintoihin</a>
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="network">Asennusvalinnat: verkkovalinnat</a></h3>
+
+On mahdollista määrittää verkkoliitäntä nyt. Laitteisto tunnistetaan myöhemmin DrakX:n toimesta. Vähimmäismäärä valintoja verkkokortin määrittämiseksi koostuu koneen IP:stä ja verkkomaskista. Esimerkiksi:<br><br>
+
+  <em>hostip=192.168.0.10  netmask=255.255.255.0</em><br>
+<br>
+tai lyhemmässä muodossa:<br><br>
+
+  <em>hostip=192.168.0.10/24</em><br>
+<br>
+
+Jos määrität <a href="#o_install">verkkokortti-pohjaisen asennuksen</a> ja et määritä molempia näistä valinnoista, asennusohjelma yrittää määrittää verkkoliittymän <em>dhcp</em>:llä. Jos tarvitset oletusyhdyskäytävän, määritä se valinnalla <em>gateway</em>. Esimerkiksi:<br><br>
+
+  <em>gateway=192.168.0.8</em><br>
+
+<br><br>Palaa <a href="#opt">Käynnistysvalintoihin</a>
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="o_acpi">Ytimen valinnat: acpi</a></h3>
+
+ACPI (Advanced Configuration and Power Interface) on standardi, joka määrittää virran- ja laitteistohallinnan liittymän käyttöjärjestelmän ja BIOS:n välille. Oletuksena  <em>acpi</em> on käytössä kun BIOS tunnistetaan uudemmaksi kuin vuodelta 2000. On olemassa useita yleisesti käytössä olevia parametreja ACPI:n käyttäytymisen ohjaamiseksi:<br>
+<br>
+  <em>pci=noacpi</em> -- älä käytä ACPI:a ohjaamaan PCI-keskeytyksiä<br>
+  <em>acpi=oldboot</em> -- vain osa ACPI:sta, jotka kuuluvat käynnistykseen ovat käytössä<br>
+  <em>acpi=off</em> -- poistaa ACPI:n käytöstä täydellisesti<br>
+  <em>acpi=force</em> -- ottaa ACPI:n käyttöön, vaikka BIOS olisi päivätty ennen vuotta 2000<br>
+<br>
+
+
+<br><br>Palaa <a href="#opt">Käynnistysvalintoihin</a>
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="o_ide">Ytimen valinnat: ide</a></h3>
+
+IDE, toisinkuin SCSI, on yleisesti käytetty useimmissa työasemissa. Ohittaaksesi joitakin IDE-järjestelmien laitteisto-ongelmia, käytä ytimen parametria: <br><br> 
+
+  <em>ide=nodma</em>  -- ottaa DMAn pois IDE asemien käytöstä<br>
+
+
+
+<br><br>Palaa <a href="#opt">Käynnistysvalintoihin</a>.
+
+
+<hr><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<h3><a name="bits">Ohjelmistotyypin valinta</a></h3>
+
+Voit valita asennatko 32- vai 64-bittisen version Mandriva Linux:sta.
+
+<br><br>Palaa <a href="#main">Aloitussivulle</a>
+
+
+</body></html>

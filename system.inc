@@ -805,23 +805,3 @@ def
 } def
 
 
-% Mininum Live-CD memory in MB.
-%
-% (  -- int )
-%
-/livecd.mem.check {
-  /livecd.mem.check "livecd.mem.check" getgfxconfig dup .undef ne { cvn } { pop 200 } ifelse def
-  livecd.mem.check
-} def
-
-
-% Mininum Live-CD memory in MB we ask the user for.
-%
-% (  -- int )
-%
-/livecd.mem.show {
-  /livecd.mem.show "livecd.mem.show" getgfxconfig dup .undef ne { cvn } { pop 256 } ifelse def
-  livecd.mem.show
-} def
-
-

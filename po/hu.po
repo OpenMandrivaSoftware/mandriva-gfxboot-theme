@@ -1,23 +1,23 @@
 # Hungarian translations for boot loader
 # Copyright (C) 2004 SUSE LINUX AG
+#
 # Kéménczy Kálmán, 2006.
 # Marcel Hilzinger <marcel.hilzinger@suselinux.hu>, 2004.
 # Szabolcs Varga <shirokuma@shirokuma.hu>, 2004, 2005.
 # Kalman Kemenczy <kkemenczy@novell.com>, 2006.
 # Kéménczy Kálmán <kkemenczy@novell.com>, 2006.
-# Arpad Biro <biro_arpad@yahoo.com>, 2006.
-#
+# Arpad Biro <biro_arpad@yahoo.com>, 2006, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: hu\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2006-09-15 19:26+0200\n"
+"PO-Revision-Date: 2007-03-16 22:46+0100\n"
 "Last-Translator: Arpad Biro <biro_arpad@yahoo.com>\n"
-"Language-Team: Hungarian\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.2\n"
+"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # ok button label
@@ -302,22 +302,26 @@ msgstr "Megosztás\n"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2007 Spring"
-msgstr ""
+msgstr "Mandriva Linux 2007 Spring indítása"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr ""
+msgstr "Microsoft Windows indítása"
 
 #. txt_install
 msgid "Install Mandriva Linux 2007 Spring on your system"
-msgstr ""
+msgstr "Mandriva Linux 2007 Spring telepítése a rendszerre"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2007 Spring (safe mode)"
-msgstr ""
+msgstr "Mandriva Linux 2007 Spring indítása biztonságos módban"
 
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
+msgstr "Linux %s kernellel"
+
+#. txt_kernel_option
+msgid "Kernel Option"
 msgstr ""
 

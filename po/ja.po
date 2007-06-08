@@ -1,10 +1,13 @@
 # LANGUAGE translations for boot loader
 # Copyright (C) 2004 SUSE LINUX AG
+# Novell Language <language@novell.com>, 2004.
+# Yukiko Bando <ybando@k6.dion.ne.jp>, 2006, 2007.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-09-15 20:45+0900\n"
+"POT-Creation-Date: 2005-07-27 11:49+0200\n"
+"PO-Revision-Date: 2007-03-17 08:00+0900\n"
 "Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
 "Language-Team: Japanese <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +33,7 @@ msgstr "再起動"
 # continue button label
 #. txt_continue
 msgid "Continue"
-msgstr "続ける"
+msgstr "続行"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -174,9 +177,9 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"これは両面DVDです。第2面からブートしています。\n"
+"これは両面 DVD です。第 2 面から起動しています。\n"
 "\n"
-"DVDを裏返して続行してください。"
+"DVD を裏返して続行してください。"
 
 # power off dialog title
 #. txt_power_off_title
@@ -294,22 +297,26 @@ msgstr "共有\n"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2007 Spring"
-msgstr ""
+msgstr "Mandriva Linux 2007 Spring を起動"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr ""
+msgstr "Microsoft Windows を起動"
 
 #. txt_install
 msgid "Install Mandriva Linux 2007 Spring on your system"
-msgstr ""
+msgstr "Mandriva Linux 2007 Spring をシステムにインストール"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2007 Spring (safe mode)"
-msgstr ""
+msgstr "Mandriva Linux 2007 Spring を起動 (セーフモード)"
 
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
+msgstr "Linux (カーネル %s)"
+
+#. txt_kernel_option
+msgid "Kernel Option"
 msgstr ""
 

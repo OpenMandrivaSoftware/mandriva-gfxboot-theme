@@ -1,10 +1,10 @@
 NAME=mandriva-gfxboot-theme
 PACKAGE=mandriva-gfxboot-theme
-VERSION := 0.14
+VERSION := 0.21
 
 BINDIR      := /usr/sbin/
 
-PRODUCT      = "Mandriva Linux 2007"
+PRODUCT      = "Mandriva Linux 2007 Spring"
 export PRODUCT
 
 HELP2TXT     = $(BINDIR)/help2txt
@@ -30,7 +30,7 @@ IN_CPIO_BOOT = $(in_cpio_always) langs $(HELPBOOT_ALL) $(PIC_BOOT)
 OUTSIDE_CPIO_INST   = langs $(HELPINST_ALL) $(PIC_INSTALL)
 #- NB: we can't put things outside cpio for grub
 
-FILES = 16x16.fnt $(PIC_INSTALL) $(PIC_BOOT) $(INCLUDES) help*.html Makefile po install.config boot.config gimp/scripts/gimp-normalize-to-bootsplash.scm langs grub-gfxmenu
+FILES = 16x16.fnt $(PIC_INSTALL) $(PIC_BOOT) $(INCLUDES) help*.html Makefile po install.config boot.config langs grub-gfxmenu
 
 sharedir=$(prefix)/usr/share
 themedir=$(sharedir)/gfxboot/themes/Mandriva

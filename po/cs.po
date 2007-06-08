@@ -319,3 +319,7 @@ msgstr "Zavést Mandriva Linux 2007 Spring (bezpečný režim)"
 msgid "Linux with kernel %s"
 msgstr "Linux s jádrem %s"
 
+#. txt_kernel_option
+msgid "Kernel Option"
+msgstr ""
+

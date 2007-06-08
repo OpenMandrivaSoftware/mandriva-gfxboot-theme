@@ -60,19 +60,6 @@
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %
-% Enough memory?
-%
-% ( ) ==> ( true|false )
-%
-/enough_mem {
-  biosmem 4 20 shl lt
-  biosmem livecd.mem.check 20 shl ge or
-  syslinux not or
-} def
-
-
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-%
 % Check if there are boot directories for 32 & 64bit.
 %
 % Assumes 32bit to be in *i586* and 64bit in *x86_64*.
@@ -389,6 +376,12 @@
       } { pop } ifelse
   } if
 
+  xmenu.kernel_option {
+      kernel_option.list xmenu.kernel_option .xm_current get get dup "" ne {
+        "%s " bc.cmd dup length add sprintf
+      } { pop } ifelse
+  } if
+
   xmenu.profile {
     profile.options xmenu.profile .xm_current get get dup "" ne {
       "%s " bc.cmd dup length add sprintf
@@ -562,11 +555,6 @@
       window.show
 
   syslinux {
-    enough_mem not livecd and {
-
-      notimeout nomem_popup
-
-    } {
 
       32+64bit_source not {
 
@@ -578,7 +566,6 @@
 
       } if
 
-    } ifelse
   } if
 
 } def
@@ -1041,7 +1028,7 @@
       dup "linux"     eq { pop txt_install        return } if
       dup "failsafe"  eq { pop txt_safe_install   return } if
     } ifelse
-    dup "live"      eq { pop "Mandriva One" return } if
+    dup "live"      eq { pop txt_linux return } if
     dup "noacpi"    eq { pop txt_noacpi_install return } if
     dup "noapic"    eq { pop txt_noapic_install return } if
     dup "nolapic"    eq { pop txt_nolapic_install return } if
@@ -1187,7 +1174,6 @@
       over exch 0 exch put
       1 add
     } forall
-    tmp 2 0 put % only short locale name
     tmp dup setlang pop setkeymap
   } {
     pop
@@ -1449,29 +1435,6 @@
 
   dup .title "Wrong architecture" put
   dup .text "This is a 32-bit computer. You cannot use 64-bit software on it." put
-  dup .buttons [
-    button.reboot button.default actReboot actNoClose or button.setaction
-  ] put
-  dup window.init
-      window.show
-
-} def
-
-
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-% Warn that we don't have enough memory.
-%
-% ( ) ==> ( )
-%
-/nomem_popup {
-  window.dialog
-
-  dup .title "Not enough memory" put
-  dup .text
-    livecd.mem.show
-    "Sorry, but Mandriva needs at least %dMB main memory."
-    dup length 32 add string dup 4 1 roll sprintf
-  put
   dup .buttons [
     button.reboot button.default actReboot actNoClose or button.setaction
   ] put

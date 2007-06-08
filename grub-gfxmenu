@@ -8,15 +8,22 @@ my %options = (
 	       "lang=s" => \ (my $lang),
 	       "update-theme" => \ (my $update_theme),
 	       "update-gfxmenu" => \ (my $update_gfxmenu),
+	       "quiet" => \ (my $quiet),
 	      );
 
 GetOptions(%options) && @ARGV == 0 && ($lang || $update_theme || $update_gfxmenu) or usage();
 
 if ($update_gfxmenu) {
     $update_theme = 1;
-    $lang ||= get_lang();
+    $lang ||= eval { get_lang() };
     sys('cp', '/usr/share/gfxboot/themes/Mandriva/boot/message', $gfxmenu);
 }
+
+if (!-e $gfxmenu) {
+    warn "$gfxmenu doesn't exist\n" if !$quiet;
+    exit;
+}
+
 if ($lang) {
     set_lang($lang);
 }
@@ -25,7 +32,7 @@ if ($update_theme) {
 }
 
 sub usage {
-    die "grub-gfxmenu [--lang <lang>] [--update-theme] [--update-gfxmenu]\n";
+    die "grub-gfxmenu [--quiet] [--lang <lang>] [--update-theme] [--update-gfxmenu]\n";
 }
 
 sub set_theme() {

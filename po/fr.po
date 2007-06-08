@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
-"PO-Revision-Date: 2007-02-18 09:18+0100\n"
+"PO-Revision-Date: 2007-03-19 16:33+0100\n"
 "Last-Translator: Christophe Berthelé <cpjc@free.fr>\n"
 "Language-Team: Français <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -322,3 +322,7 @@ msgstr "Amorcer Mandriva Linux 2007 Spring (mode dégradé)"
 #, c-format
 msgid "Linux with kernel %s"
 msgstr "Linux avec le noyau %s"
+
+#. txt_kernel_option
+msgid "Kernel Option"
+msgstr "Option noyau"

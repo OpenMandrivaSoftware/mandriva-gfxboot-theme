@@ -291,22 +291,26 @@ msgstr "共享\n"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2007 Spring"
-msgstr ""
+msgstr "启动 Mandriva Linux 2007 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr ""
+msgstr "启动 Microsoft Windows"
 
 #. txt_install
 msgid "Install Mandriva Linux 2007 Spring on your system"
-msgstr ""
+msgstr "在您的计算机中安装 Mandriva Linux 2007 Spring "
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2007 Spring (safe mode)"
-msgstr ""
+msgstr "启动 Mandriva Linux 2007 Spring (安全模式)"
 
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
-msgstr ""
+msgstr "内核为 %s 的 Linux"
+
+#. txt_kernel_option
+msgid "Kernel Option"
+msgstr "内核选项"
 

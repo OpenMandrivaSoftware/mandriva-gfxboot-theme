@@ -1,13 +1,13 @@
 # translation of pt_BR.po to Brazilian Portuguese
 # LANGUAGE translations for boot loader
 # Copyright (C) 2004 SUSE LINUX AG
-# Felipe Arruda <felipemiguel@gmail.com>, 2006.
+# Felipe Arruda <felipemiguel@gmail.com>, 2006, 2007.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pt_BR\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2006-09-18 09:21-0300\n"
+"PO-Revision-Date: 2007-03-23 09:10-0300\n"
 "Last-Translator: Felipe Arruda <felipemiguel@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_br@mail.kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -295,28 +295,32 @@ msgstr "Arquivo"
 msgid "Share\n"
 msgstr "Compartilhar\n"
 
-# dialog title for smb installation
-#~ msgid "SMB (Windows Share) Installation"
-#~ msgstr "Instalação por SMB (Compartilhamento Windows)"
-
 #. txt_linux
 msgid "Boot Mandriva Linux 2007 Spring"
-msgstr ""
+msgstr "Iniciar Mandriva Linux 2007 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr ""
+msgstr "Iniciar Microsoft Windows"
 
 #. txt_install
 msgid "Install Mandriva Linux 2007 Spring on your system"
-msgstr ""
+msgstr "Instalar o Mandriva Linux 2007 Spring no seu sistema"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2007 Spring (safe mode)"
-msgstr ""
+msgstr "Iniciar Mandriva Linux 2007 Spring (modo seguro)"
 
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
-msgstr ""
+msgstr "Linux com kernel %s"
+
+#. txt_kernel_option
+msgid "Kernel Option"
+msgstr "Opções do Kernel"
+
+# dialog title for smb installation
+#~ msgid "SMB (Windows Share) Installation"
+#~ msgstr "Instalação por SMB (Compartilhamento Windows)"
 

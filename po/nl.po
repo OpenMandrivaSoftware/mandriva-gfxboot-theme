@@ -6,16 +6,16 @@
 # Proefgelezen op 10-08-2005 door Henk Krus
 # Arthur & Ettie Kerkmeester <a.s.kerkmeester@hccnet.nl>, 2004, 2005.
 # Rinse de Vries <rinsedevries@kde.nl>, 2005.
+# Reinout van Schouwen <reinout@gmail.com>, 2007
 msgid ""
 msgstr ""
 "Project-Id-Version: nl\n"
-"PO-Revision-Date: 2005-08-10 00:45+0200\n"
-"Last-Translator: Rinse de Vries <rinsedevries@kde.nl>\n"
-"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"PO-Revision-Date: 2007-03-20 21:05+0200\n"
+"Last-Translator: Reinout van Schouwen <reinout@gmail.com>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.2\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 # ok button label
@@ -240,9 +240,8 @@ msgid "User (using \"guest\" if empty)\n"
 msgstr "Gebruiker (indien leeg: dan wordt \"guest\" gebruikt)\n"
 
 #. txt_iso_title
-#, fuzzy
 msgid "Installation from ISO file"
-msgstr "Installatieprofiel"
+msgstr "Installatie vanaf iso-bestand"
 
 # dialog title for http installation
 #. txt_http_title
@@ -271,7 +270,7 @@ msgstr "Taal"
 
 #. txt_apic
 msgid "Installation--IOAPIC Enabled"
-msgstr ""
+msgstr "Installatie--IOAPIC ingeschakeld"
 
 #. txt_noapic_install
 msgid "Installation--IOAPIC Disabled"
@@ -279,7 +278,7 @@ msgstr "Installatie - IOAPIC uitgeschakeld"
 
 #. txt_nolapic_install
 msgid "Installation--Local APIC Disabled"
-msgstr ""
+msgstr "Installatie--Lokale APIC uitgeschakeld"
 
 #. txt_yes
 msgid "Yes"
@@ -296,7 +295,7 @@ msgstr "Bestand"
 # input label: share as in "Windows share" (SMB)
 #. txt_share
 msgid "Share\n"
-msgstr ""
+msgstr "Gedeeld\n"
 
 # dialog title for smb installation
 #~ msgid "SMB (Windows Share) Installation"
@@ -304,22 +303,26 @@ msgstr ""
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2007 Spring"
-msgstr ""
+msgstr "Mandriva Linux 2007 Spring opstarten"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr ""
+msgstr "Microsoft Windows opstarten"
 
 #. txt_install
 msgid "Install Mandriva Linux 2007 Spring on your system"
-msgstr ""
+msgstr "Mandriva Linux 2007 Spring op uw systeem installeren"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2007 Spring (safe mode)"
-msgstr ""
+msgstr "Mandriva Linux 2007 Spring opstarten (veilige modus)"
 
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
-msgstr ""
+msgstr "Linux met kernel %s"
+
+#. txt_kernel_option
+msgid "Kernel Option"
+msgstr "Kernel-optie"
 

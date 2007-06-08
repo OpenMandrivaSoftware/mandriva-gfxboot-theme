@@ -40,9 +40,9 @@
 
       livecd {
 
-        [ keyF2 0 "F2" /panel.video /panel.video.width /panel.video.update /video.init ]
-        [ keyF3 0 "F3" /panel.splash /panel.splash.width /panel.splash.update /splash.init ]
-        [ keyF4 0 "F4" /panel.lang /panel.lang.width /panel.lang.update /lang.init ]
+        [ keyF2 0 "F2" /panel.lang /panel.lang.width /panel.lang.update /lang.init ]
+        [ keyF3 0 "F3" /panel.video /panel.video.width /panel.video.update /video.init ]
+        [ keyF4 0 "F4" /panel.kernel_option /panel.kernel_option.width /panel.kernel_option.update /kernel_option.init ]
 
       } {
 
@@ -50,6 +50,7 @@
         [ keyF3 0 "F3" /panel.video /panel.video.width /panel.video.update /video.init ]
         [ keyF4 0 "F4" /panel.install /panel.install.width /panel.install.update /install.init ]
         [ keyF5 0 "F5" /panel.dud /panel.dud.width /panel.dud.update /dud.init ]
+        [ keyF6 0 "F6" /panel.kernel_option /panel.kernel_option.width /panel.kernel_option.update /kernel_option.init ]
 
         32+64bit_source {
           64bit {
@@ -57,7 +58,7 @@
             64bit_boot_dir .undef ne
             32bit_boot_dir 64bit_boot_dir ne
             and and {
-              [ keyF6 0 "F6" /panel.bits /panel.bits.width /panel.bits.update /bits.init ]
+              [ keyF7 0 "F7" /panel.bits /panel.bits.width /panel.bits.update /bits.init ]
             } if
           } if
         } if
@@ -179,9 +180,6 @@
 
   % only for install CDs
   syslinux not { return } if
-
-  % not for live cd
-  livecd { return } if
 
   % not for F1
   dup keyF1 eq { return } if

@@ -299,3 +299,7 @@ msgstr "Start Mandriva Linux 2007 vårutgåve (sikkermodus)"
 msgid "Linux with kernel %s"
 msgstr "Linux med kjerne %s"
 
+#. txt_kernel_option
+msgid "Kernel Option"
+msgstr ""
+

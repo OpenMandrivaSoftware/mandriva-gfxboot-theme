@@ -28,6 +28,7 @@
 } def
 
 
+/config.keymap.locale_short 2 string def
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Set keyboard map.
@@ -39,8 +40,13 @@
 
   /config.keymap.locale exch def
 
+  config.keymap.locale 1 get config.keymap.locale 0 get "%c%c" config.keymap.locale_short sprintf
+
   keymaps {
-    dup .km.locale get config.keymap.locale eq {
+    dup .km.locale get dup
+         config.keymap.locale eq exch
+         config.keymap.locale_short eq or
+    {
       .km.map get /config.keymap exch def exit
     } { pop } ifelse
   } forall

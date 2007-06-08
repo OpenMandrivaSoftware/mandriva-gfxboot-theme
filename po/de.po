@@ -320,3 +320,7 @@ msgstr "Starte Mandriva Linux 2007 Spring (sicherer Modus)"
 msgid "Linux with kernel %s"
 msgstr "Linux mit Kernel %s"
 
+#. txt_kernel_option
+msgid "Kernel Option"
+msgstr ""
+

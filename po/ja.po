@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-03-17 08:00+0900\n"
+"PO-Revision-Date: 2007-06-14 18:00+0900\n"
 "Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
 "Language-Team: Japanese <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -318,5 +318,4 @@ msgstr "Linux (カーネル %s)"
 
 #. txt_kernel_option
 msgid "Kernel Option"
-msgstr ""
-
+msgstr "カーネルのオプション"

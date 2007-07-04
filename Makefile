@@ -126,7 +126,7 @@ prep:
 	rm -rf boot inst
 
 changelog: ../../common/username.xml
-	svn2cl --accum - --authors ../../common/username.xml
+	svn2cl --accum --authors ../../common/username.xml
 	svn -m '' commit ChangeLog
 
 dist: localdist

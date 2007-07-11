@@ -1,13 +1,13 @@
-# Translation of nn to Norwegian Nynorsk
+# Translation of bootloader to Norwegian Nynorsk
 # LANGUAGE translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
 #
 # Karl Ove Hufthammer <karl@huftis.org>, 2006, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: nn\n"
+"Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-02-20 20:18+0100\n"
+"PO-Revision-Date: 2007-07-11 21:57+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
 "MIME-Version: 1.0\n"
@@ -301,5 +301,5 @@ msgstr "Linux med kjerne %s"
 
 #. txt_kernel_option
 msgid "Kernel Option"
-msgstr ""
+msgstr "Kjerneval"
 

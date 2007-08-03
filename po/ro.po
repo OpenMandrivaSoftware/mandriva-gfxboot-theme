@@ -305,7 +305,7 @@ msgstr ""
 #~ msgstr "Instalare prin SMB (partajare Windows)"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2007 Spring"
+msgid "Boot Mandriva Linux 2008"
 msgstr ""
 
 #. txt_windows
@@ -313,11 +313,11 @@ msgid "Boot Microsoft Windows"
 msgstr ""
 
 #. txt_install
-msgid "Install Mandriva Linux 2007 Spring on your system"
+msgid "Install Mandriva Linux 2008 on your system"
 msgstr ""
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2007 Spring (safe mode)"
+msgid "Boot Mandriva Linux 2008 (safe mode)"
 msgstr ""
 
 #. txt_linux_kernel_version

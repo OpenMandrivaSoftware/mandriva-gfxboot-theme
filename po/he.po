@@ -279,7 +279,7 @@ msgid "Share\n"
 msgstr "שיתוף\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2007 Spring"
+msgid "Boot Mandriva Linux 2008"
 msgstr "התחל את מנדריבה לינוקס אביב 2007"
 
 #. txt_windows
@@ -287,11 +287,11 @@ msgid "Boot Microsoft Windows"
 msgstr "התחל את Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2007 Spring on your system"
+msgid "Install Mandriva Linux 2008 on your system"
 msgstr "התקנת מנדריבה לינוקס אביב 2007 במערכת שלך"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2007 Spring (safe mode)"
+msgid "Boot Mandriva Linux 2008 (safe mode)"
 msgstr "התחל את מנדריבה לינוקס אביב 2007 (מצב בטוח)"
 
 #. txt_linux_kernel_version

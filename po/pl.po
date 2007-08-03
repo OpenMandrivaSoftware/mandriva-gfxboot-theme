@@ -301,20 +301,20 @@ msgid "Share\n"
 msgstr "Udział\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2007 Spring"
-msgstr "Uruchom Mandriva Linux 2007 Spring"
+msgid "Boot Mandriva Linux 2008"
+msgstr "Uruchom Mandriva Linux 2008"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Uruchom Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2007 Spring on your system"
-msgstr "Zainstaluje Mandriva Linux 2007 Spring na swoim komputerze"
+msgid "Install Mandriva Linux 2008 on your system"
+msgstr "Zainstaluje Mandriva Linux 2008 na swoim komputerze"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2007 Spring (safe mode)"
-msgstr "Uruchom Mandriva Linux 2007 Spring (tryb bezpieczny)"
+msgid "Boot Mandriva Linux 2008 (safe mode)"
+msgstr "Uruchom Mandriva Linux 2008 (tryb bezpieczny)"
 
 #. txt_linux_kernel_version
 #, c-format

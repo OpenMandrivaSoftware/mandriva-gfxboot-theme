@@ -299,20 +299,20 @@ msgid "Share\n"
 msgstr "Sdílení\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2007 Spring"
-msgstr "Zavést Mandriva Linux 2007 Spring"
+msgid "Boot Mandriva Linux 2008"
+msgstr "Zavést Mandriva Linux 2008"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Zavést Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2007 Spring on your system"
-msgstr "Instalovat Mandriva Linux 2007 Spring na váš systém"
+msgid "Install Mandriva Linux 2008 on your system"
+msgstr "Instalovat Mandriva Linux 2008 na váš systém"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2007 Spring (safe mode)"
-msgstr "Zavést Mandriva Linux 2007 Spring (bezpečný režim)"
+msgid "Boot Mandriva Linux 2008 (safe mode)"
+msgstr "Zavést Mandriva Linux 2008 (bezpečný režim)"
 
 #. txt_linux_kernel_version
 #, c-format

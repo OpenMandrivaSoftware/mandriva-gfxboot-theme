@@ -295,20 +295,20 @@ msgid "Share\n"
 msgstr "Jagatud ressurss\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2007 Spring"
-msgstr "Mandriva Linux 2007 Springi laadimine"
+msgid "Boot Mandriva Linux 2008"
+msgstr "Mandriva Linux 2008i laadimine"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Microsoft Windowsi laadimine"
 
 #. txt_install
-msgid "Install Mandriva Linux 2007 Spring on your system"
-msgstr "Mandriva Linux 2007 Springi paigaldamine masinasse"
+msgid "Install Mandriva Linux 2008 on your system"
+msgstr "Mandriva Linux 2008i paigaldamine masinasse"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2007 Spring (safe mode)"
-msgstr "Mandriva Linux 2007 Springi laadimine (safe mode)"
+msgid "Boot Mandriva Linux 2008 (safe mode)"
+msgstr "Mandriva Linux 2008i laadimine (safe mode)"
 
 #. txt_linux_kernel_version
 #, c-format

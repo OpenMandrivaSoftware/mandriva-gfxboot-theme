@@ -302,20 +302,20 @@ msgstr "Gedeeld\n"
 #~ msgstr "SMB (Windows share) installatie"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2007 Spring"
-msgstr "Mandriva Linux 2007 Spring opstarten"
+msgid "Boot Mandriva Linux 2008"
+msgstr "Mandriva Linux 2008 opstarten"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Microsoft Windows opstarten"
 
 #. txt_install
-msgid "Install Mandriva Linux 2007 Spring on your system"
-msgstr "Mandriva Linux 2007 Spring op uw systeem installeren"
+msgid "Install Mandriva Linux 2008 on your system"
+msgstr "Mandriva Linux 2008 op uw systeem installeren"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2007 Spring (safe mode)"
-msgstr "Mandriva Linux 2007 Spring opstarten (veilige modus)"
+msgid "Boot Mandriva Linux 2008 (safe mode)"
+msgstr "Mandriva Linux 2008 opstarten (veilige modus)"
 
 #. txt_linux_kernel_version
 #, c-format

@@ -4,6 +4,7 @@
 #
 # Ivan Petrouchtchak <iip@telus.net>, 2005.
 # Ivan Petrouchtchak <ivanpetrouchtchak@yahoo.com>, 2006.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"

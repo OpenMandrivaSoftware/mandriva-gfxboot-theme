@@ -1,21 +1,20 @@
-# translation of bootloader-sl.po to Slovenian
+# translation of sl.po to Slovenščina
 # LANGUAGE translations for boot loader
 # Copyright (C) 2004 SUSE LINUX AG
 #
 # Janez Krek <janez.krek@euroteh.si>, 2004, 2005.
-# Jure Repinc <jlp@holodeck1.com>, 2006.
+# Jure Repinc <jlp@holodeck1.com>, 2006, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: bootloader-sl\n"
-"PO-Revision-Date: 2006-09-16 01:05+0200\n"
+"Project-Id-Version: sl\n"
+"PO-Revision-Date: 2007-09-09 09:54+0200\n"
 "Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
-"Language-Team: Slovenian <sl@li.org>\n"
+"Language-Team: Slovenščina <lugos-slo@lugos.si>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms:  nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 
 # ok button label
 #. txt_ok
@@ -298,26 +297,26 @@ msgstr "Mapa v skupni rabi\n"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2008"
-msgstr ""
+msgstr "Zagon Mandriva Linux 2008"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr ""
+msgstr "Zagon Microsoft Windows"
 
 #. txt_install
 msgid "Install Mandriva Linux 2008 on your system"
-msgstr ""
+msgstr "Namestitev Mandriva Linux 2008 na sistem"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 (safe mode)"
-msgstr ""
+msgstr "Zagon Mandriva Linux 2008 (varni način)"
 
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
-msgstr ""
+msgstr "Linux z jedrom %s"
 
 #. txt_kernel_option
 msgid "Kernel Option"
-msgstr ""
+msgstr "Možnosti jedra"
 

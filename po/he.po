@@ -1,13 +1,13 @@
-# translation of he.po to Hebrew
+# translation of bootloader.po to Hebrew
 # LANGUAGE translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
 #
 # Dotan Kamber <kamberd@yahoo.com>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: he\n"
+"Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-03-22 00:33+0200\n"
+"PO-Revision-Date: 2007-09-10 01:32+0300\n"
 "Last-Translator: Dotan Kamber <kamberd@yahoo.com>\n"
 "Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
@@ -280,7 +280,7 @@ msgstr "שיתוף\n"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2008"
-msgstr "התחל את מנדריבה לינוקס אביב 2007"
+msgstr ""
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -288,11 +288,11 @@ msgstr "התחל את Microsoft Windows"
 
 #. txt_install
 msgid "Install Mandriva Linux 2008 on your system"
-msgstr "התקנת מנדריבה לינוקס אביב 2007 במערכת שלך"
+msgstr ""
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 (safe mode)"
-msgstr "התחל את מנדריבה לינוקס אביב 2007 (מצב בטוח)"
+msgstr ""
 
 #. txt_linux_kernel_version
 #, c-format

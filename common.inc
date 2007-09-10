@@ -1202,15 +1202,15 @@
     /frame1.pos  { 120 110 } def
     /frame1.width  400 def
   } {
-    /frame1.pos  { 200 250 } def
-    /frame1.width  500 def
+    /frame1.pos  { 200 225 } def
+    /frame1.width  415 def
   } ifelse
 
   /menu.start.x frame1.pos pop 10 add def
   /menu.start.y frame1.pos exch pop 12 add def
 
   /menu.bar.width frame1.width 20 sub def
-  /menu.max.entries 7 def
+  /menu.max.entries 11 def
 
   /boot.label.len 243 def
 
@@ -1531,6 +1531,7 @@ dup .undef eq { pop "back-low.jpg" findfile } if
 /black               0x000000          newcolor
 /white               0xffffff          newcolor
 /blue                0x0000a0          newcolor
+/lightblue           0x477cc7          newcolor
 /red                 0xc00000          newcolor
 /green               0x009000          newcolor
 /yellow              0xffff20          newcolor

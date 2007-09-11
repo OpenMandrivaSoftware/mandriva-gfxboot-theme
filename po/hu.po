@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hu\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-03-16 22:46+0100\n"
+"PO-Revision-Date: 2007-09-11 22:12+0200\n"
 "Last-Translator: Arpad Biro <biro_arpad@yahoo.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -323,5 +323,5 @@ msgstr "Linux %s kernellel"
 
 #. txt_kernel_option
 msgid "Kernel Option"
-msgstr ""
+msgstr "Kernel-beállítás"
 

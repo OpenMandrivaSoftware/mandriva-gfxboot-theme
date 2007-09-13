@@ -1,22 +1,22 @@
-# translation of bootloader.po to
+# translation of it.po to Italian
+# Andrea Celli <andrea.celli@libero.it>, 2007.
 # LANGUAGE translations for boot loader
-# Copyright (C) 2004 SUSE LINUX AG
 msgid ""
 msgstr ""
 "Project-Id-Version: it\n"
-"PO-Revision-Date: 2005-03-12 11:38+0100\n"
-"Last-Translator: Novell Language <language@novell.com>\n"
-"Language-Team: Novell Language <language@novell.com>\n"
+"PO-Revision-Date: 2007-09-13 20:48+0200\n"
+"Last-Translator: Andrea Celli <andrea.celli@libero.it>\n"
+"Language-Team: Italian <it@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.3.1\n"
+"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # ok button label
 #. txt_ok
 msgid "OK"
-msgstr "Ok"
+msgstr "OK"
 
 # cancel button label
 #. txt_cancel
@@ -235,9 +235,8 @@ msgid "User (using \"guest\" if empty)\n"
 msgstr "Utente (utilizzo di \"guest\" se vuoto)\n"
 
 #. txt_iso_title
-#, fuzzy
 msgid "Installation from ISO file"
-msgstr "Profilo di installazione"
+msgstr "Installazione da file ISO"
 
 # dialog title for http installation
 #. txt_http_title
@@ -252,7 +251,7 @@ msgstr "Driver"
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
-msgstr "Domino\n"
+msgstr "Dominio\n"
 
 # button label for other/more options
 #. txt_other_options
@@ -266,11 +265,11 @@ msgstr "Lingua"
 
 #. txt_apic
 msgid "Installation--IOAPIC Enabled"
-msgstr "Installazione IO-APIC abilitata"
+msgstr "Installazione con IOAPIC abilitata"
 
 #. txt_noapic_install
 msgid "Installation--IOAPIC Disabled"
-msgstr "Installazione--IOAPIC disabilitata"
+msgstr "Installazione con IOAPIC disabilitata"
 
 #. txt_nolapic_install
 msgid "Installation--Local APIC Disabled"
@@ -293,32 +292,28 @@ msgstr "File"
 msgid "Share\n"
 msgstr "Condivisione\n"
 
-# dialog title for smb installation
-#~ msgid "SMB (Windows Share) Installation"
-#~ msgstr "Installazione SMB (share Windows)"
-
 #. txt_linux
 msgid "Boot Mandriva Linux 2008"
-msgstr ""
+msgstr "Boot di Mandriva Linux 2008"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr ""
+msgstr "Boot di Microsoft Windows"
 
 #. txt_install
 msgid "Install Mandriva Linux 2008 on your system"
-msgstr ""
+msgstr "Installa Mandriva Linux 2008 su questo computer"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 (safe mode)"
-msgstr ""
+msgstr "Boot di Mandriva Linux 2008 (safe mode)"
 
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
-msgstr ""
+msgstr "Linux con il kernel %s"
 
 #. txt_kernel_option
 msgid "Kernel Option"
-msgstr ""
+msgstr "Opzioni per il kernel"
 

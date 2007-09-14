@@ -280,7 +280,7 @@ msgstr "Delt område\n"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2008"
-msgstr "Start Mandriva Linux 2007 vårutgåve"
+msgstr "Start Mandriva Linux 2008"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -288,11 +288,11 @@ msgstr "Start Microsoft Windows"
 
 #. txt_install
 msgid "Install Mandriva Linux 2008 on your system"
-msgstr "Installer Mandriva Linux 2007 vårutgåve på maskina"
+msgstr "Installer Mandriva Linux 2008 på maskina"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 (safe mode)"
-msgstr "Start Mandriva Linux 2007 vårutgåve (sikkermodus)"
+msgstr "Start Mandriva Linux 2008 (sikkermodus)"
 
 #. txt_linux_kernel_version
 #, c-format

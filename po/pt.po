@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-07-23 08:10+0100\n"
+"PO-Revision-Date: 2007-09-14 06:00+0100\n"
 "Last-Translator: Zé <mmodem00@gmail.com>\n"
 "Language-Team: Português <pt@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -267,7 +267,7 @@ msgstr "Outras Opções"
 # label for language selection
 #. txt_language
 msgid "Language"
-msgstr "Linguagem"
+msgstr "Língua"
 
 #. txt_apic
 msgid "Installation--IOAPIC Enabled"

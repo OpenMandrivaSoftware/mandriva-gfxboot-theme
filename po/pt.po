@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-09-14 06:00+0100\n"
+"PO-Revision-Date: 2007-09-14 06:02+0100\n"
 "Last-Translator: Zé <mmodem00@gmail.com>\n"
 "Language-Team: Português <pt@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -238,7 +238,7 @@ msgstr "Instalação NFS"
 # label for smb user input
 #. txt_user2
 msgid "User (using \"guest\" if empty)\n"
-msgstr "Utilizador (a usar \"guest\" se vazio)\n"
+msgstr "Utilizador (usa \"guest\" se vazio)\n"
 
 #. txt_iso_title
 msgid "Installation from ISO file"

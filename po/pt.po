@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-09-14 06:02+0100\n"
+"PO-Revision-Date: 2007-09-14 06:05+0100\n"
 "Last-Translator: Zé <mmodem00@gmail.com>\n"
 "Language-Team: Português <pt@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -119,7 +119,7 @@ msgstr "Carregador de Arranque"
 # error box title
 #. txt_error_title
 msgid "I/O error"
-msgstr "Erro I/O"
+msgstr "Erro de E/S"
 
 # boot disk change dialog title
 #. txt_change_disk_title
@@ -173,7 +173,7 @@ msgstr "Prepare a sua disquete de actualização."
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
-msgstr "Erro DVD"
+msgstr "Erro do DVD"
 
 #. txt_dvd_warning2
 msgid ""
@@ -192,7 +192,7 @@ msgstr "Desligar"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Parar agora o sistema?"
+msgstr "Desligar agora o sistema?"
 
 # menu entry for hard disk installation
 #. txt_harddisk

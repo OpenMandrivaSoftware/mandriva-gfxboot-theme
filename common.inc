@@ -1212,9 +1212,9 @@
   /menu.bar.width frame1.width 20 sub def
   /menu.max.entries 11 def
 
-  /boot.label.len 243 def
+  /boot.label.len 200 def
 
-  /boot.pos { boot.label.len 10 add small_layout { 380 } { 490 } ifelse } def
+  /boot.pos { boot.label.len 10 add small_layout { 434 } { 544 } ifelse } def
 
   /boot.buf.size cmdlinelength def
   /boot.buf boot.buf.size string def

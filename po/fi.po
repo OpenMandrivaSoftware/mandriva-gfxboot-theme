@@ -5,12 +5,13 @@
 # Jyri Palokangas <jmp@netti.fi>, 2005, 2006.
 # Jami Saarikoski <jami.saarikoski@gmail.com>, 2006.
 # Thomas Backlund <tmb@mandriva.org>, 2006.
+# Anssi Hannula <anssi@mandriva.org>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: gfxboot-fi - Mandriva 2007 Release\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2006-09-15 21:40+0300\n"
-"Last-Translator: Thomas Backlund <tmb@mandriva.org>\n"
+"PO-Revision-Date: 2007-09-27 15:54+0300\n"
+"Last-Translator: Anssi Hannula <anssi@mandriva.org>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -298,32 +299,28 @@ msgstr "Tiedosto"
 msgid "Share\n"
 msgstr "Jako\n"
 
-# dialog title for smb installation
-#~ msgid "SMB (Windows Share) Installation"
-#~ msgstr "SMB (Windows jako) asennus"
-
 #. txt_linux
 msgid "Boot Mandriva Linux 2008"
-msgstr ""
+msgstr "Käynnistä Mandriva Linux 2008"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr ""
+msgstr "Käynnistä Microsoft Windows"
 
 #. txt_install
 msgid "Install Mandriva Linux 2008 on your system"
-msgstr ""
+msgstr "Asenna Mandriva Linux 2008"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 (safe mode)"
-msgstr ""
+msgstr "Käynnistä Mandriva Linux 2008 (vikatila)"
 
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
-msgstr ""
+msgstr "Linux %s -ytimellä"
 
 #. txt_kernel_option
 msgid "Kernel Option"
-msgstr ""
+msgstr "Ytimen valitsimet"
 

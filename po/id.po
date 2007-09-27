@@ -1,13 +1,13 @@
 # LANGUAGE translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
 #
-# Willy Sudiarto Raharjo <willysr@gmail.com>, 2006
+# Willy Sudiarto Raharjo <willysr@gmail.com>, 2006 - 2007
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2006-09-16 10:43+0200\n"
+"PO-Revision-Date: 2008-09-28 01:17+0200\n"
 "Last-Translator: Willy Sudiarto Raharjo <willysr@gmail.com>\n"
 "Language-Team: Indonesia <mdk-id@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr "Sistem Penyelamat"
 
 #. txt_memtest
 msgid "Memory Test"
-msgstr "Uji Memori"
+msgstr "Pengujian Memori"
 
 #. txt_bootoptions
 msgid "Boot Options"
@@ -149,7 +149,7 @@ msgstr ""
 # password dialog title
 #. txt_password_title
 msgid "Password"
-msgstr "Katasandi"
+msgstr "Kata sandi"
 
 # Keep the newlines and spaces after ':'!
 #. txt_password
@@ -158,7 +158,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Masukkan katasandi Anda:   \n"
+"Masukkan kata sandi Anda:   \n"
 "\n"
 "\n"
 
@@ -202,7 +202,7 @@ msgstr "Installasi Hard Disk"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Device Disk (memindai semua disk jika kosong)\n"
+msgstr "Perangkat Disk (memindai semua disk jika kosong)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -219,7 +219,7 @@ msgstr "Server\n"
 
 #. txt_password
 msgid "Password\n"
-msgstr "Katasandi\n"
+msgstr "Kata sandi\n"
 
 # label for ftp user input
 #. txt_user1
@@ -298,26 +298,26 @@ msgstr "Share\n"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2008"
-msgstr ""
+msgstr "Boot Mandriva Linux 2008"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr ""
+msgstr "Boot Microsoft Windows"
 
 #. txt_install
 msgid "Install Mandriva Linux 2008 on your system"
-msgstr ""
+msgstr "Install Mandriva Linux 2008 pada sistem Anda"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 (safe mode)"
-msgstr ""
+msgstr "Boot Mandriva Linux 2008 (mode aman)"
 
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
-msgstr ""
+msgstr "Linux dengan kernel %s"
 
 #. txt_kernel_option
 msgid "Kernel Option"
-msgstr ""
+msgstr "Opsi Kernel"
 

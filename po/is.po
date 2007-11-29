@@ -1,19 +1,19 @@
-# translation of bootloader.po to Icelandic
+# translation of bootloader.po to
 # Icelandic translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
-# Pjetur G. Hjaltason <pjetur@pjetur.net>, 2006.
 #
+# Pjetur G. Hjaltason <pjetur@pjetur.net>, 2006, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2006-09-18 20:21+0000\n"
+"PO-Revision-Date: 2007-11-29 09:06+0000\n"
 "Last-Translator: Pjetur G. Hjaltason <pjetur@pjetur.net>\n"
-"Language-Team: Icelandic <kde-isl@molar.is>\n"
+"Language-Team:  <is@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.2\n"
+"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # ok button label
@@ -299,26 +299,26 @@ msgstr "Miðlað svæði\n"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2008"
-msgstr ""
+msgstr "Ræsa Mandriva Linux 2008"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr ""
+msgstr "Ræsa Microsoft Windows"
 
 #. txt_install
 msgid "Install Mandriva Linux 2008 on your system"
-msgstr ""
+msgstr "Setja inn Mandriva Linux 2008 á tölvuna þína"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 (safe mode)"
-msgstr ""
+msgstr "Ræsa Mandriva Linux 2008 (öruggur hamur)"
 
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
-msgstr ""
+msgstr "Linux með kjarna %s"
 
 #. txt_kernel_option
 msgid "Kernel Option"
-msgstr ""
+msgstr "Kjarnavalkostur"
 

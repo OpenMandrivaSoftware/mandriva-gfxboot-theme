@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-08-31 19:02+0800\n"
+"PO-Revision-Date: 2007-12-20 20:55+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -60,12 +60,12 @@ msgstr "Sistem untuk diselamatkan"
 #. txt_memtest
 #, fuzzy
 msgid "Memory Test"
-msgstr "Ujian Checksum"
+msgstr "Ujian Kevins"
 
 #. txt_bootoptions
 #, fuzzy
 msgid "Boot Options"
-msgstr "Pilihan Pemuat Boot"
+msgstr "Pilihan Bina"
 
 # window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -87,7 +87,9 @@ msgstr "Bantuan"
 #. txt_load_kernel_title
 #, fuzzy
 msgid "Starting..."
-msgstr "Mulakan %s: "
+msgstr ""
+"Nilai Permulaan \n"
+"Baru"
 
 # Keep the three newlines!
 #. txt_load_kernel
@@ -96,7 +98,7 @@ msgid ""
 "Loading Linux Kernel\n"
 "\n"
 "\n"
-msgstr "Memuatkan modul kernel pencetak USB ...\n"
+msgstr "Linux dengan kernel %s"
 
 # Keep the three newlines!
 #. txt_load_memtest
@@ -105,7 +107,7 @@ msgid ""
 "Loading memtest86\n"
 "\n"
 "\n"
-msgstr "Memuatkan jurupacu %s..."
+msgstr "Memuatkan Clip Art"
 
 # info box title
 #. txt_info_title
@@ -121,12 +123,12 @@ msgstr "Ralat I/O"
 #. txt_change_disk_title
 #, fuzzy
 msgid "Change Boot Disk"
-msgstr "_Buat cakera but"
+msgstr "Boot Microsoft Windows"
 
 #. txt_insert_disk
 #, fuzzy, c-format
 msgid "Insert boot disk %u."
-msgstr "_Buat cakera but"
+msgstr "Boot Microsoft Windows"
 
 #. txt_insert_disk2
 #, c-format
@@ -155,7 +157,7 @@ msgid ""
 "Enter your password:   \n"
 "\n"
 "\n"
-msgstr "Masuk katalaluan:"
+msgstr "Pasukan Mandriva Anda."
 
 #. txt_dud_ready
 msgid "Get your driver update floppy ready."
@@ -165,7 +167,7 @@ msgstr ""
 #. txt_dvd_warning_title
 #, fuzzy
 msgid "DVD Error"
-msgstr "Ralat Tidak Diketahui"
+msgstr "Ralat mengira nilai!"
 
 #. txt_dvd_warning2
 msgid ""
@@ -242,7 +244,7 @@ msgstr ""
 #. txt_iso_title
 #, fuzzy
 msgid "Installation from ISO file"
-msgstr "Dari Fail Jauh (SSH)"
+msgstr "Selit MathML dari fail"
 
 # dialog title for http installation
 #. txt_http_title
@@ -265,7 +267,7 @@ msgstr "<domain>"
 #. txt_other_options
 #, fuzzy
 msgid "Other Options"
-msgstr "Opsyen RAID"
+msgstr "Pilihan Bina"
 
 # label for language selection
 #. txt_language
@@ -273,19 +275,16 @@ msgid "Language"
 msgstr "Bahasa"
 
 #. txt_apic
-#, fuzzy
 msgid "Installation--IOAPIC Enabled"
-msgstr "Denyhosts dihidupkan."
+msgstr "Pemasangan--IOAPIC Dihidupkan"
 
 #. txt_noapic_install
-#, fuzzy
 msgid "Installation--IOAPIC Disabled"
-msgstr "Denyhosts dimatikan."
+msgstr "Pemasangan--IOAPIC Dimatikan"
 
 #. txt_nolapic_install
-#, fuzzy
 msgid "Installation--Local APIC Disabled"
-msgstr "Paksa Tiada APIC Tempatan"
+msgstr "Pemasangan--APIC Tempatan Dimatikan"
 
 #. txt_yes
 msgid "Yes"
@@ -302,9 +301,8 @@ msgstr "Fail"
 
 # input label: share as in "Windows share" (SMB)
 #. txt_share
-#, fuzzy
 msgid "Share\n"
-msgstr "Kongsi:"
+msgstr "Kongsi\n"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2007 Spring"

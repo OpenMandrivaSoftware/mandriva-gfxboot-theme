@@ -1,13 +1,13 @@
-# translation of bootloader.po to Euskara
+# translation of eu.po to Euskara
 # LANGUAGE translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
 #
 # Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: bootloader\n"
+"Project-Id-Version: eu\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-08-08 13:37+0200\n"
+"PO-Revision-Date: 2007-12-31 00:59+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Euskara <eu@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr "Berreskuratzeko sistema"
 
 #. txt_memtest
 msgid "Memory Test"
-msgstr "Memoria azterketa"
+msgstr "Memoria proba"
 
 #. txt_bootoptions
 msgid "Boot Options"
@@ -113,7 +113,7 @@ msgstr "Aldatu abiapen diskoa"
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Sartu %u abiapen diskoa"
+msgstr "Sartu %u abiapen diskoa."
 
 #. txt_insert_disk2
 #, c-format
@@ -180,11 +180,11 @@ msgstr "Disko zurruna"
 # dialog title for hard disk installation
 #. txt_harddisk_title
 msgid "Hard Disk Installation"
-msgstr "Disko zurrunetik instalaketa"
+msgstr "Disko zurrun instalaketa"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Disko gailua (aztertu disko guztiak hutsik dauden)\n"
+msgstr "Disko gailua (aztertu disko guztiak hutsik badaude)\n"
 
 #. txt_directory
 msgid "Directory\n"

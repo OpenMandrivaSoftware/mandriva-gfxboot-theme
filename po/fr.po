@@ -303,20 +303,20 @@ msgid "Share\n"
 msgstr "Partage\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2008"
-msgstr "Amorcer Mandriva Linux 2008"
+msgid "Boot Mandriva Linux 2008 Spring"
+msgstr "Amorcer Mandriva Linux 2008 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Amorcer Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 on your system"
-msgstr "Installer Mandriva Linux 2008 sur votre machine"
+msgid "Install Mandriva Linux 2008 Spring on your system"
+msgstr "Installer Mandriva Linux 2008 Spring sur votre machine"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2008 (safe mode)"
-msgstr "Amorcer Mandriva Linux 2008 (mode dégradé)"
+msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
+msgstr "Amorcer Mandriva Linux 2008 Spring (mode dégradé)"
 
 #. txt_linux_kernel_version
 #, c-format

@@ -276,20 +276,20 @@ msgid "Share\n"
 msgstr "Paylaş\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2008"
-msgstr "Mandriva Linux 2008'i Başlat"
+msgid "Boot Mandriva Linux 2008 Spring"
+msgstr "Mandriva Linux 2008 Spring'i Başlat"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Microsoft Wİndows'u Başlat"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 on your system"
-msgstr "Sisteminize Mandriva Linux 2008'i Kurun"
+msgid "Install Mandriva Linux 2008 Spring on your system"
+msgstr "Sisteminize Mandriva Linux 2008 Spring'i Kurun"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2008 (safe mode)"
-msgstr "Mandriva Linux 2008'i Başlat (Güvenli Kip)"
+msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
+msgstr "Mandriva Linux 2008 Spring'i Başlat (Güvenli Kip)"
 
 #. txt_linux_kernel_version
 #, c-format

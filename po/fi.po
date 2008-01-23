@@ -300,20 +300,20 @@ msgid "Share\n"
 msgstr "Jako\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2008"
-msgstr "Käynnistä Mandriva Linux 2008"
+msgid "Boot Mandriva Linux 2008 Spring"
+msgstr "Käynnistä Mandriva Linux 2008 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Käynnistä Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 on your system"
-msgstr "Asenna Mandriva Linux 2008"
+msgid "Install Mandriva Linux 2008 Spring on your system"
+msgstr "Asenna Mandriva Linux 2008 Spring"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2008 (safe mode)"
-msgstr "Käynnistä Mandriva Linux 2008 (vikatila)"
+msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
+msgstr "Käynnistä Mandriva Linux 2008 Spring (vikatila)"
 
 #. txt_linux_kernel_version
 #, c-format

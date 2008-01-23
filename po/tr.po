@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-09-17 15:46+0300\n"
+"PO-Revision-Date: 2008-01-23 12:30+0100\n"
 "Last-Translator: Kerem Can Karakas <kerem@mandriva.com.tr>\n"
 "Language-Team: Turkish <translate@mandriva.com.tr>\n"
 "MIME-Version: 1.0\n"
@@ -285,7 +285,7 @@ msgstr "Microsoft Wİndows'u Başlat"
 
 #. txt_install
 msgid "Install Mandriva Linux 2008 on your system"
-msgstr "Sisteminize Mandriva Linux2008'i Kurun"
+msgstr "Sisteminize Mandriva Linux 2008'i Kurun"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 (safe mode)"

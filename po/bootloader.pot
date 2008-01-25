@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2008-01-25 10:27+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <i18n@suse.de>\n"
 "MIME-Version: 1.0\n"
@@ -276,7 +276,7 @@ msgid "Boot Microsoft Windows"
 msgstr ""
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 Spring on your system"
+msgid "Install Mandriva Linux 2008 Spring"
 msgstr ""
 
 #. txt_safe_linux

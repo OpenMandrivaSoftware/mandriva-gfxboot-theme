@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nl\n"
-"PO-Revision-Date: 2007-03-20 21:05+0200\n"
+"PO-Revision-Date: 2008-01-25 10:39+0100\n"
 "Last-Translator: Reinout van Schouwen <reinout@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -310,8 +310,9 @@ msgid "Boot Microsoft Windows"
 msgstr "Microsoft Windows opstarten"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 Spring on your system"
-msgstr "Mandriva Linux 2008 Spring op uw systeem installeren"
+#, fuzzy
+msgid "Install Mandriva Linux 2008 Spring"
+msgstr "Mandriva Linux 2008 Spring installeren"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 Spring (safe mode)"

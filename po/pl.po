@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2007-03-21 11:35+0100\n"
+"PO-Revision-Date: 2008-01-25 10:39+0100\n"
 "Last-Translator: Tomasz Bednarski - Mandriva Poland <tomasz.bednarski@mandriva.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -309,8 +309,8 @@ msgid "Boot Microsoft Windows"
 msgstr "Uruchom Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 Spring on your system"
-msgstr "Zainstaluje Mandriva Linux 2008 Spring na swoim komputerze"
+msgid "Install Mandriva Linux 2008 Spring"
+msgstr "Zainstaluje Mandriva Linux 2008 Spring"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 Spring (safe mode)"

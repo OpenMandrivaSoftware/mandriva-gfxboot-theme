@@ -8,7 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
-"PO-Revision-Date: 2007-03-23 08:22+0000\n"
+"POT-Creation-Date: 2005-07-27 11:49+0200\n"
+"PO-Revision-Date: 2008-01-25 10:23+0100\n"
 "Last-Translator: Camille Bégnis <camille@neodoc.biz>\n"
 "Language-Team: Français <fr@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -298,10 +299,6 @@ msgstr ""
 "Recurso\n"
 "compartido\n"
 
-#, fuzzy
-msgid "SMB (Windows Share) Installation"
-msgstr "Instalación manual"
-
 #. txt_linux
 msgid "Boot Mandriva Linux 2008 Spring"
 msgstr "Arrancar Mandriva Linux 2008 Spring"
@@ -311,8 +308,8 @@ msgid "Boot Microsoft Windows"
 msgstr "Arrancar Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 Spring on your system"
-msgstr "Instalar Mandriva Linux 2008 Spring en su ordenador"
+msgid "Install Mandriva Linux 2008 Spring"
+msgstr "Instalar Mandriva Linux 2008 Spring"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
@@ -326,3 +323,7 @@ msgstr "Linux con kernel %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Opciones para el kernel"
+
+#, fuzzy
+#~ msgid "SMB (Windows Share) Installation"
+#~ msgstr "Instalación manual"

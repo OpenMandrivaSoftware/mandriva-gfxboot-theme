@@ -287,7 +287,8 @@ msgid "Boot Microsoft Windows"
 msgstr "Start Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 Spring on your system"
+#, fuzzy
+msgid "Install Mandriva Linux 2008 Spring"
 msgstr "Installer Mandriva Linux 2008 Spring på maskina"
 
 #. txt_safe_linux

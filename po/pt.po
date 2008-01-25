@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-09-14 06:05+0100\n"
+"PO-Revision-Date: 2008-01-25 10:24+0100\n"
 "Last-Translator: Zé <mmodem00@gmail.com>\n"
 "Language-Team: Português <pt@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -307,8 +307,8 @@ msgid "Boot Microsoft Windows"
 msgstr "Arrancar Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 Spring on your system"
-msgstr "Instalar Mandriva Linux 2008 Spring no seu sistema"
+msgid "Install Mandriva Linux 2008 Spring"
+msgstr "Instalar Mandriva Linux 2008 Spring"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
@@ -322,4 +322,3 @@ msgstr "Linux com kernel %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Opção Kernel"
-

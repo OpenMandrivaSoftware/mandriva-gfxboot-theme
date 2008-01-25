@@ -309,7 +309,8 @@ msgid "Boot Microsoft Windows"
 msgstr "Microsoft Windows indítása"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 Spring on your system"
+#, fuzzy
+msgid "Install Mandriva Linux 2008 Spring"
 msgstr "Mandriva Linux 2008 Spring telepítése a rendszerre"
 
 #. txt_safe_linux

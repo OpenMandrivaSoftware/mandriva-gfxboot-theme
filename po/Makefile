@@ -20,3 +20,11 @@ en.tr text.inc: bootloader.pot
 
 clean:
 	rm -f text.inc *.tr *~
+
+
+merge: bootloader.pot
+	for n in *.po; do \
+	  echo "Merging $$n"; \
+	  msgmerge -C $$n $$n bootloader.pot > "$$n"t ; \
+	  mv -f "$$n"t $$n ; \
+	done

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt_BR\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-03-23 09:10-0300\n"
+"PO-Revision-Date: 2008-01-25 10:25+0100\n"
 "Last-Translator: Felipe Arruda <felipemiguel@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_br@mail.kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -304,8 +304,8 @@ msgid "Boot Microsoft Windows"
 msgstr "Iniciar Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 Spring on your system"
-msgstr "Instalar o Mandriva Linux 2008 Spring no seu sistema"
+msgid "Install Mandriva Linux 2008 Spring"
+msgstr "Instalar o Mandriva Linux 2008 Spring"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
@@ -323,4 +323,3 @@ msgstr "Opções do Kernel"
 # dialog title for smb installation
 #~ msgid "SMB (Windows Share) Installation"
 #~ msgstr "Instalação por SMB (Compartilhamento Windows)"
-

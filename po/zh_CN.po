@@ -298,9 +298,8 @@ msgid "Boot Microsoft Windows"
 msgstr "启动 Microsoft Windows"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2008 Spring"
-msgstr "在您的计算机中安装 Mandriva Linux 2008 Spring "
+msgstr "安装 Mandriva Linux 2008 Spring "
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 Spring (safe mode)"

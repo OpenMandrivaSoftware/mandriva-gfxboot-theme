@@ -6,12 +6,12 @@
 # Copyright (C) 2005 SUSE Linux GmbH
 # Martin Møller <martin@martinm-76.dk>, 2005.
 # Keld Simonsen <keld@rap.dk>, 2006.
-# Keld Simonsen <keld@dkuug.dk>, 2007.
+# Keld Simonsen <keld@dkuug.dk>, 2007, 2008.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: da\n"
-"PO-Revision-Date: 2007-10-30 22:43+0100\n"
+"PO-Revision-Date: 2008-02-13 03:11+0100\n"
 "Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
 "Language-Team: dansk <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -308,9 +308,8 @@ msgid "Boot Microsoft Windows"
 msgstr "Start Microsoft Windows op"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2008 Spring"
-msgstr "Installér Mandriva Linux 2008 Spring på dit system"
+msgstr "Installér Mandriva Linux 2008 Spring"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 Spring (safe mode)"

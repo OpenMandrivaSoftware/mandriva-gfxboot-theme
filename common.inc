@@ -413,7 +413,7 @@
     dup 0 ne {
       "vga=%d " bc.cmd dup length add sprintf
     } {
-      pop
+      pop "text" "%s " bc.cmd dup length add sprintf
     } ifelse
   } if
 

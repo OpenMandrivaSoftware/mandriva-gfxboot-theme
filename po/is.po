@@ -1,15 +1,14 @@
-# translation of bootloader.po to
-# Icelandic translations for boot loader
+# translation of bootloader.po to Icelandic
 # Copyright (C) 2005 SUSE Linux GmbH
 #
-# Pjetur G. Hjaltason <pjetur@pjetur.net>, 2006, 2007.
+# Pjetur G. Hjaltason <pjetur@pjetur.net>, 2006, 2007, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-11-29 09:06+0000\n"
+"PO-Revision-Date: 2008-01-29 17:40+0000\n"
 "Last-Translator: Pjetur G. Hjaltason <pjetur@pjetur.net>\n"
-"Language-Team:  <is@li.org>\n"
+"Language-Team: Icelandic <kde-isl@molar.is>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -306,9 +305,8 @@ msgid "Boot Microsoft Windows"
 msgstr "Ræsa Microsoft Windows"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2008 Spring"
-msgstr "Setja inn Mandriva Linux 2008 Spring á tölvuna þína"
+msgstr "Setja Mandriva Linux 2008 Spring inn á tölvuna þína"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 Spring (safe mode)"

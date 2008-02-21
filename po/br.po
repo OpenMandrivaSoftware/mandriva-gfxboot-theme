@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-03-19 14:44+0100\n"
+"PO-Revision-Date: 2008-02-21 18:24+0100\n"
 "Last-Translator: Thierry Vignaud <tvignaud@mandriva.com>\n"
 "Language-Team: breton <i18n@suse.de>\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr "Kenderc'hel"
 
 #. txt_manual_install
 msgid "Manual Installation"
-msgstr ""
+msgstr "Staliadur a-zorn"
 
 #. txt_noacpi_install
 msgid "Installation--ACPI Disabled"
@@ -183,7 +183,7 @@ msgstr "Servijer\n"
 
 #. txt_password
 msgid "Password\n"
-msgstr ""
+msgstr "Tremenger\n"
 
 # label for ftp user input
 #. txt_user1
@@ -265,9 +265,8 @@ msgid "Boot Microsoft Windows"
 msgstr "Loc'hañ Microsoft Windows"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2008 Spring"
-msgstr "Staliañ Mandriva Linux 2008 Spring war ho reiziad"
+msgstr "Staliañ Mandriva Linux 2008 Spring"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 Spring (safe mode)"

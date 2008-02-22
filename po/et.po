@@ -1,11 +1,11 @@
 # Estonian translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
-# Marek Laane <bald@starman.ee>, 2006-2007.
+# Marek Laane <bald@starman.ee>, 2006-2008.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2007-03-19 15:26+0200\n"
+"PO-Revision-Date: 2008-02-22 19:42+0200\n"
 "Last-Translator: Marek Laane <bald@starman.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -296,20 +296,19 @@ msgstr "Jagatud ressurss\n"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2008 Spring"
-msgstr "Mandriva Linux 2008 Spring laadimine"
+msgstr "Mandriva Linux 2008 Springi laadimine"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Microsoft Windowsi laadimine"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2008 Spring"
-msgstr "Mandriva Linux 2008 Spring paigaldamine masinasse"
+msgstr "Mandriva Linux 2008 Springi paigaldamine masinasse"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
-msgstr "Mandriva Linux 2008 Spring laadimine (safe mode)"
+msgstr "Mandriva Linux 2008 Springi laadimine (safe mode)"
 
 #. txt_linux_kernel_version
 #, c-format

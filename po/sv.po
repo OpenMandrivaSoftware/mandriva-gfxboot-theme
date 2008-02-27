@@ -1,12 +1,12 @@
-# gfxboot-sv - Swedish Translation
+# translation of bootloader-sv.po to Swedish
 # Copyright (C) 2004 SUSE LINUX AG
 #
-# Thomas Backlund <tmb@mandriva.org>, 2006.
+# Thomas Backlund <tmb@mandriva.org>, 2006, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: gfxboot-sv - Mandriva 2007 Release\n"
+"Project-Id-Version: bootloader-sv\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2006-09-15 21:38+0300\n"
+"PO-Revision-Date: 2008-02-27 16:30+0200\n"
 "Last-Translator: Thomas Backlund <tmb@mandriva.org>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -44,7 +44,7 @@ msgstr "Manuell installation"
 
 #. txt_noacpi_install
 msgid "Installation--ACPI Disabled"
-msgstr "Installation - ACPI inaktiverat"
+msgstr "Installation - ACPI Inaktiverat"
 
 #. txt_safe_install
 msgid "Installation--Safe Settings"
@@ -297,33 +297,28 @@ msgstr "Fil"
 msgid "Share\n"
 msgstr "Utdelning\n"
 
-# dialog title for smb installation
-#~ msgid "SMB (Windows Share) Installation"
-#~ msgstr "SMB (Windows-utdelning) installation"
-
 #. txt_linux
 msgid "Boot Mandriva Linux 2008 Spring"
-msgstr ""
+msgstr "Starta Mandriva Linux 2008 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr ""
+msgstr "Starta Microsoft Windows"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2008 Spring"
-msgstr ""
+msgstr "Installera Mandriva Linux 2008 Spring"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
-msgstr ""
+msgstr "Starta Mandriva Linux 2008 Spring (felsäkert läge)"
 
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
-msgstr ""
+msgstr "Linux med kernel %s"
 
 #. txt_kernel_option
 msgid "Kernel Option"
-msgstr ""
+msgstr "Kernel alternativ"
 

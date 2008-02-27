@@ -1,12 +1,12 @@
-# translation of bootloader-sv.po to Swedish
+# translation of mandriva-gfxboot-theme-sv.po to Swedish
 # Copyright (C) 2004 SUSE LINUX AG
 #
 # Thomas Backlund <tmb@mandriva.org>, 2006, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: bootloader-sv\n"
+"Project-Id-Version: mandriva-gfxboot-theme-sv\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2008-02-27 16:30+0200\n"
+"PO-Revision-Date: 2008-02-28 01:55+0200\n"
 "Last-Translator: Thomas Backlund <tmb@mandriva.org>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -316,9 +316,9 @@ msgstr "Starta Mandriva Linux 2008 Spring (felsäkert läge)"
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
-msgstr "Linux med kernel %s"
+msgstr "Linux med kärna %s"
 
 #. txt_kernel_option
 msgid "Kernel Option"
-msgstr "Kernel alternativ"
+msgstr "Kärn-alternativ"
 

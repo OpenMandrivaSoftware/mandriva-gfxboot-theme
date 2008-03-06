@@ -1203,7 +1203,7 @@
     /frame1.width  400 def
   } {
     /frame1.pos  { 200 225 } def
-    /frame1.width  415 def
+    /frame1.width  520 def
   } ifelse
 
   /menu.start.x frame1.pos pop 10 add def
@@ -1540,7 +1540,7 @@ dup .undef eq { pop "back-low.jpg" findfile } if
 /lightdotcolor       0xeff2f6          newcolor
 /somegreen           0x78a424          newcolor
 
-/lightblue 0x7da3d1 def
+/lightblue 0x447cc7 def
 
 %% include theme_colors.inc
 

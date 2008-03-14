@@ -1,5 +1,6 @@
 POFILES	= $(wildcard *.po)
 TEXTS	= $(addsuffix .tr,$(basename $(wildcard *.po)))
+PGOAL: bootloader
 
 PRODUCT ?= "SUSE Linux 10.1"
 
@@ -10,21 +11,21 @@ all: text.inc $(TEXTS)
 # to ensure that
 %.tr: %.po text.inc
 	msgfmt $< -o - | msgunfmt | \
-	msgmerge --no-fuzzy-matching - bootloader.pot > tmpfile.po && \
+	msgmerge --no-fuzzy-matching - $(PGOAL).pot > tmpfile.po && \
 	bin/po2txt --product=$(PRODUCT) tmpfile.po >$@
 	echo rm -f tmpfile.po
 
-# en.tr uses msgids from bootloader.pot
-en.tr text.inc: bootloader.pot
+# en.tr uses msgids from $(PGOAL).pot
+en.tr text.inc: $(PGOAL).pot
 	bin/po2txt --product=$(PRODUCT) $< >en.tr
 
 clean:
 	rm -f text.inc *.tr *~
 
 
-merge: bootloader.pot
+merge: $(PGOAL).pot
 	for n in *.po; do \
 	  echo "Merging $$n"; \
-	  msgmerge -C $$n $$n bootloader.pot > "$$n"t ; \
+	  msgmerge -C $$n $$n $(PGOAL).pot > "$$n"t ; \
 	  mv -f "$$n"t $$n ; \
 	done

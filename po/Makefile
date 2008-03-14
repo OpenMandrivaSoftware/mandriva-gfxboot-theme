@@ -23,7 +23,9 @@ clean:
 	rm -f text.inc *.tr *~
 
 
-merge: $(PGOAL).pot
+update_n_merge: $(PGOAL).pot merge
+
+merge:
 	for n in *.po; do \
 	  echo "Merging $$n"; \
 	  msgmerge -C $$n $$n $(PGOAL).pot > "$$n"t ; \

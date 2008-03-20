@@ -30,7 +30,7 @@ msgstr "Avbryt"
 # reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "Start om att"
+msgstr "Start på nytt"
 
 # continue button label
 #. txt_continue

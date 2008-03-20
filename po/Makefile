@@ -1,6 +1,6 @@
 POFILES	= $(wildcard *.po)
 TEXTS	= $(addsuffix .tr,$(basename $(wildcard *.po)))
-PGOAL: bootloader
+PGOAL= bootloader
 
 PRODUCT ?= "SUSE Linux 10.1"
 

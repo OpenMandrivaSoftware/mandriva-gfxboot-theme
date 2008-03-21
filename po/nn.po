@@ -89,13 +89,25 @@ msgstr "Startar …"
 
 # Keep the three newlines!
 #. txt_load_kernel
-msgid "Loading Linux Kernel\n\n\n"
-msgstr "Lastar Linux-kjerne\n\n\n"
+msgid ""
+"Loading Linux Kernel\n"
+"\n"
+"\n"
+msgstr ""
+"Lastar Linux-kjerne\n"
+"\n"
+"\n"
 
 # Keep the three newlines!
 #. txt_load_memtest
-msgid "Loading memtest86\n\n\n"
-msgstr "Lastar memtest86\n\n\n"
+msgid ""
+"Loading memtest86\n"
+"\n"
+"\n"
+msgstr ""
+"Lastar memtest86\n"
+"\n"
+"\n"
 
 # info box title
 #. txt_info_title
@@ -143,8 +155,14 @@ msgstr "Passord"
 
 # Keep the newlines and spaces after ':'!
 #. txt_password
-msgid "Enter your password:   \n\n\n"
-msgstr "Skriv inn passordet ditt:   \n\n\n"
+msgid ""
+"Enter your password:   \n"
+"\n"
+"\n"
+msgstr ""
+"Skriv inn passordet ditt:   \n"
+"\n"
+"\n"
 
 #. txt_dud_ready
 msgid "Get your driver update floppy ready."
@@ -161,7 +179,8 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"Dette er ein tosidig DVD. Du har starta opp frå side to.\n\n"
+"Dette er ein tosidig DVD. Du har starta opp frå side to.\n"
+"\n"
 "Snu DVD-en og hald så fram."
 
 # power off dialog title
@@ -303,4 +322,3 @@ msgstr "Linux med kjerne %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Kjerneval"
-

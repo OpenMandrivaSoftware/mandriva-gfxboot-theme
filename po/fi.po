@@ -5,13 +5,13 @@
 # Jyri Palokangas <jmp@netti.fi>, 2005, 2006.
 # Jami Saarikoski <jami.saarikoski@gmail.com>, 2006.
 # Thomas Backlund <tmb@mandriva.org>, 2006, 2008.
-# Anssi Hannula <anssi@mandriva.org>, 2007.
+# Anssi Hannula <anssi@mandriva.org>, 2007, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: bootloader-fi\n"
+"Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2008-02-29 18:19+0200\n"
-"Last-Translator: Thomas Backlund <tmb@mandriva.org>\n"
+"PO-Revision-Date: 2008-03-29 22:49+0200\n"
+"Last-Translator: Anssi Hannula <anssi@mandriva.org>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,7 +96,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Linux ytimen lataaminen\n"
+"Ladataan Linux-ydin\n"
 "\n"
 "\n"
 

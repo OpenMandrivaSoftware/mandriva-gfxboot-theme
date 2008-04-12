@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader-gl\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2008-04-06 21:56+0100\n"
+"PO-Revision-Date: 2008-04-12 18:53+0100\n"
 "Last-Translator: Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "Instalación manual"
 
 #. txt_noacpi_install
 msgid "Installation--ACPI Disabled"
-msgstr ""
+msgstr "Instalación--ACPI Deshabilitado"
 
 #. txt_safe_install
 msgid "Installation--Safe Settings"
@@ -112,7 +112,7 @@ msgstr ""
 # info box title
 #. txt_info_title
 msgid "Boot loader"
-msgstr "Cargador de arrinque"
+msgstr "Cargador de Arrinque"
 
 # error box title
 #. txt_error_title
@@ -166,7 +166,7 @@ msgstr ""
 
 #. txt_dud_ready
 msgid "Get your driver update floppy ready."
-msgstr ""
+msgstr "Teña preparado o disquete de actualización de driver."
 
 # dvd warning title
 #. txt_dvd_warning_title
@@ -270,11 +270,11 @@ msgstr "Língua"
 
 #. txt_apic
 msgid "Installation--IOAPIC Enabled"
-msgstr ""
+msgstr "Instalación--IOAPIC Habilitado"
 
 #. txt_noapic_install
 msgid "Installation--IOAPIC Disabled"
-msgstr ""
+msgstr "Instalación--IOAPIC Deshabilitado"
 
 #. txt_nolapic_install
 msgid "Installation--Local APIC Disabled"

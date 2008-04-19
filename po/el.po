@@ -8,7 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader_2008-03-05\n"
-"PO-Revision-Date: 2008-03-05 03:30+0200\n"
+"POT-Creation-Date: 2005-07-27 11:49+0200\n"
+"PO-Revision-Date: 2008-04-19 23:22+0200\n"
 "Last-Translator: nikos papadopoulos <231036448@freemail.gr>\n"
 "Language-Team: el <hstg@billg.gr>\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"POT-Creation-Date: \n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 
@@ -54,11 +54,11 @@ msgstr "Εγκατάσταση--Ασφαλείς Ρυθμίσεις"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
-msgstr "Εκκίνηση από τον Σκληρό Δίσκο"
+msgstr "Εκκίνηση από το Σκληρό Δίσκο"
 
 #. txt_rescue
 msgid "Rescue System"
-msgstr "Σύστημα Διάσωσης"
+msgstr "Διάσωση Συστήματος"
 
 #. txt_memtest
 msgid "Memory Test"
@@ -97,7 +97,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Ο πυρήνας Linux φορτώνεται\n"
+"Φορτώνεται ο πυρήνας Λίνουξ \n"
 "\n"
 "\n"
 
@@ -108,7 +108,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Το memtest86 φορτώνεται\n"
+"Φορτώνεται το memtest86\n"
 "\n"
 "\n"
 
@@ -130,7 +130,7 @@ msgstr "Αλλαγή Δισκέτας Εκκίνησης"
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Παρακαλώ εισάγετε την δισκέτα εκκίνησης %u."
+msgstr "Εισήγαγε την δισκέτα εκκίνησης %u."
 
 #. txt_insert_disk2
 #, c-format
@@ -139,7 +139,7 @@ msgid ""
 "Insert boot disk %u."
 msgstr ""
 "Αυτή είναι η δισκέτα εκκίνησης %u.\n"
-"Παρακαλώ εισάγετε τη δισκέτα εκκίνησης %u."
+"Εισήγαγε τη δισκέτα εκκίνησης %u."
 
 # <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -253,7 +253,7 @@ msgstr "Εγκατάσταση HTTP"
 # 'driver' as in '(hardware) driver update'
 #. txt_driver_update
 msgid "Driver"
-msgstr "Οδηγός"
+msgstr "Οδηγός Υλικού"
 
 # as in Windows Authentication Domain
 #. txt_domain

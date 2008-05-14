@@ -6,12 +6,13 @@
 # Elisio Andre Martins Catana <eacatana@netvisao.pt>, 2005.
 # Zé <mmodem00@netvisao.pt>, 2006.
 # Zé <mmodem00@gmail.com>, 2007.
+# Zé <ze@mandriva.org>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2008-01-25 10:24+0100\n"
-"Last-Translator: Zé <mmodem00@gmail.com>\n"
+"PO-Revision-Date: 2008-05-14 02:07+0100\n"
+"Last-Translator: Zé <ze@mandriva.org>\n"
 "Language-Team: Português <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,8 +78,8 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Está a sair do menu gráfico de arranque e a\n"
-"iniciar o interface em modo texto."
+"Está a sair do menu de arranque gráfico e\n"
+"a iniciar o interface em modo texto."
 
 #. txt_help
 msgid "Help"
@@ -129,7 +130,7 @@ msgstr "Mudar Disco de Arranque"
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Inserir disco de arranque %u."
+msgstr "Insira o disco de arranque %u."
 
 #. txt_insert_disk2
 #, c-format
@@ -202,7 +203,7 @@ msgstr "Disco Rígido"
 # dialog title for hard disk installation
 #. txt_harddisk_title
 msgid "Hard Disk Installation"
-msgstr "Instalação no Disco Rígido"
+msgstr "Instalação do Disco Rígido"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (scan all disks if empty)\n"
@@ -322,3 +323,4 @@ msgstr "Linux com kernel %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Opção Kernel"
+

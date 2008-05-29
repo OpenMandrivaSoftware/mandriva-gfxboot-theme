@@ -325,4 +325,3 @@ msgstr "Linux med kjerne %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Kjernevalg"
-

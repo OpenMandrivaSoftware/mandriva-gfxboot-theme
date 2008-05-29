@@ -326,4 +326,3 @@ msgstr "Linux με kernel %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Επιλογή Kernel"
-

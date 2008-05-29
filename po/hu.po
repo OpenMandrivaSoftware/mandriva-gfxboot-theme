@@ -325,4 +325,3 @@ msgstr "Linux %s kernellel"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Kernel-beállítás"
-

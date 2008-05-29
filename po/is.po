@@ -320,4 +320,3 @@ msgstr "Linux með kjarna %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Kjarnavalkostur"
-

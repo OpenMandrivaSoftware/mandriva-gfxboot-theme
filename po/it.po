@@ -4,6 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: it\n"
+"POT-Creation-Date: 2005-07-27 11:49+0200\n"
 "PO-Revision-Date: 2008-03-17 20:20+0100\n"
 "Last-Translator: Andrea Celli <andrea.celli@libero.it>\n"
 "Language-Team: Italian <timl@freelists.org>\n"
@@ -316,4 +317,3 @@ msgstr "Linux con il kernel %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Opzioni per il kernel"
-

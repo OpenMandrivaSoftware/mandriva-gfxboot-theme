@@ -8,6 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
+"POT-Creation-Date: 2005-07-27 11:49+0200\n"
 "PO-Revision-Date: 2005-03-08 20:59+0100\n"
 "Last-Translator: Andrej Kacian <andrej@kacian.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
@@ -304,10 +305,6 @@ msgstr "Súbor"
 msgid "Share\n"
 msgstr ""
 
-# dialog title for smb installation
-#~ msgid "SMB (Windows Share) Installation"
-#~ msgstr "SMB (Windows zdieľanie) Inštalácia"
-
 #. txt_linux
 msgid "Boot Mandriva Linux 2008 Spring"
 msgstr ""
@@ -317,7 +314,6 @@ msgid "Boot Microsoft Windows"
 msgstr ""
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2008 Spring"
 msgstr ""
 
@@ -334,3 +330,6 @@ msgstr ""
 msgid "Kernel Option"
 msgstr ""
 
+# dialog title for smb installation
+#~ msgid "SMB (Windows Share) Installation"
+#~ msgstr "SMB (Windows zdieľanie) Inštalácia"

@@ -106,7 +106,10 @@ msgid ""
 "Loading memtest86\n"
 "\n"
 "\n"
-msgstr "Загрузка теста памяти memtest86\n\n\n"
+msgstr ""
+"Загрузка теста памяти memtest86\n"
+"\n"
+"\n"
 
 # info box title
 #. txt_info_title
@@ -320,4 +323,3 @@ msgstr "Linux с ядром %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Опция ядра"
-

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader=-cy\n"
-"POT-Creation-Date: \n"
+"POT-Creation-Date: 2005-07-27 11:49+0200\n"
 "PO-Revision-Date: 2006-09-14 23:00-0000\n"
 "Last-Translator: Rhoslyn Prys <post@meddal.com>\n"
 "Language-Team: Cymraeg/Welsh <post@meddal.com>\n"
@@ -300,7 +300,6 @@ msgid "Boot Microsoft Windows"
 msgstr ""
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2008 Spring"
 msgstr ""
 
@@ -316,4 +315,3 @@ msgstr ""
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr ""
-

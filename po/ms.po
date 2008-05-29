@@ -302,7 +302,7 @@ msgid "Share\n"
 msgstr "Kongsi\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2007 Spring"
+msgid "Boot Mandriva Linux 2008 Spring"
 msgstr ""
 
 #. txt_windows
@@ -310,12 +310,11 @@ msgid "Boot Microsoft Windows"
 msgstr "Boot Microsoft Windows"
 
 #. txt_install
-#, fuzzy
-msgid "Install Mandriva Linux 2007 Spring"
+msgid "Install Mandriva Linux 2008 Spring"
 msgstr ""
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2007 Spring (safe mode)"
+msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
 msgstr ""
 
 #. txt_linux_kernel_version
@@ -326,4 +325,3 @@ msgstr "Linux dengan kernel %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Pilihan Kernel"
-

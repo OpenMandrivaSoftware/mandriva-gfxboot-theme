@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
+"POT-Creation-Date: 2005-07-27 11:49+0200\n"
 "PO-Revision-Date: 2008-02-05 17:50+0100\n"
 "Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -14,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"Plural-Forms:  nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
+"n%100==4 ? 3 : 0);\n"
 
 # ok button label
 #. txt_ok
@@ -319,4 +321,3 @@ msgstr "Linux z jedrom %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Možnosti jedra"
-

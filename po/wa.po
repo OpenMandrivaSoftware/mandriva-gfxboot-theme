@@ -279,7 +279,6 @@ msgid "Boot Microsoft Windows"
 msgstr ""
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2008 Spring"
 msgstr ""
 
@@ -295,4 +294,3 @@ msgstr ""
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr ""
-

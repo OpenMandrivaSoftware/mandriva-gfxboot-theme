@@ -296,7 +296,8 @@ msgid "Share\n"
 msgstr "Kundividi\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2008"
+#, fuzzy
+msgid "Boot Mandriva Linux 2008 Spring"
 msgstr "Starto Mandriva Linux 2008"
 
 #. txt_windows
@@ -304,11 +305,13 @@ msgid "Boot Microsoft Windows"
 msgstr "Starto Mikrosofta Vindozo"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 on your system"
+#, fuzzy
+msgid "Install Mandriva Linux 2008 Spring"
 msgstr "Instali Mandriva Linux 2008 en via sistemo"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2008 (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
 msgstr "Starto de Mandriva Linux 2008 (sekura moduso)"
 
 #. txt_linux_kernel_version

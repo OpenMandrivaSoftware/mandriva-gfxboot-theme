@@ -11,6 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: da\n"
+"POT-Creation-Date: 2005-07-27 11:49+0200\n"
 "PO-Revision-Date: 2008-02-13 03:11+0100\n"
 "Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
 "Language-Team: dansk <dansk@dansk-gruppen.dk>\n"
@@ -323,4 +324,3 @@ msgstr "Linux med kerne %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Kerne-valgmulighed"
-

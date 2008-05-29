@@ -313,4 +313,3 @@ msgstr "内核为 %s 的 Linux"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "内核选项"
-

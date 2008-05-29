@@ -87,13 +87,25 @@ msgstr "Hasten..."
 
 # Keep the three newlines!
 #. txt_load_kernel
-msgid "Loading Linux Kernel\n\n\n"
-msgstr "Linux kernela zamatzen\n\n\n"
+msgid ""
+"Loading Linux Kernel\n"
+"\n"
+"\n"
+msgstr ""
+"Linux kernela zamatzen\n"
+"\n"
+"\n"
 
 # Keep the three newlines!
 #. txt_load_memtest
-msgid "Loading memtest86\n\n\n"
-msgstr "memtest86 zamatzen\n\n\n"
+msgid ""
+"Loading memtest86\n"
+"\n"
+"\n"
+msgstr ""
+"memtest86 zamatzen\n"
+"\n"
+"\n"
 
 # info box title
 #. txt_info_title
@@ -141,8 +153,14 @@ msgstr "Pasahitza"
 
 # Keep the newlines and spaces after ':'!
 #. txt_password
-msgid "Enter your password:   \n\n\n"
-msgstr "Sartu zure pasahitza:   \n\n\n"
+msgid ""
+"Enter your password:   \n"
+"\n"
+"\n"
+msgstr ""
+"Sartu zure pasahitza:   \n"
+"\n"
+"\n"
 
 #. txt_dud_ready
 msgid "Get your driver update floppy ready."
@@ -302,4 +320,3 @@ msgstr "Linux %s kernelarekin"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Kernelaren aukerak"
-

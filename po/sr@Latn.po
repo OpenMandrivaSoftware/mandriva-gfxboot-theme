@@ -5,13 +5,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
+"POT-Creation-Date: 2005-07-27 11:49+0200\n"
 "PO-Revision-Date: 2005-08-03 21:03+0200\n"
 "Last-Translator: Danilo Šegan_<danilo@gnome.org>\n"
 "Language-Team: Serbian <novell@prevod.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 # ok button label
 #. txt_ok
@@ -293,10 +295,6 @@ msgstr "Fajl"
 msgid "Share\n"
 msgstr ""
 
-# dialog title for smb installation
-#~ msgid "SMB (Windows Share) Installation"
-#~ msgstr "SMB (deljeni Windows disk) instalacija"
-
 #. txt_linux
 msgid "Boot Mandriva Linux 2008 Spring"
 msgstr ""
@@ -306,7 +304,6 @@ msgid "Boot Microsoft Windows"
 msgstr ""
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2008 Spring"
 msgstr ""
 
@@ -323,3 +320,6 @@ msgstr ""
 msgid "Kernel Option"
 msgstr ""
 
+# dialog title for smb installation
+#~ msgid "SMB (Windows Share) Installation"
+#~ msgstr "SMB (deljeni Windows disk) instalacija"

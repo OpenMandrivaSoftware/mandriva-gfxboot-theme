@@ -323,4 +323,3 @@ msgstr "Linux %s -ytimellä"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Ytimen valitsimet"
-

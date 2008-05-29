@@ -323,4 +323,3 @@ msgstr "Linux com kernel %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Opção Kernel"
-

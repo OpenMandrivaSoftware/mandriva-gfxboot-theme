@@ -76,13 +76,25 @@ msgstr "O loc'hañ ..."
 
 # Keep the three newlines!
 #. txt_load_kernel
-msgid "Loading Linux Kernel\n\n\n"
-msgstr "O kargañ kalon Linux\n\n\n"
+msgid ""
+"Loading Linux Kernel\n"
+"\n"
+"\n"
+msgstr ""
+"O kargañ kalon Linux\n"
+"\n"
+"\n"
 
 # Keep the three newlines!
 #. txt_load_memtest
-msgid "Loading memtest86\n\n\n"
-msgstr "O kargañ memtest86\n\n\n"
+msgid ""
+"Loading memtest86\n"
+"\n"
+"\n"
+msgstr ""
+"O kargañ memtest86\n"
+"\n"
+"\n"
 
 # info box title
 #. txt_info_title
@@ -127,8 +139,14 @@ msgstr "Tremenger"
 
 # Keep the newlines and spaces after ':'!
 #. txt_password
-msgid "Enter your password:   \n\n\n"
-msgstr "Roit ho tremenger :   \n\n\n"
+msgid ""
+"Enter your password:   \n"
+"\n"
+"\n"
+msgstr ""
+"Roit ho tremenger :   \n"
+"\n"
+"\n"
 
 #. txt_dud_ready
 msgid "Get your driver update floppy ready."
@@ -277,3 +295,7 @@ msgstr "Loc'hañ Mandriva Linux 2008 Spring (gant surantez)"
 msgid "Linux with kernel %s"
 msgstr "Linux gant ar galon %s"
 
+#. txt_kernel_option
+#, fuzzy
+msgid "Kernel Option"
+msgstr "Dibarzhoù all"

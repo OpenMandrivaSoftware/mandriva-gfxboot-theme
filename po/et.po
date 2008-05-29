@@ -5,6 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
+"POT-Creation-Date: 2005-07-27 11:49+0200\n"
 "PO-Revision-Date: 2008-02-22 19:42+0200\n"
 "Last-Translator: Marek Laane <bald@starman.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
@@ -318,4 +319,3 @@ msgstr "Linux kerneliga %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Kerneli võtmed"
-

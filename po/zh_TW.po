@@ -5,6 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
+"POT-Creation-Date: 2005-07-27 11:49+0200\n"
 "PO-Revision-Date: 2008-01-23 11:16+0800\n"
 "Last-Translator: Shiva Huang <shivahuang@gmail.com>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -319,4 +320,3 @@ msgstr "核心 %s 的 Linux"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "核心選項"
-

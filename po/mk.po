@@ -6,6 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
+"POT-Creation-Date: 2005-07-27 11:49+0200\n"
 "PO-Revision-Date: 2006-09-17 20:33-0700\n"
 "Last-Translator: Zoran Dimovski <zoki.dimovski@gmail.com>\n"
 "Language-Team: Macedonian\n"
@@ -305,7 +306,6 @@ msgid "Boot Microsoft Windows"
 msgstr ""
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2008 Spring"
 msgstr ""
 
@@ -321,4 +321,3 @@ msgstr ""
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr ""
-

@@ -322,4 +322,3 @@ msgstr "Linux s jádrem %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr ""
-

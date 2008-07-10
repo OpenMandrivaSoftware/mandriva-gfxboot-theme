@@ -297,20 +297,20 @@ msgid "Share\n"
 msgstr "Miðlað svæði\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2008 Spring"
-msgstr "Ræsa Mandriva Linux 2008 Spring"
+msgid "Boot Mandriva Linux 2009"
+msgstr "Ræsa Mandriva Linux 2009"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Ræsa Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 Spring"
-msgstr "Setja Mandriva Linux 2008 Spring inn á tölvuna þína"
+msgid "Install Mandriva Linux 2009"
+msgstr "Setja Mandriva Linux 2009 inn á tölvuna þína"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
-msgstr "Ræsa Mandriva Linux 2008 Spring (öruggur hamur)"
+msgid "Boot Mandriva Linux 2009 (safe mode)"
+msgstr "Ræsa Mandriva Linux 2009 (öruggur hamur)"
 
 #. txt_linux_kernel_version
 #, c-format

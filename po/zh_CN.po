@@ -290,20 +290,20 @@ msgid "Share\n"
 msgstr "共享\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2008 Spring"
-msgstr "启动 Mandriva Linux 2008 Spring"
+msgid "Boot Mandriva Linux 2009"
+msgstr "启动 Mandriva Linux 2009"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "启动 Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 Spring"
-msgstr "安装 Mandriva Linux 2008 Spring "
+msgid "Install Mandriva Linux 2009"
+msgstr "安装 Mandriva Linux 2009 "
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
-msgstr "启动 Mandriva Linux 2008 Spring (安全模式)"
+msgid "Boot Mandriva Linux 2009 (safe mode)"
+msgstr "启动 Mandriva Linux 2009 (安全模式)"
 
 #. txt_linux_kernel_version
 #, c-format

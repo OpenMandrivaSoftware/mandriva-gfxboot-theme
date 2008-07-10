@@ -294,20 +294,20 @@ msgid "Share\n"
 msgstr "Condivisione\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2008 Spring"
-msgstr "Boot di Mandriva Linux 2008 Spring"
+msgid "Boot Mandriva Linux 2009"
+msgstr "Boot di Mandriva Linux 2009"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Boot di Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 Spring"
-msgstr "Installa Mandriva Linux 2008 Spring"
+msgid "Install Mandriva Linux 2009"
+msgstr "Installa Mandriva Linux 2009"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
-msgstr "Boot di Mandriva Linux 2008 Spring (safe mode)"
+msgid "Boot Mandriva Linux 2009 (safe mode)"
+msgstr "Boot di Mandriva Linux 2009 (safe mode)"
 
 #. txt_linux_kernel_version
 #, c-format

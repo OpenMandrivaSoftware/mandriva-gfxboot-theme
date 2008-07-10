@@ -301,8 +301,8 @@ msgid "Share\n"
 msgstr "Megosztás\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2008 Spring"
-msgstr "Mandriva Linux 2008 Spring indítása"
+msgid "Boot Mandriva Linux 2009"
+msgstr "Mandriva Linux 2009 indítása"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -310,12 +310,12 @@ msgstr "Microsoft Windows indítása"
 
 #. txt_install
 #, fuzzy
-msgid "Install Mandriva Linux 2008 Spring"
-msgstr "Mandriva Linux 2008 Spring telepítése a rendszerre"
+msgid "Install Mandriva Linux 2009"
+msgstr "Mandriva Linux 2009 telepítése a rendszerre"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
-msgstr "Mandriva Linux 2008 Spring indítása biztonságos módban"
+msgid "Boot Mandriva Linux 2009 (safe mode)"
+msgstr "Mandriva Linux 2009 indítása biztonságos módban"
 
 #. txt_linux_kernel_version
 #, c-format

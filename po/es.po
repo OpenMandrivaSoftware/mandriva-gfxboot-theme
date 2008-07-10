@@ -300,20 +300,20 @@ msgstr ""
 "compartido\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2008 Spring"
-msgstr "Arrancar Mandriva Linux 2008 Spring"
+msgid "Boot Mandriva Linux 2009"
+msgstr "Arrancar Mandriva Linux 2009"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Arrancar Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 Spring"
-msgstr "Instalar Mandriva Linux 2008 Spring"
+msgid "Install Mandriva Linux 2009"
+msgstr "Instalar Mandriva Linux 2009"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
-msgstr "Arancar Mandriva Linux 2008 Spring (modo seguro)"
+msgid "Boot Mandriva Linux 2009 (safe mode)"
+msgstr "Arancar Mandriva Linux 2009 (modo seguro)"
 
 #. txt_linux_kernel_version
 #, c-format

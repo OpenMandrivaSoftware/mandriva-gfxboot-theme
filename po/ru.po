@@ -299,8 +299,8 @@ msgid "Share\n"
 msgstr "Общий ресурс\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2008 Spring"
-msgstr "Mandriva Linux 2008 Spring"
+msgid "Boot Mandriva Linux 2009"
+msgstr "Mandriva Linux 2009"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -308,12 +308,12 @@ msgstr "Microsoft Windows"
 
 #. txt_install
 #, fuzzy
-msgid "Install Mandriva Linux 2008 Spring"
-msgstr "Установка Mandriva Linux 2008 Spring"
+msgid "Install Mandriva Linux 2009"
+msgstr "Установка Mandriva Linux 2009"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
-msgstr "Mandriva Linux 2008 Spring (безопасный режим)"
+msgid "Boot Mandriva Linux 2009 (safe mode)"
+msgstr "Mandriva Linux 2009 (безопасный режим)"
 
 #. txt_linux_kernel_version
 #, c-format

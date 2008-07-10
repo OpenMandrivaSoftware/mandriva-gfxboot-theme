@@ -298,20 +298,20 @@ msgid "Share\n"
 msgstr "Mapa v souporabi\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2008 Spring"
-msgstr "Zagon Mandriva Linux 2008 Spring"
+msgid "Boot Mandriva Linux 2009"
+msgstr "Zagon Mandriva Linux 2009"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Zagon Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2008 Spring"
-msgstr "Namestitev Mandriva Linux 2008 Spring"
+msgid "Install Mandriva Linux 2009"
+msgstr "Namestitev Mandriva Linux 2009"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
-msgstr "Zagon Mandriva Linux 2008 Spring (varni način)"
+msgid "Boot Mandriva Linux 2009 (safe mode)"
+msgstr "Zagon Mandriva Linux 2009 (varni način)"
 
 #. txt_linux_kernel_version
 #, c-format

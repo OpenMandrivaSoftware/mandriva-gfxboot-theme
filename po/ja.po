@@ -296,8 +296,8 @@ msgid "Share\n"
 msgstr "共有\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2008 Spring"
-msgstr "Mandriva Linux 2008 Spring を起動"
+msgid "Boot Mandriva Linux 2009"
+msgstr "Mandriva Linux 2009 を起動"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -305,12 +305,12 @@ msgstr "Microsoft Windows を起動"
 
 #. txt_install
 #, fuzzy
-msgid "Install Mandriva Linux 2008 Spring"
-msgstr "Mandriva Linux 2008 Spring をシステムにインストール"
+msgid "Install Mandriva Linux 2009"
+msgstr "Mandriva Linux 2009 をシステムにインストール"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
-msgstr "Mandriva Linux 2008 Spring を起動 (セーフモード)"
+msgid "Boot Mandriva Linux 2009 (safe mode)"
+msgstr "Mandriva Linux 2009 を起動 (セーフモード)"
 
 #. txt_linux_kernel_version
 #, c-format

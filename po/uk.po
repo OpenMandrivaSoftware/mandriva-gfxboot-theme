@@ -300,8 +300,8 @@ msgid "Share\n"
 msgstr "Спільний доступ\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2008 Spring"
-msgstr "Завантажити Mandriva Linux 2008 Spring"
+msgid "Boot Mandriva Linux 2009"
+msgstr "Завантажити Mandriva Linux 2009"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -309,12 +309,12 @@ msgstr "Завантажити Microsoft Windows"
 
 #. txt_install
 #, fuzzy
-msgid "Install Mandriva Linux 2008 Spring"
-msgstr "Встановити Mandriva Linux 2008 Spring на комп'ютер"
+msgid "Install Mandriva Linux 2009"
+msgstr "Встановити Mandriva Linux 2009 на комп'ютер"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2008 Spring (safe mode)"
-msgstr "Завантажити Mandriva Linux 2008 Spring (безпечний режим)"
+msgid "Boot Mandriva Linux 2009 (safe mode)"
+msgstr "Завантажити Mandriva Linux 2009 (безпечний режим)"
 
 #. txt_linux_kernel_version
 #, c-format

@@ -1,24 +1,20 @@
-# Hungarian translations for boot loader
-# Copyright (C) 2004 SUSE LINUX AG
+# LANGUAGE translations for boot loader
+# Copyright (C) 2005 SUSE Linux GmbH
+# Gergely Lónyai <aleph@mandriva.org>, 2008
 #
-# Kéménczy Kálmán, 2006.
-# Marcel Hilzinger <marcel.hilzinger@suselinux.hu>, 2004.
-# Szabolcs Varga <shirokuma@shirokuma.hu>, 2004, 2005.
-# Kalman Kemenczy <kkemenczy@novell.com>, 2006.
-# Kéménczy Kálmán <kkemenczy@novell.com>, 2006.
-# Arpad Biro <biro.arpad gmail>, 2006, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: hu\n"
+"Project-Id-Version: bootloader-2009.0\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2007-09-11 22:12+0200\n"
-"Last-Translator: Arpad Biro <biro.arpad gmail>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2008-07-11 15:15+0100\n"
+"Last-Translator: Lónyai Gergely <aleph@mandriva.org>\n"
+"Language-Team: Hungarian <aleph@mandriva.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 # ok button label
 #. txt_ok
@@ -38,7 +34,7 @@ msgstr "Újraindítás"
 # continue button label
 #. txt_continue
 msgid "Continue"
-msgstr "Folytatás"
+msgstr "Tovább"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -83,7 +79,7 @@ msgstr ""
 
 #. txt_help
 msgid "Help"
-msgstr "Segítség"
+msgstr "Súgó"
 
 # window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
@@ -115,17 +111,17 @@ msgstr ""
 # info box title
 #. txt_info_title
 msgid "Boot loader"
-msgstr "Rendszertöltő"
+msgstr "Rendszerindító"
 
 # error box title
 #. txt_error_title
 msgid "I/O error"
-msgstr "I/O-hiba"
+msgstr "I/O hiba"
 
 # boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Cserélje az indítólemezt"
+msgstr "Indítólemez cseréje"
 
 #. txt_insert_disk
 #, c-format
@@ -138,8 +134,8 @@ msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
 msgstr ""
-"Ez a(z) %u. indítólemez.\n"
-"Helyezze be a(z) %u. indítólemezt."
+"Ez a(z) %u indítólemez.\n"
+"Helyezze be a(z) %u indítólemezt."
 
 # <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -149,7 +145,7 @@ msgid ""
 "Please insert boot disk %u."
 msgstr ""
 "Ez nem egy <product>-indítólemez.\n"
-"Helyezze be a(z) %u. indítólemezt."
+"Helyezze be a(z) %u indítólemezt."
 
 # password dialog title
 #. txt_password_title
@@ -241,6 +237,7 @@ msgstr "NFS-telepítés"
 msgid "User (using \"guest\" if empty)\n"
 msgstr "Felhasználó (ha üres, akkor \"guest\")\n"
 
+# dialog title for ISO installation
 #. txt_iso_title
 msgid "Installation from ISO file"
 msgstr "Telepítés ISO-fájlból"
@@ -253,7 +250,7 @@ msgstr "HTTP-telepítés"
 # 'driver' as in '(hardware) driver update'
 #. txt_driver_update
 msgid "Driver"
-msgstr "Meghajtóprogram"
+msgstr "Meghajtó"
 
 # as in Windows Authentication Domain
 #. txt_domain
@@ -309,13 +306,12 @@ msgid "Boot Microsoft Windows"
 msgstr "Microsoft Windows indítása"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2009"
-msgstr "Mandriva Linux 2009 telepítése a rendszerre"
+msgstr "Mandriva Linux 2009 telepítése"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2009 (safe mode)"
-msgstr "Mandriva Linux 2009 indítása biztonságos módban"
+msgstr "Mandriva Linux 2009 indítása (biztonsági üzem)"
 
 #. txt_linux_kernel_version
 #, c-format
@@ -324,4 +320,5 @@ msgstr "Linux %s kernellel"
 
 #. txt_kernel_option
 msgid "Kernel Option"
-msgstr "Kernel-beállítás"
+msgstr "Kernel beállítás"
+

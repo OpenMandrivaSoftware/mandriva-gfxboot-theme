@@ -1,5 +1,11 @@
 # LANGUAGE translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
+# Kéménczy Kálmán, 2006. 	 
+# Marcel Hilzinger <marcel.hilzinger@suselinux.hu>, 2004. 	 
+# Szabolcs Varga <shirokuma@shirokuma.hu>, 2004, 2005. 	 
+# Kalman Kemenczy <kkemenczy@novell.com>, 2006. 	 
+# Kéménczy Kálmán <kkemenczy@novell.com>, 2006. 	 
+# Arpad Biro <biro.arpad gmail>, 2006, 2007.
 # Gergely Lónyai <aleph@mandriva.org>, 2008
 #
 msgid ""

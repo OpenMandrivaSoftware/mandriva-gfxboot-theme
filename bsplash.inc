@@ -22,7 +22,7 @@
 /.b_tmp2	11 def
 
 /bsplash.list [
-  [ 194 75 0   0 20 "mandriva.pcx" 0 0 0 .undef .undef .undef  ]
+  [ 194 45 0   0 20 "mandriva.pcx" 0 0 0 .undef .undef .undef  ]
 ] def
 
 

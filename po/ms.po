@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2008-03-10 23:57+0800\n"
+"PO-Revision-Date: 2008-09-16 22:43+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "Teruskan"
 #. txt_manual_install
 #, fuzzy
 msgid "Manual Installation"
-msgstr "Pemasangan sekecil mungkin"
+msgstr "Pemasangan Pakej"
 
 #. txt_noacpi_install
 #, fuzzy
@@ -55,7 +55,7 @@ msgstr "Volum Cakera Keras Terlekap"
 #. txt_rescue
 #, fuzzy
 msgid "Rescue System"
-msgstr "Sistem Asas"
+msgstr "Sistem untuk diselamatkan"
 
 #. txt_memtest
 #, fuzzy
@@ -71,7 +71,7 @@ msgstr "Pilihan Bina"
 #. txt_exit_title (see txt_exit_dialog)
 #, fuzzy
 msgid "Exiting..."
-msgstr "Hadmasa Tamat! Keluar..."
+msgstr "Keluar..."
 
 #. txt_exit_dialog
 msgid ""
@@ -87,9 +87,7 @@ msgstr "Bantuan"
 #. txt_load_kernel_title
 #, fuzzy
 msgid "Starting..."
-msgstr ""
-"Nilai Permulaan \n"
-"Baru"
+msgstr "Mulakan %s: "
 
 # Keep the three newlines!
 #. txt_load_kernel
@@ -107,7 +105,7 @@ msgid ""
 "Loading memtest86\n"
 "\n"
 "\n"
-msgstr "Memuatkan Clip Art"
+msgstr "Memuatkan jurupacu %s..."
 
 # info box title
 #. txt_info_title
@@ -128,7 +126,7 @@ msgstr "Gantung Ke Cakera"
 #. txt_insert_disk
 #, fuzzy, c-format
 msgid "Insert boot disk %u."
-msgstr "Gantung Ke Cakera"
+msgstr "Masukkan Cekera Jurupacu"
 
 #. txt_insert_disk2
 #, c-format
@@ -157,7 +155,7 @@ msgid ""
 "Enter your password:   \n"
 "\n"
 "\n"
-msgstr "Kata Laluan & Akaun Pengguna"
+msgstr "Masukkan Nama Anda"
 
 #. txt_dud_ready
 msgid "Get your driver update floppy ready."
@@ -185,13 +183,13 @@ msgstr "Kawalan Kuasa"
 #. txt_power_off
 #, fuzzy
 msgid "Halt the system now?"
-msgstr "Konfigurasi Sistem Bunyi"
+msgstr "Sistem anda akan diulang but sekarang."
 
 # menu entry for hard disk installation
 #. txt_harddisk
 #, fuzzy
 msgid "Hard Disk"
-msgstr "Volum Cakera Keras Terlekap"
+msgstr "Cakera Keras"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -206,13 +204,13 @@ msgstr ""
 #. txt_directory
 #, fuzzy
 msgid "Directory\n"
-msgstr "pemilih direktori"
+msgstr "Direktori %s:"
 
 # dialog title for ftp installation
 #. txt_ftp_title
 #, fuzzy
 msgid "FTP Installation"
-msgstr "Pelayan FTP"
+msgstr "Pemasangan Pakej"
 
 #. txt_server
 #, fuzzy
@@ -233,7 +231,7 @@ msgstr ""
 #. txt_nfs_title
 #, fuzzy
 msgid "NFS Installation"
-msgstr "Pemasangan sekecil mungkin"
+msgstr "Pemasangan Pakej"
 
 # label for smb user input
 #. txt_user2
@@ -242,9 +240,8 @@ msgstr ""
 
 # dialog title for ISO installation
 #. txt_iso_title
-#, fuzzy
 msgid "Installation from ISO file"
-msgstr "Selit MathML dari fail"
+msgstr "Pemasangan dari fail ISO"
 
 # dialog title for http installation
 #. txt_http_title
@@ -303,7 +300,7 @@ msgstr "Kongsi\n"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2009"
-msgstr ""
+msgstr "Boot Mandriva Linux 2009"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -311,7 +308,7 @@ msgstr "Boot Microsoft Windows"
 
 #. txt_install
 msgid "Install Mandriva Linux 2009"
-msgstr ""
+msgstr "Pasang Mandriva Linux 2009"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2009 (safe mode)"
@@ -325,3 +322,4 @@ msgstr "Linux dengan kernel %s"
 #. txt_kernel_option
 msgid "Kernel Option"
 msgstr "Pilihan Kernel"
+

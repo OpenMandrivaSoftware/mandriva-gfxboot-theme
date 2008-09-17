@@ -2,6 +2,7 @@
 # LANGUAGE translations for boot loader
 # Copyright (C) 2004 SUSE LINUX AG
 # Claudiu Costin <claudiuc@kde.org>, 2004.
+# Cosmin Humeniuc <cosmin@mandrivausers.ro>, 2008
 #
 msgid ""
 msgstr ""
@@ -296,11 +297,11 @@ msgstr "Partajare\n"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2009"
-msgstr "Demarare Mandriva Linux 2009"
+msgstr "Demarează Mandriva Linux 2009"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr "Demarare Microsoft Windows"
+msgstr "Demarează Microsoft Windows"
 
 #. txt_install
 msgid "Install Mandriva Linux 2009"

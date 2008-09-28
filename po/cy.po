@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader=-cy\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2006-09-14 23:00-0000\n"
+"PO-Revision-Date: 2008-09-26 21:40-0000\n"
 "Last-Translator: Rhoslyn Prys <post@meddal.com>\n"
 "Language-Team: Cymraeg/Welsh <post@meddal.com>\n"
 "MIME-Version: 1.0\n"
@@ -129,7 +129,9 @@ msgstr "Mewnosod disg cychwyn %u"
 msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
-msgstr "Hwn yw disg cychwyn %u.Mewnosodwch ddisg cychwyn %u."
+msgstr ""
+"Hwn yw disg cychwyn %u.\n"
+"Mewnosodwch ddisg cychwyn %u."
 
 # <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -293,25 +295,25 @@ msgstr "Rhannu\n"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2009"
-msgstr ""
+msgstr "Cychwyn Mandriva Linux 2009"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr ""
+msgstr "Cychwyn Microsoft Windows"
 
 #. txt_install
 msgid "Install Mandriva Linux 2009"
-msgstr ""
+msgstr "Gosod Mandriva Linux 2009"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2009 (safe mode)"
-msgstr ""
+msgstr "Gosod Mandriva Linux 2009 (modd diogel)"
 
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
-msgstr ""
+msgstr "Linux gyda cnewyllyn %s"
 
 #. txt_kernel_option
 msgid "Kernel Option"
-msgstr ""
+msgstr "Dewis Cnewyllyn"

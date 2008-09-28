@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2008-01-23 11:16+0800\n"
-"Last-Translator: Shiva Huang <shivahuang@gmail.com>\n"
+"PO-Revision-Date: 2008-09-25 20:33+0800\n"
+"Last-Translator: You-Cheng Hsieh <yochenhsieh@gmail.com>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -304,9 +304,8 @@ msgid "Boot Microsoft Windows"
 msgstr "啟動 Microsoft Windows"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2009"
-msgstr "安裝 Mandriva Linux 2009 到您的系統"
+msgstr "安裝 Mandriva Linux 2009"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2009 (safe mode)"

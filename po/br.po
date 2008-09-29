@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2008-02-21 18:24+0100\n"
+"PO-Revision-Date: 2008-09-30 01:12+0200\n"
 "Last-Translator: Thierry Vignaud <tvignaud@mandriva.com>\n"
 "Language-Team: breton <i18n@suse.de>\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgstr "Staliadur a-zorn"
 
 #. txt_noacpi_install
 msgid "Installation--ACPI Disabled"
-msgstr ""
+msgstr "Staliadur (hep ACPI)"
 
 #. txt_safe_install
 msgid "Installation--Safe Settings"
@@ -50,7 +50,7 @@ msgstr ""
 
 #. txt_memtest
 msgid "Memory Test"
-msgstr ""
+msgstr "O wiriekaat ar memor"
 
 #. txt_bootoptions
 msgid "Boot Options"
@@ -221,7 +221,7 @@ msgstr ""
 # dialog title for ISO installation
 #. txt_iso_title
 msgid "Installation from ISO file"
-msgstr ""
+msgstr "Staliañ eus ur restr ISO"
 
 # dialog title for http installation
 #. txt_http_title
@@ -272,7 +272,7 @@ msgstr "Restr"
 # input label: share as in "Windows share" (SMB)
 #. txt_share
 msgid "Share\n"
-msgstr ""
+msgstr "Rann\n"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2009"
@@ -296,6 +296,5 @@ msgid "Linux with kernel %s"
 msgstr "Linux gant ar galon %s"
 
 #. txt_kernel_option
-#, fuzzy
 msgid "Kernel Option"
-msgstr "Dibarzhoù all"
+msgstr "Dibarzhoù ar galon"

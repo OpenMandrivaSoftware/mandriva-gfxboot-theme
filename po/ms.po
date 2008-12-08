@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2008-09-16 22:43+0800\n"
+"PO-Revision-Date: 2008-12-08 10:30+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -50,7 +50,7 @@ msgstr "Ubah seting latar belakang"
 #. txt_boot_harddisk
 #, fuzzy
 msgid "Boot from Hard Disk"
-msgstr "Volum Cakera Keras Terlekap"
+msgstr "Kembalikan dari Cakera Keras."
 
 #. txt_rescue
 #, fuzzy
@@ -213,14 +213,12 @@ msgid "FTP Installation"
 msgstr "Pemasangan Pakej"
 
 #. txt_server
-#, fuzzy
 msgid "Server\n"
-msgstr "Pelayan-X"
+msgstr "Pelayan\n"
 
 #. txt_password
-#, fuzzy
 msgid "Password\n"
-msgstr "Katalaluan:"
+msgstr "Katalaluan\n"
 
 # label for ftp user input
 #. txt_user1
@@ -229,9 +227,8 @@ msgstr ""
 
 # dialog title for nfs installation
 #. txt_nfs_title
-#, fuzzy
 msgid "NFS Installation"
-msgstr "Pemasangan Pakej"
+msgstr "Pemasangan NFS"
 
 # label for smb user input
 #. txt_user2

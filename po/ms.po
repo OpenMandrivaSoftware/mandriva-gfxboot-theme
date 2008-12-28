@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2008-12-08 10:30+0800\n"
+"PO-Revision-Date: 2008-12-28 21:47+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -193,24 +193,21 @@ msgstr "Cakera Keras"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
-#, fuzzy
 msgid "Hard Disk Installation"
-msgstr "Volum Cakera Keras Terlekap"
+msgstr "Pemasangan Cakera Keras"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (scan all disks if empty)\n"
 msgstr ""
 
 #. txt_directory
-#, fuzzy
 msgid "Directory\n"
-msgstr "Direktori %s:"
+msgstr "Direktori\n"
 
 # dialog title for ftp installation
 #. txt_ftp_title
-#, fuzzy
 msgid "FTP Installation"
-msgstr "Pemasangan Pakej"
+msgstr "Pemasangan FTP"
 
 #. txt_server
 msgid "Server\n"

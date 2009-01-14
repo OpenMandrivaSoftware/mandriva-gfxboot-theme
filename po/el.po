@@ -303,20 +303,20 @@ msgstr "Κοινή Χρήση\n"
 #  msgid "SMB (Windows Share) Installation"
 #  msgstr "Εγκατάσταση SMB (Windows Share)"
 #. txt_linux
-msgid "Boot Mandriva Linux 2009"
-msgstr "Εκκίνηση Mandriva Linux 2009"
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr "Εκκίνηση Mandriva Linux 2009 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Εκκίνηση Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009"
-msgstr "Εγκατάσταση Mandriva Linux 2009"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr "Εγκατάσταση Mandriva Linux 2009 Spring"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 (safe mode)"
-msgstr "Εκκίνηση Mandriva Linux 2009 (ασφαλής λειτουργία)"
+msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+msgstr "Εκκίνηση Mandriva Linux 2009 Spring (ασφαλής λειτουργία)"
 
 #. txt_linux_kernel_version
 #, c-format

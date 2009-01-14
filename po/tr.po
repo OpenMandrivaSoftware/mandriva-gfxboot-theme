@@ -301,20 +301,20 @@ msgid "Share\n"
 msgstr "Paylaş\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009"
-msgstr "Mandriva Linux 2009 İşletim Sistemini Başlat"
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr "Mandriva Linux 2009 Spring İşletim Sistemini Başlat"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Microsoft Windows İşletim Sistemini Başlat"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009"
-msgstr "Mandriva Linux 2009 İşletim Sistemini Kur"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr "Mandriva Linux 2009 Spring İşletim Sistemini Kur"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 (safe mode)"
-msgstr "Mandriva Linux 2009 İşletim Sistemini Başlat (Güvenli Kip)"
+msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+msgstr "Mandriva Linux 2009 Spring İşletim Sistemini Başlat (Güvenli Kip)"
 
 #. txt_linux_kernel_version
 #, c-format

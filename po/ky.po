@@ -297,20 +297,20 @@ msgid "Share\n"
 msgstr "Бөлүшүү\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009"
-msgstr "Mandriva Linux 2009 жүктөө"
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr "Mandriva Linux 2009 Spring жүктөө"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Microsoft Windows жүктөө"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009"
-msgstr "Mandriva Linux 2009 орнотуу"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr "Mandriva Linux 2009 Spring орнотуу"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 (safe mode)"
-msgstr "Mandriva Linux 2009 жүктөө (safe mode)"
+msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+msgstr "Mandriva Linux 2009 Spring жүктөө (safe mode)"
 
 #. txt_linux_kernel_version
 #, c-format

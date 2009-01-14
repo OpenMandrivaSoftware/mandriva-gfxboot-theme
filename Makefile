@@ -1,10 +1,10 @@
 NAME=mandriva-gfxboot-theme
 PACKAGE=mandriva-gfxboot-theme
-VERSION := 0.36
+VERSION := 0.37
 
 BINDIR      := /usr/sbin/
 
-PRODUCT      = "Mandriva Linux 2009"
+PRODUCT      = "Mandriva Linux 2009 Spring"
 export PRODUCT
 
 HELP2TXT     = $(BINDIR)/help2txt

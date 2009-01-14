@@ -303,20 +303,20 @@ msgid "Share\n"
 msgstr "Udział\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009"
-msgstr "Uruchom Mandriva Linux 2009"
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr "Uruchom Mandriva Linux 2009 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Uruchom Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009"
-msgstr "Zainstaluj Mandriva Linux 2009"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr "Zainstaluj Mandriva Linux 2009 Spring"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 (safe mode)"
-msgstr "Uruchom Mandriva Linux 2009 (tryb awaryjny)"
+msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+msgstr "Uruchom Mandriva Linux 2009 Spring (tryb awaryjny)"
 
 #. txt_linux_kernel_version
 #, c-format

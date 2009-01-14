@@ -275,20 +275,20 @@ msgid "Share\n"
 msgstr "Rann\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009"
-msgstr "Loc'hañ Mandriva Linux 2009"
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr "Loc'hañ Mandriva Linux 2009 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Loc'hañ Microsoft Windows"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009"
-msgstr "Staliañ Mandriva Linux 2009"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr "Staliañ Mandriva Linux 2009 Spring"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 (safe mode)"
-msgstr "Loc'hañ Mandriva Linux 2009 (gant surantez)"
+msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+msgstr "Loc'hañ Mandriva Linux 2009 Spring (gant surantez)"
 
 #. txt_linux_kernel_version
 #, c-format

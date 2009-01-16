@@ -1,6 +1,6 @@
 NAME=mandriva-gfxboot-theme
 PACKAGE=mandriva-gfxboot-theme
-VERSION := 0.37
+VERSION := 0.38
 
 BINDIR      := /usr/sbin/
 

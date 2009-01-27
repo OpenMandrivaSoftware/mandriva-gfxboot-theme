@@ -74,7 +74,7 @@
 %
 % Check if there are boot directories for 32 & 64bit.
 %
-% Assumes 32bit to be in *i386* and 64bit in *x86_64*.
+% Assumes 32bit to be in *i586* and 64bit in *x86_64*.
 %
 % ( ) ==> ( )
 %
@@ -82,13 +82,13 @@
   getcwd dup .undef ne {
     /64bit.tmp 256 string def
 
-    dup "i386" strstr 0 ne over "x86_64" strstr 0 ne or {
-      dup "i386" strstr {
+    dup "i586" strstr 0 ne over "x86_64" strstr 0 ne or {
+      dup "i586" strstr {
         /32bit_boot_dir exch def
-        /64bit_boot_dir 32bit_boot_dir "i386" "x86_64" strreplace
+        /64bit_boot_dir 32bit_boot_dir "i586" "x86_64" strreplace
       } {
         /64bit_boot_dir exch def
-        /32bit_boot_dir 64bit_boot_dir "x86_64" "i386" strreplace
+        /32bit_boot_dir 64bit_boot_dir "x86_64" "i586" strreplace
       } ifelse
 
       dup "%s/isolinux.cfg" 64bit.tmp sprintf

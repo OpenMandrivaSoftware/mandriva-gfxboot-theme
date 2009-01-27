@@ -1585,28 +1585,6 @@ ptheme {
 /keymap.mainmenu       "keymap.mainmenu"          false gfxconfig.set.bool
 /keymap.default        "keymap"                      "" gfxconfig.set.str
 
-/install.default       "install"                     "" gfxconfig.set.str
-/install.http.server   "install.http.server"         "" gfxconfig.set.str
-/install.http.path     "install.http.path"           "" gfxconfig.set.str
-
-/install.nfs.server    "install.nfs.server"          "" gfxconfig.set.str
-/install.nfs.path      "install.nfs.path"            "" gfxconfig.set.str
-
-/install.ftp.server    "install.ftp.server"          "" gfxconfig.set.str
-/install.ftp.path      "install.ftp.path"            "" gfxconfig.set.str
-/install.ftp.user      "install.ftp.user"            "" gfxconfig.set.str
-/install.ftp.password  "install.ftp.password"        "" gfxconfig.set.str
-
-/install.smb.server    "install.smb.server"          "" gfxconfig.set.str
-/install.smb.share     "install.smb.share"           "" gfxconfig.set.str
-/install.smb.path      "install.smb.path"            "" gfxconfig.set.str
-/install.smb.domain    "install.smb.domain"          "" gfxconfig.set.str
-/install.smb.user      "install.smb.user"            "" gfxconfig.set.str
-/install.smb.password  "install.smb.password"        "" gfxconfig.set.str
-
-/install.hd.device     "install.hd.device"           "" gfxconfig.set.str
-/install.hd.path       "install.hd.path"             "" gfxconfig.set.str
-
 /dud.default           "dud"                         "" gfxconfig.set.str
 /dud.file              "dud.file"                    "" gfxconfig.set.str
 /dud.url               "dud.url"                     "" gfxconfig.set.str

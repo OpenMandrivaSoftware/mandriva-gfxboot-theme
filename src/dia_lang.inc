@@ -57,7 +57,8 @@
   [ "lt_LT" "en_US" false "Lietuvių" ]						% Lithuanian
   [ "mk_MK" "en_US" false "Македонски" ]					% Macedonian
   [ "mr_IN" "en_US" false "\u092e\u0930\u093e\u0920\u0940" ]			% Marathi
-  [ "nb_NO" "norwegian" false "Norsk" ]						% Norwegian
+  [ "nb_NO" "norwegian" false "Norsk (bokmål)" ]				% Norwegian
+  [ "nn_NO" "norwegian" false "Norsk (nynorsk)" ]				% Norwegian
   [ "nl_NL" "en_US" false "Nederlands" ]					% Dutch
   [ "pa_IN" "en_US" false "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40" ]		% Punjabi
   [ "pl_PL" "polish" false "Polski" ]						% Polish

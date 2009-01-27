@@ -79,4 +79,15 @@ ifneq ($(BASED_ON),)
 	rmdir `find -depth -type d \! -name . \! -name .svn \! -wholename './.svn/*' \! -wholename './*/.svn/*'` 2>/dev/null || true
 endif
 
+
+NAME = mandriva-gfxboot-theme
+UPSTREAM_VERSION = 4.1.19
+VERSION = $(UPSTREAM_VERSION).1
+
+dist:
+	rm -rf $(NAME)-$(VERSION) ../$(NAME)-$(VERSION).tar*
+	svn export -q -rBASE . $(NAME)-$(VERSION)
+	tar cfY ../$(NAME)-$(VERSION).tar.lzma $(NAME)-$(VERSION)
+	rm -rf $(NAME)-$(VERSION)
+
 	

@@ -60,7 +60,7 @@
     /timeout.width timeout.image imgsize exch pop def
 
     /timeout.x menu.start.x menu.bar.width add 24 sub def
-    /timeout.y menu.start.y 2 sub menu.entry menu.item.height mul add def
+    /timeout.y menu.start.y 1 sub menu.entry menu.item.height mul add def
 
     timeout.x timeout.y moveto
     /timeout.bg timeout.width dup savescreen def

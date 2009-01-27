@@ -13,6 +13,8 @@ BFLAGS       = -O -v -L ../..
 
 SUBDIRS      = fonts help-boot help-install po src
 
+IN_CPIO_INSTALL = init $(notdir $(wildcard fonts/*.fnt)) $(notdir $(wildcard po/*.tr))
+
 DEFAULT_LANG =
 
 .PHONY: all clean distclean themes $(SUBDIRS)
@@ -49,7 +51,8 @@ ifdef DEFAULT_LANG
 	@echo $(DEFAULT_LANG) >bootlogo.dir/lang
 endif
 	@sh -c 'cd bootlogo.dir; chmod +t * ; chmod -t init languages'
-	@sh -c 'cd bootlogo.dir; echo * | sed -e "s/ /\n/g" | cpio --quiet -o >../bootlogo'
+	@sh -c 'cd bootlogo.dir; echo $(IN_CPIO_INSTALL) | sed -e "s/ /\n/g" | cpio --quiet -o >../bootlogo'
+	@cd bootlogo.dir; rm $(IN_CPIO_INSTALL)
 
 message: src/main.bin help-boot/.ready po/.ready fonts/.ready
 	@rm -rf message.dir
@@ -63,6 +66,7 @@ ifdef DEFAULT_LANG
 	@echo $(DEFAULT_LANG) >>message.dir/languages
 endif
 	@sh -c 'cd message.dir; echo * | sed -e "s/ /\n/g" | cpio --quiet -o >../message'
+	@rm -r message.dir
 
 clean:
 	@for i in $(SUBDIRS) ; do [ ! -f $$i/Makefile ] ||  make -C $$i clean || break ; done

@@ -32,9 +32,22 @@ msgstr "重新開機"
 msgid "Continue"
 msgstr "繼續"
 
+#. txt_linux
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr "啟動 Mandriva Linux 2009 Spring"
+
+#. txt_windows
+msgid "Boot Microsoft Windows"
+msgstr "啟動 Microsoft Windows"
+
+#. txt_linux_kernel_version
+#, c-format
+msgid "Linux with kernel %s"
+msgstr "核心 %s 的 Linux"
+
 #. txt_install
-msgid "Installation"
-msgstr "安裝"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr "安裝 Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -416,3 +429,6 @@ msgstr ""
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
 msgstr ""
+
+#~ msgid "Installation"
+#~ msgstr "安裝"

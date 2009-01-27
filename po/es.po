@@ -39,9 +39,22 @@ msgstr "Reiniciar"
 msgid "Continue"
 msgstr "Continuar"
 
+#. txt_linux
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr "Arrancar Mandriva Linux 2009 Spring"
+
+#. txt_windows
+msgid "Boot Microsoft Windows"
+msgstr "Arrancar Microsoft Windows"
+
+#. txt_linux_kernel_version
+#, c-format
+msgid "Linux with kernel %s"
+msgstr "Linux con kernel %s"
+
 #. txt_install
-msgid "Installation"
-msgstr "Instalación"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr "Instalar Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -341,8 +354,10 @@ msgid ""
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
 msgstr ""
-"Para cargar las actualizaciones de controlador directamente desde el CD-ROM,\n"
-"indique los nombres de archivo de las actualizaciones del controlador (separados\n"
+"Para cargar las actualizaciones de controlador directamente desde el CD-"
+"ROM,\n"
+"indique los nombres de archivo de las actualizaciones del controlador "
+"(separados\n"
 "por comas \",\") aquí:\n"
 
 #. install source menu title
@@ -423,3 +438,6 @@ msgstr ""
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
 msgstr ""
+
+#~ msgid "Installation"
+#~ msgstr "Instalación"

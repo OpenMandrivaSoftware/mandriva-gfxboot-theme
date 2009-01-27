@@ -12,7 +12,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #. ok button label
@@ -35,9 +36,22 @@ msgstr "Ponovno pokreni računalo"
 msgid "Continue"
 msgstr "Nastavi"
 
+#. txt_linux
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr ""
+
+#. txt_windows
+msgid "Boot Microsoft Windows"
+msgstr ""
+
+#. txt_linux_kernel_version
+#, c-format
+msgid "Linux with kernel %s"
+msgstr ""
+
 #. txt_install
-msgid "Installation"
-msgstr "Instalacija"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr ""
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -419,3 +433,6 @@ msgstr ""
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
 msgstr ""
+
+#~ msgid "Installation"
+#~ msgstr "Instalacija"

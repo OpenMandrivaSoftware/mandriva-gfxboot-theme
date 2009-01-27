@@ -41,9 +41,22 @@ msgstr "Újraindítás"
 msgid "Continue"
 msgstr "Folytatás"
 
+#. txt_linux
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr "Mandriva Linux 2009 Spring indítása"
+
+#. txt_windows
+msgid "Boot Microsoft Windows"
+msgstr "Microsoft Windows indítása"
+
+#. txt_linux_kernel_version
+#, c-format
+msgid "Linux with kernel %s"
+msgstr "Linux %s kernellel"
+
 #. txt_install
-msgid "Installation"
-msgstr "Telepítés"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr "Mandriva Linux 2009 Spring telepítése"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -425,3 +438,6 @@ msgstr ""
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
 msgstr ""
+
+#~ msgid "Installation"
+#~ msgstr "Telepítés"

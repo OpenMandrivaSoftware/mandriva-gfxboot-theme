@@ -12,7 +12,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. ok button label
 #. txt_ok
@@ -34,9 +35,22 @@ msgstr "Perkrauti"
 msgid "Continue"
 msgstr "Tęsti"
 
+#. txt_linux
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr ""
+
+#. txt_windows
+msgid "Boot Microsoft Windows"
+msgstr ""
+
+#. txt_linux_kernel_version
+#, c-format
+msgid "Linux with kernel %s"
+msgstr ""
+
 #. txt_install
-msgid "Installation"
-msgstr "Diegimas"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr ""
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -415,3 +429,6 @@ msgstr ""
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
 msgstr ""
+
+#~ msgid "Installation"
+#~ msgstr "Diegimas"

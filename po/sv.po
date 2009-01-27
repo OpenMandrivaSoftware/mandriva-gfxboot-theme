@@ -35,9 +35,22 @@ msgstr "Starta om"
 msgid "Continue"
 msgstr "Fortsätt"
 
+#. txt_linux
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr "Starta Mandriva Linux 2009 Spring"
+
+#. txt_windows
+msgid "Boot Microsoft Windows"
+msgstr "Starta Microsoft Windows"
+
+#. txt_linux_kernel_version
+#, c-format
+msgid "Linux with kernel %s"
+msgstr "Linux med kärna %s"
+
 #. txt_install
-msgid "Installation"
-msgstr "Installation"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr "Installera Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -419,3 +432,6 @@ msgstr ""
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
 msgstr ""
+
+#~ msgid "Installation"
+#~ msgstr "Installation"

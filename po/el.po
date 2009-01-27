@@ -36,9 +36,25 @@ msgstr "Επανεκκίνηση"
 msgid "Continue"
 msgstr "Συνέχεια"
 
+# dialog title for smb installation
+#  msgid "SMB (Windows Share) Installation"
+#  msgstr "Εγκατάσταση SMB (Windows Share)"
+#. txt_linux
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr "Εκκίνηση Mandriva Linux 2009 Spring"
+
+#. txt_windows
+msgid "Boot Microsoft Windows"
+msgstr "Εκκίνηση Microsoft Windows"
+
+#. txt_linux_kernel_version
+#, c-format
+msgid "Linux with kernel %s"
+msgstr "Linux με kernel %s"
+
 #. txt_install
-msgid "Installation"
-msgstr "Εγκατάσταση"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr "Εγκατάσταση Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -339,7 +355,8 @@ msgid ""
 "by commas ',') here:\n"
 msgstr ""
 "Για να φορτώσετε ενημερώσεις οδηγών κατευθείαν από το CD-ROM,\n"
-"πρέπει να εισάγετε εδώ τα ονόματα των αρχείων των οδηγών ενημέρωσης (χωρισμένα\n"
+"πρέπει να εισάγετε εδώ τα ονόματα των αρχείων των οδηγών ενημέρωσης "
+"(χωρισμένα\n"
 "από κόμμα ','):\n"
 
 #. install source menu title
@@ -420,3 +437,6 @@ msgstr ""
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
 msgstr ""
+
+#~ msgid "Installation"
+#~ msgstr "Εγκατάσταση"

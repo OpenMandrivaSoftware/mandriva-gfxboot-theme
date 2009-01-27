@@ -31,9 +31,22 @@ msgstr "Vula kabusha"
 msgid "Continue"
 msgstr "Qhubeka"
 
+#. txt_linux
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr ""
+
+#. txt_windows
+msgid "Boot Microsoft Windows"
+msgstr ""
+
+#. txt_linux_kernel_version
+#, c-format
+msgid "Linux with kernel %s"
+msgstr ""
+
 #. txt_install
-msgid "Installation"
-msgstr "Ukufaka uhlelo"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr ""
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -415,3 +428,6 @@ msgstr ""
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
 msgstr ""
+
+#~ msgid "Installation"
+#~ msgstr "Ukufaka uhlelo"

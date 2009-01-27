@@ -13,7 +13,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+"Plural-Forms:  nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
 
 #. ok button label
 #. txt_ok
@@ -35,9 +36,22 @@ msgstr "Reporneşte"
 msgid "Continue"
 msgstr "Continuă"
 
+#. txt_linux
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr "Demarează Mandriva Linux 2009 Spring"
+
+#. txt_windows
+msgid "Boot Microsoft Windows"
+msgstr "Demarează Microsoft Windows"
+
+#. txt_linux_kernel_version
+#, c-format
+msgid "Linux with kernel %s"
+msgstr "Linux cu nucleu %s"
+
 #. txt_install
-msgid "Installation"
-msgstr "Instalare"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr "Instalează Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -258,6 +272,7 @@ msgstr "Domeniu\n"
 msgid "Other Options"
 msgstr "Alte opțiuni"
 
+#. label for language selection
 #. txt_language
 msgid "Language"
 msgstr "Limbă"
@@ -418,3 +433,6 @@ msgstr ""
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
 msgstr ""
+
+#~ msgid "Installation"
+#~ msgstr "Instalare"

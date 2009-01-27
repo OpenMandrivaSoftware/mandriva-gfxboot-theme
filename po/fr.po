@@ -39,9 +39,22 @@ msgstr "Réamorcer"
 msgid "Continue"
 msgstr "Continuer"
 
+#. txt_linux
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr "Amorcer Mandriva Linux 2009 Spring"
+
+#. txt_windows
+msgid "Boot Microsoft Windows"
+msgstr "Amorcer Microsoft Windows"
+
+#. txt_linux_kernel_version
+#, c-format
+msgid "Linux with kernel %s"
+msgstr "Linux avec le noyau %s"
+
 #. txt_install
-msgid "Installation"
-msgstr "Installation"
+msgid "Install Mandriva Linux 2009 Spring"
+msgstr "Installer Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -178,7 +191,8 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"Il s'agit d'un DVD double face. Vous avez effectué l'amorçage à partir de la seconde face.\n"
+"Il s'agit d'un DVD double face. Vous avez effectué l'amorçage à partir de la "
+"seconde face.\n"
 "\n"
 "Retournez le DVD, puis continuez."
 
@@ -423,3 +437,6 @@ msgstr ""
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
 msgstr ""
+
+#~ msgid "Installation"
+#~ msgstr "Installation"

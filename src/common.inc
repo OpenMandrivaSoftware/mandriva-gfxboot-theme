@@ -145,24 +145,6 @@
     500 20 moveto dup print "  " print
   } if
 
-  ptheme {
-    % reverse direction
-    /p.xmas.dx p.xmas.dx neg def
-
-    key keyF9 eq
-    key keyF7 eq or {
-      % call super penguin
-      p.call.super
-    } {
-      key keyF1 ge
-      key keyF10 le and {
-        % read something
-        /p.read.timer rand 0x31 and neg -30 add def
-      } if
-    } ifelse
-
-  } if
-
   % some special keys
   debug.input
 
@@ -1015,8 +997,6 @@
 /init {
   0 0 moveto currentpoint clip.size image
 
-  ptheme { ptheme.init } if
-
   % set default language
   "lang" findfile dup {
     /tmp over length 1 add 2 max string def
@@ -1069,36 +1049,6 @@
     moveto setcolor
   } if
 
-  dup keyF8 eq syslinux and {
-    kroete.file .undef eq { /kroete.file "kroete.dat" findfile def } if
-    kroete.file kroete.dir idle
-    /kroete.dir kroete.dir 1 xor def
-  } if
-
-  dup keyF9 eq syslinux and {
-    /v_impaired inc
-
-    v_impaired 1 eq config.talk not and {
-      /config.talk true def
-      load_talk_dialog
-      menu.texts menu.idx get menuitemmap speak
-    } {
-      sound.getsamplerate { sound.getsamplerate sound.setsamplerate } if
-    } ifelse
-
-    config.livecd not {
-      xmenu.video .xm_current 0 put
-      % redraw unless another menu is still open
-      window.current {
-        window.current .xmenu get .undef eq { video.update } if
-      } if
-    } if
-
-    .undef 0 idle
-    kroete.file free /kroete.file .undef def
-    pop 0
-  } if
-
   dup keyShiftF3 eq syslinux and debug 3 ge and {
     currentcolor black setcolor
     currentpoint 0 0 moveto
@@ -1145,39 +1095,6 @@
 
   dup keyShiftF10 eq {
     /debug debug 1 add def
-  } if
-
-  dup keyShiftF11 eq {
-    400 0 moveto "ani_%04d.jpg" play_movie
-  } if
-
-  dup keyShiftF1 eq {
-    /transp transp 0x10 sub 0 max def
-
-    /player 0 def
-    player "hapysuse.mod" findfile dup
-    {
-      mod.load
-      config.volume sound.setvolume
-      player 0 mod.play
-      /player player 1 add 3 and def
-    } {
-      pop
-    } ifelse
-
-    pop 0
-  } if
-
-  dup keyShiftF3 eq {
-    "fsfsong.wav" findfile dup
-    {
-      config.volume sound.setvolume
-      wav.play
-    } {
-      pop
-    } ifelse
-
-    pop 0
   } if
 
   dup keyShiftF4 eq {
@@ -1414,37 +1331,7 @@ screen.fallback {
 } if
 
 
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-% Figure out whether to use penguin theme.
-%
-
-/config.penguin       "penguin"               0 gfxconfig.set.int
-
-% more likely during winter...
-config.penguin -1 eq {
-  date
-  0
-
-  over month 12 eq { 5 add } if
-  over month 1 le { 5 add } if
-  over weekday 5 eq { 2 mul } if
-  over weekday 6 eq { 4 mul } if
-  over dup month 12 eq exch day dup 24 ge exch 6 eq or and { pop 100 } if
-  over dup month 1 eq exch day 1 eq and { pop 100 } if
-
-  /config.penguin exch def
-  pop
-} if
-
-/ptheme rand pop rand 100 mod config.penguin lt def
-
-0x417 cvp getbyte 0x40 and 0 ne { /ptheme  true def } if
-0x417 cvp getbyte 0x10 and 0 ne { /ptheme false def } if
-
-% prepend penguin section to layout section list
-ptheme {
-  /gfxconfig.layout [ "penguin" gfxconfig.layout { } forall ] gfxconfig.layout free def
-} if
+/ptheme false def
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

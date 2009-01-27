@@ -48,7 +48,7 @@
 /kernelopts.update {
   /xmenu xmenu.kernelopts def
 
-  /window.action actRedrawPanel def
+  /window.action actRedrawBootOptionsPanel def
 } def
 
 
@@ -59,6 +59,10 @@
 %
 /panel.kernelopts {
   "main" help.setcontext
+
+  boot.show not {
+    /boot.show true def
+  } if
 
   window.xmenu
   dup .xmenu xmenu.kernelopts put

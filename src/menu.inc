@@ -84,7 +84,10 @@
 % ( ) == > ( )
 %
 /boot.input.setup {
-  % boot.show not { return } if
+  % HACK: we do not need to do this function if not boot.show,
+  % and since we have some ugly overlap of bootoptions on the panel
+  % we really do not want to do it if not really useful
+  boot.show not { return } if
 
   boot.ed.list {
     dup .inp_x get over .inp_y get boot.ed.height add moveto
@@ -158,7 +161,12 @@
         edit.done
       } ifelse
     } forall
-    boot.ed.list boot.window .ed.focus get get dup .inp_show get { edit.showcursor } { pop } ifelse
+    boot.ed.list boot.window .ed.focus get get dup .inp_show get {
+      edit.showcursor
+      % HACK: there is some ugly overlap of bootoptions on the panel
+      % so force to redraw the panel after displaying bootoptions
+      panel.show
+    } { pop } ifelse
 
     boot.ed.list {
       dup .inp_show get .inp_visible exch put

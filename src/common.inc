@@ -264,6 +264,12 @@
     main.redraw
   } if
 
+  window.action actRedrawBootOptionsPanel eq {
+    /window.action actNothing def
+    menu.entry true MenuSelect
+    panel.show
+  } if
+
   window.action actRedrawPanel eq {
     /window.action actNothing def
     panel.show
@@ -1008,7 +1014,7 @@
   /menu.bar.width menu.bar.min.width def
 
   % false: no boot options line initially
-  /boot.show true def
+  /boot.show false def
 
 } def
 

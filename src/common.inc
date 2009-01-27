@@ -342,21 +342,6 @@
     menu.texts menu.entry get "%s " bc.cmd sprintf
   } ifelse
 
-  syslinux {
-    /splash_file 32 string def
-
-    video.modes.list xmenu.video .xm_current get get
-    dup .vm_mode get 0 ge {
-      dup .vm_height get exch .vm_width get
-      ",%04d%04d.spl" splash_file sprintf
-    } { pop } ifelse
-
-    % check whether splash file exists
-    splash_file 1 add filesize .undef eq {
-      splash_file 0 0 put	% empty string
-    } if
-  } if
-
   xmenu.kernelopts {
     kernelopts.options xmenu.kernelopts .xm_current get get dup "" ne {
       "%s " bc.cmd dup length add sprintf
@@ -367,41 +352,11 @@
 
   cmdline.hidden {
     cmdline.hidden "" ne { 
-      splash_file {
-        /bc.tmp cmdline.hidden length splash_file length add string def
-        cmdline.hidden "initrd=" bootopt.find dup .undef ne {
-          skipnonspaces
-          dup
-          dup 0 get over 0 0 put
-          splash_file cmdline.hidden "%s%s" bc.tmp sprintf
-          0 exch put
-          "%s" bc.tmp dup length add sprintf
-        } {
-          pop
-          bc.tmp cmdline.hidden strcpy pop
-        } ifelse
-
-        bc.tmp "%s " bc.cmd dup length add sprintf
-
-        bc.tmp free /bc.tmp .undef def
-      } {
         cmdline.hidden "%s " bc.cmd dup length add sprintf
-      } ifelse
     } if
   } if
 
-  /splash_file xfree
-
   syslinux {
-    video.modes.list xmenu.video .xm_current get get .vm_mode get
-
-    dup 0 ge {
-      0x200 add "vga=0x%x " bc.cmd dup length add sprintf
-    } {
-      -1 eq {
-        "textmode=1 " bc.cmd dup length add sprintf
-      } if
-    } ifelse
 
     config.lang {
       config.lang "en_US" ne {

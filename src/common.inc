@@ -711,7 +711,7 @@
 
   syslinux info.type 6 eq and {
     dup .title "Driver Update" put
-    /info.msg "Put the openSUSE CD-ROM back into the drive." def
+    /info.msg "Put the Mandriva Linux CD-ROM back into the drive." def
   } if
 
   dup .text info.msg put
@@ -957,7 +957,7 @@
   dup "memtest" eq over "memtest86" eq or { pop txt_memtest return } if
   dup "firmware" eq { pop txt_firmware return } if
   syslinux {
-    dup "live"      eq { pop "openSUSE LiveCD" return } if
+    dup "live"      eq { pop txt_linux return } if
     dup "kde"       eq { pop "LiveCD - KDE" return } if
     dup "gnome"     eq { pop "LiveCD - GNOME" return } if
     dup "linux"     eq { pop txt_install        return } if

@@ -460,6 +460,50 @@
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% get rid of some entries
+% the resulting arrrays are malloced
+% ( menu_entries_array cmdline_args_array ) == > ( menu_entries_array cmdline_args_array )
+/filter_install_menu_items {
+  /tmp.args exch def
+  /tmp.texts exch def
+
+  /keep_it {
+    syslinux {
+      dup "alt0" eq
+      over "alt1" eq or
+      over "vgalo" eq or
+      over "vgahi" eq or
+      over "text" eq or
+      over "noacpi" eq or
+    } {
+      dup "linux-nonfb" eq
+    } ifelse
+    exch pop not
+  } def
+
+  0
+  tmp.texts {
+     keep_it { 1 add } if
+  } forall
+  dup 
+  array /menu.args exch def
+  array /menu.texts exch def
+
+  /tmp.i 0 def
+  /tmp.dest_i 0 def
+  tmp.texts {
+     keep_it {
+        menu.args  tmp.dest_i tmp.args  tmp.i get put
+        menu.texts tmp.dest_i tmp.texts tmp.i get put
+        /tmp.dest_i tmp.dest_i 1 add def
+     } if
+     /tmp.i tmp.i 1 add def
+  } forall
+
+  menu.texts menu.args
+} def
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % ( menu_entries_array cmdline_args_array defaultentry ) == > ( )
 /MenuInit {
   bsplash.done
@@ -473,6 +517,10 @@
   /menu.entry -1 def
 
   /menu.dentry exch def
+  /menu.args.real exch def
+  /menu.texts.real exch def
+
+  menu.texts.real menu.args.real filter_install_menu_items
   /menu.args exch def
   /menu.texts exch def
 

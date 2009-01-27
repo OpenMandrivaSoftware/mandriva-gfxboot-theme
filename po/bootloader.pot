@@ -31,8 +31,21 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
+#. txt_linux
+msgid "Boot Mandriva Linux 2009 Spring"
+msgstr ""
+
+#. txt_windows
+msgid "Boot Microsoft Windows"
+msgstr ""
+
+#. txt_linux_kernel_version
+#, c-format
+msgid "Linux with kernel %s"
+msgstr ""
+
 #. txt_install
-msgid "Installation"
+msgid "Install Mandriva Linux 2009 Spring"
 msgstr ""
 
 #. txt_manual_install

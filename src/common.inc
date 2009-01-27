@@ -875,6 +875,8 @@
 } def
 
 
+/kernel_str 256 string def
+
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % ( text ) == > ( new_text )
 /menuitemmap {
@@ -908,9 +910,11 @@
     dup "mediachk"  eq { pop txt_mediacheck return } if
     dup "mediacheck" eq { pop txt_mediacheck return } if
   } {
-    dup "linux"     eq { pop "Linux"        return } if
+    dup "linux"     eq { pop txt_linux        return } if
     dup "failsafe"  eq { pop txt_safe_linux return } if
-    dup "windows"   eq { pop "Windows"      return } if
+    dup "windows"   eq { pop txt_windows      return } if
+    dup "2.6" strstr 1 eq { txt_linux_kernel_version kernel_str sprintf 
+                            kernel_str return } if
   } ifelse
 } def
 

@@ -8,8 +8,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.el\n"
-"PO-Revision-Date: 2008-06-06 12:52+0100\n"
-"Last-Translator: Vasileios Giannakopoulos <billg@billg.gr>\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-01-27 20:50+0100\n"
+"Last-Translator: Glentadakis Dimitrios <dglent@gmail.com>\n"
 "Language-Team: Ελληνικά <billg@billg.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -431,12 +432,12 @@ msgstr "Πληκτρολόγιο"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Λήψη Ενημέρωσης του Οδηγού"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
+msgstr "Εισάγετε το URL Ενημερωσης του Οδηγού\n"
 
 #~ msgid "Kernel"
 #~ msgstr "Πυρήνας"

@@ -31,8 +31,6 @@
   % see install types (.inst_*)
   xmenu .xm_list [ is_dvd { "DVD" } { "CD-ROM" } ifelse "Other" ] put
 
-  xmenu .xm_title /txt_install_source put
-
   install.set.install.option
 } def
 

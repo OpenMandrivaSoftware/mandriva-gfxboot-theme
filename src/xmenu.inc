@@ -375,10 +375,11 @@
   0
 
   xmenu .xm_title get
-  dup .undef ne { exec strsize pop max } { pop } ifelse
+  dup .undef ne { exec strsize pop max } { pop
 
   xmenu .xm_list get xmenu .xm_current get get
   dup .undef ne { exec strsize pop max } { pop } ifelse
+  } ifelse
 } def
 
 
@@ -397,16 +398,11 @@
   panel.text.y
   moveto
 
-  currentpoint
-
   xmenu .xm_title get
-  dup .undef ne { exec show.rtl } { pop } ifelse
-
-  moveto 0 lineheight 4 add rmoveto
-
-  panel.normal.fg setcolor
-  
+  dup .undef eq {
+      pop 
   xmenu .xm_list get xmenu .xm_current get get
+  } if
   dup .undef ne { exec show.rtl } { pop } ifelse
 
 } def

@@ -8,7 +8,7 @@
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Some global vars.
 %
-/panel.size     { clip.size pop 48 } def
+/panel.size     { clip.size pop 24 } def
 /panel.y        { clip.size exch pop panel.size exch pop sub 5 sub } def
 /panel.text.y	{ panel.y 5 add } def
 /panel.text.Fy	0 def

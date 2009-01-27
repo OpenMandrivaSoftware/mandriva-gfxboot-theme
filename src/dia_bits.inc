@@ -40,8 +40,6 @@
     bits.suffix 1 .undef put
   } if
 
-  xmenu .xm_title /txt_arch put
-
   xmenu .xm_current bits.default put
 
 } def

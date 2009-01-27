@@ -171,7 +171,7 @@
   % add to menu
 
   xmenu .xm_list video.modes.text put
-  xmenu .xm_title /txt_video_mode put
+  xmenu .xm_title .undef put
 
   % select largest mode the monitor supports
 

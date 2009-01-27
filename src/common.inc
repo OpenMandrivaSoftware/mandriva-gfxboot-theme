@@ -60,18 +60,6 @@
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %
-% Enough memory?
-%
-% ( ) ==> ( true|false )
-%
-/enough_mem {
-  biosmem 4 20 shl lt
-  biosmem mem.check 20 shl ge or
-} def
-
-
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-%
 % Check if there are boot directories for 32 & 64bit.
 %
 % Assumes 32bit to be in *i586* and 64bit in *x86_64*.
@@ -215,11 +203,6 @@
       menu.texts menu.entry 0 max menu.texts length 1 sub min get
       dup "mem.min[%s]" mem.min sprintf
       "mem.msg[%s]" mem.msg sprintf
-
-      enough_mem not {
-        nomem_popup
-        "" -1 0 return
-      } if
     } if
 
     % some tricks to make it possible to review the complete command line
@@ -1374,25 +1357,6 @@
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-% Warn that we don't have enough memory.
-%
-% ( ) ==> ( )
-%
-/nomem_popup {
-  window.dialog
-
-  dup .title "Sorry, but..." put
-  dup .text mem.show put
-  dup .buttons [
-    button.ok button.default actNothing button.setaction
-  ] put
-  dup window.init
-      window.show
-
-} def
-
-
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Show "power off" popup.
 %
 % ( ) ==> ( )
@@ -1548,17 +1512,6 @@ ptheme {
 
 % Array of menu entries which should not get an 'install' option appended.
 /config.noinstallopt  "noinstallopt"        [ ] gfxconfig.set.array_str
-
-% Mininum required memory in MB.
-/mem.check {
-  mem.min gfxconfig.int dup .undef eq { pop 0 } if
-} def
-
-% Message to print if we fail minimum memory requirement.
-/mem.show {
-  mem.msg gfxconfig.str dup .undef eq { pop "Not enough memory." } if
-} def
-
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 

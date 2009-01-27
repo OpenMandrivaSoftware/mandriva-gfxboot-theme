@@ -381,8 +381,9 @@ msgstr "आर्क"
 #. menu label for selecting some (linux) kernel variant
 #. ** please keep it really short (comparable to the english text) **
 #. txt_kernel
-msgid "Kernel"
-msgstr ""
+#, fuzzy
+msgid "Kernel Option"
+msgstr "अन्य विकल्प"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. txt_kernel_default

@@ -379,8 +379,8 @@ msgstr "体系"
 #. menu label for selecting some (linux) kernel variant
 #. ** please keep it really short (comparable to the english text) **
 #. txt_kernel
-msgid "Kernel"
-msgstr "内核"
+msgid "Kernel Option"
+msgstr "内核选项"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. txt_kernel_default
@@ -429,6 +429,9 @@ msgstr ""
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
 msgstr ""
+
+#~ msgid "Kernel"
+#~ msgstr "内核"
 
 #~ msgid "Installation"
 #~ msgstr "安装"

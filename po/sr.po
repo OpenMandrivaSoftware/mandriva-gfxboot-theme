@@ -5,35 +5,37 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2005-08-03 21:03+0200\n"
-"Last-Translator: Данило Шеган <danilo@gnome.org>\n"
-"Language-Team: Serbian <novell@prevod.org>\n"
+"PO-Revision-Date: 2007-09-30 01:20+0200\n"
+"Last-Translator: Жарко Михајловић <developer@beotel.net>\n"
+"Language-Team: Serbian (Српски језик) <sr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: KBabel 1.11.4\n"
 
-# ok button label
+#. ok button label
 #. txt_ok
 msgid "OK"
 msgstr "У реду"
 
-# cancel button label
+#. cancel button label
 #. txt_cancel
 msgid "Cancel"
 msgstr "Одустани"
 
-# reboot button label
+#. reboot button label
 #. txt_reboot
 msgid "Reboot"
 msgstr "Ресетуј"
 
-# continue button label
+#. continue button label
 #. txt_continue
 msgid "Continue"
 msgstr "Настави"
+
+#. txt_install
+msgid "Installation"
+msgstr "Инсталација"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -46,6 +48,10 @@ msgstr "Инсталација — ACPI искључен"
 #. txt_safe_install
 msgid "Installation--Safe Settings"
 msgstr "Инсталација — безбедна подешавања"
+
+#. txt_safe_linux
+msgid "Linux--Safe Settings"
+msgstr "Линукс — безбедна подешавања"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -63,7 +69,7 @@ msgstr "Провера меморије"
 msgid "Boot Options"
 msgstr "Опције за покретање"
 
-# window title for exit dialog
+#. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
 msgstr "Завршавам..."
@@ -80,12 +86,12 @@ msgstr ""
 msgid "Help"
 msgstr "Помоћ"
 
-# window title for kernel loading (see txt_load_kernel)
+#. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
 msgid "Starting..."
 msgstr "Покрећем..."
 
-# Keep the three newlines!
+#. Keep the three newlines!
 #. txt_load_kernel
 msgid ""
 "Loading Linux Kernel\n"
@@ -96,7 +102,7 @@ msgstr ""
 "\n"
 "\n"
 
-# Keep the three newlines!
+#. Keep the three newlines!
 #. txt_load_memtest
 msgid ""
 "Loading memtest86\n"
@@ -107,17 +113,17 @@ msgstr ""
 "\n"
 "\n"
 
-# info box title
+#. info box title
 #. txt_info_title
-msgid "Boot loader"
+msgid "Boot Loader"
 msgstr "Покретач система"
 
-# error box title
+#. error box title
 #. txt_error_title
-msgid "I/O error"
+msgid "I/O Error"
 msgstr "У/И грешка"
 
-# boot disk change dialog title
+#. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
 msgstr "Промените диск за покретање"
@@ -136,37 +142,26 @@ msgstr ""
 "Ово је диск за покретање %u.\n"
 "Уметните диск за покретање %u."
 
-# <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
+#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
 "This is not a <product> boot disk.\n"
-"Please insert boot disk %u."
+"Insert boot disk %u."
 msgstr ""
 "Ово није диск за покретање <product>.\n"
 "Уметните диск за покретање %u."
 
-# password dialog title
+#. password dialog title
 #. txt_password_title
 msgid "Password"
 msgstr "Лозинка"
-
-# Keep the newlines and spaces after ':'!
-#. txt_password
-msgid ""
-"Enter your password:   \n"
-"\n"
-"\n"
-msgstr ""
-"Унесите своју лозинку:   \n"
-"\n"
-"\n"
 
 #. txt_dud_ready
 msgid "Get your driver update floppy ready."
 msgstr "Припремите вашу дискету са освежењем драјвера."
 
-# dvd warning title
+#. dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
 msgstr "ДВД грешка"
@@ -181,7 +176,7 @@ msgstr ""
 "\n"
 "Окрените ДВД и затим наставите."
 
-# power off dialog title
+#. power off dialog title
 #. txt_power_off_title
 msgid "Power Off"
 msgstr "Угаси"
@@ -190,25 +185,25 @@ msgstr "Угаси"
 msgid "Halt the system now?"
 msgstr "Сада угасити систем?"
 
-# menu entry for hard disk installation
+#. menu entry for hard disk installation
 #. txt_harddisk
 msgid "Hard Disk"
 msgstr "Тврди диск"
 
-# dialog title for hard disk installation
+#. dialog title for hard disk installation
 #. txt_harddisk_title
 msgid "Hard Disk Installation"
 msgstr "Инсталација на тврди диск"
 
 #. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
+msgid "Disk Device (Scans All Disks If Empty)\n"
 msgstr "Диск (прегледај све дискове ако је празно)\n"
 
 #. txt_directory
 msgid "Directory\n"
 msgstr "Директоријум\n"
 
-# dialog title for ftp installation
+#. dialog title for ftp installation
 #. txt_ftp_title
 msgid "FTP Installation"
 msgstr "FTP инсталација"
@@ -221,54 +216,54 @@ msgstr "Сервер\n"
 msgid "Password\n"
 msgstr "Лозинка\n"
 
-# label for ftp user input
+#. label for ftp user input
 #. txt_user1
-msgid "User (anonymous login if empty)\n"
+msgid "User (Anonymous Login If Empty)\n"
 msgstr "Корсиник (анонимна пријава ако је празно)\n"
 
-# dialog title for nfs installation
+#. dialog title for nfs installation
 #. txt_nfs_title
 msgid "NFS Installation"
 msgstr "NFS инсталација"
 
-# label for smb user input
+#. label for smb user input
 #. txt_user2
-msgid "User (using \"guest\" if empty)\n"
+msgid "User (Uses \"guest\" If Empty)\n"
 msgstr "Корисник (користи „guest“ ако је празно)\n"
 
-#. txt_iso_title
-#, fuzzy
-msgid "Installation from ISO file"
-msgstr "Инсталација није успела"
+#. dialog title for smb installation
+#. txt_smb_title
+msgid "SMB (Windows Share) Installation"
+msgstr "SMB (дељени Windows диск) инсталација"
 
-# dialog title for http installation
+#. dialog title for http installation
 #. txt_http_title
 msgid "HTTP Installation"
 msgstr "HTTP инсталација"
 
-# 'driver' as in '(hardware) driver update'
+#. 'driver' as in '(hardware) driver update'
 #. txt_driver_update
 msgid "Driver"
 msgstr "Драјвер"
 
-# as in Windows Authentication Domain
+#. as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
 msgstr "Домен\n"
 
-# button label for other/more options
+#. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
 msgstr "Остале опције"
 
-# label for language selection
+#. label for language selection
 #. txt_language
 msgid "Language"
 msgstr "Језик"
 
 #. txt_apic
 msgid "Installation--IOAPIC Enabled"
-msgstr ""
+msgstr "Инсталација — IOAPIC укључен"
 
 #. txt_noapic_install
 msgid "Installation--IOAPIC Disabled"
@@ -276,7 +271,7 @@ msgstr "Инсталација — IOAPIC искључен"
 
 #. txt_nolapic_install
 msgid "Installation--Local APIC Disabled"
-msgstr ""
+msgstr "Инсталација — APIC искључен"
 
 #. txt_yes
 msgid "Yes"
@@ -286,40 +281,139 @@ msgstr "Да"
 msgid "No"
 msgstr "Не"
 
+#. menu item for selecting a file
 #. txt_file
 msgid "File"
-msgstr "Фајл"
+msgstr "Датотека"
 
-# input label: share as in "Windows share" (SMB)
+#. input label: share as in "Windows share" (SMB)
 #. txt_share
 msgid "Share\n"
+msgstr "Дељено\n"
+
+#. txt_zenAuto
+msgid "Automatic Mode"
+msgstr "Аутоматски режим"
+
+#. txt_zenManual
+msgid "Manual Mode"
+msgstr "Ручни режим"
+
+#. txt_zenConfig
+msgid "Configure Parameters on ZEN Partition"
+msgstr "Подеси параметре ZEN партиције"
+
+#. txt_zenInstall
+msgid "Install or Update ZEN Partition"
+msgstr "Инсталирај или ажурирај ZEN партицију"
+
+#. txt_zenLilo
+msgid "Reinstall ZEN Partition Boot Loader"
+msgstr "Реинсталирај ZEN Boot Loader"
+
+#. txt_zenDisable
+msgid "Disable ZEN Partition"
+msgstr "Онемогући ZEN партицију"
+
+#. txt_zenEnable
+msgid "Enable ZEN Partition"
+msgstr "Омогући ZEN партицију"
+
+#. video mode menu item
+#. txt_text_mode
+msgid "Text Mode"
+msgstr "Текст режим"
+
+#. menu item, like 'memory test'
+#. txt_firmware
+msgid "Firmware Test"
+msgstr "Firmware тест"
+
+#. txt_dud_file_msg
+msgid ""
+"To load driver updates directly from CD-ROM,\n"
+"enter the driver update file names (separated\n"
+"by commas ',') here:\n"
+msgstr ""
+"Да учитате нове драјвере са CD-ROM-а,\n"
+"упишите имена нових фајлова (одвојена\n"
+"зарезима ',') овде:\n"
+
+#. install source menu title
+#. ** please keep it really short (comparable to the english text) **
+#. txt_install_source
+msgid "Source"
+msgstr "Извор"
+
+#. video mode/display size menu title
+#. ** please keep it really short (comparable to the english text) **
+#. txt_video_mode
+msgid "Video Mode"
+msgstr "Видео режим"
+
+#. driver update dialog title
+#. -> txt_dud_file_msg
+#. txt_driver_update2
+msgid "Driver Update"
+msgstr "Ажурирање драјвера"
+
+#. menu label for selecting (cpu) architecture
+#. like i386, x86-64, ppc
+#. ** please keep it really short (comparable to the english text) **
+#. txt_arch
+msgid "Arch"
+msgstr "Арх."
+
+#. menu label for selecting some (linux) kernel variant
+#. ** please keep it really short (comparable to the english text) **
+#. txt_kernel
+msgid "Kernel"
+msgstr "Језгро"
+
+#. menu item for kernel variant (cf. txt_kernel)
+#. txt_kernel_default
+msgid "Default"
+msgstr "Подразумевано"
+
+#. menu item for kernel variant (cf. txt_kernel)
+#. -> like in txt_safe_linux
+#. txt_kernel_safe
+msgid "Safe Settings"
+msgstr "Безбедна подешавања"
+
+#. menu item for kernel variant (cf. txt_kernel)
+#. -> similar to txt_noacpi_install
+#. txt_kernel_noacpi
+msgid "No ACPI"
+msgstr "Без ACPI"
+
+#. menu item for kernel variant (cf. txt_kernel)
+#. -> similar to txt_nolapic_install
+#. txt_kernel_nolapic
+msgid "No Local APIC"
+msgstr "Без локалног APIC"
+
+#. main menu: start in system repair mode
+#. txt_repain_system
+msgid "Repair Installed System"
+msgstr "Поправи систем"
+
+#. menu item
+#. txt_mediacheck
+msgid "Check Installation Media"
 msgstr ""
 
-#. txt_linux
-msgid "Boot Mandriva Linux 2009 Spring"
+#. menu item for keyboard layout (please keep it short)
+#. txt_keyboard
+msgid "Keyboard"
 msgstr ""
 
-#. txt_windows
-msgid "Boot Microsoft Windows"
+#. menu title
+#. txt_dud_download
+msgid "Download Driver Update"
 msgstr ""
 
-#. txt_install
-msgid "Install Mandriva Linux 2009 Spring"
+#. input label
+#. txt_dud_enter_url
+msgid "Enter Driver Update URL\n"
 msgstr ""
-
-#. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
-msgstr ""
-
-#. txt_linux_kernel_version
-#, c-format
-msgid "Linux with kernel %s"
-msgstr ""
-
-#. txt_kernel_option
-msgid "Kernel Option"
-msgstr ""
-
-# dialog title for smb installation
-#~ msgid "SMB (Windows Share) Installation"
-#~ msgstr "SMB (дељени Windows диск) инсталација"

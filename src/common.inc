@@ -419,21 +419,9 @@
   } if
 
   xmenu.dud {
-    xmenu.dud .xm_current get .dud_url eq {
-      input.edit.dud_url 0 get dup "" ne {
-        "dud=%s " bc.cmd dup length add sprintf
-      } { pop } ifelse
-    } {
-      xmenu.dud .xm_current get .dud_file eq {
-        input.edit.dud_file 0 get dup "" ne {
-          "driverupdate=%s " bc.cmd dup length add sprintf
-        } { pop } ifelse
-      } {
         dud.options xmenu.dud .xm_current get get dup "" ne {
           "%s " bc.cmd dup length add sprintf
         } { pop } ifelse
-      } ifelse
-    } ifelse
   } if
 
   xmenu.profile {
@@ -461,60 +449,6 @@
       bc.cmd over bootopt.remove free
     } loop
   } forall free
-
-  bc.cmd "driverupdate" bootopt.find dup .undef ne {
-    % exclude 'driverupdate=0 and driverupdate=1'
-    "driverupdate=" length get
-    dup '0' ne exch '1' ne and {
-
-      /bc.tmp bc.cmd "driverupdate" bootopt.remove def
-      bc.tmp .undef ne {
-        /bc.tmp bc.tmp "driverupdate=" length add ',' split bc.tmp free def
-        /bc.tmp2 cmdlinelength string def
-
-        bc.tmp2 "initrd=" strcpy pop
-
-        bc.tmp length 0 gt {
-          % add '+' to first arg unless it starts with '+' or '-'
-          bc.tmp 0 get 0 get
-          dup '-' eq {	% remove '-'
-            bc.tmp 0 get dup 1 add strdup exch free
-            bc.tmp exch 0 exch put
-            pop '+'
-          } if
-          '+' ne {		% add '+'
-            bc.tmp 0 get length 1 add string "+" strcat bc.tmp 0 get strcat
-            bc.tmp 0 get free bc.tmp exch 0 exch put
-          } if
-
-          bc.tmp length 1 sub -1 0 {
-            bc.tmp exch get
-            bc.tmp2 exch strcat "," strcat pop
-          } for
-        } if
-
-        bc.tmp dup { free } forall free
-
-        % last 'initrd' option
-        /bc.tmp .undef def
-        {
-          bc.cmd "initrd" bootopt.remove dup .undef ne {
-            bc.tmp free /bc.tmp exch def
-          } {
-            pop exit
-          } ifelse
-        } loop
-
-        % re-add new 'initrd' option
-        bc.tmp {
-          bc.tmp2 bc.tmp "initrd=" length add strcat pop
-          bc.tmp free
-          bc.cmd bc.tmp2 strcat " " strcat pop
-        } if
-      } if
-
-    } if
-  } { pop } ifelse
 
   syslinux {
     % find out initrd sizes for kernel loading progress bar
@@ -1586,9 +1520,6 @@ ptheme {
 /keymap.default        "keymap"                      "" gfxconfig.set.str
 
 /dud.default           "dud"                         "" gfxconfig.set.str
-/dud.file              "dud.file"                    "" gfxconfig.set.str
-/dud.url               "dud.url"                     "" gfxconfig.set.str
-/dud.url.name          "dud.url.name"                "" gfxconfig.set.str
 
 /serial.line0          "serial.line0"               [ ] gfxconfig.set.array_str
 /serial.line1          "serial.line1"               [ ] gfxconfig.set.array_str

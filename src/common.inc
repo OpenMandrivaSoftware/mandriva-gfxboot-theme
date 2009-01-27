@@ -1330,7 +1330,7 @@
 /32bit_popup {
   window.dialog
 
-  dup .title "Cool computer, but..." put
+  dup .title "Warning" put
   dup .text "You are about to install 32-bit software on a 64-bit computer." put
   dup .buttons [
     button.continue button.default actNothing button.setaction
@@ -1349,7 +1349,7 @@
 /64bit_popup {
   window.dialog
 
-  dup .title "Cool software, but..." put
+  dup .title "Wrong architecture" put
   dup .text "This is a 32-bit computer. You cannot use 64-bit software on it." put
   dup .buttons [
     button.reboot button.default actReboot actNoClose or button.setaction

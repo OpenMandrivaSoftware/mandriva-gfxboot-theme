@@ -45,6 +45,7 @@
 
         [ keyF2 0 "F2" /panel.lang /panel.lang.width /panel.lang.update /lang.init ]
         [ keyF3 0 "F3" /panel.video /panel.video.width /panel.video.update /video.init ]
+        [ keyF4 0 "F4" /panel.kernelopts /panel.kernelopts.width /panel.kernelopts.update /kernelopts.init ]
 
       } {
 
@@ -177,9 +178,6 @@
 
   % only for install CDs
   syslinux not { return } if
-
-  % not for live cd
-  config.livecd { return } if
 
   % not for F1
   dup keyF1 eq { return } if

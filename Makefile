@@ -55,7 +55,7 @@ message: src/main.bin help-boot/.ready po/.ready fonts/.ready
 	@rm -rf message.dir
 	@mkdir message.dir
 	cp -rL data-boot/* fonts/*.fnt message.dir
-	cp -rL po/en.tr help-boot/en.hlp message.dir
+	cp -rL po/*.tr help-boot/*.hlp message.dir
 	cp src/main.bin message.dir/init
 ifdef DEFAULT_LANG
 	cp -rL po/$(DEFAULT_LANG).tr help-boot/$(DEFAULT_LANG).hlp message.dir

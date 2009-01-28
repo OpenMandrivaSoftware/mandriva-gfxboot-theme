@@ -1,15 +1,17 @@
+# translation of bootloader.po to
 # translation of pl.po to
 # translation of pl.po to
 # LANGUAGE translations for boot loader
 # Copyright (C) 2004 SUSE LINUX AG
-# Wojciech Kapusta <wojciech@aviary.pl>, 2006.
 #
+# Wojciech Kapusta <wojciech@aviary.pl>, 2006.
+# Amazis.net sp. z o.o. - Tomasz Bednarski <tomasz.bednarski@amazis.pl>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2008-09-30 07:19+0100\n"
-"Last-Translator: Piotr Krakowiak <piotr.krakowiak@suse.pl>\n"
+"PO-Revision-Date: 2009-01-28 15:17+0100\n"
+"Last-Translator: Amazis.net sp. z o.o. - Tomasz Bednarski <tomasz.bednarski@amazis.pl>\n"
 "Language-Team:  <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -427,15 +429,10 @@ msgstr "Klawiatura"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Pobierz aktualizację sterownika"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
+msgstr "Wprowadź adres URL aktualizacji sterownika\n"
 
-#~ msgid "Kernel"
-#~ msgstr "Jądro"
-
-#~ msgid "Installation"
-#~ msgstr "Instalacja"

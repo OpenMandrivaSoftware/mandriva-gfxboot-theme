@@ -1,20 +1,39 @@
-# translation of ro.po to Romanian
-# LANGUAGE translations for boot loader
-# Copyright (C) 2004 SUSE LINUX AG
-# Claudiu Costin <claudiuc@kde.org>, 2004.
+# Translation of mandriva-gfxboot-theme.po to Romanian
+# Copyright (c) 1999-2009 Mandriva
+#
+# Vă rugăm să nu actualizaţi fişierul, cu excepţia cazului în care sînteţi
+# sigur de calitatea traducerii dumneavoastră, de gramatică şi de ortografie.
+# Acestea din urmă sînt de prea multe ori aproximative.
+# Corectarea lor ulterioară nu are nici un alt rezultat decît acela de
+# pierdere de timp pentru toata lumea.
+#
+# VĂ RUGĂM SĂ RESPECTAŢI SEMNELE DE PUNCTUAŢIE ALE LIMBII ROMÂNE!
+#
+# Nu suprimaţi spaţiul care urmează unui semn de punctuaţie de sfîrşit de
+# frază; trebuie respectată versiunea originală. În acest caz, este foarte
+# probabil ca programul să afişeze un mesaj la sfîrşit. Suprimînd acel spaţiu,
+# cele două cuvintele vor fi afişate legat.
+#
+# Traduceţi de manieră INTELIGENTĂ (de ce nu şi prin comparaţie cu alte
+# traduceri ale acestui fişier în alte limbi) şi nu cuvînt cu cuvînt. Unele
+# astfel de traduceri nu au nici un sens în limba română.
+#
+# Vă mulţumim pentru înţelegere.
+# www.mandrivausers.ro
+#
+# Traducători:
+# Claudiu Costin <claudiuc@kde.org>, 2004
+# Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>, 2009
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2008-11-02 18:30+0100\n"
-"Last-Translator: openSUSE translation\n"
-"Language-Team: romana\n"
+"PO-Revision-Date: 2009-01-28 16:18+0100\n"
+"Last-Translator: Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>\n"
+"Language-Team: Mandrivausers.ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2;\n"
 
 #. ok button label
 #. txt_ok
@@ -24,7 +43,7 @@ msgstr "OK"
 #. cancel button label
 #. txt_cancel
 msgid "Cancel"
-msgstr "Renunță"
+msgstr "Anulează"
 
 #. reboot button label
 #. txt_reboot
@@ -71,11 +90,11 @@ msgstr "Linux--Setări sigure"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
-msgstr "Bootează de pe hard disc"
+msgstr "Demarează de pe discul dur"
 
 #. txt_rescue
 msgid "Rescue System"
-msgstr "Sistem de salvare"
+msgstr "Recuperare sistem"
 
 #. txt_memtest
 msgid "Memory Test"
@@ -83,20 +102,20 @@ msgstr "Test de memorie"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Opțiuni de pornire"
+msgstr "Opţiuni demaraj"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "Ies..."
+msgstr "Se iese..."
 
 #. txt_exit_dialog
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Acum părăsiți modul grafic de boot\n"
-"și intrați în interfața text."
+"Acum părăsiţi modul grafic de demaraj\n"
+"şi intraţi în interfaţa text."
 
 #. txt_help
 msgid "Help"
@@ -105,7 +124,7 @@ msgstr "Ajutor"
 #. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
 msgid "Starting..."
-msgstr "Pornesc..."
+msgstr "Se porneşte..."
 
 #. Keep the three newlines!
 #. txt_load_kernel
@@ -114,7 +133,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Încarc kernelul Linux\n"
+"Se încarcă nucleul Linux\n"
 "\n"
 "\n"
 
@@ -125,14 +144,14 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Încarc memtest86\n"
+"Se încarcă memtest86\n"
 "\n"
 "\n"
 
 #. info box title
 #. txt_info_title
 msgid "Boot Loader"
-msgstr "Bootloader"
+msgstr "Încărcător de sistem"
 
 #. error box title
 #. txt_error_title
@@ -142,12 +161,12 @@ msgstr "Eroare I/O"
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Schimbați discul de pornire"
+msgstr "Schimbaţi discul de demaraj"
 
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Introduceți discul de pornire %u."
+msgstr "Introduceţi discul de demaraj %u."
 
 #. txt_insert_disk2
 #, c-format
@@ -155,8 +174,8 @@ msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
 msgstr ""
-"Aceasta este discul de pornire %u.\n"
-"Introduceți discul de pornire %u."
+"Aceasta este discul de demaraj %u.\n"
+"Introduceţi discul de demaraj %u."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -165,8 +184,8 @@ msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
 msgstr ""
-"Acesta nu este un disc de pornire <product>.\n"
-"Introduceți discul %u."
+"Acesta nu este un disc de demaraj <product>.\n"
+"Introduceţi discul %u."
 
 #. password dialog title
 #. txt_password_title
@@ -175,7 +194,7 @@ msgstr "Parolă"
 
 #. txt_dud_ready
 msgid "Get your driver update floppy ready."
-msgstr "Pregătiți discheta de actualizare a driverelor."
+msgstr "Pregătiţi discheta piloţi actualizaţi."
 
 #. dvd warning title
 #. txt_dvd_warning_title
@@ -188,9 +207,9 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"Acesta este un DVD cu două fețe. Ați pornit sistemul de pe a doua față.\n"
+"Acesta este un DVD cu două feţe. Aţi demarat sistemul de pe a doua faţă.\n"
 "\n"
-" Întoarceți DVD-ul și apoi continuați."
+" Întoarceţi DVD-ul şi apoi continuaţi."
 
 #. power off dialog title
 #. txt_power_off_title
@@ -199,21 +218,21 @@ msgstr "Oprire alimentare"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Opresc sistemul acum?"
+msgstr "Opriţi sistemul acum?"
 
 #. menu entry for hard disk installation
 #. txt_harddisk
 msgid "Hard Disk"
-msgstr "Hard Disc"
+msgstr "Disc dur"
 
 #. dialog title for hard disk installation
 #. txt_harddisk_title
 msgid "Hard Disk Installation"
-msgstr "Instalare de pe hard disc"
+msgstr "Instalare de pe discul dur"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (Scans All Disks If Empty)\n"
-msgstr "Dispozitive disc (scanează toate discurile dacă nu este completat)\n"
+msgstr "Dispozitive disc (caută toate discurile dacă nu este specificat)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -235,7 +254,7 @@ msgstr "Parolă\n"
 #. label for ftp user input
 #. txt_user1
 msgid "User (Anonymous Login If Empty)\n"
-msgstr "Utilizator (anonim, dacă nu este completat)\n"
+msgstr "Utilizator (anonim, dacă nu este specifiact)\n"
 
 #. dialog title for nfs installation
 #. txt_nfs_title
@@ -245,12 +264,12 @@ msgstr "Instalare prin NFS"
 #. label for smb user input
 #. txt_user2
 msgid "User (Uses \"guest\" If Empty)\n"
-msgstr "Utilizator (folosește \"guest\" dacă este necompletat)\n"
+msgstr "Utilizator (se utilizează \"guest\" dacă nu este specificat)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
 msgid "SMB (Windows Share) Installation"
-msgstr "Instalare prin SMB (share Windows)"
+msgstr "Instalare prin SMB (partaj Windows)"
 
 #. dialog title for http installation
 #. txt_http_title
@@ -260,7 +279,7 @@ msgstr "Instalare prin HTTP"
 #. 'driver' as in '(hardware) driver update'
 #. txt_driver_update
 msgid "Driver"
-msgstr "Driver"
+msgstr "Pilot"
 
 #. as in Windows Authentication Domain
 #. txt_domain
@@ -270,7 +289,7 @@ msgstr "Domeniu\n"
 #. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "Alte opțiuni"
+msgstr "Alte opţiuni"
 
 #. label for language selection
 #. txt_language
@@ -300,12 +319,12 @@ msgstr "Nu"
 #. menu item for selecting a file
 #. txt_file
 msgid "File"
-msgstr "Fișier"
+msgstr "Fişier"
 
 #. input label: share as in "Windows share" (SMB)
 #. txt_share
 msgid "Share\n"
-msgstr "Partajare\n"
+msgstr "Partaj\n"
 
 #. txt_zenAuto
 msgid "Automatic Mode"
@@ -317,23 +336,23 @@ msgstr "Mod manual"
 
 #. txt_zenConfig
 msgid "Configure Parameters on ZEN Partition"
-msgstr "Configurați parametrii partiției ZEN"
+msgstr "Configuraţi parametrii partiţiei ZEN"
 
 #. txt_zenInstall
 msgid "Install or Update ZEN Partition"
-msgstr "Instalează sau actualizează partiție ZEN"
+msgstr "Instalează sau actualizează partiţie ZEN"
 
 #. txt_zenLilo
 msgid "Reinstall ZEN Partition Boot Loader"
-msgstr "Reinstalează încărcătorul de sistem al partiției ZEN"
+msgstr "Reinstalează încărcătorul de sistem al partiţiei ZEN"
 
 #. txt_zenDisable
 msgid "Disable ZEN Partition"
-msgstr "Dezactiveaza partiția ZEN"
+msgstr "Dezactivează partiţia ZEN"
 
 #. txt_zenEnable
 msgid "Enable ZEN Partition"
-msgstr "Activează partiția ZEN"
+msgstr "Activează partiţia ZEN"
 
 #. video mode menu item
 #. txt_text_mode
@@ -351,8 +370,8 @@ msgid ""
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
 msgstr ""
-"Pentru a încărca actualizările de driver direct de pe CD-ROM,\n"
-"introduceți aici numele fișierelor cu actualizările (separate prin\n"
+"Pentru a încărca actualizările de pilot direct de pe CD-ROM,\n"
+"introduceţi aici numele fişierelor cu actualizările (separate prin\n"
 "virgulă ','):\n"
 
 #. install source menu title
@@ -371,14 +390,14 @@ msgstr "Mod video"
 #. -> txt_dud_file_msg
 #. txt_driver_update2
 msgid "Driver Update"
-msgstr "Actualizare de driver"
+msgstr "Actualizare de pilot"
 
 #. menu label for selecting (cpu) architecture
 #. like i386, x86-64, ppc
 #. ** please keep it really short (comparable to the english text) **
 #. txt_arch
 msgid "Arch"
-msgstr "Arh."
+msgstr "Arhitectură"
 
 #. menu label for selecting some (linux) kernel variant
 #. ** please keep it really short (comparable to the english text) **
@@ -427,15 +446,9 @@ msgstr "Tastatură"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Descărcare actualizare pilot"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
-
-#~ msgid "Kernel"
-#~ msgstr "Kernel"
-
-#~ msgid "Installation"
-#~ msgstr "Instalare"
+msgstr "Întroduceţi URL actualizare pilot\n"

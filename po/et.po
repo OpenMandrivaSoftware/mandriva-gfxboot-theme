@@ -1,12 +1,14 @@
-# LANGUAGE translations for boot loader
+# Estonian translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
+# Ain Vagula <avagula@gmail.com>, 2007
+# Marek Laane <bald@smail.ee>, 2008-2009
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.et\n"
 "POT-Creation-Date: 2003-03-04 15:08+0100\n"
-"PO-Revision-Date: 2007-10-04 23:04+0300\n"
-"Last-Translator: Ain Vagula <avagula@gmail.com>\n"
+"PO-Revision-Date: 2009-02-04 01:47+0300\n"
+"Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <linux-ee@lists.eenet.ee>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,7 +19,7 @@ msgstr ""
 #. ok button label
 #. txt_ok
 msgid "OK"
-msgstr "Sobib"
+msgstr "Olgu"
 
 #. cancel button label
 #. txt_cancel
@@ -36,7 +38,7 @@ msgstr "Jätka"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2009 Spring"
-msgstr "Mandriva Linux 2009 Spring laadimine"
+msgstr "Mandriva Linux 2009 Springi laadimine"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -49,7 +51,7 @@ msgstr "Linux kerneliga %s"
 
 #. txt_install
 msgid "Install Mandriva Linux 2009 Spring"
-msgstr "Mandriva Linux 2009 Spring paigaldamine masinasse"
+msgstr "Mandriva Linux 2009 Springi paigaldamine masinasse"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -112,7 +114,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Linux'i kerneli laadimine\n"
+"Linuxi kerneli laadimine\n"
 "\n"
 "\n"
 
@@ -248,7 +250,7 @@ msgstr "Kasutajanimi (kui väli on tühi, kasutatakse \"guest\"-i)\n"
 #. dialog title for smb installation
 #. txt_smb_title
 msgid "SMB (Windows Share) Installation"
-msgstr "SMB (Windows'i jagatud ressurss) paigaldus"
+msgstr "SMB (Windowsi jagatud ressurss) paigaldus"
 
 #. dialog title for http installation
 #. txt_http_title
@@ -415,7 +417,7 @@ msgstr "Paigaldatud süsteemi parandamine"
 #. menu item
 #. txt_mediacheck
 msgid "Check Installation Media"
-msgstr ""
+msgstr "Paigaldusandmekandja kontrollimine"
 
 #. menu item for keyboard layout (please keep it short)
 #. txt_keyboard
@@ -425,12 +427,12 @@ msgstr "Klaviatuur"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Draiveri uuenduse allalaadimine"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
+msgstr "Sisesta draiveri uuenduse URL\n"
 
 #~ msgid "Kernel"
 #~ msgstr "Kernel"

@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
-"PO-Revision-Date: 2005-08-21 00:23+0200\n"
+"PO-Revision-Date: 2009-02-13 23:18+0100\n"
 "Last-Translator: Janez Krek <janez.krek@euroteh.si>\n"
 "Language-Team: Slovenščina <sl@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -27,25 +27,25 @@ msgstr "V redu"
 #. cancel button label
 #. txt_cancel
 msgid "Cancel"
-msgstr "Prekini"
+msgstr "Prekliči"
 
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "Ponovni zagon"
+msgstr "Znova zaženi"
 
 #. continue button label
 #. txt_continue
 msgid "Continue"
-msgstr "Nadaljevanje"
+msgstr "Nadaljuj"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2009 Spring"
-msgstr "Zagon Mandriva Linux 2009 Spring"
+msgstr "Zaženi Mandriva Linux 2009 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr "Zagon Microsoft Windows"
+msgstr "Zaženi Microsoft Windows"
 
 #. txt_linux_kernel_version
 #, c-format
@@ -54,7 +54,7 @@ msgstr "Linux z jedrom %s"
 
 #. txt_install
 msgid "Install Mandriva Linux 2009 Spring"
-msgstr "Namestitev Mandriva Linux 2009 Spring"
+msgstr "Namesti Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -62,7 +62,7 @@ msgstr "Ročna namestitev"
 
 #. txt_noacpi_install
 msgid "Installation--ACPI Disabled"
-msgstr "Namestitev--izključen ACPI"
+msgstr "Namestitev--onemogočen ACPI"
 
 #. txt_safe_install
 msgid "Installation--Safe Settings"
@@ -74,7 +74,7 @@ msgstr "Linux--varne nastavitve"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
-msgstr "Zagon s trdega diska"
+msgstr "Zaženi s trdega diska"
 
 #. txt_rescue
 msgid "Rescue System"
@@ -86,20 +86,20 @@ msgstr "Testiranje pomnilnika"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Možnosti pri zagonu"
+msgstr "Možnosti zagona"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "Zaključevanje..."
+msgstr "Zapuščanje ..."
 
 #. txt_exit_dialog
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Zapustili boste grafični zagonski menu in\n"
-"nadaljevali v tekstovnem načinu."
+"Zapustili boste grafični zagonski meni in\n"
+"nadaljevali v besedilnem načinu."
 
 #. txt_help
 msgid "Help"
@@ -108,7 +108,7 @@ msgstr "Pomoč"
 #. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
 msgid "Starting..."
-msgstr "Zagon..."
+msgstr "Zaganjanje ..."
 
 #. Keep the three newlines!
 #. txt_load_kernel
@@ -116,10 +116,7 @@ msgid ""
 "Loading Linux Kernel\n"
 "\n"
 "\n"
-msgstr ""
-"Nalaganje Linux jedra\n"
-"\n"
-"\n"
+msgstr "Nalaganje jedra Linux\n\n\n"
 
 #. Keep the three newlines!
 #. txt_load_memtest
@@ -127,32 +124,27 @@ msgid ""
 "Loading memtest86\n"
 "\n"
 "\n"
-msgstr ""
-"Nalaganje memtest86\n"
-"\n"
-"\n"
+msgstr "Nalaganje memtest86\n\n\n"
 
 #. info box title
 #. txt_info_title
-#, fuzzy
 msgid "Boot Loader"
 msgstr "Zagonski nalagalnik"
 
 #. error box title
 #. txt_error_title
-#, fuzzy
 msgid "I/O Error"
 msgstr "V/I napaka"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Zamenjava zagonske diskete"
+msgstr "Zamenjava zagonskega diska"
 
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Vstavite zagonsko disketo %u."
+msgstr "Vstavite zagonski disk %u."
 
 #. txt_insert_disk2
 #, c-format
@@ -160,18 +152,18 @@ msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
 msgstr ""
-"To je zagonska disketa %u.\n"
-"Vstavite zagonsko disketo %u."
+"To je zagonski disk %u.\n"
+"Vstavite zagonski disk %u."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
 msgstr ""
-"To ni zagonska disketa za <product>.\n"
-"Prosim vstavite zagonsko disketo %u."
+"To ni zagonski disk za <product>.\n"
+"Prosimo vstavite zagonski disk %u."
 
 #. password dialog title
 #. txt_password_title
@@ -180,12 +172,12 @@ msgstr "Geslo"
 
 #. txt_dud_ready
 msgid "Get your driver update floppy ready."
-msgstr "Prosim pripravite disketo za posodobitev gonilnikov."
+msgstr "Pripravite disketo za posodobitev gonilnika."
 
 #. dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
-msgstr "Napaka na DVDju"
+msgstr "Napaka DVD-ja"
 
 #. txt_dvd_warning2
 msgid ""
@@ -193,18 +185,18 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"DVD je dvostranski in sistem ste zagnali z druge strani.\n"
+"DVD je dvo-stranski, sistem pa ste zagnali z druge strani.\n"
 "\n"
-"Prosim obrnite DVD in nadaljujte."
+"Obrnite DVD in nadaljujte."
 
 #. power off dialog title
 #. txt_power_off_title
 msgid "Power Off"
-msgstr "Zaustavitev sistema"
+msgstr "Ugasnitev"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Želite sedaj zaustaviti sistem?"
+msgstr "Ali želite sedaj zaustaviti sistem?"
 
 #. menu entry for hard disk installation
 #. txt_harddisk
@@ -214,21 +206,20 @@ msgstr "Trdi disk"
 #. dialog title for hard disk installation
 #. txt_harddisk_title
 msgid "Hard Disk Installation"
-msgstr "Namestitev na trdi disk"
+msgstr "Namestitev s trdega diska"
 
 #. txt_hd_diskdevice
-#, fuzzy
 msgid "Disk Device (Scans All Disks If Empty)\n"
-msgstr "Naprava (če je polje prazno, pregled vseh diskov)\n"
+msgstr "Diskovna naprava (če je prazno, so pregledani vsi diski)\n"
 
 #. txt_directory
 msgid "Directory\n"
-msgstr "Imenik\n"
+msgstr "Mapa\n"
 
 #. dialog title for ftp installation
 #. txt_ftp_title
 msgid "FTP Installation"
-msgstr "Namestitev preko FTP"
+msgstr "Namestitev z FTP"
 
 #. txt_server
 msgid "Server\n"
@@ -240,30 +231,28 @@ msgstr "Geslo\n"
 
 #. label for ftp user input
 #. txt_user1
-#, fuzzy
 msgid "User (Anonymous Login If Empty)\n"
-msgstr "Uporabnik (če je polje prazno, anonimna prijava)\n"
+msgstr "Uporabnik (če je prazno, bo prijava anonimna)\n"
 
 #. dialog title for nfs installation
 #. txt_nfs_title
 msgid "NFS Installation"
-msgstr "Namestitev preko NFS"
+msgstr "Namestitev z NFS"
 
 #. label for smb user input
 #. txt_user2
-#, fuzzy
 msgid "User (Uses \"guest\" If Empty)\n"
-msgstr "Uporabnik (če je polje prazno, uporabnik \"guest\")\n"
+msgstr "Uporabnik (če je prazno, bo uporabnik »guest«)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
 msgid "SMB (Windows Share) Installation"
-msgstr "Namestitev preko SMB (Windows vir v skupini rabi)"
+msgstr "Namestitev z SMB (Windows mapa v souporabi)"
 
 #. dialog title for http installation
 #. txt_http_title
 msgid "HTTP Installation"
-msgstr "Namestitev preko HTTP"
+msgstr "Namestitev s HTTP"
 
 #. 'driver' as in '(hardware) driver update'
 #. txt_driver_update
@@ -278,7 +267,7 @@ msgstr "Domena\n"
 #. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "Ostale možnosti"
+msgstr "Druge možnosti"
 
 #. label for language selection
 #. txt_language
@@ -287,15 +276,15 @@ msgstr "Jezik"
 
 #. txt_apic
 msgid "Installation--IOAPIC Enabled"
-msgstr "Namestitev--vključen IOAPIC"
+msgstr "Namestitev--omogočen IOAPIC"
 
 #. txt_noapic_install
 msgid "Installation--IOAPIC Disabled"
-msgstr "Namestitev--izključen IOAPIC"
+msgstr "Namestitev--onemogočen IOAPIC"
 
 #. txt_nolapic_install
 msgid "Installation--Local APIC Disabled"
-msgstr "Namestitev--izključen lokalni APIC"
+msgstr "Namestitev--onemogočen krajevni APIC"
 
 #. txt_yes
 msgid "Yes"
@@ -318,44 +307,41 @@ msgstr "Mapa v souporabi\n"
 
 #. txt_zenAuto
 msgid "Automatic Mode"
-msgstr ""
+msgstr "Samodejni način"
 
 #. txt_zenManual
-#, fuzzy
 msgid "Manual Mode"
-msgstr "Način z dvema izhodoma"
+msgstr "Ročni način"
 
 #. txt_zenConfig
 msgid "Configure Parameters on ZEN Partition"
-msgstr ""
+msgstr "Nastavite parametre na razdelku ZEN"
 
 #. txt_zenInstall
-#, fuzzy
 msgid "Install or Update ZEN Partition"
-msgstr "Nameščene posodobitve: "
+msgstr "Namesti ali posodobi razdelek ZEN"
 
 #. txt_zenLilo
 msgid "Reinstall ZEN Partition Boot Loader"
-msgstr ""
+msgstr "Znova namesti zagonski nalagalnik razdelka ZEN"
 
 #. txt_zenDisable
 msgid "Disable ZEN Partition"
-msgstr ""
+msgstr "Onemogoči razdelek ZEN"
 
 #. txt_zenEnable
 msgid "Enable ZEN Partition"
-msgstr ""
+msgstr "Omogoči razdelek ZEN"
 
 #. video mode menu item
 #. txt_text_mode
-#, fuzzy
 msgid "Text Mode"
-msgstr "Model miške"
+msgstr "Besedilni način"
 
 #. menu item, like 'memory test'
 #. txt_firmware
 msgid "Firmware Test"
-msgstr ""
+msgstr "Preizkus strojne programske opreme"
 
 #. txt_dud_file_msg
 msgid ""
@@ -363,31 +349,34 @@ msgid ""
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
 msgstr ""
+"Da naložite posodobitve gonilnika neposredno s\n"
+"CD-ROMa, vnesite imena datotek s posodobitvami\n"
+"(ločite jih z vejicmi):\n"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
 #. txt_install_source
 msgid "Source"
-msgstr "Izvor"
+msgstr "Vir"
 
 #. video mode/display size menu title
 #. ** please keep it really short (comparable to the english text) **
 #. txt_video_mode
 msgid "Video Mode"
-msgstr ""
+msgstr "Video način"
 
 #. driver update dialog title
 #. -> txt_dud_file_msg
 #. txt_driver_update2
 msgid "Driver Update"
-msgstr ""
+msgstr "Posodobitev gonilnika"
 
 #. menu label for selecting (cpu) architecture
 #. like i386, x86-64, ppc
 #. ** please keep it really short (comparable to the english text) **
 #. txt_arch
 msgid "Arch"
-msgstr ""
+msgstr "Arhit."
 
 #. menu label for selecting some (linux) kernel variant
 #. ** please keep it really short (comparable to the english text) **
@@ -398,35 +387,35 @@ msgstr "Možnosti jedra"
 #. menu item for kernel variant (cf. txt_kernel)
 #. txt_kernel_default
 msgid "Default"
-msgstr ""
+msgstr "Privzete"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> like in txt_safe_linux
 #. txt_kernel_safe
 msgid "Safe Settings"
-msgstr ""
+msgstr "Varne nastavitve"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_noacpi_install
 #. txt_kernel_noacpi
 msgid "No ACPI"
-msgstr ""
+msgstr "Brez ACPI-ja"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_nolapic_install
 #. txt_kernel_nolapic
 msgid "No Local APIC"
-msgstr ""
+msgstr "Brez krajevnega APIC-a"
 
 #. main menu: start in system repair mode
 #. txt_repain_system
 msgid "Repair Installed System"
-msgstr ""
+msgstr "Popravi namesščen sistem"
 
 #. menu item
 #. txt_mediacheck
 msgid "Check Installation Media"
-msgstr ""
+msgstr "Preveri namestitveni nosilec"
 
 #. menu item for keyboard layout (please keep it short)
 #. txt_keyboard
@@ -436,12 +425,12 @@ msgstr "Tipkovnca"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Prenesi posodobitev gonilnika"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
+msgstr "Vnesite lokacijo posodobitve gonilnika\n"
 
 #~ msgid "Installation"
 #~ msgstr "Namestitev"

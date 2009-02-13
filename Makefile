@@ -85,9 +85,22 @@ UPSTREAM_VERSION = 4.1.19
 VERSION = $(UPSTREAM_VERSION).1
 
 dist:
-	rm -rf $(NAME)-$(VERSION) ../$(NAME)-$(VERSION).tar*
+	rm -rf ../$(NAME)-$(VERSION).tar*
+	@if [ -e ".svn" ]; then \
+	    $(MAKE) dist-svn; \
+	elif [ -e ".git" ]; then \
+	    $(MAKE) dist-git; \
+	else \
+	    echo "Unknown SCM (not SVN nor GIT)";\
+	    exit 1; \
+	fi;
+	$(info $(NAME)-$(VERSION).tar.lzma is ready)
+
+dist-svn:
+	rm -rf $(NAME)-$(VERSION) 
 	svn export -q -rBASE . $(NAME)-$(VERSION)
 	tar cfY ../$(NAME)-$(VERSION).tar.lzma $(NAME)-$(VERSION)
 	rm -rf $(NAME)-$(VERSION)
 
-	
+dist-git:
+	@git archive --prefix=$(NAME)-$(VERSION)/ HEAD | lzma >../$(NAME)-$(VERSION).tar.lzma;	

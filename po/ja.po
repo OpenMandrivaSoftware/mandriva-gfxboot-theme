@@ -46,9 +46,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux (カーネル %s)"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2009 Spring"
-msgstr "Mandriva Linux 2009 Spring をシステムにインストール"
+msgstr "Mandriva Linux 2009 Spring をインストール"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -423,15 +422,9 @@ msgstr "キーボード"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "ドライバのアップデートをダウンロード"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
-
-#~ msgid "Kernel"
-#~ msgstr "カーネル"
-
-#~ msgid "Installation"
-#~ msgstr "インストール"
+msgstr "ドライバのアップデートのための URL を入力\n"

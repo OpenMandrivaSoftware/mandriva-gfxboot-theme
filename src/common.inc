@@ -441,7 +441,7 @@
       over "text" eq or
       over "noacpi" eq or
     } {
-      dup "linux-nonfb" eq
+      0
     } ifelse
     exch pop not
   } def

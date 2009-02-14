@@ -4,20 +4,23 @@
 # translation of bootloader.po to Français
 # LANGUAGE translations for boot loader
 # Copyright (C) 2004 SUSE LINUX AG
+#
 # Patricia Vaz <Patricia.Vaz@suse.de>, 2004.
 # Patricia Vaz <patricia.vaz@suse.com>, 2004.
 # Patricia Vaz <patricia@suse.de>, 2005.
-#
+# Christophe Berthelé <cpjc@free.fr>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2008-05-27 22:18+0100\n"
-"Last-Translator: li-nox <chadup@caramail.com>\n"
-"Language-Team: French Team <opensuse-fr@opensuse.org>\n"
+"PO-Revision-Date: 2009-02-14 14:44+0100\n"
+"Last-Translator: Christophe Berthelé <cpjc@free.fr>\n"
+"Language-Team: French <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2;plural=(n>1);\n"
 
 #. ok button label
 #. txt_ok
@@ -431,15 +434,9 @@ msgstr "Clavier"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Télécharger la mise à jour du pilote"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
-
-#~ msgid "Kernel"
-#~ msgstr "Noyau"
-
-#~ msgid "Installation"
-#~ msgstr "Installation"
+msgstr "Entrez l'URL de la mise à jour du pilote\n"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt_BR\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-01-28 13:03-0200\n"
+"PO-Revision-Date: 2009-02-16 19:26-0300\n"
 "Last-Translator: Sergio Rafael Lemke <sergio@mandriva.com.br>\n"
 "Language-Team: Brazilian portuguese <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -66,11 +66,11 @@ msgstr "Instalação--ACPI Desabilitada"
 
 #. txt_safe_install
 msgid "Installation--Safe Settings"
-msgstr "Instalação--Configurações Seguras"
+msgstr "Instalação--Modo de Segurança"
 
 #. txt_safe_linux
 msgid "Linux--Safe Settings"
-msgstr "Linux--Configurações Seguras"
+msgstr "Linux--Modo de Segurança"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -202,7 +202,7 @@ msgstr "Desligar"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Desligar o Sistema Agora?"
+msgstr "Desligar o Sistema Agora ?"
 
 #. menu entry for hard disk installation
 #. txt_harddisk
@@ -387,7 +387,7 @@ msgstr "Arquitetura"
 #. ** please keep it really short (comparable to the english text) **
 #. txt_kernel
 msgid "Kernel Option"
-msgstr "Opções do Kernel"
+msgstr "Opção do Kernel"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. txt_kernel_default

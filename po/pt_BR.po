@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt_BR\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-02-16 19:26-0300\n"
+"PO-Revision-Date: 2009-02-17 16:12-0300\n"
 "Last-Translator: Sergio Rafael Lemke <sergio@mandriva.com.br>\n"
 "Language-Team: Brazilian portuguese <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -62,15 +62,15 @@ msgstr "Instalação Manual"
 
 #. txt_noacpi_install
 msgid "Installation--ACPI Disabled"
-msgstr "Instalação--ACPI Desabilitada"
+msgstr "Instalação com ACPI Desabilitada"
 
 #. txt_safe_install
 msgid "Installation--Safe Settings"
-msgstr "Instalação--Modo de Segurança"
+msgstr "Instalar Mandriva Linux em Modo de Segurança"
 
 #. txt_safe_linux
 msgid "Linux--Safe Settings"
-msgstr "Linux--Modo de Segurança"
+msgstr "Iniciar Mandriva Linux em Modo de Segurança"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -98,8 +98,8 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Você está Saindo do Menu de Inicialização Gráfica\n"
-"e Iniciando a Interface em Modo de Texto."
+"Você está saindo do menu de inicialização gráfica\n"
+"e iniciando a interface em modo de texto."
 
 #. txt_help
 msgid "Help"
@@ -212,11 +212,11 @@ msgstr "Disco Rígido"
 #. dialog title for hard disk installation
 #. txt_harddisk_title
 msgid "Hard Disk Installation"
-msgstr "Instalação pelo Disco Rígido"
+msgstr "Instalação em Disco Rígido"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (Scans All Disks If Empty)\n"
-msgstr "Dispositivo de Disco (Varre todos os discos se vazio)\n"
+msgstr "Dispositivo de Disco (Varre todos os Discos se Vazio)\n"
 
 #. txt_directory
 msgid "Directory\n"

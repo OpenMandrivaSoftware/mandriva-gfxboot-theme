@@ -32,7 +32,7 @@ msgstr "Cancelar"
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "Reinicializar"
+msgstr "Reiniciar"
 
 #. continue button label
 #. txt_continue

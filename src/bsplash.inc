@@ -211,7 +211,7 @@
 
   /b2_ok false def
 
-  /b2_text "text.jpg" readimage def
+  /b2_text "mandriva.pcx" readimage def
   % /b2_spot "spotlite.jpg" readimage def
 
   b2_text .undef eq { return } if
@@ -219,7 +219,7 @@
   /b2_text_tmp b2_text imgsize 0 0 moveto savescreen def
   % /b2_spot_tmp b2_spot imgsize 0 0 moveto savescreen def
 
-  600 160 moveto
+  193 44 moveto
   /b2_orig b2_text imgsize savescreen def
   /b2_buf b2_text imgsize savescreen def
 
@@ -282,7 +282,7 @@
   0 0 moveto
   0xffffff b2_text_tmp b2_buf blend
 
-  600 160 moveto b2_buf restorescreen
+  193 44 moveto b2_buf restorescreen
 
   false
 

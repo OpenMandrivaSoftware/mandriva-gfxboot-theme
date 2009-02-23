@@ -67,35 +67,18 @@
 % ( ) ==> ( )
 %
 /check_arch_boot_dir {
-  getcwd dup .undef ne {
-    /64bit.tmp 256 string def
+    "/i586/isolinux/isolinux.cfg" filesize .undef ne {
+	/32bit_boot_dir "/i586/isolinux/" def
+    } if
 
-    dup "i586" strstr 0 ne over "x86_64" strstr 0 ne or {
-      dup "i586" strstr {
-        /32bit_boot_dir exch def
-        /64bit_boot_dir 32bit_boot_dir "i586" "x86_64" strreplace
-      } {
-        /64bit_boot_dir exch def
-        /32bit_boot_dir 64bit_boot_dir "x86_64" "i586" strreplace
-      } ifelse
-
-      dup "%s/isolinux.cfg" 64bit.tmp sprintf
-      64bit.tmp filesize .undef ne { def } { free pop } ifelse
-
-    } {
-      /32bit_boot_dir over def
-      /64bit_boot_dir exch def
-    } ifelse
-
-    64bit.tmp free
+    "/x86_64/isolinux/isolinux.cfg" filesize .undef ne {
+	/64bit_boot_dir "/x86_64/isolinux/" def
+    } if
 
     % font.normal setfont
     % 0 400 moveto 32bit_boot_dir print
     % 0 420 moveto 64bit_boot_dir print dtrace
 
-  } {
-    pop
-  } ifelse
 } def
 
 
@@ -304,13 +287,19 @@
       pop
     } ifelse
   } if
-  % getcwd 0 300 moveto show trace
+  % getcwd 0 300 moveto show 
 
   % lilo & syslinux: prepend kernel/label name
   grub {
     bc.cmd 0 0 put
   } {
-    menu.texts menu.entry get "%s " bc.cmd sprintf
+    menu.texts menu.entry get
+    xmenu.bits .xm_current get 1 eq {
+      "64" exch "%s%s "
+    } {
+      "%s "
+    } ifelse
+    bc.cmd sprintf
   } ifelse
 
   xmenu.kernelopts {

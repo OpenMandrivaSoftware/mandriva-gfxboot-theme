@@ -429,6 +429,7 @@
       over "vgahi" eq or
       over "text" eq or
       over "noacpi" eq or
+      over "linux64" eq or
     } {
       0
     } ifelse

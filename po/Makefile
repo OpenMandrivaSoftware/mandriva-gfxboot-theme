@@ -13,9 +13,9 @@ all: .ready
 # to ensure that
 %.tr: %.po text.inc
 	msgfmt $< -o - | msgunfmt | \
-	msgmerge --no-fuzzy-matching - bootloader.pot > tmpfile.po && \
-	bin/po2txt --product='$(PRODUCT)' tmpfile.po >$@
-	echo rm -f tmpfile.po
+	msgmerge --no-fuzzy-matching - bootloader.pot > tmp_$< && \
+	bin/po2txt --product='$(PRODUCT)' tmp_$< >$@
+	rm -f tmp_$<
 
 # en.tr uses msgids from bootloader.pot
 en.tr text.inc: bootloader.pot

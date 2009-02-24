@@ -147,7 +147,7 @@
   /xmenu.lheight xmenu.font setfont fontheight xmenu.vspace dup add add def
 
   /xmenu.maxlines
-    panel.text.y 1 sub xmenu.lheight div
+    panel.text.y 2 sub xmenu.lheight div
   def
 
   /xmenu.columns xmenu .xm_list get length xmenu.maxlines add 1 sub xmenu.maxlines div def

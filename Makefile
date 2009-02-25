@@ -50,7 +50,7 @@ bootlogo: src/main.bin help-install/.ready po/.ready fonts/.ready
 ifdef DEFAULT_LANG
 	@echo $(DEFAULT_LANG) >bootlogo.dir/lang
 endif
-	@sh -c 'cd bootlogo.dir; chmod +t * ; chmod -t init languages'
+	@sh -c 'cd bootlogo.dir; chmod +t * ; chmod -t init langs'
 	@sh -c 'cd bootlogo.dir; echo $(IN_CPIO_INSTALL) | sed -e "s/ /\n/g" | cpio --quiet -o >../bootlogo'
 	@cd bootlogo.dir; rm $(IN_CPIO_INSTALL)
 
@@ -63,7 +63,7 @@ message: src/main.bin help-boot/.ready po/.ready fonts/.ready
 ifdef DEFAULT_LANG
 	cp -rL po/$(DEFAULT_LANG).tr help-boot/$(DEFAULT_LANG).hlp message.dir
 	@echo $(DEFAULT_LANG) >message.dir/lang
-	@echo $(DEFAULT_LANG) >>message.dir/languages
+	@echo $(DEFAULT_LANG) >>message.dir/langs
 endif
 	@sh -c 'cd message.dir; echo * | sed -e "s/ /\n/g" | cpio --quiet -o >../message'
 	@rm -r message.dir

@@ -264,7 +264,17 @@
   dup boot.splitstr join bc.cmd over strcpy pop free
   dup { free } forall free
 
-  pop bc.cmd menu.entry
+  pop bc.cmd 
+
+  % we want the index of the entry that was selected in the list of *all*
+  % entries (including hidden ones)
+  menu.texts menu.entry get
+  0 1 menu.texts.real length
+  {  
+    dup menu.texts.real exch get
+    2 index eq { exit } { pop } ifelse
+  } for
+  exch pop
 
 } def
 

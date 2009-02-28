@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.el\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-01-27 20:50+0100\n"
+"PO-Revision-Date: 2009-02-28 09:06+0100\n"
 "Last-Translator: Glentadakis Dimitrios <dglent@gmail.com>\n"
 "Language-Team: Ελληνικά <billg@billg.gr>\n"
 "MIME-Version: 1.0\n"
@@ -313,7 +313,7 @@ msgstr "Κοινόχρηστο\n"
 
 #. txt_zenAuto
 msgid "Automatic Mode"
-msgstr "Αυτόματο Κατάσταση"
+msgstr "Αυτόματη Κατάσταση"
 
 #. txt_zenManual
 msgid "Manual Mode"

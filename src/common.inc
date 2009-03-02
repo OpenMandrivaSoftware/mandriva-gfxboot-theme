@@ -610,7 +610,7 @@
   } if
 
   syslinux info.type 5 eq and {
-    dup .title "Driver Update" put
+    dup .title txt_driver_update2 put
     info.msg "Insert driver update CD-ROM for\n\"%s\"." info.tmpmsg sprintf
     /info.msg info.tmpmsg def
   } if
@@ -1241,8 +1241,8 @@
 /32bit_popup {
   window.dialog
 
-  dup .title "Warning" put
-  dup .text "You are about to install 32-bit software on a 64-bit computer." put
+  dup .title txt_warning put
+  dup .text txt_32bit_popup put
   dup .buttons [
     button.continue button.default actNothing button.setaction
   ] put

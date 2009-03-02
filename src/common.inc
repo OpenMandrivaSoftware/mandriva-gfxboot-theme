@@ -538,11 +538,9 @@
   syslinux {
     32+64bit_source not {
 
-      64bit {
-        64bit_source not { notimeout 32bit_popup } if
-      } {
-        64bit_source { notimeout 64bit_popup } if
-      } ifelse
+      64bit not 64bit_source and {
+        notimeout 64bit_popup
+      } if
 
     } if
   } if

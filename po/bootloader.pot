@@ -412,3 +412,12 @@ msgstr ""
 msgid "Enter Driver Update URL\n"
 msgstr ""
 
+#. title of warning box when running a 64bit CD on a 32bit machine
+#. txt_wrong_arch
+msgid "Wrong architecture"
+msgstr ""
+
+#. warning when running a 64bit CD on a 32bit machine
+#. txt_64bit_popup
+msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+msgstr ""

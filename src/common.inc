@@ -1260,8 +1260,8 @@
 /64bit_popup {
   window.dialog
 
-  dup .title "Wrong architecture" put
-  dup .text "This is a 32-bit computer. You cannot use 64-bit software on it." put
+  dup .title txt_wrong_arch put
+  dup .text txt_64bit_popup put
   dup .buttons [
     button.reboot button.default actReboot actNoClose or button.setaction
   ] put

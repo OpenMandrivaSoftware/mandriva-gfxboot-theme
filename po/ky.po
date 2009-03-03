@@ -6,14 +6,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2009-01-04 14:13+0600\n"
+"PO-Revision-Date: 2009-03-03 09:27+0600\n"
 "Last-Translator: Ilyas Bakirov <just_ilyas@yahoo.com>\n"
 "Language-Team: Kirghiz <just_ilyas@yahoo.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Kirghiz\n"
-"X-Poedit-Country: Kyrgyzstan\n"
 
 # ok button label
 #. txt_ok
@@ -37,7 +35,7 @@ msgstr "Улантуу"
 
 #. txt_manual_install
 msgid "Manual Installation"
-msgstr " орнотулушу"
+msgstr "Жеке кол менен орнотулушу"
 
 #. txt_noacpi_install
 msgid "Installation--ACPI Disabled"
@@ -120,7 +118,7 @@ msgstr "I/O катасы"
 # boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Жүктөлүчү дисктин алмашуусу"
+msgstr "Жүктөлүүчү дискти алмаштыруу"
 
 #. txt_insert_disk
 #, c-format
@@ -297,25 +295,25 @@ msgid "Share\n"
 msgstr "Бөлүшүү\n"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009 Spring"
-msgstr "Mandriva Linux 2009 Spring жүктөө"
+msgid "Boot Mandriva Linux 2009"
+msgstr "Mandriva Linux 2009 жүктөө"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Microsoft Windows жүктөө"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009 Spring"
-msgstr "Mandriva Linux 2009 Spring орнотуу"
+msgid "Install Mandriva Linux 2009"
+msgstr "Mandriva Linux 2009 орнотуу"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
-msgstr "Mandriva Linux 2009 Spring жүктөө (safe mode)"
+msgid "Boot Mandriva Linux 2009 (safe mode)"
+msgstr "Mandriva Linux 2009 жүктөө (safe mode)"
 
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
-msgstr "Linux with kernel %s"
+msgstr "Linux %s ядросу менен"
 
 #. txt_kernel_option
 msgid "Kernel Option"

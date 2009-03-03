@@ -9,12 +9,13 @@
 # Patricia Vaz <patricia.vaz@suse.com>, 2004.
 # Patricia Vaz <patricia@suse.de>, 2005.
 # Christophe Berthelé <cpjc@free.fr>, 2009.
+# Christophe Berthelé <berthy@mandriva.org>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-02-14 14:44+0100\n"
-"Last-Translator: Christophe Berthelé <cpjc@free.fr>\n"
+"PO-Revision-Date: 2009-03-03 21:03+0100\n"
+"Last-Translator: Christophe Berthelé <berthy@mandriva.org>\n"
 "Language-Team: French <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -444,22 +445,26 @@ msgstr "Entrez l'URL de la mise à jour du pilote\n"
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Architecture incorrecte"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
 msgstr ""
+"Vous disposez d'un ordinateur 32-bit qui ne permet pas d'exécuter "
+"d'applications 64-bit."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Attention"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
 msgstr ""
+"Vous êtes sur le point d'installer des applications 32-bit sur cet "
+"ordinateur 64-bit."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -468,11 +473,10 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Insérez le CD-ROM de mise à jour des pilotes pour\n"
+"« %s »."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
-
-#~ msgid "Linux--Safe Settings"
-#~ msgstr "Linux - Paramètres sécurisés"
+msgstr "Veuillez remettre le CD-ROM Mandriva dans le lecteur."

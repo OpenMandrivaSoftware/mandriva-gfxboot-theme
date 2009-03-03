@@ -69,8 +69,8 @@ msgid "Installation--Safe Settings"
 msgstr "Namestitev--varne nastavitve"
 
 #. txt_safe_linux
-msgid "Linux--Safe Settings"
-msgstr "Linux--varne nastavitve"
+msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+msgstr "Zaženi Mandriva Linux 2009 Spring  (varni način)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -116,7 +116,10 @@ msgid ""
 "Loading Linux Kernel\n"
 "\n"
 "\n"
-msgstr "Nalaganje jedra Linux\n\n\n"
+msgstr ""
+"Nalaganje jedra Linux\n"
+"\n"
+"\n"
 
 #. Keep the three newlines!
 #. txt_load_memtest
@@ -124,7 +127,10 @@ msgid ""
 "Loading memtest86\n"
 "\n"
 "\n"
-msgstr "Nalaganje memtest86\n\n\n"
+msgstr ""
+"Nalaganje memtest86\n"
+"\n"
+"\n"
 
 #. info box title
 #. txt_info_title
@@ -431,6 +437,42 @@ msgstr "Prenesi posodobitev gonilnika"
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
 msgstr "Vnesite lokacijo posodobitve gonilnika\n"
+
+#. title of warning box when running a 64bit CD on a 32bit machine
+#. txt_wrong_arch
+msgid "Wrong architecture"
+msgstr ""
+
+#. warning when running a 64bit CD on a 32bit machine
+#. txt_64bit_popup
+msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+msgstr ""
+
+#. title of warning box when running a 32bit CD on a 64bit machine
+#. txt_warning
+msgid "Warning"
+msgstr ""
+
+#. warning when running a 32bit CD on a 64bit machine
+#. txt_32bit_popup
+msgid "You are about to install 32-bit software on a 64-bit computer."
+msgstr ""
+
+#. insert CDROM with drivers
+#. txt_insert_driver_cd
+#, c-format
+msgid ""
+"Insert driver update CD-ROM for\n"
+"\"%s\"."
+msgstr ""
+
+#. insert Mandriva CD back
+#. txt_insert_mdv_cd
+msgid "Put the Mandriva Linux CD-ROM back into the drive."
+msgstr ""
+
+#~ msgid "Linux--Safe Settings"
+#~ msgstr "Linux--varne nastavitve"
 
 #~ msgid "Installation"
 #~ msgstr "Namestitev"

@@ -42,7 +42,6 @@ msgid "Continue"
 msgstr "Hald fram"
 
 #. txt_linux
-#| msgid "Boot Mandriva Linux 2009"
 msgid "Boot Mandriva Linux 2009 Spring"
 msgstr "Start Mandriva Linux 2009 Spring"
 
@@ -56,7 +55,6 @@ msgid "Linux with kernel %s"
 msgstr "Linux med kjerne %s"
 
 #. txt_install
-#| msgid "Install Mandriva Linux 2009"
 msgid "Install Mandriva Linux 2009 Spring"
 msgstr "Installer Mandriva Linux 2009 Spring"
 
@@ -73,9 +71,8 @@ msgid "Installation--Safe Settings"
 msgstr "Installering – trygge innstillingar"
 
 #. txt_safe_linux
-#| msgid "Installation--Safe Settings"
-msgid "Linux--Safe Settings"
-msgstr "Linux – trygt oppsett"
+msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+msgstr "Start Mandriva Linux 2009 (sikkermodus)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -144,14 +141,12 @@ msgstr ""
 # info box title
 #. info box title
 #. txt_info_title
-#| msgid "Boot loader"
 msgid "Boot Loader"
 msgstr "Oppstartslastar"
 
 # error box title
 #. error box title
 #. txt_error_title
-#| msgid "I/O error"
 msgid "I/O Error"
 msgstr "Inn/ut-feil"
 
@@ -177,10 +172,8 @@ msgstr ""
 
 # <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
-#. txt_insert_disk3, c-format
-#| msgid ""
-#| "This is not a <product> boot disk.\n"
-#| "Please insert boot disk %u."
+#. txt_insert_disk3
+#, c-format
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
@@ -237,7 +230,6 @@ msgid "Hard Disk Installation"
 msgstr "Harddisk-installering"
 
 #. txt_hd_diskdevice
-#| msgid "Disk Device (scan all disks if empty)\n"
 msgid "Disk Device (Scans All Disks If Empty)\n"
 msgstr "Diskeining (søkjer på alle diskar viss tom)\n"
 
@@ -262,7 +254,6 @@ msgstr "Passord\n"
 # label for ftp user input
 #. label for ftp user input
 #. txt_user1
-#| msgid "User (anonymous login if empty)\n"
 msgid "User (Anonymous Login If Empty)\n"
 msgstr "Brukar (anonym innlogging viss tom)\n"
 
@@ -275,13 +266,11 @@ msgstr "NFS-installering"
 # label for smb user input
 #. label for smb user input
 #. txt_user2
-#| msgid "User (using \"guest\" if empty)\n"
 msgid "User (Uses \"guest\" If Empty)\n"
 msgstr "Brukar (brukar «guest» viss tom)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
-#| msgid "Manual Installation"
 msgid "SMB (Windows Share) Installation"
 msgstr "SMB-installering (delt Windows-område)"
 
@@ -411,7 +400,6 @@ msgstr "Videmodus"
 #. driver update dialog title
 #. -> txt_dud_file_msg
 #. txt_driver_update2
-#| msgid "Driver"
 msgid "Driver Update"
 msgstr "Drivaroppdatering"
 
@@ -436,7 +424,6 @@ msgstr "Standard"
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> like in txt_safe_linux
 #. txt_kernel_safe
-#| msgid "Installation--Safe Settings"
 msgid "Safe Settings"
 msgstr "Trygt oppsett"
 
@@ -454,14 +441,12 @@ msgstr "Ingen lokal APIC"
 
 #. main menu: start in system repair mode
 #. txt_repain_system
-#| msgid "Rescue System"
 msgid "Repair Installed System"
 msgstr "Reparer installert system"
 
 # dialog title for ftp installation
 #. menu item
 #. txt_mediacheck
-#| msgid "FTP Installation"
 msgid "Check Installation Media"
 msgstr "Kontroller installasjonsmedium"
 
@@ -480,6 +465,43 @@ msgstr "Last ned drivaroppdatering"
 msgid "Enter Driver Update URL\n"
 msgstr "Skriv inn adressa til drivaroppdateringa\n"
 
+#. title of warning box when running a 64bit CD on a 32bit machine
+#. txt_wrong_arch
+msgid "Wrong architecture"
+msgstr ""
+
+#. warning when running a 64bit CD on a 32bit machine
+#. txt_64bit_popup
+msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+msgstr ""
+
+#. title of warning box when running a 32bit CD on a 64bit machine
+#. txt_warning
+msgid "Warning"
+msgstr ""
+
+#. warning when running a 32bit CD on a 64bit machine
+#. txt_32bit_popup
+msgid "You are about to install 32-bit software on a 64-bit computer."
+msgstr ""
+
+#. insert CDROM with drivers
+#. txt_insert_driver_cd
+#, c-format
+msgid ""
+"Insert driver update CD-ROM for\n"
+"\"%s\"."
+msgstr ""
+
+#. insert Mandriva CD back
+#. txt_insert_mdv_cd
+msgid "Put the Mandriva Linux CD-ROM back into the drive."
+msgstr ""
+
+#~| msgid "Installation--Safe Settings"
+#~ msgid "Linux--Safe Settings"
+#~ msgstr "Linux – trygt oppsett"
+
 # Keep the newlines and spaces after ':'!
 #~ msgid ""
 #~ "Enter your password:   \n"
@@ -493,6 +515,3 @@ msgstr "Skriv inn adressa til drivaroppdateringa\n"
 # dialog title for ISO installation
 #~ msgid "Installation from ISO file"
 #~ msgstr "Installering frå ISO-fil"
-
-#~ msgid "Boot Mandriva Linux 2009 (safe mode)"
-#~ msgstr "Start Mandriva Linux 2009 (sikkermodus)"

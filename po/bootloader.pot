@@ -61,7 +61,7 @@ msgid "Installation--Safe Settings"
 msgstr ""
 
 #. txt_safe_linux
-msgid "Linux--Safe Settings"
+msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
 msgstr ""
 
 #. txt_boot_harddisk

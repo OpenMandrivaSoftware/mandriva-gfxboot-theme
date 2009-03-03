@@ -423,15 +423,9 @@ msgstr "鍵盤"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "下載驅動程式更新"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
-
-#~ msgid "Kernel"
-#~ msgstr "核心"
-
-#~ msgid "Installation"
-#~ msgstr "安裝"
+msgstr "輸入驅動程式更新網址\n"

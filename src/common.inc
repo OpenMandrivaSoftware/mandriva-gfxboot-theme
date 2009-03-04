@@ -611,13 +611,13 @@
 
   syslinux info.type 5 eq and {
     dup .title txt_driver_update2 put
-    info.msg "Insert driver update CD-ROM for\n\"%s\"." info.tmpmsg sprintf
+    info.msg txt_insert_driver_cd info.tmpmsg sprintf
     /info.msg info.tmpmsg def
   } if
 
   syslinux info.type 6 eq and {
-    dup .title "Driver Update" put
-    /info.msg "Put the Mandriva Linux CD-ROM back into the drive." def
+    dup .title txt_driver_update2 put
+    /info.msg txt_insert_mandriva_cd def
   } if
 
   dup .text info.msg put

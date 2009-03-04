@@ -1,39 +1,52 @@
 # Translation of mandriva-gfxboot-theme.po to Romanian
 # Copyright (c) 1999-2009 Mandriva
 #
-# Vă rugăm să nu actualizaţi fişierul, cu excepţia cazului în care sînteţi
-# sigur de calitatea traducerii dumneavoastră, de gramatică şi de ortografie.
+# Vă rugăm să nu actualizaţi fișierul, cu excepția cazului în care sînteți
+# sigur de calitatea traducerii dumneavoastră, de gramatică și de ortografie.
 # Acestea din urmă sînt de prea multe ori aproximative.
 # Corectarea lor ulterioară nu are nici un alt rezultat decît acela de
 # pierdere de timp pentru toata lumea.
 #
-# VĂ RUGĂM SĂ RESPECTAŢI SEMNELE DE PUNCTUAŢIE ALE LIMBII ROMÂNE!
+# VĂ RUGĂM SĂ RESPECTAȚI SEMNELE DE PUNCTUAȚIE ALE LIMBII ROMÂNE!
 #
-# Nu suprimaţi spaţiul care urmează unui semn de punctuaţie de sfîrşit de
+# Nu suprimați spațiul care urmează unui semn de punctuație de sfîrșit de
 # frază; trebuie respectată versiunea originală. În acest caz, este foarte
-# probabil ca programul să afişeze un mesaj la sfîrşit. Suprimînd acel spaţiu,
-# cele două cuvintele vor fi afişate legat.
+# probabil ca programul să afișeze un mesaj la sfîrșit. Suprimînd acel spațiu,
+# cele două cuvintele vor fi afișate legat.
 #
-# Traduceţi de manieră INTELIGENTĂ (de ce nu şi prin comparaţie cu alte
-# traduceri ale acestui fişier în alte limbi) şi nu cuvînt cu cuvînt. Unele
+# Traduceți de manieră INTELIGENTĂ (de ce nu și prin comparație cu alte
+# traduceri ale acestui fișier în alte limbi) și nu cuvînt cu cuvînt. Unele
 # astfel de traduceri nu au nici un sens în limba română.
 #
-# Vă mulţumim pentru înţelegere.
-# www.mandrivausers.ro
+# ATENȚIE LA FONTURILE UTILIZATE! Pentru a reda corect diacriticele folosiți
+# disponerea tastaturii românească standard, codarea de caractere UTF-8 și
+# asigurați-vă că fonturile utilizate sînt cu virgulițe, NU CU SEDILE!
+# Exemplu:
+#          font incorect (cu sedile): şŞ ţŢ
+#          font corect (cu virgule): șȘ țȚ
 #
-# Traducători:
-# Claudiu Costin <claudiuc@kde.org>, 2004
+# Pentru a vă asigura că folosiți fonturile corecte, vizitați:
+#          http://i18n.ro/Fonturi_romanesti/testare
+#
+# Vă mulțumim pentru înțelegere.
+#                                                       Echipa de traducători,
+#                                                       www.Mandrivausers.ro
+#
+# Traducători de-a lungul timpului:
+#
+# Claudiu COSTIN <claudiuc@kde.org>, 2004
 # Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>, 2009
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2009-01-28 16:18+0100\n"
+"PO-Revision-Date: 2009-03-04 09:51+0100\n"
 "Last-Translator: Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>\n"
 "Language-Team: Mandrivausers.ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
 
 #. ok button label
 #. txt_ok
@@ -48,7 +61,7 @@ msgstr "Anulează"
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "Reporneşte"
+msgstr "Repornește"
 
 #. continue button label
 #. txt_continue
@@ -82,7 +95,7 @@ msgstr "Instalare--ACPI dezactivat"
 
 #. txt_safe_install
 msgid "Installation--Safe Settings"
-msgstr "Instalare--Setări sigure"
+msgstr "Instalare--Opțiuni sigure"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
@@ -102,7 +115,7 @@ msgstr "Test de memorie"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Opţiuni demaraj"
+msgstr "Opțiuni de demaraj"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -114,8 +127,8 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Acum părăsiţi modul grafic de demaraj\n"
-"şi intraţi în interfaţa text."
+"Acum părăsiți modul grafic de demaraj\n"
+"și intrați în interfața text."
 
 #. txt_help
 msgid "Help"
@@ -124,7 +137,7 @@ msgstr "Ajutor"
 #. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
 msgid "Starting..."
-msgstr "Se porneşte..."
+msgstr "Se pornește..."
 
 #. Keep the three newlines!
 #. txt_load_kernel
@@ -161,12 +174,12 @@ msgstr "Eroare I/O"
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Schimbaţi discul de demaraj"
+msgstr "Schimbați discul de demaraj"
 
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Introduceţi discul de demaraj %u."
+msgstr "Introduceți discul de demaraj %u."
 
 #. txt_insert_disk2
 #, c-format
@@ -175,7 +188,7 @@ msgid ""
 "Insert boot disk %u."
 msgstr ""
 "Aceasta este discul de demaraj %u.\n"
-"Introduceţi discul de demaraj %u."
+"Introduceți discul de demaraj %u."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -185,7 +198,7 @@ msgid ""
 "Insert boot disk %u."
 msgstr ""
 "Acesta nu este un disc de demaraj <product>.\n"
-"Introduceţi discul %u."
+"Introduceți discul %u."
 
 #. password dialog title
 #. txt_password_title
@@ -194,7 +207,7 @@ msgstr "Parolă"
 
 #. txt_dud_ready
 msgid "Get your driver update floppy ready."
-msgstr "Pregătiţi discheta piloţi actualizaţi."
+msgstr "Pregătiți discheta cu piloți actualizați."
 
 #. dvd warning title
 #. txt_dvd_warning_title
@@ -207,9 +220,9 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"Acesta este un DVD cu două feţe. Aţi demarat sistemul de pe a doua faţă.\n"
+"Acesta este un DVD cu două fețe. Ați demarat sistemul de pe a doua față.\n"
 "\n"
-" Întoarceţi DVD-ul şi apoi continuaţi."
+" Întoarceți DVD-ul și apoi continuați."
 
 #. power off dialog title
 #. txt_power_off_title
@@ -218,7 +231,7 @@ msgstr "Oprire alimentare"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Opriţi sistemul acum?"
+msgstr "Opriți sistemul acum?"
 
 #. menu entry for hard disk installation
 #. txt_harddisk
@@ -289,7 +302,7 @@ msgstr "Domeniu\n"
 #. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "Alte opţiuni"
+msgstr "Alte opțiuni"
 
 #. label for language selection
 #. txt_language
@@ -319,7 +332,7 @@ msgstr "Nu"
 #. menu item for selecting a file
 #. txt_file
 msgid "File"
-msgstr "Fişier"
+msgstr "Fișier"
 
 #. input label: share as in "Windows share" (SMB)
 #. txt_share
@@ -336,23 +349,23 @@ msgstr "Mod manual"
 
 #. txt_zenConfig
 msgid "Configure Parameters on ZEN Partition"
-msgstr "Configuraţi parametrii partiţiei ZEN"
+msgstr "Configurați parametrii partiției ZEN"
 
 #. txt_zenInstall
 msgid "Install or Update ZEN Partition"
-msgstr "Instalează sau actualizează partiţie ZEN"
+msgstr "Instalează sau actualizează o partiție ZEN"
 
 #. txt_zenLilo
 msgid "Reinstall ZEN Partition Boot Loader"
-msgstr "Reinstalează încărcătorul de sistem al partiţiei ZEN"
+msgstr "Reinstalează încărcătorul de sistem al partiției ZEN"
 
 #. txt_zenDisable
 msgid "Disable ZEN Partition"
-msgstr "Dezactivează partiţia ZEN"
+msgstr "Dezactivează partiția ZEN"
 
 #. txt_zenEnable
 msgid "Enable ZEN Partition"
-msgstr "Activează partiţia ZEN"
+msgstr "Activează partiția ZEN"
 
 #. video mode menu item
 #. txt_text_mode
@@ -371,7 +384,7 @@ msgid ""
 "by commas ',') here:\n"
 msgstr ""
 "Pentru a încărca actualizările de pilot direct de pe CD-ROM,\n"
-"introduceţi aici numele fişierelor cu actualizările (separate prin\n"
+"introduceți aici numele fișierelor cu actualizările (separate prin\n"
 "virgulă ','):\n"
 
 #. install source menu title
@@ -403,7 +416,7 @@ msgstr "Arhitectură"
 #. ** please keep it really short (comparable to the english text) **
 #. txt_kernel
 msgid "Kernel Option"
-msgstr "Opţiune nucleu"
+msgstr "Opțiune nucleu"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. txt_kernel_default
@@ -414,7 +427,7 @@ msgstr "Implicit"
 #. -> like in txt_safe_linux
 #. txt_kernel_safe
 msgid "Safe Settings"
-msgstr "Setări sigure"
+msgstr "Opțiuni sigure"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_noacpi_install
@@ -451,27 +464,31 @@ msgstr "Descărcare actualizare pilot"
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr "Întroduceţi URL actualizare pilot\n"
+msgstr "Întroduceți URL actualizare pilot\n"
 
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Arhitectură greșită"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
 msgstr ""
+"Este un calculator pe 32 de biți. Nu puteți utiliza pe el programe pe 64 de "
+"biți."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Avertisment"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
 msgstr ""
+"Sînteți pe cale să instalați programe pe 32 de biți pe un calculator pe 64 "
+"de biți."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -480,11 +497,13 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Introduceți CD-ul cu pilotul actualizat pentru\n"
+"\"%s\"."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "Puneți CD-ul cu Mandriva Linux înapoi în unitate."
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux--Setări sigure"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.et\n"
 "POT-Creation-Date: 2003-03-04 15:08+0100\n"
-"PO-Revision-Date: 2009-02-04 01:47+0300\n"
+"PO-Revision-Date: 2009-03-04 11:22+0300\n"
 "Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <linux-ee@lists.eenet.ee>\n"
 "MIME-Version: 1.0\n"
@@ -437,22 +437,22 @@ msgstr "Sisesta draiveri uuenduse URL\n"
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Vale arhitektuur"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr ""
+msgstr "See on 32-bitine arvuti. Sellel ei saa kasutada 64-bitist tarkvara."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Hoiatus"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "Kavatsete paigaldada 32-bitist tarkvara 64-bitisesse arvutisse."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -461,11 +461,13 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Sisestage draiverite uuendamise CD\n"
+"\"%s\"."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "Asetage Mandrica Linuxi CD taas seadmesse."
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux--ohutud sätted"

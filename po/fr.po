@@ -480,3 +480,8 @@ msgstr ""
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
 msgstr "Veuillez remettre le CD-ROM Mandriva dans le lecteur."
+
+#. bootloader entry to restore draksnapshot backups
+#. txt_restore
+msgid "Restore draksnapshot backup"
+msgstr ""

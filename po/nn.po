@@ -498,6 +498,11 @@ msgstr ""
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
 msgstr ""
 
+#. bootloader entry to restore draksnapshot backups
+#. txt_restore
+msgid "Restore draksnapshot backup"
+msgstr ""
+
 #~| msgid "Installation--Safe Settings"
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux – trygt oppsett"

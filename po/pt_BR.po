@@ -446,8 +446,7 @@ msgstr "Arquitetura Errada"
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
 msgstr ""
-"Este é um computador de 32-bit. Você não pode usar programas de 64-bit "
-"nele."
+"Este é um computador de 32-bit. Você não pode usar programas de 64-bit nele."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -457,8 +456,7 @@ msgstr "Atenção"
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
-"Você está prestes a instalar software 32-bit num computador de 64-bit"
+msgstr "Você está prestes a instalar software 32-bit num computador de 64-bit"
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -474,6 +472,11 @@ msgstr ""
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
 msgstr "Recoloque o CD-ROM Mandriva Linux no drive."
+
+#. bootloader entry to restore draksnapshot backups
+#. txt_restore
+msgid "Restore draksnapshot backup"
+msgstr ""
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Iniciar Mandriva Linux em Modo de Segurança"

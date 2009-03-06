@@ -474,6 +474,11 @@ msgstr ""
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
 msgstr ""
 
+#. bootloader entry to restore draksnapshot backups
+#. txt_restore
+msgid "Restore draksnapshot backup"
+msgstr ""
+
 # Keep the newlines and spaces after ':'!
 #~ msgid ""
 #~ "Enter your password:   \n"

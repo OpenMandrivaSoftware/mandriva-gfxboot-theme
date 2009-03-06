@@ -496,3 +496,7 @@ msgstr ""
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
 msgstr "Mandriva Linux дискин кайра коюңуз."
 
+#. bootloader entry to restore draksnapshot backups
+#. txt_restore
+msgid "Restore draksnapshot backup"
+msgstr ""

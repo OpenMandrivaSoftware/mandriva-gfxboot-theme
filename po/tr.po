@@ -14,7 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. ok button label
 #. txt_ok
@@ -442,7 +442,8 @@ msgstr "Yanlış mimari"
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr "Bu bir 32 bit bilgisayar. Bu bilgisayarda 64 bit yazılım kullanamazsınız."
+msgstr ""
+"Bu bir 32 bit bilgisayar. Bu bilgisayarda 64 bit yazılım kullanamazsınız."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -460,13 +461,19 @@ msgstr "64 bit bir bilgisayara 32 bit yazılım kurmak üzeresiniz."
 msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
-msgstr "Şu aygıt için sürücü güncelleme CD_ROM' u takın:\n"
+msgstr ""
+"Şu aygıt için sürücü güncelleme CD_ROM' u takın:\n"
 "\"%s\"."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
 msgstr "Mandriva Linux CD-ROM' unu sürücüye geri takın."
+
+#. bootloader entry to restore draksnapshot backups
+#. txt_restore
+msgid "Restore draksnapshot backup"
+msgstr ""
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux--Güvenli Ayarlar"

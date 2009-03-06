@@ -1,7 +1,5 @@
-BINDIR      := $(shell [ -x ../../../gfxboot-font ] && echo ../../../ )
-
-GFXBOOT_FONT = $(BINDIR)gfxboot-font
-KEYMAPCHARS  = $(BINDIR)bin/keymapchars
+GFXBOOT_FONT = gfxboot-font
+KEYMAPCHARS  = gfxboot-keymapchars
 
 all: .ready
 

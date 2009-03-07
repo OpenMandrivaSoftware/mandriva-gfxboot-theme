@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.el\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-04 18:57+0100\n"
+"PO-Revision-Date: 2009-03-07 07:13+0100\n"
 "Last-Translator: Glentadakis Dimitrios <dglent@gmail.com>\n"
 "Language-Team: Greek <i18ngr@lists.hellug.gr  >\n"
 "MIME-Version: 1.0\n"
@@ -484,7 +484,7 @@ msgstr "Παρακαλώ εισάγετε ξανά το CD-ROM Mandriva στον
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Επαναφορά αντιγράφων ασφαλείας draksnapshot"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux--Ασφαλείς Ρυθμίσεις"
@@ -494,3 +494,4 @@ msgstr ""
 
 #~ msgid "Installation"
 #~ msgstr "Εγκατάσταση"
+

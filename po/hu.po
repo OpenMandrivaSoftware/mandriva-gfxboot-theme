@@ -469,7 +469,9 @@ msgstr "Ön 32 bites szoftvert akar 64 bites számítógépre telepíteni."
 msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
-msgstr "Kérem helyezze be a \"%s\" meghajtóhoz \szükséges CD-ROM-ot."
+msgstr ""
+"Kérem helyezze be a \"%s\" meghajtóhoz \n"
+"szükséges CD-ROM-ot."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mandriva-gfxboot-theme-2009.1\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-01-28 14:56+0100\n"
+"PO-Revision-Date: 2009-03-07 15:50+0100\n"
 "Last-Translator: Lónyai Gergely <aleph@mandriva.org>\n"
 "Language-Team: Hungarian <aleph@mandriva.org>\n"
 "MIME-Version: 1.0\n"
@@ -446,22 +446,22 @@ msgstr "Adja megy a meghajtófrissítés útvonalát\n"
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Nem megfelelő architektúra"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr ""
+msgstr "Ez egy 32 bites számítógép. Nem működik rajta 64 bites szoftver."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Figyelem"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "Ön 32 bites szoftvert akar 64 bites számítógépre telepíteni."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -469,23 +469,22 @@ msgstr ""
 msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
-msgstr ""
+msgstr "Kérem helyezze be a \"%s\" meghajtóhoz \szükséges CD-ROM-ot."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "Helyezze vissza a Mandriva Linux telepítőjét CD-ROM-ba."
 
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Draksnapshot mentés helyreállítása"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux - Biztonságos beállításokkal"
-
 #~ msgid "Kernel"
 #~ msgstr "Kernel"
-
 #~ msgid "Installation"
 #~ msgstr "Telepítés"
+

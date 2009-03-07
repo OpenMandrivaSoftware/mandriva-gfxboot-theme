@@ -2,18 +2,19 @@
 # LANGUAGE translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
 #
-# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2007, 2008.
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2007, 2008, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloder\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2008-02-02 00:23+0100\n"
+"PO-Revision-Date: 2009-03-07 23:24+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
-"Language-Team: Euskara <eu@li.org>\n"
+"Language-Team: Basque <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 # ok button label
 #. ok button label
@@ -139,14 +140,12 @@ msgstr ""
 # info box title
 #. info box title
 #. txt_info_title
-#, fuzzy
 msgid "Boot Loader"
 msgstr "Abio zamatzailea"
 
 # error box title
 #. error box title
 #. txt_error_title
-#, fuzzy
 msgid "I/O Error"
 msgstr "S/I akatsa"
 
@@ -172,13 +171,12 @@ msgstr ""
 
 # <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
-#. txt_insert_disk3
-#, fuzzy, c-format
+#. txt_insert_disk3, c-format
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
 msgstr ""
-"Hau ez da <product> abiapen diskoa.\n"
+"Hau ez da <product> abiapen disko bat.\n"
 "Mesedez sartu %u abiapen diskoa."
 
 # password dialog title
@@ -230,9 +228,8 @@ msgid "Hard Disk Installation"
 msgstr "Disko zurrun instalaketa"
 
 #. txt_hd_diskdevice
-#, fuzzy
 msgid "Disk Device (Scans All Disks If Empty)\n"
-msgstr "Disko gailua (aztertu disko guztiak hutsik badaude)\n"
+msgstr "Disko gailua (aztertu disko guztiak hutsik dauden)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -255,9 +252,8 @@ msgstr "Pasahitza\n"
 # label for ftp user input
 #. label for ftp user input
 #. txt_user1
-#, fuzzy
 msgid "User (Anonymous Login If Empty)\n"
-msgstr "Erabiltzailea (hutsik utzi ezkero saio sarrera anonimoa)\n"
+msgstr "Erabiltzailea (hutsik badago saio sarrera anonimoa)\n"
 
 # dialog title for nfs installation
 #. dialog title for nfs installation
@@ -268,15 +264,13 @@ msgstr "NFS instalaketa"
 # label for smb user input
 #. label for smb user input
 #. txt_user2
-#, fuzzy
 msgid "User (Uses \"guest\" If Empty)\n"
-msgstr "Erabiltzailea (hutsik utzi ezkero \"guest\" erabiliko da)\n"
+msgstr "Erabiltzailea (\"guest\" erabiliko da hutsik badago)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
-#, fuzzy
 msgid "SMB (Windows Share) Installation"
-msgstr "Eskuz egindako instalaketa"
+msgstr "SMB (Windows partekatzea) instalaketa"
 
 # dialog title for http installation
 #. dialog title for http installation
@@ -342,41 +336,41 @@ msgstr "Banatu\n"
 
 #. txt_zenAuto
 msgid "Automatic Mode"
-msgstr ""
+msgstr "Modu automatikoa"
 
 #. txt_zenManual
 msgid "Manual Mode"
-msgstr ""
+msgstr "Eskuzko modua"
 
 #. txt_zenConfig
 msgid "Configure Parameters on ZEN Partition"
-msgstr ""
+msgstr "ZEN partizioan parametroak konfiguratu"
 
 #. txt_zenInstall
 msgid "Install or Update ZEN Partition"
-msgstr ""
+msgstr "ZEN partizioa instalatu edo eguneratu"
 
 #. txt_zenLilo
 msgid "Reinstall ZEN Partition Boot Loader"
-msgstr ""
+msgstr "Berrinstalatu ZEN partizioaren abio zamatzailea"
 
 #. txt_zenDisable
 msgid "Disable ZEN Partition"
-msgstr ""
+msgstr "ZEN partizioa ezgaitu"
 
 #. txt_zenEnable
 msgid "Enable ZEN Partition"
-msgstr ""
+msgstr "ZEN partizioa gaitu"
 
 #. video mode menu item
 #. txt_text_mode
 msgid "Text Mode"
-msgstr ""
+msgstr "Testu modua"
 
 #. menu item, like 'memory test'
 #. txt_firmware
 msgid "Firmware Test"
-msgstr ""
+msgstr "Firmware proba"
 
 #. txt_dud_file_msg
 msgid ""
@@ -384,33 +378,35 @@ msgid ""
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
 msgstr ""
+"Gidari eguneraketak CD-ROMetik zuzenean zamatzeko,\n"
+"sartu gidari eguneratzeko fitxategi izenak (komaz ','\n"
+"banatuta) hemen:\n"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
 #. txt_install_source
 msgid "Source"
-msgstr ""
+msgstr "Iturburua"
 
 #. video mode/display size menu title
 #. ** please keep it really short (comparable to the english text) **
 #. txt_video_mode
 msgid "Video Mode"
-msgstr ""
+msgstr "Bideo modua"
 
 # 'driver' as in '(hardware) driver update'
 #. driver update dialog title
 #. -> txt_dud_file_msg
 #. txt_driver_update2
-#, fuzzy
 msgid "Driver Update"
-msgstr "Gidaria"
+msgstr "Gidari eguneraketa"
 
 #. menu label for selecting (cpu) architecture
 #. like i386, x86-64, ppc
 #. ** please keep it really short (comparable to the english text) **
 #. txt_arch
 msgid "Arch"
-msgstr ""
+msgstr "Arkitektura"
 
 #. menu label for selecting some (linux) kernel variant
 #. ** please keep it really short (comparable to the english text) **
@@ -421,74 +417,73 @@ msgstr "Kernelaren aukerak"
 #. menu item for kernel variant (cf. txt_kernel)
 #. txt_kernel_default
 msgid "Default"
-msgstr ""
+msgstr "Lehenetsia"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> like in txt_safe_linux
 #. txt_kernel_safe
-#, fuzzy
 msgid "Safe Settings"
-msgstr "Instalaketa -- Ezarpen seguruak"
+msgstr "Ezarpen seguruak"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_noacpi_install
 #. txt_kernel_noacpi
 msgid "No ACPI"
-msgstr ""
+msgstr "ACPI ez"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_nolapic_install
 #. txt_kernel_nolapic
 msgid "No Local APIC"
-msgstr ""
+msgstr "Bertako APIC ez"
 
 #. main menu: start in system repair mode
 #. txt_repain_system
-#, fuzzy
 msgid "Repair Installed System"
-msgstr "Berreskuratzeko sistema"
+msgstr "Instalatutako sistema konpondu"
 
 # dialog title for ftp installation
 #. menu item
 #. txt_mediacheck
-#, fuzzy
 msgid "Check Installation Media"
-msgstr "FTP instalaketa"
+msgstr "Instalaketa euskarria egiaztatu"
 
 #. menu item for keyboard layout (please keep it short)
 #. txt_keyboard
 msgid "Keyboard"
-msgstr ""
+msgstr "Teklatua"
 
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Jaitsi gidari eguneraketa"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
+msgstr "Sartu gidari eguneratzeko URL\n"
 
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Arkitektura okerra"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
 msgstr ""
+"Hau 32-biteko konputagailua da. Bertan ezin duzu 64-biteko softwarea "
+"erabili."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Abisua"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "32-biteko softwarea 64-biteko konputagailuan instalatu behar duzu."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -497,16 +492,18 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Sartu gidari eguneratzeko CD-ROMa\n"
+"\"%s\"-rentzako."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "Ipini Mandriva Linux CD-ROMa atzera unitatean."
 
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Leheneratu draksnapshot babeskopia"
 
 # Keep the newlines and spaces after ':'!
 #~ msgid ""

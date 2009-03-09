@@ -82,7 +82,7 @@ endif
 
 NAME = mandriva-gfxboot-theme
 UPSTREAM_VERSION = 4.1.19
-VERSION = $(UPSTREAM_VERSION).6
+VERSION = $(UPSTREAM_VERSION).7
 
 dist:
 	rm -rf ../$(NAME)-$(VERSION).tar*

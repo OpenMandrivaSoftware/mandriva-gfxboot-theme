@@ -881,11 +881,11 @@
     dup "harddisk"  eq { pop txt_boot_harddisk  return } if
     dup "mediachk"  eq { pop txt_mediacheck return } if
     dup "mediacheck" eq { pop txt_mediacheck return } if
+    dup "restore"   eq { pop txt_restore      return } if
   } {
     dup "linux"     eq { pop txt_linux        return } if
     dup "failsafe"  eq { pop txt_safe_linux   return } if
     dup "windows"   eq { pop txt_windows      return } if
-    dup "restore"   eq { pop txt_restore      return } if
     dup "2.6" strstr 1 eq { txt_linux_kernel_version kernel_str sprintf 
                             kernel_str return } if
   } ifelse

@@ -439,7 +439,7 @@
       over "vgahi" eq or
       over "text" eq or
       over "noacpi" eq or
-      over "linux64" eq or
+      over "64" strstr 0 gt or
     } {
       dup "linux-nonfb" eq
     } ifelse

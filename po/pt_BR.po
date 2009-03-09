@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt_BR\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-04 10:56-0300\n"
+"PO-Revision-Date: 2009-03-09 12:28-0300\n"
 "Last-Translator: Sergio Rafael Lemke <sergio@mandriva.com.br>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -476,7 +476,7 @@ msgstr "Recoloque o CD-ROM Mandriva Linux no drive."
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Restaurar backup feito no draksnapshot"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Iniciar Mandriva Linux em Modo de Segurança"

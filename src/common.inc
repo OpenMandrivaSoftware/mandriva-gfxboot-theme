@@ -304,10 +304,10 @@
     bc.cmd 0 0 put
   } {
     menu.texts menu.entry get
-    xmenu.bits .xm_current get 1 eq {
-      "64" exch "%s%s "
+    bits.suffix xmenu.bits .xm_current get get dup {
+      exch "%s%s "
     } {
-      "%s "
+      pop "%s "
     } ifelse
     bc.cmd sprintf
   } ifelse

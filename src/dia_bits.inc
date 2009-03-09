@@ -33,12 +33,9 @@
       /bits.default 1 def
       xmenu .xm_list [ "x86" "x86-64" ] put
     } if
-  } if
-
-  % no '64' suffix
-  32bit_boot_dir 64bit_boot_dir ne {
+  } {
     bits.suffix 1 .undef put
-  } if
+  } ifelse
 
   xmenu .xm_current bits.default put
 

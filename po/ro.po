@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-04 09:51+0100\n"
+"PO-Revision-Date: 2009-03-09 21:18+0100\n"
 "Last-Translator: Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>\n"
 "Language-Team: Mandrivausers.ro\n"
 "MIME-Version: 1.0\n"
@@ -508,7 +508,7 @@ msgstr "Puneți CD-ul cu Mandriva Linux înapoi în unitate."
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Restaurează salvgardarea draksnapshot"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux--Setări sigure"

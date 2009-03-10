@@ -54,7 +54,7 @@
 /32+64bit_source {
   32bit_boot_dir .undef ne
   % uncomment next line to automatically warn about 32bit software on 64bit machines, too
-  % 64bit_boot_dir .undef ne and
+  64bit_boot_dir .undef ne and
 } def
 
 

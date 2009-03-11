@@ -1,12 +1,13 @@
+# Icelandic translation of mandriva-gfxboot-theme.po
 # translation of bootloader.po to Icelandic
 # Copyright (C) 2005 SUSE Linux GmbH
 #
-# Pjetur G. Hjaltason <pjetur@pjetur.net>, 2006, 2007, 2008.
+# Pjetur G. Hjaltason <pjetur@pjetur.net>, 2006, 2007, 2008, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: bootloader\n"
+"Project-Id-Version: mandriva-gfxboot-theme\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2008-01-29 17:40+0000\n"
+"PO-Revision-Date: 2009-03-11 15:54+0000\n"
 "Last-Translator: Pjetur G. Hjaltason <pjetur@pjetur.net>\n"
 "Language-Team: Icelandic <kde-isl@molar.is>\n"
 "MIME-Version: 1.0\n"
@@ -139,14 +140,12 @@ msgstr ""
 # info box title
 #. info box title
 #. txt_info_title
-#, fuzzy
 msgid "Boot Loader"
 msgstr "Ræsistjóri"
 
 # error box title
 #. error box title
 #. txt_error_title
-#, fuzzy
 msgid "I/O Error"
 msgstr "I/Ú villa"
 
@@ -173,12 +172,12 @@ msgstr ""
 # <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
 msgstr ""
-"Þetta er ekki <Product> ræsidiskur.\n"
+"Þetta er ekki <product> ræsidiskur.\n"
 "Settu inn ræsidisk %u."
 
 # password dialog title
@@ -230,7 +229,6 @@ msgid "Hard Disk Installation"
 msgstr "Uppsetning frá diski"
 
 #. txt_hd_diskdevice
-#, fuzzy
 msgid "Disk Device (Scans All Disks If Empty)\n"
 msgstr "Diskur (leita á öllum diskum ef autt)\n"
 
@@ -255,9 +253,8 @@ msgstr "Lykilorð\n"
 # label for ftp user input
 #. label for ftp user input
 #. txt_user1
-#, fuzzy
 msgid "User (Anonymous Login If Empty)\n"
-msgstr "Notandi (anonymous innskráning ef autt)\n"
+msgstr "Notandi (nafnlaus innskráning ef autt)\n"
 
 # dialog title for nfs installation
 #. dialog title for nfs installation
@@ -268,15 +265,13 @@ msgstr "NFS Uppsetning"
 # label for smb user input
 #. label for smb user input
 #. txt_user2
-#, fuzzy
 msgid "User (Uses \"guest\" If Empty)\n"
-msgstr "Notandi (nota \"guest\" ef autt)\n"
+msgstr "Notandi (notar \"guest\" ef autt)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
-#, fuzzy
 msgid "SMB (Windows Share) Installation"
-msgstr "Handvirk uppsetning"
+msgstr "SMB (Windows Sameignir) uppsetning"
 
 # dialog title for http installation
 #. dialog title for http installation
@@ -342,41 +337,41 @@ msgstr "Miðlað svæði\n"
 
 #. txt_zenAuto
 msgid "Automatic Mode"
-msgstr ""
+msgstr "Sjálfvirkur hamur"
 
 #. txt_zenManual
 msgid "Manual Mode"
-msgstr ""
+msgstr "Handvirkur hamur"
 
 #. txt_zenConfig
 msgid "Configure Parameters on ZEN Partition"
-msgstr ""
+msgstr "Stilla viðföng á ZEN disksneið"
 
 #. txt_zenInstall
 msgid "Install or Update ZEN Partition"
-msgstr ""
+msgstr "Setja inn eða uppfæra ZEN disksneið"
 
 #. txt_zenLilo
 msgid "Reinstall ZEN Partition Boot Loader"
-msgstr ""
+msgstr "Setja aftur inn ZEN disksneiðar ræsiforrit"
 
 #. txt_zenDisable
 msgid "Disable ZEN Partition"
-msgstr ""
+msgstr "Aftengja ZEN disksneið"
 
 #. txt_zenEnable
 msgid "Enable ZEN Partition"
-msgstr ""
+msgstr "Virkja ZEN disksneið"
 
 #. video mode menu item
 #. txt_text_mode
 msgid "Text Mode"
-msgstr ""
+msgstr "Textahamur"
 
 #. menu item, like 'memory test'
 #. txt_firmware
 msgid "Firmware Test"
-msgstr ""
+msgstr "Vélbúnaðarprófun"
 
 #. txt_dud_file_msg
 msgid ""
@@ -384,33 +379,35 @@ msgid ""
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
 msgstr ""
+"Til að sækja reklauppfærslur beint frá\n"
+"geisladiski, sláðu inn skráarnöfn reklanna\n"
+"(aðskilin með kommum ',') hér:\n"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
 #. txt_install_source
 msgid "Source"
-msgstr ""
+msgstr "Miðill"
 
 #. video mode/display size menu title
 #. ** please keep it really short (comparable to the english text) **
 #. txt_video_mode
 msgid "Video Mode"
-msgstr ""
+msgstr "Skjáhamur"
 
 # 'driver' as in '(hardware) driver update'
 #. driver update dialog title
 #. -> txt_dud_file_msg
 #. txt_driver_update2
-#, fuzzy
 msgid "Driver Update"
-msgstr "Rekill"
+msgstr "Uppærsla rekils"
 
 #. menu label for selecting (cpu) architecture
 #. like i386, x86-64, ppc
 #. ** please keep it really short (comparable to the english text) **
 #. txt_arch
 msgid "Arch"
-msgstr ""
+msgstr "Vélb."
 
 #. menu label for selecting some (linux) kernel variant
 #. ** please keep it really short (comparable to the english text) **
@@ -421,74 +418,71 @@ msgstr "Kjarnavalkostur"
 #. menu item for kernel variant (cf. txt_kernel)
 #. txt_kernel_default
 msgid "Default"
-msgstr ""
+msgstr "Sjálfgefið"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> like in txt_safe_linux
 #. txt_kernel_safe
-#, fuzzy
 msgid "Safe Settings"
-msgstr "Uppsetning--Öruggar stillingar"
+msgstr "Öruggar stillingar"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_noacpi_install
 #. txt_kernel_noacpi
 msgid "No ACPI"
-msgstr ""
+msgstr "Ekki ACPI"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_nolapic_install
 #. txt_kernel_nolapic
 msgid "No Local APIC"
-msgstr ""
+msgstr "Ekki staðbundið APIC"
 
 #. main menu: start in system repair mode
 #. txt_repain_system
-#, fuzzy
 msgid "Repair Installed System"
-msgstr "Bjarga kerfi"
+msgstr "Bjarga uppsettu kerfi"
 
 # dialog title for ftp installation
 #. menu item
 #. txt_mediacheck
-#, fuzzy
 msgid "Check Installation Media"
-msgstr "FTP Uppsetning"
+msgstr "Athuga uppsetningarmiðil"
 
 #. menu item for keyboard layout (please keep it short)
 #. txt_keyboard
 msgid "Keyboard"
-msgstr ""
+msgstr "Lyklaborð"
 
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Sækja uppfærðan rekil"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
+msgstr "Slóð að uppfærðum rekli"
 
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Rangur vélbúnaður"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr ""
+msgstr "Þetta er 32-bita tölva. Þú getur ekki notað 64-bita hugbúnað á henni."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Aðvörun"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "Þú ert að fara að setja upp 32-bita hugbúnað á 64-bita tölvu."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -497,27 +491,16 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Settu inn geisladisk með rekli fyrir\n"
+"\"%s\"."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "Settu Mandriva Linux geisladiskinn aftur í drifið."
 
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Sækja draksnapshot afrit"
 
-# Keep the newlines and spaces after ':'!
-#~ msgid ""
-#~ "Enter your password:   \n"
-#~ "\n"
-#~ "\n"
-#~ msgstr ""
-#~ "Sláðu inn lykilorð þitt:   \n"
-#~ "\n"
-#~ "\n"
-
-# dialog title for ISO installation
-#~ msgid "Installation from ISO file"
-#~ msgstr "Uppsetning frá ISO skrá"

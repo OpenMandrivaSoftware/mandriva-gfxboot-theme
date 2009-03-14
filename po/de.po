@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-07-27 16:23+0200\n"
-"PO-Revision-Date: 2009-02-07 12:40+0100\n"
+"PO-Revision-Date: 2009-03-14 19:55+0100\n"
 "Last-Translator: Oliver Burger <oliver@mandrivauser.de>\n"
 "Language-Team: deutsch <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -440,22 +440,22 @@ msgstr "Treiber-Update URL eingeben\n"
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Falsche Architektur"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr ""
+msgstr "Dies ist ein 32-bit Computer. Sie können keine 64-bit Software auf ihm benutzen."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Warnung"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "Sie sind dabei, 32-bit Software auf einem 64-bit Computer zu installieren."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -464,16 +464,16 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Legen Sie die Treiber Update CD-ROM für\n"
+"\"%s\" ein."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "Legen Sie die Mandriva-Linux CD-ROM erneut in Ihr Laufwerk ein."
 
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Stelle das Draksnapshot-Backup wieder her"
 
-#~ msgid "Linux--Safe Settings"
-#~ msgstr "Linux - Sichere Einstellungen"

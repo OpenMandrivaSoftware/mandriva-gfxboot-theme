@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
-"PO-Revision-Date: 2009-02-13 23:18+0100\n"
+"PO-Revision-Date: 2009-03-15 01:57+0100\n"
 "Last-Translator: Janez Krek <janez.krek@euroteh.si>\n"
 "Language-Team: Slovenščina <sl@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -441,22 +441,22 @@ msgstr "Vnesite lokacijo posodobitve gonilnika\n"
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Napačna arhitektura"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr ""
+msgstr "To je 32-biten računalnik. Na njem ne morete poganjati 64-bitnih programov."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Opozorilo"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "Na 64-biten računalnik boste namestili 32-bitno programsko opremo."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -465,16 +465,18 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Vstavite nosilec s posodobljenim gonilnikom za\n"
+"»%s«"
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "V pogon vstavite nosilec z Mandriva Linuxom."
 
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Obnovi iz varnostne kopije"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux--varne nastavitve"

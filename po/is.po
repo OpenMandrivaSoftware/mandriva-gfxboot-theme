@@ -462,7 +462,7 @@ msgstr "Sækja uppfærðan rekil"
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr "Slóð að uppfærðum rekli"
+msgstr "Slóð að uppfærðum reklii\n"
 
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch

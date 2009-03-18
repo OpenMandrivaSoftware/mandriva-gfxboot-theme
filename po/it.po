@@ -1,20 +1,20 @@
-# translation of it.po to
-# translation of it.po to
-# translation of bootloader.po to
+# translation of mandriva-gfxboot-theme.po to Italian
+# Andrea Celli <andrea.celli@libero.it>, 2009.
 # translation of bootloader.po to
 # LANGUAGE translations for boot loader
 # Copyright (C) 2004 SUSE LINUX AG
 msgid ""
 msgstr ""
-"Project-Id-Version: it\n"
+"Project-Id-Version: mandriva-gfxboot-theme\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2008-05-13 09:19-0600\n"
-"Last-Translator: Alberto Passalacqua <alberto.passalacqua@tin.it>\n"
-"Language-Team: Novell Language <language@novell.com>\n"
+"PO-Revision-Date: 2009-03-11 14:56+0100\n"
+"Last-Translator: Andrea Celli <andrea.celli@libero.it>\n"
+"Language-Team: Italian <timl@freelists.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.3.1\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #. ok button label
 #. txt_ok
@@ -427,32 +427,32 @@ msgstr "Tastiera"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Recupera il driver aggiornato"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
+msgstr "Scrivi l'URL del driver aggiornato\n"
 
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Architettura errata"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr ""
+msgstr "Questo è un computer a 32-bit. Non può utilizzare software a 64-bit."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Attenzione"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "Stai installando un software compilato a 32-bit su un computer a 64-bit."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -461,22 +461,16 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Inserisci il CD-ROM con driver aggiornato per\n"
+"\"%s\"."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "Inserisci di nuovo il CD/DVD di Mandriva Linux."
 
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Ripristinare da backup (draksnapshot)"
 
-#~ msgid "Linux--Safe Settings"
-#~ msgstr "Linux--Safe Settings"
-
-#~ msgid "Kernel"
-#~ msgstr "Kernel"
-
-#~ msgid "Installation"
-#~ msgstr "Installazione"

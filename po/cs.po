@@ -1,19 +1,21 @@
+# Translation of cs.po to Czech
 # translation of cs.po to cs_CZ
 # LANGUAGE translations for boot loader
 # Copyright (C) 2004 SUSE LINUX AG
 #
 # Klara Cihlarova <koty@seznam.cz>, 2004, 2005, 2006.
+# Michal Bukovjan <bukm@centrum.cz>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2008-05-21 12:23+0200\n"
-"Last-Translator: Klara Cihlarova <koty@seznam.cz>\n"
-"Language-Team: cs_CZ <cs@li.org>\n"
+"Project-Id-Version: cs\n"
+"PO-Revision-Date: 2009-03-20 00:22+0100\n"
+"Last-Translator: Michal Bukovjan <bukm@centrum.cz>\n"
+"Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. ok button label
 #. txt_ok
@@ -426,32 +428,32 @@ msgstr "Klávesnice"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Stáhnout aktualizace ovladačů"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
+msgstr "Zadejte adresu aktualizace ovladačů\n"
 
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Chybná architektura"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr ""
+msgstr "Toto je 32bitový počítač. Nelze na něm používat 64bitový software."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Varování"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "Chystáte se instalovat 32bitový software na 64bitový počítač."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -460,22 +462,16 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Vložte CD-ROM s aktualizacemi ovladačů pro\n"
+"„%s”."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "Vložte do zařízení zpět CD-ROM s distribucí Mandriva Linux."
 
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Obnovit zálohu draksnapshot"
 
-#~ msgid "Linux--Safe Settings"
-#~ msgstr "Linux -- bezpečné nastavení"
-
-#~ msgid "Kernel"
-#~ msgstr "Jádro"
-
-#~ msgid "Installation"
-#~ msgstr "Instalace"

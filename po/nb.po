@@ -8,10 +8,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2008-10-03 16:38+0200\n"
-"Last-Translator: Olav Pettershagen <olav.pet@gmail.com>\n"
-"Language-Team: norsk bokmål\n"
+"Project-Id-Version: nb\n"
+"PO-Revision-Date: 2009-03-20 16:38+0100\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -52,7 +52,6 @@ msgid "Linux with kernel %s"
 msgstr "Linux med kjerne %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2009 Spring"
 msgstr "Installer Mandriva Linux 2009 Spring på ditt system"
 
@@ -66,7 +65,7 @@ msgstr "Installasjon--ACPI deaktivert"
 
 #. txt_safe_install
 msgid "Installation--Safe Settings"
-msgstr "Installasjon--sikker modus"
+msgstr "Installasjon--sikkermodus"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
@@ -430,32 +429,32 @@ msgstr "Tastatur"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Last ned driveroppdatering"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
+msgstr "Tast inn adresse for oppdateringen\n"
 
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Feil arkitektur"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr ""
+msgstr "Dette er en 32-bits datamaskin. Du kan ikke benytte 64-bits programvare på den."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Advarsel"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "Du er i ferd med å installere 32-bits programvare på en 64-bits datamaskin."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -464,17 +463,11 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Sett inn CD-ROM med driveroppdatering for\n"
+"\"%s\""
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "Sett i Mandriva Linux CD-ROMen."
 
-#~ msgid "Linux--Safe Settings"
-#~ msgstr "Linux--sikker modus"
-
-#~ msgid "Kernel"
-#~ msgstr "Kjerne"
-
-#~ msgid "Installation"
-#~ msgstr "Installasjon"

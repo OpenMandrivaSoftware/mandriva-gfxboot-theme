@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-09 21:18+0100\n"
+"PO-Revision-Date: 2009-03-21 21:27+0100\n"
 "Last-Translator: Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>\n"
 "Language-Team: Mandrivausers.ro\n"
 "MIME-Version: 1.0\n"
@@ -120,7 +120,7 @@ msgstr "Opțiuni de demaraj"
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "Se iese..."
+msgstr "Ieșire..."
 
 #. txt_exit_dialog
 msgid ""
@@ -137,7 +137,7 @@ msgstr "Ajutor"
 #. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
 msgid "Starting..."
-msgstr "Se pornește..."
+msgstr "Pornire..."
 
 #. Keep the three newlines!
 #. txt_load_kernel

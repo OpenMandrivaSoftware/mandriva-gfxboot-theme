@@ -1,24 +1,25 @@
-# translation of da.po to Dansk
-# translation of bootloader.pot_[g4TXCa].po to Dansk
+# translation of da.po to Danish
 # LANGUAGE translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
-# Martin Møller <martin@martinm-76.dk>, 2005.
 #
+# Martin Møller <martin@martinm-76.dk>, 2005.
+# Keld Simonsen <keld@dkuug.dk>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2008-05-17 13:08+0100\n"
-"Last-Translator: Jan Madsen <jan.madsen.pt@gmail.com>\n"
-"Language-Team: dansk <opensuse-translation@opensuse.org>\n"
+"Project-Id-Version: da\n"
+"PO-Revision-Date: 2009-03-21 17:40+0100\n"
+"Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #. ok button label
 #. txt_ok
 msgid "OK"
-msgstr "OK"
+msgstr "O.k."
 
 #. cancel button label
 #. txt_cancel
@@ -426,32 +427,32 @@ msgstr "Tastatur"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Hent driver-opdatering"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
+msgstr "Indtast URL for driver-opdatering\n"
 
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Forkert arkitektur"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr ""
+msgstr "Dette er en 32-bit maskine. Du kan ikke bruge 64-bit programmel på den."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Advarsel"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "Du er ved at installere 32-bit programmel på en 64-bit maskine."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -460,22 +461,16 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Indsæt driver-opdaterings CD-ROM for\n"
+"\"%s\"."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "Sæt Mandriva Linux CD-ROM'en tilbage i drevet."
 
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Genetablér draksnapshot sikkerhedskopi"
 
-#~ msgid "Linux--Safe Settings"
-#~ msgstr "Linux--fejlsikret"
-
-#~ msgid "Kernel"
-#~ msgstr "Kerne"
-
-#~ msgid "Installation"
-#~ msgstr "Installation"

@@ -476,4 +476,4 @@ msgstr "Recoloque o CD-ROM Mandriva Linux no drive."
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr "Restaurar backup do draksnapshot"
+msgstr "Restaurar Backup do Draksnapshot"

@@ -44,6 +44,10 @@ msgstr "Boot di Mandriva Linux 2009 Spring"
 msgid "Boot Microsoft Windows"
 msgstr "Boot di Microsoft Windows"
 
+#. txt_hdt
+msgid "Hardware Detection Tool"
+msgstr ""
+
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
@@ -452,7 +456,8 @@ msgstr "Attenzione"
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr "Stai installando un software compilato a 32-bit su un computer a 64-bit."
+msgstr ""
+"Stai installando un software compilato a 32-bit su un computer a 64-bit."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -473,4 +478,3 @@ msgstr "Inserisci di nuovo il CD/DVD di Mandriva Linux."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Ripristinare da backup (draksnapshot)"
-

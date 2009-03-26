@@ -45,6 +45,10 @@ msgstr "Mandriva Linux 2009 Spring жүктөө"
 msgid "Boot Microsoft Windows"
 msgstr "Microsoft Windows жүктөө"
 
+#. txt_hdt
+msgid "Hardware Detection Tool"
+msgstr ""
+
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
@@ -500,4 +504,3 @@ msgstr "Mandriva Linux дискин кайра коюңуз."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "draksnapshot резервдик копиядан калыбына келтирүү"
-

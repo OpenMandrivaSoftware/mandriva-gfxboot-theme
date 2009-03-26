@@ -47,6 +47,10 @@ msgstr "Starten von Mandriva Linux 2009 Spring"
 msgid "Boot Microsoft Windows"
 msgstr "Starte Microsoft Windows"
 
+#. txt_hdt
+msgid "Hardware Detection Tool"
+msgstr ""
+
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
@@ -445,7 +449,9 @@ msgstr "Falsche Architektur"
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr "Dies ist ein 32-bit Computer. Sie können keine 64-bit Software auf ihm benutzen."
+msgstr ""
+"Dies ist ein 32-bit Computer. Sie können keine 64-bit Software auf ihm "
+"benutzen."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -455,7 +461,8 @@ msgstr "Warnung"
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr "Sie sind dabei, 32-bit Software auf einem 64-bit Computer zu installieren."
+msgstr ""
+"Sie sind dabei, 32-bit Software auf einem 64-bit Computer zu installieren."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -476,4 +483,3 @@ msgstr "Legen Sie die Mandriva-Linux CD-ROM erneut in Ihr Laufwerk ein."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Stelle das Draksnapshot-Backup wieder her"
-

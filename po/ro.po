@@ -76,6 +76,10 @@ msgstr "Demarează Mandriva Linux 2009 Spring"
 msgid "Boot Microsoft Windows"
 msgstr "Demarează Microsoft Windows"
 
+#. txt_hdt
+msgid "Hardware Detection Tool"
+msgstr ""
+
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"

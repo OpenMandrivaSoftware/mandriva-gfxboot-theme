@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. ok button label
 #. txt_ok
@@ -44,6 +45,10 @@ msgstr "Zavést Mandriva Linux 2009 Spring"
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Zavést Microsoft Windows"
+
+#. txt_hdt
+msgid "Hardware Detection Tool"
+msgstr ""
 
 #. txt_linux_kernel_version
 #, c-format
@@ -474,4 +479,3 @@ msgstr "Vložte do zařízení zpět CD-ROM s distribucí Mandriva Linux."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Obnovit zálohu draksnapshot"
-

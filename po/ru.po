@@ -45,6 +45,10 @@ msgstr "Mandriva Linux 2009 Spring"
 msgid "Boot Microsoft Windows"
 msgstr "Microsoft Windows"
 
+#. txt_hdt
+msgid "Hardware Detection Tool"
+msgstr ""
+
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
@@ -443,7 +447,9 @@ msgstr "Неверная архитектура"
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr "Это компьютер с 32-битным процессором. На нём нельзя использовать 64-битное программное обеспечение."
+msgstr ""
+"Это компьютер с 32-битным процессором. На нём нельзя использовать 64-битное "
+"программное обеспечение."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -453,7 +459,9 @@ msgstr "Предупреждение"
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr "Вы собираетесь установить 32-битное программное обеспечение на компьютер с 64-битным процессором"
+msgstr ""
+"Вы собираетесь установить 32-битное программное обеспечение на компьютер с "
+"64-битным процессором"
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -477,8 +485,9 @@ msgstr "Восстановить резервную копию draksnapshot"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux -- безопасные параметры"
+
 #~ msgid "Kernel"
 #~ msgstr "Ядро"
+
 #~ msgid "Installation"
 #~ msgstr "Установка"
-

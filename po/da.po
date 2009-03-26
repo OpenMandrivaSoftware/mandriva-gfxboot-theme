@@ -44,6 +44,10 @@ msgstr "Start Mandriva Linux 2009 Spring op"
 msgid "Boot Microsoft Windows"
 msgstr "Start Microsoft Windows op"
 
+#. txt_hdt
+msgid "Hardware Detection Tool"
+msgstr ""
+
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
@@ -442,7 +446,8 @@ msgstr "Forkert arkitektur"
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr "Dette er en 32-bit maskine. Du kan ikke bruge 64-bit programmel på den."
+msgstr ""
+"Dette er en 32-bit maskine. Du kan ikke bruge 64-bit programmel på den."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -473,4 +478,3 @@ msgstr "Sæt Mandriva Linux CD-ROM'en tilbage i drevet."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Genetablér draksnapshot sikkerhedskopi"
-

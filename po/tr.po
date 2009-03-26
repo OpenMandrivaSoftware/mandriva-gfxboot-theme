@@ -45,6 +45,10 @@ msgstr "Mandriva Linux 2009 Spring Sistemini Başlat"
 msgid "Boot Microsoft Windows"
 msgstr "Microsoft Windows Sistemini Başlat"
 
+#. txt_hdt
+msgid "Hardware Detection Tool"
+msgstr ""
+
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"

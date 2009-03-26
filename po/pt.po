@@ -45,6 +45,10 @@ msgstr "Arrancar Mandriva Linux 2009 Spring"
 msgid "Boot Microsoft Windows"
 msgstr "Arrancar Microsoft Windows"
 
+#. txt_hdt
+msgid "Hardware Detection Tool"
+msgstr ""
+
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"

@@ -16,7 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. ok button label
 #. txt_ok
@@ -45,6 +46,10 @@ msgstr "Завантажити Mandriva Linux 2009 Spring"
 #. txt_windows
 msgid "Boot Microsoft Windows"
 msgstr "Завантажити Microsoft Windows"
+
+#. txt_hdt
+msgid "Hardware Detection Tool"
+msgstr ""
 
 #. txt_linux_kernel_version
 #, c-format
@@ -444,7 +449,8 @@ msgstr "Неправильна архітектура"
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr "Це 32-розрядний комп’ютер. Ви не можете запускати на ньому 64-бітні програми."
+msgstr ""
+"Це 32-розрядний комп’ютер. Ви не можете запускати на ньому 64-бітні програми."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -475,4 +481,3 @@ msgstr "Вставте Mandriva Linux CD-ROM назад в привід."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Відновити копію draksnapshot"
-

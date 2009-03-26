@@ -53,6 +53,10 @@ msgstr "Mandriva Linux 2009 Spring indítása"
 msgid "Boot Microsoft Windows"
 msgstr "Microsoft Windows indítása"
 
+#. txt_hdt
+msgid "Hardware Detection Tool"
+msgstr ""
+
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
@@ -485,8 +489,9 @@ msgstr "Draksnapshot mentés helyreállítása"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux - Biztonságos beállításokkal"
+
 #~ msgid "Kernel"
 #~ msgstr "Kernel"
+
 #~ msgid "Installation"
 #~ msgstr "Telepítés"
-

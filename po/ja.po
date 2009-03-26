@@ -42,6 +42,10 @@ msgstr "Mandriva Linux 2009 Spring を起動"
 msgid "Boot Microsoft Windows"
 msgstr "Microsoft Windows を起動"
 
+#. txt_hdt
+msgid "Hardware Detection Tool"
+msgstr ""
+
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"

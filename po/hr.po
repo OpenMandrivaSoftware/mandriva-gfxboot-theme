@@ -44,6 +44,10 @@ msgstr ""
 msgid "Boot Microsoft Windows"
 msgstr ""
 
+#. txt_hdt
+msgid "Hardware Detection Tool"
+msgstr ""
+
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"

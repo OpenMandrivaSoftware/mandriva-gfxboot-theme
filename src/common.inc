@@ -881,6 +881,7 @@
     dup "mediachk"  eq { pop txt_mediacheck return } if
     dup "mediacheck" eq { pop txt_mediacheck return } if
     dup "restore"   eq { pop txt_restore      return } if
+    dup "hdt"       eq { pop txt_hdt          return } if
   } {
     dup "linux"     eq { pop txt_linux        return } if
     dup "failsafe"  eq { pop txt_safe_linux   return } if

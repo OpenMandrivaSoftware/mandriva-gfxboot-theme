@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.el\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-16 19:56+0100\n"
+"PO-Revision-Date: 2009-03-26 13:08+0100\n"
 "Last-Translator: Glentadakis Dimitrios <dglent@gmail.com>\n"
 "Language-Team: Greek <i18ngr@lists.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -52,7 +52,7 @@ msgstr "Εκκίνηση Microsoft Windows"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Εργαλείο Ανίχνευσης Υλικού"
 
 #. txt_linux_kernel_version
 #, c-format

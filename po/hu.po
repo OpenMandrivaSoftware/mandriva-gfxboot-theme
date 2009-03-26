@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mandriva-gfxboot-theme-2009.1\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-07 15:50+0100\n"
-"Last-Translator: Lónyai Gergely <aleph@mandriva.org>\n"
+"PO-Revision-Date: 2009-03-26 14:48+0100\n"
+"Last-Translator: Gergely Lónyai <aleph@mandriva.org>\n"
 "Language-Team: Hungarian <aleph@mandriva.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,7 +55,7 @@ msgstr "Microsoft Windows indítása"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Hardverazonosító eszköz"
 
 #. txt_linux_kernel_version
 #, c-format
@@ -489,9 +489,8 @@ msgstr "Draksnapshot mentés helyreállítása"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux - Biztonságos beállításokkal"
-
 #~ msgid "Kernel"
 #~ msgstr "Kernel"
-
 #~ msgid "Installation"
 #~ msgstr "Telepítés"
+

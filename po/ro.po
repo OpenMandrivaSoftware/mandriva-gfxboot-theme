@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-21 21:27+0100\n"
+"PO-Revision-Date: 2009-03-27 19:04+0100\n"
 "Last-Translator: Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>\n"
 "Language-Team: Mandrivausers.ro\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr "Demarează Microsoft Windows"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Unealtă de detectat componentele materiale"
 
 #. txt_linux_kernel_version
 #, c-format

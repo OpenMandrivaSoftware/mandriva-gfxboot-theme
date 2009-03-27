@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
-"PO-Revision-Date: 2009-03-20 16:38+0100\n"
+"PO-Revision-Date: 2009-03-27 05:32+0100\n"
 "Last-Translator: \n"
 "Language-Team:  <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "Start Microsoft Windows"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Verktøy for maskinvareoppdagelse"
 
 #. txt_linux_kernel_version
 #, c-format
@@ -384,7 +384,7 @@ msgstr "Driveroppdatering"
 #. ** please keep it really short (comparable to the english text) **
 #. txt_arch
 msgid "Arch"
-msgstr "Ark."
+msgstr "Arkitektur"
 
 #. menu label for selecting some (linux) kernel variant
 #. ** please keep it really short (comparable to the english text) **
@@ -460,8 +460,7 @@ msgstr "Advarsel"
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
-"Du er i ferd med å installere 32-bits programvare på en 64-bits datamaskin."
+msgstr "Du er i ferd med å installere 32-bits programvare på en 64-bits datamaskin."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -481,4 +480,5 @@ msgstr "Sett i Mandriva Linux CD-ROMen."
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Gjenopprett draksnapshot-sikkerhetskopi"
+

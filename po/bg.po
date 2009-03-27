@@ -11,10 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.bg\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-10 01:17+0200\n"
-"Last-Translator: Kolio Kolev <kolio_kolev@biotronica.net>\n"
-"Language-Team: Mandriva User Group - Bulgaria <mandriva-bg@googlegroups."
-"com>\n"
+"PO-Revision-Date: 2009-03-27 10:03+0200\n"
+"Last-Translator: Rossen Karpuzov <gustav cointech net>\n"
+"Language-Team: Mandriva User Group - Bulgaria <mandriva-bg@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -51,7 +50,7 @@ msgstr "Старт на Microsoft Windows"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Инструмент за откриване на хардуер"
 
 #. txt_linux_kernel_version
 #, c-format
@@ -75,9 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Инсталиране - Безопасни настройки"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
-msgstr "Старт на  Mandriva Linux 2009 Spring"
+msgstr "Старт на  Mandriva Linux 2009 Spring (защитен режим)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -447,22 +445,22 @@ msgstr "Въведи URL на актуален драйвер\n"
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Грешна архитектура"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr ""
+msgstr "Това е 32 битов компютър. Не може да ползвате 64 битов софтуер на него."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Внимание"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "Вие ще инсталирате 32 битов софтуер на 64 битов компютър."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -471,22 +469,23 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Поставете CD-ROM с обновени драйвери за\n"
+"\"%s\"."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "Сложете CD-ROM-а на МАндрива Линукс обратно в устройството."
 
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Възтановява архив от draksnapshot"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux - безопасни настройки"
-
 #~ msgid "Kernel"
 #~ msgstr "Ядро"
-
 #~ msgid "Installation"
 #~ msgstr "Инсталиране"
+

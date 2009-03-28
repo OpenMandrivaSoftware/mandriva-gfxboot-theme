@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2009-03-06 23:04+0600\n"
+"PO-Revision-Date: 2009-03-28 17:03+0600\n"
 "Last-Translator: Ilyas Bakirov <just_ilyas@yahoo.com>\n"
 "Language-Team: Kirghiz <just_ilyas@yahoo.com>\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "Microsoft Windows жүктөө"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Жабдыктарды аныктоо аспабы"
 
 #. txt_linux_kernel_version
 #, c-format
@@ -68,11 +68,11 @@ msgstr "ACPI'сиз орнотуу"
 
 #. txt_safe_install
 msgid "Installation--Safe Settings"
-msgstr "Installation--Safe Settings"
+msgstr "Орнотуу--Коопсуз ырастоолор"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
-msgstr "Mandriva Linux 2009 Spring жүктөө (safe mode)"
+msgstr "Mandriva Linux 2009 Spring жүктөө (коопсуз режими)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -80,7 +80,7 @@ msgstr "Катуу дисктен жүктөө"
 
 #. txt_rescue
 msgid "Rescue System"
-msgstr "Аварийдик системаны жүктөө"
+msgstr "Аварийдик система"
 
 #. txt_memtest
 msgid "Memory Test"
@@ -101,8 +101,8 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Графикалык жүктөө менюсу аякталып жатат\n"
-"жана тексттик интерфейс башталып жатат."
+"Графикалык жүктөө менюсу аякталып тексттик\n"
+"интерфейс башталып жатат."
 
 #. txt_help
 msgid "Help"
@@ -142,7 +142,7 @@ msgstr ""
 #. info box title
 #. txt_info_title
 msgid "Boot Loader"
-msgstr "Жүктөгүч"
+msgstr "Жүктөөгүч"
 
 # error box title
 #. error box title
@@ -179,7 +179,7 @@ msgid ""
 "Insert boot disk %u."
 msgstr ""
 "Бул <product> жүктөлүүчү диски эмес.\n"
-"%u жүктөлүүчү дискти киргизиңиз."
+"%u жүктөөлүүчү дискти киргизиңиз."
 
 # password dialog title
 #. password dialog title
@@ -431,13 +431,13 @@ msgstr "Safe Settings"
 #. -> similar to txt_noacpi_install
 #. txt_kernel_noacpi
 msgid "No ACPI"
-msgstr "ACPIсиз"
+msgstr "ACPI'сиз"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_nolapic_install
 #. txt_kernel_nolapic
 msgid "No Local APIC"
-msgstr "Локалдык APICсиз"
+msgstr "Локалдык APIC'сиз"
 
 #. main menu: start in system repair mode
 #. txt_repain_system
@@ -504,3 +504,4 @@ msgstr "Mandriva Linux дискин кайра коюңуз."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "draksnapshot резервдик копиядан калыбына келтирүү"
+

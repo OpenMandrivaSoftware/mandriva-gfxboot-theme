@@ -7,10 +7,11 @@
 # Jyri Palokangas <jmp@netti.fi>, 2005, 2006.
 # Jami Saarikoski <jami.saarikoski@gmail.com>, 2006.
 # Anssi Hannula <anssi@mandriva.org>, 2009.
+# Jani Välimaa <jani.valimaa@gmail.com>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.fi\n"
-"PO-Revision-Date: 2009-03-28 18:54+0200\n"
+"PO-Revision-Date: 2009-03-28 20:00+0200\n"
 "Last-Translator: Anssi Hannula <anssi@mandriva.org>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -121,7 +122,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Linux-ytimen lataaminen\n"
+"Ladataan Linux-ydintä\n"
 "\n"
 "\n"
 
@@ -149,7 +150,7 @@ msgstr "I/O-virhe"
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Muuta käynnistyslevyä"
+msgstr "Vaihda käynnistyslevyä"
 
 #. txt_insert_disk
 #, c-format
@@ -182,7 +183,7 @@ msgstr "Salasana"
 
 #. txt_dud_ready
 msgid "Get your driver update floppy ready."
-msgstr "Ota ajurin päivityslevyke valmiiksi."
+msgstr "Ota ajurin päivityslevyke esille."
 
 #. dvd warning title
 #. txt_dvd_warning_title
@@ -197,7 +198,7 @@ msgid ""
 msgstr ""
 "Tämä on kaksipuoleinen DVD. Olet käynnistänyt kakkospuolelta.\n"
 "\n"
-"Käännä DVD toisinpäin ja jatka sitten."
+"Käännä DVD toisinpäin ja jatka."
 
 #. power off dialog title
 #. txt_power_off_title
@@ -359,8 +360,8 @@ msgid ""
 "by commas ',') here:\n"
 msgstr ""
 "Jos haluat ladata ajuripäivityksen suoraan CD-ROM-levyltä,\n"
-"anna ajuripäivityksen tiedostonimet (erotettuina\n"
-"pilkuilla ','):\n"
+"anna ajuripäivityksen tiedostonimet (pilkuilla ','\n"
+"eroteltuina):\n"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
@@ -408,13 +409,13 @@ msgstr "Turvalliset asetukset"
 #. -> similar to txt_noacpi_install
 #. txt_kernel_noacpi
 msgid "No ACPI"
-msgstr "Ei ACPI"
+msgstr "Ei ACPI:a"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_nolapic_install
 #. txt_kernel_nolapic
 msgid "No Local APIC"
-msgstr "Ei paikallinen APIC"
+msgstr "Ei paikallista APIC:a"
 
 #. main menu: start in system repair mode
 #. txt_repain_system
@@ -424,7 +425,7 @@ msgstr "Korjaa asennettu järjestelmä"
 #. menu item
 #. txt_mediacheck
 msgid "Check Installation Media"
-msgstr "Tarkista asennustietoväline"
+msgstr "Tarkista asennusmedia"
 
 #. menu item for keyboard layout (please keep it short)
 #. txt_keyboard
@@ -434,12 +435,12 @@ msgstr "Näppäimistö"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr "Lataa ohjainpäivitys"
+msgstr "Lataa ajuripäivitys"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr "Kirjoita ohjainpäivityksen URL-osoite\n"
+msgstr "Anna ajuripäivityksen URL\n"
 
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
@@ -450,7 +451,8 @@ msgstr "Väärä arkkitehtuuri"
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
 msgstr ""
-"64-bittistä ohjelmistoa ei voi käyttää 32-bittisessä järjestelmässä."
+"Tämä on 32-bittinen tietokone. Et voi käyttää 64-bittisiä "
+"ohjelmistoja."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning

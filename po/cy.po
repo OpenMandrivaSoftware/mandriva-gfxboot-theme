@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader=-cy\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2008-09-26 21:40-0000\n"
-"Last-Translator: Rhoslyn Prys <post@meddal.com>\n"
+"PO-Revision-Date: 2009-03-27 15:21-0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: Cymraeg/Welsh <post@meddal.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +46,7 @@ msgstr "Cychwyn Microsoft Windows"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Teclyn Canfod Caledwedd"
 
 #. txt_linux_kernel_version
 #, c-format
@@ -140,14 +140,12 @@ msgstr ""
 # info box title
 #. info box title
 #. txt_info_title
-#, fuzzy
 msgid "Boot Loader"
 msgstr "Cychwynnwr"
 
 # error box title
 #. error box title
 #. txt_error_title
-#, fuzzy
 msgid "I/O Error"
 msgstr "Gwall I/O"
 
@@ -174,7 +172,7 @@ msgstr ""
 # <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
@@ -231,7 +229,6 @@ msgid "Hard Disk Installation"
 msgstr "Gosod Disg Caled"
 
 #. txt_hd_diskdevice
-#, fuzzy
 msgid "Disk Device (Scans All Disks If Empty)\n"
 msgstr "Dyfais Disgiau (sganiwch bob disg os yn wag)\n"
 
@@ -256,7 +253,6 @@ msgstr "Cyfrinair\n"
 # label for ftp user input
 #. label for ftp user input
 #. txt_user1
-#, fuzzy
 msgid "User (Anonymous Login If Empty)\n"
 msgstr "Defnyddiwr (mewngofnod anhysbys os yw'n wag)\n"
 
@@ -269,15 +265,13 @@ msgstr "Gosodiad NFS"
 # label for smb user input
 #. label for smb user input
 #. txt_user2
-#, fuzzy
 msgid "User (Uses \"guest\" If Empty)\n"
-msgstr "Defnyddiwr (defnyddio \"guest\" os yw'n wag)\n"
+msgstr "Defnyddiwr (defnyddio \"guest\" Os yw'n wag)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
-#, fuzzy
 msgid "SMB (Windows Share) Installation"
-msgstr "Gosod gyda Llaw"
+msgstr "Gosod SMB (Rhannu Windows)"
 
 # dialog title for http installation
 #. dialog title for http installation
@@ -343,41 +337,41 @@ msgstr "Rhannu\n"
 
 #. txt_zenAuto
 msgid "Automatic Mode"
-msgstr ""
+msgstr "Modd Awtomatig"
 
 #. txt_zenManual
 msgid "Manual Mode"
-msgstr ""
+msgstr "Modd Llaw"
 
 #. txt_zenConfig
 msgid "Configure Parameters on ZEN Partition"
-msgstr ""
+msgstr "Ffurfweddu Paramedrau Rhaniad ZEN"
 
 #. txt_zenInstall
 msgid "Install or Update ZEN Partition"
-msgstr ""
+msgstr "Gosod neu Ddiweddaru Rhaniad ZEN"
 
 #. txt_zenLilo
 msgid "Reinstall ZEN Partition Boot Loader"
-msgstr ""
+msgstr "Ailosod Cychwynnwr Rhaniad ZEN"
 
 #. txt_zenDisable
 msgid "Disable ZEN Partition"
-msgstr ""
+msgstr "Anablu Rhaniad ZEN"
 
 #. txt_zenEnable
 msgid "Enable ZEN Partition"
-msgstr ""
+msgstr "Galluogi Rhaniad ZEN"
 
 #. video mode menu item
 #. txt_text_mode
 msgid "Text Mode"
-msgstr ""
+msgstr "Modd Testun"
 
 #. menu item, like 'memory test'
 #. txt_firmware
 msgid "Firmware Test"
-msgstr ""
+msgstr "Prawf Caledwar"
 
 #. txt_dud_file_msg
 msgid ""
@@ -385,33 +379,35 @@ msgid ""
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
 msgstr ""
+"I lwytho'r diweddariadau o'r CD-ROM, rhowch\n"
+"enw'r ffeil diweddaru'r (wedi ei wahannu gan\n"
+"gollnod',') yma:\n"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
 #. txt_install_source
 msgid "Source"
-msgstr ""
+msgstr "Ffynhonnell"
 
 #. video mode/display size menu title
 #. ** please keep it really short (comparable to the english text) **
 #. txt_video_mode
 msgid "Video Mode"
-msgstr ""
+msgstr "Modd Fideo"
 
 # 'driver' as in '(hardware) driver update'
 #. driver update dialog title
 #. -> txt_dud_file_msg
 #. txt_driver_update2
-#, fuzzy
 msgid "Driver Update"
-msgstr "Gyrrwr"
+msgstr "Diweddaru Gyrrwr"
 
 #. menu label for selecting (cpu) architecture
 #. like i386, x86-64, ppc
 #. ** please keep it really short (comparable to the english text) **
 #. txt_arch
 msgid "Arch"
-msgstr ""
+msgstr "Arch"
 
 #. menu label for selecting some (linux) kernel variant
 #. ** please keep it really short (comparable to the english text) **
@@ -422,74 +418,71 @@ msgstr "Dewis Cnewyllyn"
 #. menu item for kernel variant (cf. txt_kernel)
 #. txt_kernel_default
 msgid "Default"
-msgstr ""
+msgstr "Rhagosodedig"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> like in txt_safe_linux
 #. txt_kernel_safe
-#, fuzzy
 msgid "Safe Settings"
-msgstr "Gosod--Gosodiadau Diogel"
+msgstr "Gosodiadau Diogel"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_noacpi_install
 #. txt_kernel_noacpi
 msgid "No ACPI"
-msgstr ""
+msgstr "Dim ACPI"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_nolapic_install
 #. txt_kernel_nolapic
 msgid "No Local APIC"
-msgstr ""
+msgstr "Dim APIC Lleol"
 
 #. main menu: start in system repair mode
 #. txt_repain_system
-#, fuzzy
 msgid "Repair Installed System"
-msgstr "System Achub"
+msgstr "Trwsio System wedi ei Osod"
 
 # dialog title for ftp installation
 #. menu item
 #. txt_mediacheck
-#, fuzzy
 msgid "Check Installation Media"
-msgstr "Gosodiad FTP"
+msgstr "Gwirio'r Cyfrwng Gosod"
 
 #. menu item for keyboard layout (please keep it short)
 #. txt_keyboard
 msgid "Keyboard"
-msgstr ""
+msgstr "Bysellfwrdd"
 
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Diweddaru Llwytho Gyrrwr"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
+msgstr "Rhowch URL Diweddaru Gyrrwr\n"
 
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Pensaerniarth anghywir"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr ""
+msgstr "Cyfrifiadur 32 did yw hwn"
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Rhybudd"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "Rydych ar fin gosod meddalwedd 32did ar gyfrifiadur 64did."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -498,27 +491,15 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Mewnosod diweddariad gyrrwr CD-ROM ar gyfer\n"
+"\"%s\"."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "Rhowch CD-ROM Mandriva Linux nôl yn y gyrrwr."
 
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
-
-# Keep the newlines and spaces after ':'!
-#~ msgid ""
-#~ "Enter your password:   \n"
-#~ "\n"
-#~ "\n"
-#~ msgstr ""
-#~ "Rhowch eich cyfrinair:  \n"
-#~ "\n"
-#~ "\n"
-
-# dialog title for ISO installation
-#~ msgid "Installation from ISO file"
-#~ msgstr "Gosod o ffeil ISO"
+msgstr "Adfer copïau wrth gefn draksnapshot"

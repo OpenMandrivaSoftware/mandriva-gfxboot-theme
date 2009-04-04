@@ -42,7 +42,7 @@ msgstr "啟動 Microsoft Windows"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "硬體偵測工具"
 
 #. txt_linux_kernel_version
 #, c-format
@@ -437,22 +437,22 @@ msgstr "輸入驅動程式更新網址\n"
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "錯誤的系統架構"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr ""
+msgstr "這是一台 32 位元的電腦，無法執行 64 位元的軟體"
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "您將要在 64 位元的電腦上安裝設計給 32 位元電腦執行的軟體"
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -460,17 +460,14 @@ msgstr ""
 msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
-msgstr ""
+msgstr "請插入 \"%s\" 的更新驅動程式的光碟片。"
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "將 Mandriva Linux 的光碟重新放回光碟機"
 
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
-
-#~ msgid "Linux--Safe Settings"
-#~ msgstr "Linux -- 安全設定"
+msgstr "使用 draksnapshot 的備份回復"

@@ -75,7 +75,6 @@ msgid "Installation--Safe Settings"
 msgstr "Installering – trygge innstillingar"
 
 #. txt_safe_linux
-#| msgid "Boot Mandriva Linux 2009 (safe mode)"
 msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
 msgstr "Start Mandriva Linux 2009 – vårutgåve (sikkermodus)"
 
@@ -479,8 +478,8 @@ msgstr "Feil arkitektur"
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
 msgstr ""
-"Dette er ei 32-bits maskin. Du kan derfor ikkje køyra 64-bits "
-"programvare på ho."
+"Dette er ei 32-bits maskin. Du kan derfor ikkje køyra 64-bits programvare på "
+"ho."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -491,8 +490,7 @@ msgstr "Åtvaring"
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
 msgstr ""
-"Du er i ferd med å installera 32-bits programvare på ei 64-bits "
-"maskin."
+"Du er i ferd med å installera 32-bits programvare på ei 64-bits maskin."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -530,4 +528,3 @@ msgstr "Gjenopprett reservekopi frå draksnapshot"
 # dialog title for ISO installation
 #~ msgid "Installation from ISO file"
 #~ msgstr "Installering frå ISO-fil"
-

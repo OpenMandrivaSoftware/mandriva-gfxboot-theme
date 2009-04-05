@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2009-04-05 17:03+0200\n"
+"PO-Revision-Date: 2009-04-05 19:50+0100\n"
 "Last-Translator: Reinout van Schouwen <reinouts@gnome.org>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -448,7 +448,7 @@ msgstr "Verkeerde architectuur"
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr "Dit is een 32-bit computer. U kunt er geen 64-bit software op gebruiken."
+msgstr "Dit is een 32-bit-computer. U kunt er geen 64-bit-software op gebruiken."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -458,7 +458,7 @@ msgstr "Waarschuwing"
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr "U staat op het punt om 32-bit software op een 64-bit computer te installeren."
+msgstr "U staat op het punt om 32-bit-software op een 64-bit-computer te installeren."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -467,7 +467,7 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
-"Plaats de cd-rom met stuurprogramma-herziening voor\n"
+"Plaats de cd-rom met stuurprogrammaherziening voor\n"
 "\"%s\"."
 
 #. insert Mandriva CD back

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mandriva-gfxboot-theme\n"
 "POT-Creation-Date: 2008-09-26 18:04+0200\n"
-"PO-Revision-Date: 2009-03-25 13:43+0200\n"
+"PO-Revision-Date: 2009-04-07 13:22+0200\n"
 "Last-Translator: Pavel Maryanov <acid_jack@ukr.net>\n"
 "Language-Team: Russian <gnu@mx.ru>\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "Microsoft Windows"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Определение оборудования"
 
 #. txt_linux_kernel_version
 #, c-format
@@ -64,11 +64,11 @@ msgstr "Ручная установка"
 
 #. txt_noacpi_install
 msgid "Installation--ACPI Disabled"
-msgstr "Установка -- ACPI выключен"
+msgstr "Установка с выключенным ACPI"
 
 #. txt_safe_install
 msgid "Installation--Safe Settings"
-msgstr "Установка -- безопасные параметры"
+msgstr "Установка с безопасными параметрами"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
@@ -447,9 +447,7 @@ msgstr "Неверная архитектура"
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr ""
-"Это компьютер с 32-битным процессором. На нём нельзя использовать 64-битное "
-"программное обеспечение."
+msgstr "Это компьютер с 32-битным процессором. На нём нельзя использовать 64-битное программное обеспечение."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -459,9 +457,7 @@ msgstr "Предупреждение"
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
-"Вы собираетесь установить 32-битное программное обеспечение на компьютер с "
-"64-битным процессором"
+msgstr "Вы собираетесь установить 32-битное программное обеспечение на компьютер с 64-битным процессором"
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -485,9 +481,8 @@ msgstr "Восстановить резервную копию draksnapshot"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux -- безопасные параметры"
-
 #~ msgid "Kernel"
 #~ msgstr "Ядро"
-
 #~ msgid "Installation"
 #~ msgstr "Установка"
+

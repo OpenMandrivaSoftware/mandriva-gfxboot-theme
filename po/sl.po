@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
-"PO-Revision-Date: 2009-03-15 01:57+0100\n"
+"PO-Revision-Date: 2009-04-10 17:42+0200\n"
 "Last-Translator: Janez Krek <janez.krek@euroteh.si>\n"
 "Language-Team: Slovenščina <sl@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr "Zaženi Microsoft Windows"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Orodje za zaznavanje strojne opreme"
 
 #. txt_linux_kernel_version
 #, c-format

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2008-09-30 01:12+0200\n"
+"PO-Revision-Date: 2009-04-15 16:39+0200\n"
 "Last-Translator: Thierry Vignaud <tvignaud@mandriva.com>\n"
 "Language-Team: breton <i18n@suse.de>\n"
 "MIME-Version: 1.0\n"
@@ -132,14 +132,12 @@ msgstr ""
 # info box title
 #. info box title
 #. txt_info_title
-#, fuzzy
 msgid "Boot Loader"
 msgstr "Karger loc'hañ"
 
 # error box title
 #. error box title
 #. txt_error_title
-#, fuzzy
 msgid "I/O Error"
 msgstr "Fazi E/D"
 
@@ -256,9 +254,8 @@ msgstr ""
 
 #. dialog title for smb installation
 #. txt_smb_title
-#, fuzzy
 msgid "SMB (Windows Share) Installation"
-msgstr "Staliadur a-zorn"
+msgstr "Staliadur SMB (Windows Share)"
 
 # dialog title for http installation
 #. dialog title for http installation
@@ -320,11 +317,11 @@ msgstr "Rann\n"
 
 #. txt_zenAuto
 msgid "Automatic Mode"
-msgstr ""
+msgstr "Mod otomatek"
 
 #. txt_zenManual
 msgid "Manual Mode"
-msgstr ""
+msgstr "Mod dornek"
 
 #. txt_zenConfig
 msgid "Configure Parameters on ZEN Partition"
@@ -349,7 +346,7 @@ msgstr ""
 #. video mode menu item
 #. txt_text_mode
 msgid "Text Mode"
-msgstr ""
+msgstr "Mod skrid"
 
 #. menu item, like 'memory test'
 #. txt_firmware
@@ -367,13 +364,13 @@ msgstr ""
 #. ** please keep it really short (comparable to the english text) **
 #. txt_install_source
 msgid "Source"
-msgstr ""
+msgstr "Tarzh"
 
 #. video mode/display size menu title
 #. ** please keep it really short (comparable to the english text) **
 #. txt_video_mode
 msgid "Video Mode"
-msgstr ""
+msgstr "Mod video"
 
 #. driver update dialog title
 #. -> txt_dud_file_msg
@@ -398,7 +395,7 @@ msgstr "Dibarzhoù ar galon"
 #. menu item for kernel variant (cf. txt_kernel)
 #. txt_kernel_default
 msgid "Default"
-msgstr ""
+msgstr "Dre ziouer"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> like in txt_safe_linux
@@ -410,13 +407,13 @@ msgstr ""
 #. -> similar to txt_noacpi_install
 #. txt_kernel_noacpi
 msgid "No ACPI"
-msgstr ""
+msgstr "ACPI ebet"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. -> similar to txt_nolapic_install
 #. txt_kernel_nolapic
 msgid "No Local APIC"
-msgstr ""
+msgstr "APIC lec'hel ebet"
 
 #. main menu: start in system repair mode
 #. txt_repain_system
@@ -433,7 +430,7 @@ msgstr "Staliadur FTP"
 #. menu item for keyboard layout (please keep it short)
 #. txt_keyboard
 msgid "Keyboard"
-msgstr ""
+msgstr "Stokellaoueg"
 
 #. menu title
 #. txt_dud_download
@@ -458,7 +455,7 @@ msgstr ""
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Ho evezh"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup

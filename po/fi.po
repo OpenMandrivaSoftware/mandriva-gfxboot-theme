@@ -11,9 +11,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.fi\n"
-"PO-Revision-Date: 2009-03-28 20:00+0200\n"
-"Last-Translator: Anssi Hannula <anssi@mandriva.org>\n"
-"Language-Team: Finnish <fi@li.org>\n"
+"PO-Revision-Date: 2009-05-03 17:35+0300\n"
+"Last-Translator: Jani Välimaa <jani.valimaa@gmail.com>\n"
+"Language-Team: Finnish <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -55,7 +55,7 @@ msgstr "Laitteiston tunnistustyökalu"
 #. txt_linux_kernel_version
 #, c-format
 msgid "Linux with kernel %s"
-msgstr "Linux %s -ytimellä"
+msgstr "Linux %s-ytimellä"
 
 #. txt_install
 msgid "Install Mandriva Linux 2009 Spring"
@@ -207,7 +207,7 @@ msgstr "Katkaise virta"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Pysäytetäänkö järjestelmä nyt?"
+msgstr "Sammutetaanko järjestelmä?"
 
 #. menu entry for hard disk installation
 #. txt_harddisk
@@ -221,7 +221,7 @@ msgstr "Kiintolevyasennus"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (Scans All Disks If Empty)\n"
-msgstr "Levylaite (jos tyhjä, tarkistetaan kaikki levyt)\n"
+msgstr "Kiintolevy (jos tyhjä, tarkistetaan kaikki levyt)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -351,7 +351,7 @@ msgstr "Tekstitila"
 #. menu item, like 'memory test'
 #. txt_firmware
 msgid "Firmware Test"
-msgstr "Laiteohjelmiston testi"
+msgstr "Laiteohjelmistotesti"
 
 #. txt_dud_file_msg
 msgid ""
@@ -359,9 +359,8 @@ msgid ""
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
 msgstr ""
-"Jos haluat ladata ajuripäivityksen suoraan CD-ROM-levyltä,\n"
-"anna ajuripäivityksen tiedostonimet (pilkuilla ','\n"
-"eroteltuina):\n"
+"Jos haluat ladata ajuripäivityksen suoraan CD-levyltä,\n"
+"anna päivitystiedostojen nimet pilkuilla eroteltuina:\n"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
@@ -472,7 +471,7 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
-"Aseta ohjainpäivitys-CD laitteelle\n"
+"Aseta asemaan ohjainpäivitys-CD laitteelle\n"
 "\"%s\"."
 
 #. insert Mandriva CD back

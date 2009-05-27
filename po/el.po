@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.el\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-26 13:08+0100\n"
+"PO-Revision-Date: 2009-05-27 23:01+0200\n"
 "Last-Translator: Glentadakis Dimitrios <dglent@gmail.com>\n"
 "Language-Team: Greek <i18ngr@lists.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -398,7 +398,7 @@ msgstr "Τόξο"
 #. ** please keep it really short (comparable to the english text) **
 #. txt_kernel
 msgid "Kernel Option"
-msgstr "Επιλογή Kernel"
+msgstr "Επιλογές πυρήνα"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. txt_kernel_default

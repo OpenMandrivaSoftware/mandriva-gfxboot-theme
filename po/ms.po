@@ -37,7 +37,8 @@ msgid "Continue"
 msgstr "Teruskan"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010"
 msgstr "Boot Mandriva Linux 2009 Spring"
 
 #. txt_windows
@@ -54,7 +55,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux dengan kernel %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Install Mandriva Linux 2010"
 msgstr "Pasang Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
@@ -73,8 +75,9 @@ msgid "Installation--Safe Settings"
 msgstr "Ubah seting latar belakang"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
-msgstr ""
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 (safe mode)"
+msgstr "Boot Mandriva Linux 2009 Spring"
 
 #. txt_boot_harddisk
 #, fuzzy

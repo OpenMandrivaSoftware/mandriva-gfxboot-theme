@@ -37,7 +37,8 @@ msgid "Continue"
 msgstr "Jätka"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010"
 msgstr "Mandriva Linux 2009 Springi laadimine"
 
 #. txt_windows
@@ -54,7 +55,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux kerneliga %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Install Mandriva Linux 2010"
 msgstr "Mandriva Linux 2009 Springi paigaldamine masinasse"
 
 #. txt_manual_install
@@ -70,7 +72,8 @@ msgid "Installation--Safe Settings"
 msgstr "Paigaldamine--ohutud sätted"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 (safe mode)"
 msgstr "Mandriva Linux 2009 Springi laadimine (safe mode)"
 
 #. txt_boot_harddisk

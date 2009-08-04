@@ -37,7 +37,8 @@ msgid "Continue"
 msgstr "Fortsæt"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010"
 msgstr "Start Mandriva Linux 2009 Spring op"
 
 #. txt_windows
@@ -54,7 +55,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux med kerne %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Install Mandriva Linux 2010"
 msgstr "Installér Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
@@ -70,7 +72,8 @@ msgid "Installation--Safe Settings"
 msgstr "Installation--fejlsikret"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 (safe mode)"
 msgstr "Start Mandriva Linux 2009 Spring op (sikker tilstand)"
 
 #. txt_boot_harddisk
@@ -446,7 +449,8 @@ msgstr "Forkert arkitektur"
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr "Dette er en 32-bit maskine. Du kan ikke bruge 64-bit programmel på den."
+msgstr ""
+"Dette er en 32-bit maskine. Du kan ikke bruge 64-bit programmel på den."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -477,4 +481,3 @@ msgstr "Sæt Mandriva Linux CD-ROM'en tilbage i drevet."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Genetablér draksnapshot sikkerhedskopi"
-

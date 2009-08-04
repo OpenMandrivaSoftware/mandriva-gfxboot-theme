@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. ok button label
 #. txt_ok
@@ -38,7 +39,8 @@ msgid "Continue"
 msgstr "Pokračovat"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010"
 msgstr "Zavést Mandriva Linux 2009 Spring"
 
 #. txt_windows
@@ -55,7 +57,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux s jádrem %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Install Mandriva Linux 2010"
 msgstr "Instalovat Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
@@ -71,7 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalace -- bezpečné nastavení"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 (safe mode)"
 msgstr "Zavést Mandriva Linux 2009 Spring (bezpečný režim)"
 
 #. txt_boot_harddisk
@@ -478,4 +482,3 @@ msgstr "Vložte do zařízení zpět CD-ROM s distribucí Mandriva Linux."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Obnovit zálohu draksnapshot"
-

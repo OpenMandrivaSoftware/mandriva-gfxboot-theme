@@ -37,7 +37,8 @@ msgid "Continue"
 msgstr "Parhau"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010"
 msgstr "Cychwyn Mandriva Linux 2009 Spring"
 
 #. txt_windows
@@ -54,7 +55,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux gyda cnewyllyn %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Install Mandriva Linux 2010"
 msgstr "Gosod Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
@@ -70,7 +72,8 @@ msgid "Installation--Safe Settings"
 msgstr "Gosod--Gosodiadau Diogel"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 (safe mode)"
 msgstr "Gosod Mandriva Linux 2009 Spring (modd diogel)"
 
 #. txt_boot_harddisk

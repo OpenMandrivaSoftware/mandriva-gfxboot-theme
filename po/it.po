@@ -37,7 +37,8 @@ msgid "Continue"
 msgstr "Continua"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010"
 msgstr "Boot di Mandriva Linux 2009 Spring"
 
 #. txt_windows
@@ -54,7 +55,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux con il kernel %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Install Mandriva Linux 2010"
 msgstr "Installa Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
@@ -70,7 +72,8 @@ msgid "Installation--Safe Settings"
 msgstr "Installazione--Safe Settings"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 (safe mode)"
 msgstr "Boot di Mandriva Linux 2009 Spring (safe mode)"
 
 #. txt_boot_harddisk
@@ -478,4 +481,3 @@ msgstr "Inserisci di nuovo il CD/DVD di Mandriva Linux."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Ripristinare da backup (draksnapshot)"
-

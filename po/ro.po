@@ -71,7 +71,8 @@ msgid "Continue"
 msgstr "Continuă"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010"
 msgstr "Demarează Mandriva Linux 2009 Spring"
 
 #. txt_windows
@@ -88,7 +89,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux cu nucleu %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Install Mandriva Linux 2010"
 msgstr "Instalează Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
@@ -104,7 +106,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalare--Opțiuni sigure"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 (safe mode)"
 msgstr "Demarează Mandriva Linux 2009 Spring (mod degradat)"
 
 #. txt_boot_harddisk

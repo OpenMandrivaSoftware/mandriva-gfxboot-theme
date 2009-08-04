@@ -40,7 +40,8 @@ msgid "Continue"
 msgstr "Weiter"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010"
 msgstr "Starten von Mandriva Linux 2009 Spring"
 
 #. txt_windows
@@ -57,7 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux mit Kernel %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Install Mandriva Linux 2010"
 msgstr "Installiere Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
@@ -73,7 +75,8 @@ msgid "Installation--Safe Settings"
 msgstr "Installation - Sichere Einstellungen"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 (safe mode)"
 msgstr "Starten von Mandriva Linux 2009 Spring (sicherer Modus)"
 
 #. txt_boot_harddisk
@@ -461,7 +464,8 @@ msgstr "Warnung"
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr "Sie sind dabei, 32-bit Software auf einem 64-bit Computer zu installieren."
+msgstr ""
+"Sie sind dabei, 32-bit Software auf einem 64-bit Computer zu installieren."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -482,4 +486,3 @@ msgstr "Legen Sie die Mandriva-Linux CD-ROM erneut in Ihr Laufwerk ein."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Stelle das Draksnapshot-Backup wieder her"
-

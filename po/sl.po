@@ -41,7 +41,8 @@ msgid "Continue"
 msgstr "Nadaljuj"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010"
 msgstr "Zaženi Mandriva Linux 2009 Spring"
 
 #. txt_windows
@@ -58,7 +59,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux z jedrom %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Install Mandriva Linux 2010"
 msgstr "Namesti Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
@@ -74,7 +76,8 @@ msgid "Installation--Safe Settings"
 msgstr "Namestitev--varne nastavitve"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 (safe mode)"
 msgstr "Zaženi Mandriva Linux 2009 Spring  (varni način)"
 
 #. txt_boot_harddisk

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.et\n"
 "POT-Creation-Date: 2003-03-04 15:08+0100\n"
-"PO-Revision-Date: 2009-07-25 16:58+0300\n"
+"PO-Revision-Date: 2009-08-05 12:43+0300\n"
 "Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <linux-ee@lists.eenet.ee>\n"
 "MIME-Version: 1.0\n"
@@ -37,9 +37,8 @@ msgid "Continue"
 msgstr "Jätka"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010"
-msgstr "Mandriva Linux 2009 Springi laadimine"
+msgstr "Mandriva Linux 2010 laadimine"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -55,9 +54,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux kerneliga %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010"
-msgstr "Mandriva Linux 2009 Springi paigaldamine masinasse"
+msgstr "Mandriva Linux 2010 paigaldamine masinasse"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -72,9 +70,8 @@ msgid "Installation--Safe Settings"
 msgstr "Paigaldamine--ohutud sätted"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 (safe mode)"
-msgstr "Mandriva Linux 2009 Springi laadimine (safe mode)"
+msgstr "Mandriva Linux 2010 laadimine (safe mode)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

@@ -11,9 +11,9 @@
 # Lónyai Gergely <aleph@mandriva.org>, 2007, 2008, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: mandriva-gfxboot-theme-2009.1\n"
+"Project-Id-Version: mandriva-gfxboot-theme-2010.0\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-26 14:48+0100\n"
+"PO-Revision-Date: 2009-08-05 10:18+0100\n"
 "Last-Translator: Gergely Lónyai <aleph@mandriva.org>\n"
 "Language-Team: Hungarian <aleph@mandriva.org>\n"
 "MIME-Version: 1.0\n"
@@ -46,9 +46,8 @@ msgid "Continue"
 msgstr "Folytatás"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010"
-msgstr "Mandriva Linux 2009 Spring indítása"
+msgstr "Mandriva Linux 2010 indítása"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -64,9 +63,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux %s kernellel"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010"
-msgstr "Mandriva Linux 2009 Spring telepítése"
+msgstr "Mandriva Linux 2010 telepítése"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -81,9 +79,8 @@ msgid "Installation--Safe Settings"
 msgstr "Telepítés - Biztonságos beállításokkal"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 (safe mode)"
-msgstr "Mandriva Linux 2009 Spring indítása  (biztonsági üzem)"
+msgstr "Mandriva Linux 2010 indítása (biztonsági üzem)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -492,9 +489,8 @@ msgstr "Draksnapshot mentés helyreállítása"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux - Biztonságos beállításokkal"
-
 #~ msgid "Kernel"
 #~ msgstr "Kernel"
-
 #~ msgid "Installation"
 #~ msgstr "Telepítés"
+

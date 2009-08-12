@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.el\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-05-31 22:29+0100\n"
+"PO-Revision-Date: 2009-08-12 18:12+0200\n"
 "Last-Translator: Glentadakis Dimitrios <dglent@gmail.com>\n"
-"Language-Team: Greek <i18ngr@lists.hellug.gr>\n"
+"Language-Team: Greek <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,9 +43,8 @@ msgstr "Συνέχεια"
 #  msgid "SMB (Windows Share) Installation"
 #  msgstr "Εγκατάσταση SMB (Windows Share)"
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010"
-msgstr "Εκκίνηση Mandriva Linux 2009 Spring"
+msgstr "Εκκίνηση Mandriva Linux 2010"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -61,9 +60,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux με kernel %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010"
-msgstr "Εγκατάσταση Mandriva Linux 2009 Spring"
+msgstr "Εγκατάσταση Mandriva Linux 2010"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -81,9 +79,8 @@ msgstr "Εγκατάσταση --Ασφαλείς Ρυθμίσεις"
 #  msgid "SMB (Windows Share) Installation"
 #  msgstr "Εγκατάσταση SMB (Windows Share)"
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 (safe mode)"
-msgstr "Εκκίνηση Mandriva Linux 2009 Spring (ασφαλής λειτουργία)"
+msgstr "Εκκίνηση Mandriva Linux 2010 (ασφαλής λειτουργία)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

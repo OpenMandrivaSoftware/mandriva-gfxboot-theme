@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt_BR\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-23 13:50-0300\n"
-"Last-Translator: Sergio Rafael Lemke <sergio@mandriva.com.br>\n"
-"Language-Team: Brazilian Portuguese <cooker-i18n@mandrivalinux.org>\n"
+"PO-Revision-Date: 2009-08-17 18:05-0300\n"
+"Last-Translator: \n"
+"Language-Team: Brazilian Portuguese <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,9 +40,8 @@ msgid "Continue"
 msgstr "Continuar"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010"
-msgstr "Iniciar Mandriva Linux 2009 Spring"
+msgstr "Iniciar Mandriva Linux 2010"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -58,9 +57,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux com kernel %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010"
-msgstr "Instalar Mandriva Linux 2009 Spring"
+msgstr "Instalar Mandriva Linux 2010"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -75,9 +73,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalar Mandriva Linux em Modo de Segurança"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 (safe mode)"
-msgstr "Iniciar Mandriva Linux 2009 Spring (modo seguro)"
+msgstr "Iniciar Mandriva Linux 2010 (modo seguro)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -484,3 +481,4 @@ msgstr "Recoloque o CD-ROM Mandriva Linux no drive."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Restaurar Backup do Draksnapshot"
+

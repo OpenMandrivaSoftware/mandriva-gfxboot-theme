@@ -1,7 +1,4 @@
-# translation of bootloader.po to Norwegian Nynorsk
-# Translation of bootloader to Norwegian Nynorsk
-# LANGUAGE translations for boot loader
-# Copyright (C) 2005 SUSE Linux GmbH
+# Translation of mandriva-gfxboot-theme to Norwegian Nynorsk
 #
 # Karl Ove Hufthammer <karl@huftis.org>, 2006, 2007, 2008, 2009.
 msgid ""

@@ -33,22 +33,23 @@
 #
 # Traducători de-a lungul timpului:
 #
-# Claudiu COSTIN <claudiuc@kde.org>, 2004
-# Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>, 2009
 #
+# Claudiu COSTIN <claudiuc@kde.org>, 2004.
+# Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To: https://qa.mandriva.com\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-11 15:53+0100\n"
+"PO-Revision-Date: 2009-09-01 21:44+0200\n"
 "Last-Translator: Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>\n"
-"Language-Team: Mandrivausers.ro <cfrussen@yahoo.co.uk>\n"
+"Language-Team: Romanian <cfrussen@yahoo.co.uk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3;plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
 "2:1))\n"
+"X-Generator: Lokalize 0.3\n"
 
 #. ok button label
 #. txt_ok
@@ -71,9 +72,8 @@ msgid "Continue"
 msgstr "Continuă"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010"
-msgstr "Demarează Mandriva Linux 2009 Spring"
+msgstr "Demarează Mandriva Linux 2010"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -89,9 +89,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux cu nucleu %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010"
-msgstr "Instalează Mandriva Linux 2009 Spring"
+msgstr "Instalează Mandriva Linux 2010"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -106,9 +105,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalare--Opțiuni sigure"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 (safe mode)"
-msgstr "Demarează Mandriva Linux 2009 Spring (mod degradat)"
+msgstr "Demarează Mandriva Linux 2010 (mod degradat)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloder\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2009-04-14 23:11+0200\n"
+"PO-Revision-Date: 2009-09-02 20:41+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -41,9 +41,8 @@ msgid "Continue"
 msgstr "Jarraitu"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010"
-msgstr "Abiatu Mandriva Linux 2009 Spring"
+msgstr "Abiatu Mandriva Linux 2010"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -59,9 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux %s kernelarekin"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010"
-msgstr "Instalatu Mandriva Linux 2009 Spring"
+msgstr "Instalatu Mandriva Linux 2010"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -76,9 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalaketa -- Ezarpen seguruak"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 (safe mode)"
-msgstr "Abiatu Mandriva Linux 2009 Spring (modu segurua)"
+msgstr "Abiatu Mandriva Linux 2010 (modu segurua)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: da\n"
-"PO-Revision-Date: 2009-03-28 09:04+0100\n"
+"PO-Revision-Date: 2009-09-08 09:34+0200\n"
 "Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -37,9 +37,8 @@ msgid "Continue"
 msgstr "Fortsæt"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010"
-msgstr "Start Mandriva Linux 2009 Spring op"
+msgstr "Start Mandriva Linux 2010 op"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -55,9 +54,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux med kerne %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010"
-msgstr "Installér Mandriva Linux 2009 Spring"
+msgstr "Installér Mandriva Linux 2010"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -72,9 +70,8 @@ msgid "Installation--Safe Settings"
 msgstr "Installation--fejlsikret"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 (safe mode)"
-msgstr "Start Mandriva Linux 2009 Spring op (sikker tilstand)"
+msgstr "Start Mandriva Linux 2010 op (sikker tilstand)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -449,8 +446,7 @@ msgstr "Forkert arkitektur"
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
-msgstr ""
-"Dette er en 32-bit maskine. Du kan ikke bruge 64-bit programmel på den."
+msgstr "Dette er en 32-bit maskine. Du kan ikke bruge 64-bit programmel på den."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -481,3 +477,4 @@ msgstr "Sæt Mandriva Linux CD-ROM'en tilbage i drevet."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Genetablér draksnapshot sikkerhedskopi"
+

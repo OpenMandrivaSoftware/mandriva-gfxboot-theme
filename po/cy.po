@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader=-cy\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2009-03-27 15:21-0000\n"
+"PO-Revision-Date: 2009-08-24 19:12-0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: Cymraeg/Welsh <post@meddal.com>\n"
 "MIME-Version: 1.0\n"
@@ -37,9 +37,8 @@ msgid "Continue"
 msgstr "Parhau"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010"
-msgstr "Cychwyn Mandriva Linux 2009 Spring"
+msgstr "Cychwyn Mandriva Linux 2010"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -55,9 +54,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux gyda cnewyllyn %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010"
-msgstr "Gosod Mandriva Linux 2009 Spring"
+msgstr "Gosod Mandriva Linux 2010"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -72,9 +70,8 @@ msgid "Installation--Safe Settings"
 msgstr "Gosod--Gosodiadau Diogel"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 (safe mode)"
-msgstr "Gosod Mandriva Linux 2009 Spring (modd diogel)"
+msgstr "Gosod Mandriva Linux 2010 (modd diogel)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -506,3 +503,4 @@ msgstr "Rhowch CD-ROM Mandriva Linux nôl yn y gyrrwr."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Adfer copïau wrth gefn draksnapshot"
+

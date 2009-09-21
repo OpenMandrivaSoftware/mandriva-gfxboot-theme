@@ -423,7 +423,7 @@ msgstr ""
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+msgid "This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
 
 #. title of warning box when running a 32bit CD on a 64bit machine

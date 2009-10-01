@@ -1,18 +1,20 @@
 # LANGUAGE translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
 #
+# Alejo Pacín Jul <alejopj@gmail.com>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: YaST (@memory@)\n"
 "Report-Msgid-Bugs-To: translation@suse.de\n"
 "POT-Creation-Date: 2006-05-15 15:07+0200\n"
-"PO-Revision-Date: 2008-05-16 12:59+0100\n"
-"Last-Translator: Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>\n"
-"Language-Team: Galician <proxecto@trasno.net>\n"
+"PO-Revision-Date: 2009-09-24 18:49+0200\n"
+"Last-Translator: Alejo Pacín Jul <alejopj@gmail.com>\n"
+"Language-Team: Galician <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Lokalize 0.3\n"
 
 #. ok button label
 #. txt_ok
@@ -27,7 +29,7 @@ msgstr "Cancelar"
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "Reiniciar"
+msgstr "Rearrincar"
 
 #. continue button label
 #. txt_continue
@@ -35,9 +37,8 @@ msgid "Continue"
 msgstr "Continuar"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010"
-msgstr "Arrincar Mandriva Linux 2009 Spring"
+msgstr "Arrincar Mandriva Linux 2010"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -45,7 +46,7 @@ msgstr "Arrincar Microsoft Windows"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Ferramenta de Detección de Hardware"
 
 #. txt_linux_kernel_version
 #, c-format
@@ -53,9 +54,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux con kernel %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010"
-msgstr "Instalar Mandriva Linux 2009 Spring"
+msgstr "Instalar Mandriva Linux 2010"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -67,12 +67,11 @@ msgstr "Instalación--ACPI Deshabilitado"
 
 #. txt_safe_install
 msgid "Installation--Safe Settings"
-msgstr "Instalación--Opcións Seguras"
+msgstr "Instalación--Opcións seguras"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 (safe mode)"
-msgstr "Arrincar Mandriva Linux 2009 Spring (modo seguro)"
+msgstr "Arrincar Mandriva Linux 2010 (modo seguro)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -80,7 +79,7 @@ msgstr "Arrincar dende o Disco Duro"
 
 #. txt_rescue
 msgid "Rescue System"
-msgstr "Rescatar Sistema"
+msgstr "Recuperar o Sistema"
 
 #. txt_memtest
 msgid "Memory Test"
@@ -130,7 +129,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Cargando memtest86\n"
+"Cargando o memtest86\n"
 "\n"
 "\n"
 
@@ -180,7 +179,7 @@ msgstr "Contrasinal"
 
 #. txt_dud_ready
 msgid "Get your driver update floppy ready."
-msgstr "Teña preparado o disquete de actualización de driver."
+msgstr "Teña preparado o seu disquete de actualización do driver."
 
 #. dvd warning title
 #. txt_dvd_warning_title
@@ -227,7 +226,7 @@ msgstr "Directorio\n"
 #. dialog title for ftp installation
 #. txt_ftp_title
 msgid "FTP Installation"
-msgstr "Instalación por FTP"
+msgstr "Instalación mediante FTP"
 
 #. txt_server
 msgid "Server\n"
@@ -240,32 +239,32 @@ msgstr "Contrasinal\n"
 #. label for ftp user input
 #. txt_user1
 msgid "User (Anonymous Login If Empty)\n"
-msgstr "Usuario (hase usar anonymous se está baleiro)\n"
+msgstr "Usuario (hase empregar identificación anónima se está baleiro)\n"
 
 #. dialog title for nfs installation
 #. txt_nfs_title
 msgid "NFS Installation"
-msgstr "Instalación por NFS"
+msgstr "Instalación mediante NFS"
 
 #. label for smb user input
 #. txt_user2
 msgid "User (Uses \"guest\" If Empty)\n"
-msgstr "Usuario (hase usar \"guest\" se está baleiro)\n"
+msgstr "Usuario (hase empregar \"guest\" se está baleiro)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
 msgid "SMB (Windows Share) Installation"
-msgstr "Instalación SMB (Recurso Windows)"
+msgstr "Instalación mediante SMB (Recursos de Windows)"
 
 #. dialog title for http installation
 #. txt_http_title
 msgid "HTTP Installation"
-msgstr "Instalación por HTTP"
+msgstr "Instalación mediante HTTP"
 
 #. 'driver' as in '(hardware) driver update'
 #. txt_driver_update
 msgid "Driver"
-msgstr "Driver"
+msgstr "Controlador"
 
 #. as in Windows Authentication Domain
 #. txt_domain
@@ -314,7 +313,7 @@ msgstr "Recurso\n"
 
 #. txt_zenAuto
 msgid "Automatic Mode"
-msgstr "Modo Automatico"
+msgstr "Modo Automático"
 
 #. txt_zenManual
 msgid "Manual Mode"
@@ -326,19 +325,19 @@ msgstr "Configurar os Parámetros da Partición ZEN"
 
 #. txt_zenInstall
 msgid "Install or Update ZEN Partition"
-msgstr "Instalar ou Actualizar Partición ZEN"
+msgstr "Instalar ou Actualizar a Partición ZEN"
 
 #. txt_zenLilo
 msgid "Reinstall ZEN Partition Boot Loader"
-msgstr "Reinstalaro Cargador de Arrinque da Partición ZEN"
+msgstr "Reinstalar o Cargador de Arrinque da Partición ZEN"
 
 #. txt_zenDisable
 msgid "Disable ZEN Partition"
-msgstr "Deshabilitar Partición ZEN"
+msgstr "Deshabilitar a Partición ZEN"
 
 #. txt_zenEnable
 msgid "Enable ZEN Partition"
-msgstr "Activar Partición ZEN"
+msgstr "Habilitar a Partición ZEN"
 
 #. video mode menu item
 #. txt_text_mode
@@ -348,7 +347,7 @@ msgstr "Modo Texto"
 #. menu item, like 'memory test'
 #. txt_firmware
 msgid "Firmware Test"
-msgstr "Proba de Firmware"
+msgstr "Proba do Firmware"
 
 #. txt_dud_file_msg
 msgid ""
@@ -356,9 +355,11 @@ msgid ""
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
 msgstr ""
-"Para cargar as actualizacións de drivers directamente\n"
-" dende CDROM, introduza os nomes de ficheiros de\n"
-" actualización de drivers (separados por comas ',') aquí:\n"
+"Para cargar as actualizacións de controladores directamente dende o "
+"CD-ROM,\n"
+"introduza os nomes de ficheiro de  actualización de controladores "
+"(separados\n"
+"por comas ',') aquí:\n"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
@@ -376,7 +377,7 @@ msgstr "Modo de Vídeo"
 #. -> txt_dud_file_msg
 #. txt_driver_update2
 msgid "Driver Update"
-msgstr "Actualización de Drivers"
+msgstr "Actualización de Controladores"
 
 #. menu label for selecting (cpu) architecture
 #. like i386, x86-64, ppc
@@ -417,7 +418,7 @@ msgstr "Sen APIC Local"
 #. main menu: start in system repair mode
 #. txt_repain_system
 msgid "Repair Installed System"
-msgstr "Reparar Sistema Instalado"
+msgstr "Reparar o Sistema Instalado"
 
 #. menu item
 #. txt_mediacheck
@@ -432,32 +433,33 @@ msgstr "Teclado"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Descargar Actualización do Controlador"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
+msgstr "Introduza a URL de actualización do controlador\n"
 
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Arquitectura incorrecta"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
 msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
 msgstr ""
+"Isto é un ordenador de 32-bit. Non pode empregar software de 64-bit nel."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Ollo"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "Está a piques de instalar software de 32-bt nun ordenador de 64-bit."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -466,16 +468,18 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Insira o CD-ROM de actualización de controladores para\n"
+"\"%s\"."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "Volva colocar o CD-ROM de Mandriva Linux na unidade."
 
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Restaurar a copia de seguridade de draksnapshot"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux--Opcións Seguras"

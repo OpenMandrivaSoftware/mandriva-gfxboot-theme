@@ -9,13 +9,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
-"PO-Revision-Date: 2009-04-22 02:48+0200\n"
+"PO-Revision-Date: 2009-10-03 17:50+0200\n"
 "Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms:  nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3);\n"
 "n%100==4 ? 2 : 3);\n"
@@ -41,9 +41,8 @@ msgid "Continue"
 msgstr "Nadaljuj"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010"
-msgstr "Zaženi Mandriva Linux 2009 Spring"
+msgstr "Zaženi Mandriva Linux 2010"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -59,9 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux z jedrom %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010"
-msgstr "Namesti Mandriva Linux 2009 Spring"
+msgstr "Namesti Mandriva Linux 2010"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -76,9 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Namestitev--varne nastavitve"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 (safe mode)"
-msgstr "Zaženi Mandriva Linux 2009 Spring  (varni način)"
+msgstr "Zaženi Mandriva Linux 2010  (varni način)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -365,7 +362,7 @@ msgid ""
 msgstr ""
 "Da naložite posodobitve gonilnika neposredno s\n"
 "CD-ROMa, vnesite imena datotek s posodobitvami\n"
-"(ločite jih z vejicmi):\n"
+"(ločite jih z vejicami):\n"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
@@ -424,7 +421,7 @@ msgstr "Brez krajevnega APIC-a"
 #. main menu: start in system repair mode
 #. txt_repain_system
 msgid "Repair Installed System"
-msgstr "Popravi namesščen sistem"
+msgstr "Popravi nameščen sistem"
 
 #. menu item
 #. txt_mediacheck
@@ -434,7 +431,7 @@ msgstr "Preveri namestitveni nosilec"
 #. menu item for keyboard layout (please keep it short)
 #. txt_keyboard
 msgid "Keyboard"
-msgstr "Tipkovnca"
+msgstr "Tipkovnica"
 
 #. menu title
 #. txt_dud_download

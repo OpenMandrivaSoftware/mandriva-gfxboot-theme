@@ -5,12 +5,13 @@
 # Jami Saarikoski <jami.saarikoski@gmail.com>, 2006.
 # Anssi Hannula <anssi@mandriva.org>, 2009.
 # Jani Välimaa <jani.valimaa@gmail.com>, 2009.
+# Thomas Backlund <tmb@mandriva.org>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.fi\n"
-"PO-Revision-Date: 2009-08-05 11:19+0300\n"
-"Last-Translator: Jani Välimaa <jani.valimaa@gmail.com>\n"
-"Language-Team: Finnish <cooker-i18n@mandrivalinux.org>\n"
+"PO-Revision-Date: 2009-10-20 02:12+0300\n"
+"Last-Translator: Thomas Backlund <tmb@mandriva.org>\n"
+"Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -445,7 +446,8 @@ msgstr "Väärä arkkitehtuuri"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
 "Tämä on 32-bittinen tietokone. Et voi käyttää 64-bittisiä ohjelmistoja."
 

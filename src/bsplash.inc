@@ -219,7 +219,7 @@
   /b2_text_tmp b2_text imgsize 0 0 moveto savescreen def
   % /b2_spot_tmp b2_spot imgsize 0 0 moveto savescreen def
 
-  193 44 moveto
+  199 37 moveto
   /b2_orig b2_text imgsize savescreen def
   /b2_buf b2_text imgsize savescreen def
 
@@ -272,7 +272,7 @@
   b2_buf b2_orig over length memcpy
 
   b2_text_tmp b2_text over length memcpy
-  0 255 b2_idx b2_start sub 20 mul sub 0 max b2_text_tmp blend
+  90 255 b2_idx b2_start sub 20 mul sub 90 max b2_text_tmp blend
 
   % b2_spot_tmp b2_spot over length memcpy
   % 0 255 b2_idx b2_start sub 20 mul sub 0 max b2_spot_tmp blend
@@ -282,7 +282,7 @@
   0 0 moveto
   0xffffff b2_text_tmp b2_buf blend
 
-  193 44 moveto b2_buf restorescreen
+  199 37 moveto b2_buf restorescreen
 
   false
 

@@ -40,9 +40,8 @@ msgid "Continue"
 msgstr "Kontynuuj"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010"
-msgstr "Uruchom Mandriva Linux 2009 Spring"
+msgstr "Uruchom Mandriva Linux 2010"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -58,9 +57,8 @@ msgid "Linux with kernel %s"
 msgstr "Jądro Linuksa %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010"
-msgstr "Zainstaluj Mandriva Linux 2009 Spring"
+msgstr "Zainstaluj Mandriva Linux 2010"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -75,9 +73,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalacja (bezpieczne ustawienia)"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 (safe mode)"
-msgstr "Uruchom Mandriva Linux 2009 Spring  (tryb awaryjny)"
+msgstr "Uruchom Mandriva Linux 2010 (tryb awaryjny)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

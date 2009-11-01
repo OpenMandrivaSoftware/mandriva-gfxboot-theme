@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
-"PO-Revision-Date: 2009-10-03 17:50+0200\n"
+"PO-Revision-Date: 2009-11-01 16:46+0100\n"
 "Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "MIME-Version: 1.0\n"
@@ -450,7 +450,8 @@ msgstr "Napačna arhitektura"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
 "To je 32-biten računalnik. Na njem ne morete poganjati 64-bitnih programov."
 

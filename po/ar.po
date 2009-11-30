@@ -40,7 +40,7 @@ msgstr "تابع"
 
 #. txt_linux
 #, fuzzy
-msgid "Boot Mandriva Linux 2010"
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "أقلع ماندريفا لينُكس 2009 الربيع"
 
 #. txt_windows
@@ -58,7 +58,7 @@ msgstr "لينُكس مع النواة %s"
 
 #. txt_install
 #, fuzzy
-msgid "Install Mandriva Linux 2010"
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "ثبِّت لينُكس ماندريفا 2009 الربيع"
 
 #. txt_manual_install
@@ -75,7 +75,7 @@ msgstr "تثبيت--إعدادات آمنة"
 
 #. txt_safe_linux
 #, fuzzy
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "أقلع ماندريفا لينُكس 2009 الربيع (الوضع الآمن)"
 
 #. txt_boot_harddisk
@@ -450,7 +450,9 @@ msgstr "معمارية خاطئة"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+#, fuzzy
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr "هذا حاسوب 32-بِت، لا تستطيع استخدام برامج 64-بِت عليه."
 
 #. title of warning box when running a 32bit CD on a 64bit machine

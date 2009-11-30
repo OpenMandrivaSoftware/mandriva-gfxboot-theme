@@ -43,7 +43,8 @@ msgstr "Συνέχεια"
 #  msgid "SMB (Windows Share) Installation"
 #  msgstr "Εγκατάσταση SMB (Windows Share)"
 #. txt_linux
-msgid "Boot Mandriva Linux 2010"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "Εκκίνηση Mandriva Linux 2010"
 
 #. txt_windows
@@ -60,7 +61,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux με kernel %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2010"
+#, fuzzy
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "Εγκατάσταση Mandriva Linux 2010"
 
 #. txt_manual_install
@@ -79,7 +81,8 @@ msgstr "Εγκατάσταση --Ασφαλείς Ρυθμίσεις"
 #  msgid "SMB (Windows Share) Installation"
 #  msgstr "Εγκατάσταση SMB (Windows Share)"
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "Εκκίνηση Mandriva Linux 2010 (ασφαλής λειτουργία)"
 
 #. txt_boot_harddisk
@@ -455,7 +458,9 @@ msgstr "Λάθος αρχιτεκτονική"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+#, fuzzy
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
 "Έχετε έναν υπολογιστή 32-bit και δεν μπορείτε να χρησιμοποιήσετε λογισμικό "
 "64-bit σε αυτόν."

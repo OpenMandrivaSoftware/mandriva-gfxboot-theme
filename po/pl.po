@@ -40,7 +40,8 @@ msgid "Continue"
 msgstr "Kontynuuj"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2010"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "Uruchom Mandriva Linux 2010"
 
 #. txt_windows
@@ -57,7 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Jądro Linuksa %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2010"
+#, fuzzy
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "Zainstaluj Mandriva Linux 2010"
 
 #. txt_manual_install
@@ -73,7 +75,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalacja (bezpieczne ustawienia)"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "Uruchom Mandriva Linux 2010 (tryb awaryjny)"
 
 #. txt_boot_harddisk
@@ -448,7 +451,9 @@ msgstr "Nieprawidłowa architektura"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+#, fuzzy
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
 "To jest komputer 32-bitowy. Nie możesz używać na nim oprogramowania 64-"
 "bitowego."

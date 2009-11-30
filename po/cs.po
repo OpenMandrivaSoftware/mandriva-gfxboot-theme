@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. ok button label
 #. txt_ok
@@ -39,7 +39,8 @@ msgid "Continue"
 msgstr "Pokračovat"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2010"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "Zavést Mandriva Linux 2010"
 
 #. txt_windows
@@ -56,7 +57,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux s jádrem %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2010"
+#, fuzzy
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "Instalovat Mandriva Linux 2010"
 
 #. txt_manual_install
@@ -72,7 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalace -- bezpečné nastavení"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "Zavést Mandriva Linux 2010 (bezpečný režim)"
 
 #. txt_boot_harddisk
@@ -447,7 +450,9 @@ msgstr "Chybná architektura"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+#, fuzzy
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr "Toto je 32bitový počítač. Nelze na něm používat 64bitový software."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
@@ -479,4 +484,3 @@ msgstr "Vložte do zařízení zpět CD-ROM s distribucí Mandriva Linux."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Obnovit zálohu draksnapshot"
-

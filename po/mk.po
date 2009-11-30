@@ -41,7 +41,7 @@ msgid "Continue"
 msgstr "Продолжи"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2010"
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr ""
 
 #. txt_windows
@@ -58,7 +58,7 @@ msgid "Linux with kernel %s"
 msgstr ""
 
 #. txt_install
-msgid "Install Mandriva Linux 2010"
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr ""
 
 #. txt_manual_install
@@ -74,7 +74,7 @@ msgid "Installation--Safe Settings"
 msgstr "Инсталација--Сигурни поставувања"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr ""
 
 #. txt_boot_harddisk
@@ -482,7 +482,8 @@ msgstr ""
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
 
 #. title of warning box when running a 32bit CD on a 64bit machine

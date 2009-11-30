@@ -40,7 +40,8 @@ msgid "Continue"
 msgstr "Continuar"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2010"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "Iniciar Mandriva Linux 2010"
 
 #. txt_windows
@@ -57,7 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux com kernel %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2010"
+#, fuzzy
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "Instalar Mandriva Linux 2010"
 
 #. txt_manual_install
@@ -73,7 +75,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalar Mandriva Linux em Modo de Segurança"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "Iniciar Mandriva Linux 2010 (modo seguro)"
 
 #. txt_boot_harddisk
@@ -448,7 +451,9 @@ msgstr "Arquitetura Errada"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+#, fuzzy
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
 "Este é um computador de 32-bit. Você não pode usar programas de 64-bit nele."
 
@@ -481,4 +486,3 @@ msgstr "Recoloque o CD-ROM Mandriva Linux no drive."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Restaurar Backup do Draksnapshot"
-

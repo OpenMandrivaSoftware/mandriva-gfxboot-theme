@@ -37,7 +37,8 @@ msgid "Continue"
 msgstr "Continuar"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2010"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "Arrincar Mandriva Linux 2010"
 
 #. txt_windows
@@ -54,7 +55,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux con kernel %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2010"
+#, fuzzy
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "Instalar Mandriva Linux 2010"
 
 #. txt_manual_install
@@ -70,7 +72,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalación--Opcións seguras"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "Arrincar Mandriva Linux 2010 (modo seguro)"
 
 #. txt_boot_harddisk
@@ -355,8 +358,7 @@ msgid ""
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
 msgstr ""
-"Para cargar as actualizacións de controladores directamente dende o "
-"CD-ROM,\n"
+"Para cargar as actualizacións de controladores directamente dende o CD-ROM,\n"
 "introduza os nomes de ficheiro de  actualización de controladores "
 "(separados\n"
 "por comas ',') aquí:\n"
@@ -447,7 +449,9 @@ msgstr "Arquitectura incorrecta"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+#, fuzzy
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
 "Isto é un ordenador de 32-bit. Non pode empregar software de 64-bit nel."
 

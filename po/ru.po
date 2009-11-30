@@ -17,7 +17,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n!=1);\n\n"
+"Plural-Forms:  nplurals=2; plural=(n!=1);\n"
+"\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
@@ -42,7 +43,8 @@ msgid "Continue"
 msgstr "Продолжить"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2010"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "Mandriva Linux 2010"
 
 #. txt_windows
@@ -59,7 +61,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux с ядром %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2010"
+#, fuzzy
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "Установка Mandriva Linux 2010"
 
 #. txt_manual_install
@@ -75,7 +78,8 @@ msgid "Installation--Safe Settings"
 msgstr "Установка с безопасными параметрами"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "Mandriva Linux 2010 (безопасный режим)"
 
 #. txt_boot_harddisk
@@ -450,7 +454,9 @@ msgstr "Неверная архитектура"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+#, fuzzy
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
 "Это компьютер с 32-битным процессором. На нём нельзя использовать 64-битное "
 "программное обеспечение."
@@ -486,4 +492,3 @@ msgstr "Вставьте в привод компакт-диск с Mandriva Lin
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Восстановить резервную копию draksnapshot"
-

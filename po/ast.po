@@ -40,7 +40,8 @@ msgid "Continue"
 msgstr "Continuar"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "Arrancar Mandriva Linux 2009 Spring"
 
 #. txt_windows
@@ -57,7 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux con kernel %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2009 Spring"
+#, fuzzy
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "Instalar Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
@@ -73,7 +75,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalación -- Axustes seguros"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2009 Spring (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "Arrancar Mandriva Linux 2009 Spring (mou seguru)"
 
 #. txt_boot_harddisk
@@ -448,7 +451,9 @@ msgstr "Arquiteutura non correuta"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+#, fuzzy
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr "ESti equipu ye un 32-bits. Nun puedes usar software de 64-bit nél."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
@@ -483,8 +488,9 @@ msgstr "Restaurar copia de seguridá draksnapshot"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux -- Axustes seguros"
+
 #~ msgid "Kernel"
 #~ msgstr "Kernel"
+
 #~ msgid "Installation"
 #~ msgstr "Instalación"
-

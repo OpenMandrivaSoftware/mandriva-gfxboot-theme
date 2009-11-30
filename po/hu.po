@@ -46,7 +46,8 @@ msgid "Continue"
 msgstr "Folytatás"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2010"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "Mandriva Linux 2010 indítása"
 
 #. txt_windows
@@ -63,7 +64,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux %s kernellel"
 
 #. txt_install
-msgid "Install Mandriva Linux 2010"
+#, fuzzy
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "Mandriva Linux 2010 telepítése"
 
 #. txt_manual_install
@@ -79,7 +81,8 @@ msgid "Installation--Safe Settings"
 msgstr "Telepítés - Biztonságos beállításokkal"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "Mandriva Linux 2010 indítása (biztonsági üzem)"
 
 #. txt_boot_harddisk
@@ -454,7 +457,9 @@ msgstr "Nem megfelelő architektúra"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+#, fuzzy
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr "Ez egy 32 bites számítógép. Nem működik rajta 64 bites szoftver."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
@@ -489,8 +494,9 @@ msgstr "Draksnapshot mentés helyreállítása"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux - Biztonságos beállításokkal"
+
 #~ msgid "Kernel"
 #~ msgstr "Kernel"
+
 #~ msgid "Installation"
 #~ msgstr "Telepítés"
-

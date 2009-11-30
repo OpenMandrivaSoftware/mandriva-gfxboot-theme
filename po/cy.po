@@ -37,7 +37,8 @@ msgid "Continue"
 msgstr "Parhau"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2010"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "Cychwyn Mandriva Linux 2010"
 
 #. txt_windows
@@ -54,7 +55,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux gyda cnewyllyn %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2010"
+#, fuzzy
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "Gosod Mandriva Linux 2010"
 
 #. txt_manual_install
@@ -70,7 +72,8 @@ msgid "Installation--Safe Settings"
 msgstr "Gosod--Gosodiadau Diogel"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "Gosod Mandriva Linux 2010 (modd diogel)"
 
 #. txt_boot_harddisk
@@ -471,7 +474,9 @@ msgstr "Pensaerniarth anghywir"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+#, fuzzy
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr "Cyfrifiadur 32 did yw hwn"
 
 #. title of warning box when running a 32bit CD on a 64bit machine
@@ -503,4 +508,3 @@ msgstr "Rhowch CD-ROM Mandriva Linux nôl yn y gyrrwr."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Adfer copïau wrth gefn draksnapshot"
-

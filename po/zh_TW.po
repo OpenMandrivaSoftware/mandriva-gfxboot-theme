@@ -33,7 +33,8 @@ msgid "Continue"
 msgstr "繼續"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2010"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "啟動 Mandriva Linux 2010"
 
 #. txt_windows
@@ -50,7 +51,8 @@ msgid "Linux with kernel %s"
 msgstr "核心 %s 的 Linux"
 
 #. txt_install
-msgid "Install Mandriva Linux 2010"
+#, fuzzy
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "安裝 Mandriva Linux 2010"
 
 #. txt_manual_install
@@ -66,7 +68,8 @@ msgid "Installation--Safe Settings"
 msgstr "安裝 -- 安全設定"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "啟動 Mandriva Linux 2010 (安全模式)"
 
 #. txt_boot_harddisk
@@ -441,7 +444,9 @@ msgstr "錯誤的系統架構"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+#, fuzzy
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr "這是一台 32 位元的電腦，無法執行 64 位元的軟體"
 
 #. title of warning box when running a 32bit CD on a 64bit machine

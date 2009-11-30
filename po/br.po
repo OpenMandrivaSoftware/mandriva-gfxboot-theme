@@ -34,7 +34,7 @@ msgstr "Kenderc'hel"
 
 #. txt_linux
 #, fuzzy
-msgid "Boot Mandriva Linux 2010"
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "Loc'hañ Mandriva Linux 2009 Spring"
 
 #. txt_windows
@@ -52,7 +52,7 @@ msgstr "Linux gant ar galon %s"
 
 #. txt_install
 #, fuzzy
-msgid "Install Mandriva Linux 2010"
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "Staliañ Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
@@ -69,7 +69,7 @@ msgstr ""
 
 #. txt_safe_linux
 #, fuzzy
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "Loc'hañ Mandriva Linux 2009 Spring (gant surantez)"
 
 #. txt_boot_harddisk
@@ -452,7 +452,8 @@ msgstr ""
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
 
 #. title of warning box when running a 32bit CD on a 64bit machine

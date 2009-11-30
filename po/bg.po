@@ -43,7 +43,7 @@ msgstr "Продължаване"
 
 #. txt_linux
 #, fuzzy
-msgid "Boot Mandriva Linux 2010"
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "Старт на  Mandriva Linux 2009 Spring"
 
 #. txt_windows
@@ -61,7 +61,7 @@ msgstr "Линукс с ядро %s"
 
 #. txt_install
 #, fuzzy
-msgid "Install Mandriva Linux 2010"
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "Инсталирай Mandriva Linux 2009 Spring"
 
 #. txt_manual_install
@@ -78,7 +78,7 @@ msgstr "Инсталиране - Безопасни настройки"
 
 #. txt_safe_linux
 #, fuzzy
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "Старт на  Mandriva Linux 2009 Spring (защитен режим)"
 
 #. txt_boot_harddisk
@@ -453,7 +453,9 @@ msgstr "Грешна архитектура"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+#, fuzzy
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
 "Това е 32 битов компютър. Не може да ползвате 64 битов софтуер на него."
 

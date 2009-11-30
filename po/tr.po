@@ -39,7 +39,8 @@ msgid "Continue"
 msgstr "Devam et"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2010"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "Mandriva Linux 2010 Sistemini Başlat"
 
 #. txt_windows
@@ -56,7 +57,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux Çekirdek Sürümü %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2010"
+#, fuzzy
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "Mandriva Linux 2010 Sistemini Kur"
 
 #. txt_manual_install
@@ -72,7 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Kurulum--Güvenli Ayarlar"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+#, fuzzy
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "Mandriva Linux 2010 Sistemini Başlat (Güvenli Kip)"
 
 #. txt_boot_harddisk
@@ -447,7 +450,9 @@ msgstr "Yanlış mimari"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+#, fuzzy
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
 "Bu bir 32 bit bilgisayar. Bu bilgisayarda 64 bit yazılım kullanamazsınız."
 

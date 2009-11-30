@@ -36,7 +36,7 @@ msgstr "続行"
 
 #. txt_linux
 #, fuzzy
-msgid "Boot Mandriva Linux 2010"
+msgid "Boot Mandriva Linux 2010 Spring"
 msgstr "Mandriva Linux 2009 Spring を起動"
 
 #. txt_windows
@@ -54,7 +54,7 @@ msgstr "Linux (カーネル %s)"
 
 #. txt_install
 #, fuzzy
-msgid "Install Mandriva Linux 2010"
+msgid "Install Mandriva Linux 2010 Spring"
 msgstr "Mandriva Linux 2009 Spring をインストール"
 
 #. txt_manual_install
@@ -71,7 +71,7 @@ msgstr "インストール -- 安全設定"
 
 #. txt_safe_linux
 #, fuzzy
-msgid "Boot Mandriva Linux 2010 (safe mode)"
+msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
 msgstr "Mandriva Linux 2009 Spring を起動  (セーフモード)"
 
 #. txt_boot_harddisk
@@ -445,7 +445,9 @@ msgstr "不正なアーキテクチャ"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid "This is a 32-bit computer. You cannot use 64-bit software on it."
+#, fuzzy
+msgid ""
+"This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
 "これは 32 ビットのコンピュータなので 64 ビットのソフトウェアは使えません。"
 

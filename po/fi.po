@@ -4,14 +4,14 @@
 # Jyri Palokangas <jmp@netti.fi>, 2005, 2006.
 # Jami Saarikoski <jami.saarikoski@gmail.com>, 2006.
 # Anssi Hannula <anssi@mandriva.org>, 2009.
-# Jani Välimaa <jani.valimaa@gmail.com>, 2009.
+# Jani Välimaa <wally@mandriva.org>, 2009.
 # Thomas Backlund <tmb@mandriva.org>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.fi\n"
-"PO-Revision-Date: 2009-10-20 02:12+0300\n"
-"Last-Translator: Thomas Backlund <tmb@mandriva.org>\n"
-"Language-Team: Swedish <sv@li.org>\n"
+"PO-Revision-Date: 2009-11-30 19:48+0200\n"
+"Last-Translator: Jani Välimaa <wally@mandriva.org>\n"
+"Language-Team: Finnish <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,9 +39,8 @@ msgid "Continue"
 msgstr "Jatka"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Käynnistä Mandriva Linux 2010"
+msgstr "Käynnistä Mandriva Linux 2010 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -57,9 +56,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux %s-ytimellä"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Asenna Mandriva Linux 2010"
+msgstr "Asenna Mandriva Linux 2010 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -74,9 +72,8 @@ msgid "Installation--Safe Settings"
 msgstr "Asennus--Turvalliset asetukset"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Käynnistä Mandriva Linux 2010 (vikatila)"
+msgstr "Käynnista Mandriva Linux 2010 Spring (vikatila)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

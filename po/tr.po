@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: YaST (@memory@)\n"
 "Report-Msgid-Bugs-To: translation@suse.de\n"
 "POT-Creation-Date: 2006-05-15 15:07+0200\n"
-"PO-Revision-Date: 2009-09-10 02:12+0300\n"
+"PO-Revision-Date: 2009-11-30 19:42+0200\n"
 "Last-Translator: Atilla ÖNTAŞ <atilla_ontas@mandriva.org>\n"
 "Language-Team: Turkish <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -39,9 +39,8 @@ msgid "Continue"
 msgstr "Devam et"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Mandriva Linux 2010 Sistemini Başlat"
+msgstr "Mandriva Linux 2010 Spring Sistemini Başlat"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -57,9 +56,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux Çekirdek Sürümü %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Mandriva Linux 2010 Sistemini Kur"
+msgstr "Mandriva Linux 2010 Spring Sistemini Kur"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -74,9 +72,8 @@ msgid "Installation--Safe Settings"
 msgstr "Kurulum--Güvenli Ayarlar"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Mandriva Linux 2010 Sistemini Başlat (Güvenli Kip)"
+msgstr "Mandriva Linux 2010 Spring Sistemini Başlat (Güvenli Kip)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -450,11 +447,8 @@ msgstr "Yanlış mimari"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-#, fuzzy
-msgid ""
-"This is a 32-bit computer. You cannot use or install 64-bit software on it."
-msgstr ""
-"Bu bir 32 bit bilgisayar. Bu bilgisayarda 64 bit yazılım kullanamazsınız."
+msgid "This is a 32-bit computer. You cannot use or install 64-bit software on it."
+msgstr "Bu bir 32 bit bilgisayar. Bu bilgisayarda 64 bit yazılım kuramaz veya kullanamazsınız."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -488,6 +482,6 @@ msgstr "Draksnapshot yedeklemesini geri yükle"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux--Güvenli Ayarlar"
-
 #~ msgid "Installation"
 #~ msgstr "Kurulum"
+

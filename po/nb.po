@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
-"PO-Revision-Date: 2009-09-19 04:05+0200\n"
+"PO-Revision-Date: 2009-12-01 22:39+0100\n"
 "Last-Translator: Olav Dahlum <odahlum@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -41,9 +41,8 @@ msgid "Continue"
 msgstr "Fortsett"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Start Mandriva Linux 2010"
+msgstr "Start Mandriva Linux 2010 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -59,9 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux med kjerne %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Installer Mandriva Linux 2010"
+msgstr "Installer Mandriva Linux 2010 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -76,9 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Installering – trygge innstillinger"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Start Mandriva Linux 2010 (sikkermodus)"
+msgstr "Start Mandriva Linux 2010 Spring (sikkermodus)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -452,11 +449,9 @@ msgstr "Feil arkitektur"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-#, fuzzy
-msgid ""
-"This is a 32-bit computer. You cannot use or install 64-bit software on it."
+msgid "This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
-"Dette er en 32-bits datamaskin. Du kan ikke benytte 64-bits programvare på "
+"Dette er en 32-bits datamaskin. Du kan ikke installere eller bruke 64-bits programvare på "
 "den."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
@@ -467,8 +462,7 @@ msgstr "Advarsel"
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
-"Du er i ferd med å installere 32-bits programvare på en 64-bits datamaskin."
+msgstr "Du er i ferd med å installere 32-bits programvare på en 64-bits datamaskin."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -489,3 +483,4 @@ msgstr "Sett inn igjen CD-en for Mandriva Linux."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Gjenopprett reservekopi fra draksnapshot"
+

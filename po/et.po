@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.et\n"
 "POT-Creation-Date: 2003-03-04 15:08+0100\n"
-"PO-Revision-Date: 2009-08-05 12:43+0300\n"
+"PO-Revision-Date: 2009-12-03 12:27+0300\n"
 "Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <linux-ee@lists.eenet.ee>\n"
 "MIME-Version: 1.0\n"
@@ -37,9 +37,8 @@ msgid "Continue"
 msgstr "Jätka"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Mandriva Linux 2010 laadimine"
+msgstr "Mandriva Linux 2010 Springi laadimine"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -55,9 +54,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux kerneliga %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Mandriva Linux 2010 paigaldamine masinasse"
+msgstr "Mandriva Linux 2010 Springi paigaldamine masinasse"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -72,9 +70,8 @@ msgid "Installation--Safe Settings"
 msgstr "Paigaldamine--ohutud sätted"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Mandriva Linux 2010 laadimine (safe mode)"
+msgstr "Mandriva Linux 2010 Springi laadimine (safe mode)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -448,10 +445,11 @@ msgstr "Vale arhitektuur"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-#, fuzzy
 msgid ""
 "This is a 32-bit computer. You cannot use or install 64-bit software on it."
-msgstr "See on 32-bitine arvuti. Sellel ei saa kasutada 64-bitist tarkvara."
+msgstr ""
+"See on 32-bitine arvuti. Sellel ei saa kasutada 64-bitist tarkvara ega seda "
+"ka paigaldada."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning

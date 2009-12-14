@@ -7,13 +7,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloder\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2009-09-02 20:41+0200\n"
+"PO-Revision-Date: 2009-12-14 21:51+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 # ok button label
@@ -41,9 +41,8 @@ msgid "Continue"
 msgstr "Jarraitu"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Abiatu Mandriva Linux 2010"
+msgstr "Abiatu Mandriva Linux 2010 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -59,9 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux %s kernelarekin"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Instalatu Mandriva Linux 2010"
+msgstr "Instalatu Mandriva Linux 2010 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -76,9 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalaketa -- Ezarpen seguruak"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Abiatu Mandriva Linux 2010 (modu segurua)"
+msgstr "Abiatu Mandriva Linux 2010 Spring (modu segurua)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -478,7 +475,6 @@ msgstr "Arkitektura okerra"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-#, fuzzy
 msgid ""
 "This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""

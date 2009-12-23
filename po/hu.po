@@ -8,12 +8,12 @@
 # Szabolcs Varga <shirokuma@shirokuma.hu>, 2004, 2005.
 # Kalman Kemenczy <kkemenczy@novell.com>, 2006.
 # Kéménczy Kálmán <kkemenczy@novell.com>, 2006.
-# Lónyai Gergely <aleph@mandriva.org>, 2007, 2008, 2009.
+# Lónyai Gergely <aleph@mandriva.org>, 2007, 2008, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: mandriva-gfxboot-theme-2010.0\n"
+"Project-Id-Version: mandriva-gfxboot-theme-2010.1\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-08-05 10:18+0100\n"
+"PO-Revision-Date: 2009-12-23 13:57+0100\n"
 "Last-Translator: Gergely Lónyai <aleph@mandriva.org>\n"
 "Language-Team: Hungarian <aleph@mandriva.org>\n"
 "MIME-Version: 1.0\n"
@@ -46,9 +46,8 @@ msgid "Continue"
 msgstr "Folytatás"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Mandriva Linux 2010 indítása"
+msgstr "Mandriva Linux 2010 Spring indítása"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -64,9 +63,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux %s kernellel"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Mandriva Linux 2010 telepítése"
+msgstr "Mandriva Linux 2010 Spring telepítése"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -81,9 +79,8 @@ msgid "Installation--Safe Settings"
 msgstr "Telepítés - Biztonságos beállításokkal"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Mandriva Linux 2010 indítása (biztonsági üzem)"
+msgstr "Mandriva Linux 2010 Spring indítása (biztonsági üzem)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -457,10 +454,8 @@ msgstr "Nem megfelelő architektúra"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-#, fuzzy
-msgid ""
-"This is a 32-bit computer. You cannot use or install 64-bit software on it."
-msgstr "Ez egy 32 bites számítógép. Nem működik rajta 64 bites szoftver."
+msgid "This is a 32-bit computer. You cannot use or install 64-bit software on it."
+msgstr "Ez egy 32 bites számítógép. Nem használhatsz rajta 64 bites programokat."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -494,9 +489,8 @@ msgstr "Draksnapshot mentés helyreállítása"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux - Biztonságos beállításokkal"
-
 #~ msgid "Kernel"
 #~ msgstr "Kernel"
-
 #~ msgid "Installation"
 #~ msgstr "Telepítés"
+

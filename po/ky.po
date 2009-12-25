@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: 2005-07-27 11:49+0200\n"
-"PO-Revision-Date: 2009-09-22 10:47+0600\n"
+"PO-Revision-Date: 2009-12-25 22:10+0600\n"
 "Last-Translator: Ilyas Bakirov <just_ilyas@yahoo.com>\n"
 "Language-Team: Kirghiz <just_ilyas@yahoo.com>\n"
 "MIME-Version: 1.0\n"
@@ -38,9 +38,8 @@ msgid "Continue"
 msgstr "Улантуу"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Mandriva Linux 2010 жүктөө"
+msgstr "Mandriva Linux 2010 Spring жүктөө"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -56,9 +55,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux %s ядросу менен"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Mandriva Linux 2010 орнотуу"
+msgstr "Mandriva Linux 2010 Spring орнотуу"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -73,9 +71,8 @@ msgid "Installation--Safe Settings"
 msgstr "Орнотуу--Коопсуз ырастоолор"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Mandriva Linux 2010 жүктөө (коопсуз режими)"
+msgstr "Mandriva Linux 2010 Spring жүктөө (коопсуз режими)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -475,10 +472,8 @@ msgstr "Архитектура туура эмес"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-#, fuzzy
-msgid ""
-"This is a 32-bit computer. You cannot use or install 64-bit software on it."
-msgstr "Бул 32-бит компьютер. Сиз 64-бит программаларды колдоно албайсыз."
+msgid "This is a 32-bit computer. You cannot use or install 64-bit software on it."
+msgstr "Бул 32-бит компьютер. Сиз 64-бит программаларды колдоно же орното албайсыз."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -509,3 +504,4 @@ msgstr "Mandriva Linux дискин кайра коюңуз."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "draksnapshot резервдик копиядан калыбына келтирүү"
+

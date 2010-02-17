@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-09-04 22:53+0200\n"
-"Last-Translator: Christophe Berthelé <berthy@mandriva.org>\n"
+"PO-Revision-Date: 2010-02-17 12:30+0100\n"
+"Last-Translator: Christophe Berthelé <cpjc@free.fr>\n"
 "Language-Team: French <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,9 +44,8 @@ msgid "Continue"
 msgstr "Continuer"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Amorcer Mandriva Linux 2010"
+msgstr "Amorcer Mandriva Linux 2010 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -62,9 +61,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux avec le noyau %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Installer Mandriva Linux 2010"
+msgstr "Installer Mandriva Linux 2010 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -79,9 +77,8 @@ msgid "Installation--Safe Settings"
 msgstr "Installation - Paramètres sécurisés"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Amorcer Mandriva Linux 2010 (mode dégradé)"
+msgstr "Amorcer Mandriva Linux 2010 Spring (mode dégradé)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -456,11 +453,11 @@ msgstr "Architecture incorrecte"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-#, fuzzy
 msgid ""
 "This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
-"Cet ordinateur 32-bit ne permet pas d'exécuter les applications 64-bit."
+"Cet ordinateur 32-bit ne permet pas d'exécuter ou d'installer des "
+"applications 64-bit."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning

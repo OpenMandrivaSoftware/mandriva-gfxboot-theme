@@ -10,9 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-28 12:42+0100\n"
-"Last-Translator: Amazis.net sp. z o.o. - Tomasz Bednarski <tomasz."
-"bednarski@amazis.pl>\n"
+"PO-Revision-Date: 2010-02-18 15:03+0100\n"
+"Last-Translator: Marek Walczak <kubdat@poczta.fm>\n"
 "Language-Team:  <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,9 +39,8 @@ msgid "Continue"
 msgstr "Kontynuuj"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Uruchom Mandriva Linux 2010"
+msgstr "Uruchom Mandriva Linux 2010 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -58,9 +56,8 @@ msgid "Linux with kernel %s"
 msgstr "Jądro Linuksa %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Zainstaluj Mandriva Linux 2010"
+msgstr "Zainstaluj Mandriva Linux 2010 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -75,9 +72,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalacja (bezpieczne ustawienia)"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Uruchom Mandriva Linux 2010 (tryb awaryjny)"
+msgstr "Uruchom Mandriva Linux 2010 spring (tryb awaryjny)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -451,12 +447,8 @@ msgstr "Nieprawidłowa architektura"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-#, fuzzy
-msgid ""
-"This is a 32-bit computer. You cannot use or install 64-bit software on it."
-msgstr ""
-"To jest komputer 32-bitowy. Nie możesz używać na nim oprogramowania 64-"
-"bitowego."
+msgid "This is a 32-bit computer. You cannot use or install 64-bit software on it."
+msgstr "To jest komputer 32-bitowy. Nie możesz używać na nim oprogramowania 64-bitowego."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -466,8 +458,7 @@ msgstr "Ostrzeżenie"
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
-"Zamierzasz instalować oprogramowanie 32-bitowe na komputerze 64-bitowym."
+msgstr "Zamierzasz instalować oprogramowanie 32-bitowe na komputerze 64-bitowym."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -488,3 +479,4 @@ msgstr "Włóż ponownie płytę Mandriva Linux."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Przywróć kopię utworzoną przez draksnapshot"
+

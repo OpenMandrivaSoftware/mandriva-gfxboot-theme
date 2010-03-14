@@ -5,20 +5,20 @@
 #
 # Ivan Petrouchtchak <iip@telus.net>, 2005.
 # Ivan Petrouchtchak <ivanpetrouchtchak@yahoo.com>, 2006.
-# Taras Boychuk <btr0001@ukr.net>, 2009.
+# Taras Boychuk <btr0001@ukr.net>, 2009, 2010.
 # Yuri Chornoivan <yurchor@ukr.net>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: mandriva-gfxboot-theme\n"
-"PO-Revision-Date: 2009-10-02 19:32+0300\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"PO-Revision-Date: 2010-03-12 07:34-0500\n"
+"Last-Translator: Taras Boychuk <btr0001@ukr.net>\n"
 "Language-Team: Ukrainian <translation@linux.org.ua>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. ok button label
 #. txt_ok
@@ -41,9 +41,8 @@ msgid "Continue"
 msgstr "Продовжити"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Завантажити Mandriva Linux 2010"
+msgstr "Завантажити Mandriva Linux 2010 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -59,9 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux з ядром %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Встановити Mandriva Linux 2010"
+msgstr "Встановити Mandriva Linux 2010 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -76,9 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Встановлення -- безпечні параметри"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Завантажити Mandriva Linux 2010 (безпечний режим)"
+msgstr "Завантажити Mandriva Linux 2010 Spring (безпечний режим)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -224,7 +221,7 @@ msgstr "Встановлення з твердого диска"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (Scans All Disks If Empty)\n"
-msgstr "Дисковий пристрій (зондує всі диски, якщо порожнє)\n"
+msgstr "Дисковий пристрій (переглядає всі диски, якщо порожнє)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -443,7 +440,7 @@ msgstr "Звантажити поновлення драйвера"
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr "Ввести URLдо поновленого драйвера\n"
+msgstr "Ввести URL до поновленого драйвера\n"
 
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
@@ -452,11 +449,11 @@ msgstr "Неправильна архітектура"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-#, fuzzy
 msgid ""
 "This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr ""
-"Це 32-розрядний комп’ютер. Ви не можете запускати на ньому 64-бітні програми."
+"Це 32-розрядний комп’ютер. Ви не можете запускати або встановлювати на ньому "
+"64-бітні програми."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
@@ -487,3 +484,4 @@ msgstr "Вставте Mandriva Linux CD-ROM назад в привід."
 #. txt_restore
 msgid "Restore draksnapshot backup"
 msgstr "Відновити копію draksnapshot"
+

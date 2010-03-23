@@ -9,15 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.es\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2008-11-17 00:56+0100\n"
-"Last-Translator: Carlos E. Robinson <carlos.e.r@opensuse.org>\n"
+"PO-Revision-Date: 2010-03-23 12:40-0300\n"
+"Last-Translator: Diego Bello <dbello@gmail.com>\n"
 "Language-Team: Spanish <opensuse-translation-es@opensuse.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "X-Poedit-Language: Spanish\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. ok button label
 #. txt_ok
@@ -40,9 +40,8 @@ msgid "Continue"
 msgstr "Continuar"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Arrancar Mandriva Linux 2009 Spring"
+msgstr "Arrancar Mandriva Linux 2010 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -50,7 +49,7 @@ msgstr "Arrancar Microsoft Windows"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Herramienta de Detección de Hardware"
 
 #. txt_linux_kernel_version
 #, c-format
@@ -58,9 +57,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux con kernel %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Instalar Mandriva Linux 2009 Spring"
+msgstr "Instalar Mandriva Linux 2010 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -75,9 +73,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalación -- Ajustes seguros"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Arrancar Mandriva Linux 2009 Spring (modo seguro)"
+msgstr "Arrancar Mandriva Linux 2010 Spring (modo seguro)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -361,10 +358,8 @@ msgid ""
 "enter the driver update file names (separated\n"
 "by commas ',') here:\n"
 msgstr ""
-"Para cargar las actualizaciones de controlador directamente desde el CD-"
-"ROM,\n"
-"indique los nombres de archivo de las actualizaciones del controlador "
-"(separados\n"
+"Para cargar las actualizaciones de controlador directamente desde el CD-ROM,\n"
+"indique los nombres de archivo de las actualizaciones del controlador (separados\n"
 "por comas \",\") aquí:\n"
 
 #. install source menu title
@@ -439,33 +434,32 @@ msgstr "Teclado"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr ""
+msgstr "Descargar Actualización de Controlador"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr ""
+msgstr "Ingrese Dirección URL de Actualización de Controlador\n"
 
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
 msgid "Wrong architecture"
-msgstr ""
+msgstr "Arquitectura errónea"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-msgid ""
-"This is a 32-bit computer. You cannot use or install 64-bit software on it."
-msgstr ""
+msgid "This is a 32-bit computer. You cannot use or install 64-bit software on it."
+msgstr "Éste es un computador de 32 bits. No puede instalar aplicaciones de 64 bits en él."
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning
 msgid "Warning"
-msgstr ""
+msgstr "Advertencia"
 
 #. warning when running a 32bit CD on a 64bit machine
 #. txt_32bit_popup
 msgid "You are about to install 32-bit software on a 64-bit computer."
-msgstr ""
+msgstr "Va a instalar aplicaciones de 32 bits en un computador de 64 bits."
 
 #. insert CDROM with drivers
 #. txt_insert_driver_cd
@@ -474,22 +468,23 @@ msgid ""
 "Insert driver update CD-ROM for\n"
 "\"%s\"."
 msgstr ""
+"Inserte el CD-ROM de actualización de controlador para\n"
+"\"%s\"."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd
 msgid "Put the Mandriva Linux CD-ROM back into the drive."
-msgstr ""
+msgstr "Ponga el CD-ROM de Mandriva Linux de vuelta en el lector."
 
 #. bootloader entry to restore draksnapshot backups
 #. txt_restore
 msgid "Restore draksnapshot backup"
-msgstr ""
+msgstr "Restablecer respaldo de draksnapshot"
 
 #~ msgid "Linux--Safe Settings"
 #~ msgstr "Linux -- Ajustes seguros"
-
 #~ msgid "Kernel"
 #~ msgstr "Kernel"
-
 #~ msgid "Installation"
 #~ msgstr "Instalación"
+

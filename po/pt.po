@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.pt\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-03-14 07:56+0000\n"
+"PO-Revision-Date: 2010-03-23 10:22+0000\n"
 "Last-Translator: Zé <mmodem00@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -102,7 +102,7 @@ msgid ""
 "starting the text mode interface."
 msgstr ""
 "Está a sair do menu de arranque gráfico\n"
-"e a iniciar a interface em modo texto."
+"e a iniciar o interface em modo texto."
 
 #. txt_help
 msgid "Help"
@@ -171,7 +171,7 @@ msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
 msgstr ""
-"Este não é o disco de arranque do <product>.\n"
+"Este não é um disco de arranque <product>.\n"
 "Insira o disco de arranque %u."
 
 #. password dialog title
@@ -181,7 +181,7 @@ msgstr "Senha"
 
 #. txt_dud_ready
 msgid "Get your driver update floppy ready."
-msgstr "Certifique-se que tem a disquete com a actualização do controlador."
+msgstr "Tenha a sua disquete de actualização do controlador pronta."
 
 #. dvd warning title
 #. txt_dvd_warning_title
@@ -215,11 +215,11 @@ msgstr "Disco Rígido"
 #. dialog title for hard disk installation
 #. txt_harddisk_title
 msgid "Hard Disk Installation"
-msgstr "Instalação pelo Disco Rígido"
+msgstr "Instalação do Disco Rígido"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (Scans All Disks If Empty)\n"
-msgstr "Dispositivo de Disco (Analisar Todos os Discos, caso estejam vazios)\n"
+msgstr "Dispositivo do Disco (Analisar Todos os Discos, caso estejam vazios)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -358,8 +358,8 @@ msgid ""
 "by commas ',') here:\n"
 msgstr ""
 "Para carregar actualizações de controladores directamente\n"
-"do CD-ROM, indique o nome dos ficheiros de actualização (separados\n"
-"por virgulas ',') aqui:\n"
+"do CD-ROM, indique o nome dos ficheiros de actualização\n"
+"(separados por virgulas ',') aqui:\n"
 
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
@@ -371,7 +371,7 @@ msgstr "Origem"
 #. ** please keep it really short (comparable to the english text) **
 #. txt_video_mode
 msgid "Video Mode"
-msgstr "Modo Vídeo"
+msgstr "Modo Gráfico"
 
 #. driver update dialog title
 #. -> txt_dud_file_msg
@@ -384,13 +384,13 @@ msgstr "Actualização do Controlador"
 #. ** please keep it really short (comparable to the english text) **
 #. txt_arch
 msgid "Arch"
-msgstr "Arch"
+msgstr "Arquitectura"
 
 #. menu label for selecting some (linux) kernel variant
 #. ** please keep it really short (comparable to the english text) **
 #. txt_kernel
 msgid "Kernel Option"
-msgstr "Opção Kernel"
+msgstr "Opção do Kernel"
 
 #. menu item for kernel variant (cf. txt_kernel)
 #. txt_kernel_default

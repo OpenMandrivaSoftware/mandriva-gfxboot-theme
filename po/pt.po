@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.pt\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-03-23 10:22+0000\n"
+"PO-Revision-Date: 2010-04-20 23:24+0100\n"
 "Last-Translator: Zé <mmodem00@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -138,7 +138,7 @@ msgstr ""
 #. info box title
 #. txt_info_title
 msgid "Boot Loader"
-msgstr "Gestor de Arranque"
+msgstr "Carregador de Arranque"
 
 #. error box title
 #. txt_error_title
@@ -181,7 +181,7 @@ msgstr "Senha"
 
 #. txt_dud_ready
 msgid "Get your driver update floppy ready."
-msgstr "Tenha a sua disquete de actualização do controlador pronta."
+msgstr "Tenha a sua disquete de actualização do controlador preparada."
 
 #. dvd warning title
 #. txt_dvd_warning_title

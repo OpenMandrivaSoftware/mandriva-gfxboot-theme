@@ -35,9 +35,8 @@ msgid "Continue"
 msgstr "继续"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "启动 Mandriva Linux 2010"
+msgstr "启动 Mandriva Linux 2010 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -53,9 +52,8 @@ msgid "Linux with kernel %s"
 msgstr "内核为 %s 的 Linux"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "安装 Mandriva Linux 2010"
+msgstr "安装 Mandriva Linux 2010 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -70,9 +68,8 @@ msgid "Installation--Safe Settings"
 msgstr "安装 - 安全设置"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "启动 Mandriva Linux 2010 (安全模式)"
+msgstr "启动 Mandriva Linux 2010 Spring (安全模式)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
@@ -446,7 +443,6 @@ msgstr "错误的架构"
 
 #. warning when running a 64bit CD on a 32bit machine
 #. txt_64bit_popup
-#, fuzzy
 msgid ""
 "This is a 32-bit computer. You cannot use or install 64-bit software on it."
 msgstr "这是 32 位计算机。您不能使用 64 位软件。"

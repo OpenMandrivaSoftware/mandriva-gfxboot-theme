@@ -5,11 +5,11 @@
 # Copyright (C) 2004 SUSE LINUX AG
 #
 # Janez Krek <janez.krek@euroteh.si>, 2004, 2005.
-# Jure Repinc <jlp@holodeck1.com>, 2009.
+# Jure Repinc <jlp@holodeck1.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
-"PO-Revision-Date: 2009-11-01 16:46+0100\n"
+"PO-Revision-Date: 2010-05-09 16:36+0200\n"
 "Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "MIME-Version: 1.0\n"
@@ -41,9 +41,8 @@ msgid "Continue"
 msgstr "Nadaljuj"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Zaženi Mandriva Linux 2010"
+msgstr "Zaženi Mandriva Linux 2010 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -59,9 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux z jedrom %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Namesti Mandriva Linux 2010"
+msgstr "Namesti Mandriva Linux 2010 Spring"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -76,9 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Namestitev--varne nastavitve"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Zaženi Mandriva Linux 2010  (varni način)"
+msgstr "Zaženi Mandriva Linux 2010 Spring (varni način)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

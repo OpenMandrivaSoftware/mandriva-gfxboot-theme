@@ -41,8 +41,8 @@ msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To: https://qa.mandriva.com\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-12-02 13:51+0100\n"
-"Last-Translator: Cătălin Florin RUSSEN <cfrussen@yahoo.co.uk>\n"
+"PO-Revision-Date: 2010-05-10 22:45+0100\n"
+"Last-Translator: Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>\n"
 "Language-Team: Romanian <cfrussen@yahoo.co.uk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,7 +64,7 @@ msgstr "Anulează"
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "Redemarează"
+msgstr "Repornește"
 
 #. continue button label
 #. txt_continue
@@ -73,11 +73,11 @@ msgstr "Continuă"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Demarează Mandriva Linux 2010 Spring"
+msgstr "Pornește Mandriva Linux 2010 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
-msgstr "Demarează Microsoft Windows"
+msgstr "Pornește Microsoft Windows"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
@@ -106,15 +106,15 @@ msgstr "Instalare--Opțiuni sigure"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Demarează Mandriva Linux 2010 Spring (mod degradat)"
+msgstr "Pornește Mandriva Linux 2010 Spring (mod degradat)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"
-msgstr "Demarează de pe discul dur"
+msgstr "Pornește de pe discul dur"
 
 #. txt_rescue
 msgid "Rescue System"
-msgstr "Recuperare sistem"
+msgstr "Recuperează sistemul"
 
 #. txt_memtest
 msgid "Memory Test"
@@ -122,7 +122,7 @@ msgstr "Test de memorie"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Opțiuni de demaraj"
+msgstr "Opțiuni de pornire"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -134,7 +134,7 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Acum părăsiți modul grafic de demaraj\n"
+"Acum părăsiți modul grafic de pornire\n"
 "și intrați în interfața text."
 
 #. txt_help
@@ -181,12 +181,12 @@ msgstr "Eroare I/O"
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Schimbați discul de demaraj"
+msgstr "Schimbați discul de pornire"
 
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Introduceți discul de demaraj %u."
+msgstr "Introduceți discul de pornire %u."
 
 #. txt_insert_disk2
 #, c-format
@@ -194,8 +194,8 @@ msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
 msgstr ""
-"Aceasta este discul de demaraj %u.\n"
-"Introduceți discul de demaraj %u."
+"Aceasta este discul de pornire %u.\n"
+"Introduceți discul de pornire %u."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -204,7 +204,7 @@ msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
 msgstr ""
-"Acesta nu este un disc de demaraj <product>.\n"
+"Acesta nu este un disc de pornire <product>.\n"
 "Introduceți discul %u."
 
 #. password dialog title
@@ -227,14 +227,14 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"Acesta este un DVD cu două fețe. Ați demarat sistemul de pe a doua față.\n"
+"Acesta este un DVD cu două fețe. Ați pornit sistemul de pe a doua față.\n"
 "\n"
 " Întoarceți DVD-ul și apoi continuați."
 
 #. power off dialog title
 #. txt_power_off_title
 msgid "Power Off"
-msgstr "Oprire alimentare"
+msgstr "Oprire"
 
 #. txt_power_off
 msgid "Halt the system now?"
@@ -274,7 +274,7 @@ msgstr "Parolă\n"
 #. label for ftp user input
 #. txt_user1
 msgid "User (Anonymous Login If Empty)\n"
-msgstr "Utilizator (anonim, dacă nu este specifiact)\n"
+msgstr "Utilizator (anonim, dacă nu este specificat)\n"
 
 #. dialog title for nfs installation
 #. txt_nfs_title
@@ -284,7 +284,7 @@ msgstr "Instalare prin NFS"
 #. label for smb user input
 #. txt_user2
 msgid "User (Uses \"guest\" If Empty)\n"
-msgstr "Utilizator (se utilizează \"guest\" dacă nu este specificat)\n"
+msgstr "Utilizator (se utilizează „guest” dacă nu este specificat)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
@@ -360,11 +360,11 @@ msgstr "Configurați parametrii partiției ZEN"
 
 #. txt_zenInstall
 msgid "Install or Update ZEN Partition"
-msgstr "Instalează sau actualizează o partiție ZEN"
+msgstr "Instalați sau actualizați o partiție ZEN"
 
 #. txt_zenLilo
 msgid "Reinstall ZEN Partition Boot Loader"
-msgstr "Reinstalează încărcătorul de sistem al partiției ZEN"
+msgstr "Reinstalați încărcătorul de sistem al partiției ZEN"
 
 #. txt_zenDisable
 msgid "Disable ZEN Partition"
@@ -466,12 +466,12 @@ msgstr "Tastatură"
 #. menu title
 #. txt_dud_download
 msgid "Download Driver Update"
-msgstr "Descărcare actualizare pilot"
+msgstr "Descarcă actualizarea de pilot"
 
 #. input label
 #. txt_dud_enter_url
 msgid "Enter Driver Update URL\n"
-msgstr "Întroduceți URL actualizare pilot\n"
+msgstr "Introduceți URL de actualizare pilot\n"
 
 #. title of warning box when running a 64bit CD on a 32bit machine
 #. txt_wrong_arch
@@ -506,7 +506,7 @@ msgid ""
 "\"%s\"."
 msgstr ""
 "Introduceți CD-ul cu pilotul actualizat pentru\n"
-"\"%s\"."
+"„%s”."
 
 #. insert Mandriva CD back
 #. txt_insert_mdv_cd

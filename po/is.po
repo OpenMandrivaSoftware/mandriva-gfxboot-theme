@@ -41,9 +41,8 @@ msgid "Continue"
 msgstr "Áfram"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Ræsa Mandriva Linux 2009 Spring"
+msgstr "Ræsa Mandriva Linux 2010 Spring"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -59,9 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux með kjarna %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Setja Mandriva Linux 2009 Spring inn á tölvuna þína"
+msgstr "Setja Mandriva Linux 2010 Spring inn á tölvuna þína"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -76,9 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Uppsetning--Öruggar stillingar"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Ræsa Mandriva Linux 2009 Spring (öruggur hamur)"
+msgstr "Ræsa Mandriva Linux 2010 Spring (öruggur hamur)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

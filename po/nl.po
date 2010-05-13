@@ -39,9 +39,8 @@ msgid "Continue"
 msgstr "Doorgaan"
 
 #. txt_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Mandriva Linux 2009 Spring opstarten"
+msgstr "Mandriva Linux 2010 Spring opstarten"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -57,9 +56,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux met kernel %s"
 
 #. txt_install
-#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Mandriva Linux 2009 Spring installeren"
+msgstr "Mandriva Linux 2010 Spring installeren"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -74,9 +72,8 @@ msgid "Installation--Safe Settings"
 msgstr "Installatie - Veilige instellingen"
 
 #. txt_safe_linux
-#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Mandriva Linux 2009 Spring opstarten  (veilige modus)"
+msgstr "Mandriva Linux 2010 Spring opstarten  (veilige modus)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

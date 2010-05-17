@@ -33,8 +33,9 @@ msgid "Continue"
 msgstr "繼續"
 
 #. txt_linux
+#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "啟動 Mandriva Linux 2010 Spring"
+msgstr "啟動 Mandriva Linux 2010"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -50,8 +51,9 @@ msgid "Linux with kernel %s"
 msgstr "核心 %s 的 Linux"
 
 #. txt_install
+#, fuzzy
 msgid "Install Mandriva Linux 2010 Spring"
-msgstr "安裝 Mandriva Linux 2010 Spring"
+msgstr "安裝 Mandriva Linux 2010"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -66,8 +68,9 @@ msgid "Installation--Safe Settings"
 msgstr "安裝 -- 安全設定"
 
 #. txt_safe_linux
+#, fuzzy
 msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "啟動 Mandriva Linux 2010 Spring (安全模式)"
+msgstr "啟動 Mandriva Linux 2010 (安全模式)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

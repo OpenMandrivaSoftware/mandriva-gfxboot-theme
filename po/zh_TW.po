@@ -443,7 +443,7 @@ msgstr "錯誤的系統架構"
 #. txt_64bit_popup
 msgid ""
 "This is a 32-bit computer. You cannot use or install 64-bit software on it."
-msgstr "這是一台 32 位元的電腦，您無法在其上安裝或執行 64 位元的軟體。"
+msgstr "這是一台 32 位元的電腦，您無法在其上使用或安裝 64 位元的軟體。"
 
 #. title of warning box when running a 32bit CD on a 64bit machine
 #. txt_warning

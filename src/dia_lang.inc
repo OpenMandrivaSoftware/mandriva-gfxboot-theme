@@ -63,8 +63,8 @@
   [ "nl_NL" "en_US" false "Nederlands" ]					% Dutch
   [ "pa_IN" "en_US" false "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40" ]		% Punjabi
   [ "pl_PL" "polish" false "Polski" ]						% Polish
+  [ "pt_PT" "portugese" false "Português" ]					% Portuguese
   [ "pt_BR" "portugese-br" false "Português (Brasil)" ]				% Portuguese (Brazilian)
-  [ "pt_PT" "portugese" false "Português" ]						% Portuguese
   [ "ro_RO" "en_US" false "Română" ]						% Romanian
   [ "ru_RU" "russian" false "Русский" ]						% Russian
   [ "si_LK" "en_US" false "\u0dc3\u0dd2\u0d82\u0dc4\u0dbd" ]			% Sinhala

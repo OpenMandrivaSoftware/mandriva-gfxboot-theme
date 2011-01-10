@@ -39,7 +39,7 @@ msgid "Continue"
 msgstr "Hald fram"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2010 Spring"
+msgid "Boot Mandriva Linux 2011 Alpha"
 msgstr "Start Mandriva Linux 2010 – vårutgåve"
 
 #. txt_windows
@@ -56,7 +56,7 @@ msgid "Linux with kernel %s"
 msgstr "Linux med kjernen %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2010 Spring"
+msgid "Install Mandriva Linux 2011 Alpha"
 msgstr "Installer Mandriva Linux 2010 – vårutgåve"
 
 #. txt_manual_install
@@ -72,7 +72,7 @@ msgid "Installation--Safe Settings"
 msgstr "Installering – trygge innstillingar"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
+msgid "Boot Mandriva Linux 2011 Alpha (safe mode)"
 msgstr "Start Mandriva Linux 2010 – vårutgåve (sikkermodus)"
 
 #. txt_boot_harddisk

@@ -38,8 +38,8 @@ msgid "Continue"
 msgstr "Улантуу"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Mandriva Linux 2010 Spring жүктөө"
+msgid "Boot Mandriva Linux 2011 Alpha"
+msgstr "Mandriva Linux 2011 Alpha жүктөө"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -55,8 +55,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux %s ядросу менен"
 
 #. txt_install
-msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Mandriva Linux 2010 Spring орнотуу"
+msgid "Install Mandriva Linux 2011 Alpha"
+msgstr "Mandriva Linux 2011 Alpha орнотуу"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -71,8 +71,8 @@ msgid "Installation--Safe Settings"
 msgstr "Орнотуу--Коопсуз ырастоолор"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Mandriva Linux 2010 Spring жүктөө (коопсуз режими)"
+msgid "Boot Mandriva Linux 2011 Alpha (safe mode)"
+msgstr "Mandriva Linux 2011 Alpha жүктөө (коопсуз режими)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

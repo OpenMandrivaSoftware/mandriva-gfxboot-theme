@@ -41,8 +41,8 @@ msgid "Continue"
 msgstr "Jarraitu"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Abiatu Mandriva Linux 2010 Spring"
+msgid "Boot Mandriva Linux 2011 Alpha"
+msgstr "Abiatu Mandriva Linux 2011 Alpha"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -58,8 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux %s kernelarekin"
 
 #. txt_install
-msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Instalatu Mandriva Linux 2010 Spring"
+msgid "Install Mandriva Linux 2011 Alpha"
+msgstr "Instalatu Mandriva Linux 2011 Alpha"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -74,8 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalaketa -- Ezarpen seguruak"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Abiatu Mandriva Linux 2010 Spring (modu segurua)"
+msgid "Boot Mandriva Linux 2011 Alpha (safe mode)"
+msgstr "Abiatu Mandriva Linux 2011 Alpha (modu segurua)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

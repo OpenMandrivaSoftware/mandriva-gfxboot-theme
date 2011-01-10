@@ -41,8 +41,8 @@ msgid "Continue"
 msgstr "Продовжити"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2010 Spring"
-msgstr "Завантажити Mandriva Linux 2010 Spring"
+msgid "Boot Mandriva Linux 2011 Alpha"
+msgstr "Завантажити Mandriva Linux 2011 Alpha"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -58,8 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux з ядром %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2010 Spring"
-msgstr "Встановити Mandriva Linux 2010 Spring"
+msgid "Install Mandriva Linux 2011 Alpha"
+msgstr "Встановити Mandriva Linux 2011 Alpha"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -74,8 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Встановлення -- безпечні параметри"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2010 Spring (safe mode)"
-msgstr "Завантажити Mandriva Linux 2010 Spring (безпечний режим)"
+msgid "Boot Mandriva Linux 2011 Alpha (safe mode)"
+msgstr "Завантажити Mandriva Linux 2011 Alpha (безпечний режим)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

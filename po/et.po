@@ -1,13 +1,13 @@
 # Estonian translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
 # Ain Vagula <avagula@gmail.com>, 2007
-# Marek Laane <bald@smail.ee>, 2008-2009
+# Marek Laane <bald@smail.ee>, 2008-2009,2011
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.et\n"
 "POT-Creation-Date: 2003-03-04 15:08+0100\n"
-"PO-Revision-Date: 2009-12-03 12:27+0300\n"
+"PO-Revision-Date: 2011-01-11 17:14+0300\n"
 "Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <linux-ee@lists.eenet.ee>\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr "Jätka"
 
 #. txt_linux
 msgid "Boot Mandriva Linux 2011 Alpha"
-msgstr "Mandriva Linux 2011 Alphai laadimine"
+msgstr "Mandriva Linux 2011 Alpha laadimine"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -55,7 +55,7 @@ msgstr "Linux kerneliga %s"
 
 #. txt_install
 msgid "Install Mandriva Linux 2011 Alpha"
-msgstr "Mandriva Linux 2011 Alphai paigaldamine masinasse"
+msgstr "Mandriva Linux 2011 Alpha paigaldamine masinasse"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -71,7 +71,7 @@ msgstr "Paigaldamine--ohutud sätted"
 
 #. txt_safe_linux
 msgid "Boot Mandriva Linux 2011 Alpha (safe mode)"
-msgstr "Mandriva Linux 2011 Alphai laadimine (safe mode)"
+msgstr "Mandriva Linux 2011 Alpha laadimine (safe mode)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

@@ -37,8 +37,8 @@ msgid "Continue"
 msgstr "Jätka"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2011 Alpha"
-msgstr "Mandriva Linux 2011 Alpha laadimine"
+msgid "Boot Mandriva Linux 2011 Beta"
+msgstr "Mandriva Linux 2011 Beta laadimine"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -54,8 +54,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux kerneliga %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2011 Alpha"
-msgstr "Mandriva Linux 2011 Alpha paigaldamine masinasse"
+msgid "Install Mandriva Linux 2011 Beta"
+msgstr "Mandriva Linux 2011 Beta paigaldamine masinasse"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -70,8 +70,8 @@ msgid "Installation--Safe Settings"
 msgstr "Paigaldamine--ohutud sätted"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 Alpha (safe mode)"
-msgstr "Mandriva Linux 2011 Alpha laadimine (safe mode)"
+msgid "Boot Mandriva Linux 2011 Beta (safe mode)"
+msgstr "Mandriva Linux 2011 Beta laadimine (safe mode)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

@@ -39,8 +39,8 @@ msgid "Continue"
 msgstr "Doorgaan"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2011 Alpha"
-msgstr "Mandriva Linux 2011 Alpha opstarten"
+msgid "Boot Mandriva Linux 2011 Beta"
+msgstr "Mandriva Linux 2011 Beta opstarten"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -56,8 +56,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux met kernel %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2011 Alpha"
-msgstr "Mandriva Linux 2011 Alpha installeren"
+msgid "Install Mandriva Linux 2011 Beta"
+msgstr "Mandriva Linux 2011 Beta installeren"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -72,8 +72,8 @@ msgid "Installation--Safe Settings"
 msgstr "Installatie - Veilige instellingen"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 Alpha (safe mode)"
-msgstr "Mandriva Linux 2011 Alpha opstarten  (veilige modus)"
+msgid "Boot Mandriva Linux 2011 Beta (safe mode)"
+msgstr "Mandriva Linux 2011 Beta opstarten  (veilige modus)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

@@ -42,8 +42,8 @@ msgid "Continue"
 msgstr "Продолжить"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2011 Alpha"
-msgstr "Загрузка Mandriva Linux 2011 Alpha"
+msgid "Boot Mandriva Linux 2011 Beta"
+msgstr "Загрузка Mandriva Linux 2011 Beta"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -59,8 +59,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux с ядром %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2011 Alpha"
-msgstr "Установка Mandriva Linux 2011 Alpha"
+msgid "Install Mandriva Linux 2011 Beta"
+msgstr "Установка Mandriva Linux 2011 Beta"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -75,8 +75,8 @@ msgid "Installation--Safe Settings"
 msgstr "Установка с безопасными параметрами"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 Alpha (safe mode)"
-msgstr "Загрузка Mandriva Linux 2011 Alpha (безопасный режим)"
+msgid "Boot Mandriva Linux 2011 Beta (safe mode)"
+msgstr "Загрузка Mandriva Linux 2011 Beta (безопасный режим)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

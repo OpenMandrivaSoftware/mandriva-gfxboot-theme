@@ -35,8 +35,8 @@ msgid "Continue"
 msgstr "继续"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2011 Alpha"
-msgstr "启动 Mandriva Linux 2011 Alpha"
+msgid "Boot Mandriva Linux 2011 Beta"
+msgstr "启动 Mandriva Linux 2011 Beta"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -52,8 +52,8 @@ msgid "Linux with kernel %s"
 msgstr "内核为 %s 的 Linux"
 
 #. txt_install
-msgid "Install Mandriva Linux 2011 Alpha"
-msgstr "安装 Mandriva Linux 2011 Alpha"
+msgid "Install Mandriva Linux 2011 Beta"
+msgstr "安装 Mandriva Linux 2011 Beta"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -68,8 +68,8 @@ msgid "Installation--Safe Settings"
 msgstr "安装 - 安全设置"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 Alpha (safe mode)"
-msgstr "启动 Mandriva Linux 2011 Alpha (安全模式)"
+msgid "Boot Mandriva Linux 2011 Beta (safe mode)"
+msgstr "启动 Mandriva Linux 2011 Beta (安全模式)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

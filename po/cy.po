@@ -37,8 +37,8 @@ msgid "Continue"
 msgstr "Parhau"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2011 Alpha"
-msgstr "Cychwyn Mandriva Linux 2011 Alpha"
+msgid "Boot Mandriva Linux 2011 Beta"
+msgstr "Cychwyn Mandriva Linux 2011 Beta"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -54,8 +54,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux gyda cnewyllyn %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2011 Alpha"
-msgstr "Gosod Mandriva Linux 2011 Alpha"
+msgid "Install Mandriva Linux 2011 Beta"
+msgstr "Gosod Mandriva Linux 2011 Beta"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -70,8 +70,8 @@ msgid "Installation--Safe Settings"
 msgstr "Gosod--Gosodiadau Diogel"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 Alpha (safe mode)"
-msgstr "Gosod Mandriva Linux 2011 Alpha (modd diogel)"
+msgid "Boot Mandriva Linux 2011 Beta (safe mode)"
+msgstr "Gosod Mandriva Linux 2011 Beta (modd diogel)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

@@ -46,8 +46,8 @@ msgid "Continue"
 msgstr "Folytatás"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2011 Alpha"
-msgstr "Mandriva Linux 2011 Alpha indítása"
+msgid "Boot Mandriva Linux 2011 Beta"
+msgstr "Mandriva Linux 2011 Beta indítása"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -63,8 +63,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux %s kernellel"
 
 #. txt_install
-msgid "Install Mandriva Linux 2011 Alpha"
-msgstr "Mandriva Linux 2011 Alpha telepítése"
+msgid "Install Mandriva Linux 2011 Beta"
+msgstr "Mandriva Linux 2011 Beta telepítése"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -79,8 +79,8 @@ msgid "Installation--Safe Settings"
 msgstr "Telepítés - Biztonságos beállításokkal"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 Alpha (safe mode)"
-msgstr "Mandriva Linux 2011 Alpha indítása (biztonsági üzem)"
+msgid "Boot Mandriva Linux 2011 Beta (safe mode)"
+msgstr "Mandriva Linux 2011 Beta indítása (biztonsági üzem)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

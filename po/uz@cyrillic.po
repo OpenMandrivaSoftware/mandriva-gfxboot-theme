@@ -35,8 +35,8 @@ msgid "Continue"
 msgstr "Давом этиш"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2011 Alpha"
-msgstr "Mandriva Linux 2011 Alpha'ни юклаш"
+msgid "Boot Mandriva Linux 2011 Beta"
+msgstr "Mandriva Linux 2011 Beta'ни юклаш"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -52,8 +52,8 @@ msgid "Linux with kernel %s"
 msgstr "%s кернелли Linux"
 
 #. txt_install
-msgid "Install Mandriva Linux 2011 Alpha"
-msgstr "Mandriva Linux 2011 Alpha тизимини ўрнатиш"
+msgid "Install Mandriva Linux 2011 Beta"
+msgstr "Mandriva Linux 2011 Beta тизимини ўрнатиш"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -68,8 +68,8 @@ msgid "Installation--Safe Settings"
 msgstr "Ўрнатиш --Safe мосламалари"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 Alpha (safe mode)"
-msgstr "Mandriva Linux 2011 Alpha'ни юклаш (хавфсиз усул)"
+msgid "Boot Mandriva Linux 2011 Beta (safe mode)"
+msgstr "Mandriva Linux 2011 Beta'ни юклаш (хавфсиз усул)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

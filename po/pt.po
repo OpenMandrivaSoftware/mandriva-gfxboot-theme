@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: bootloader.pt\n"
 "Report-Msgid-Bugs-To: https://qa.mandriva.com\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-03-16 20:34+0000\n"
+"PO-Revision-Date: 2011-05-20 09:56+0100\n"
 "Last-Translator: Zé <ze@mandriva.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -352,7 +352,7 @@ msgstr "Modo Texto"
 #. menu item, like 'memory test'
 #. txt_firmware
 msgid "Firmware Test"
-msgstr "Testar Firmware"
+msgstr "Teste de 'Firmware'"
 
 #. txt_dud_file_msg
 msgid ""

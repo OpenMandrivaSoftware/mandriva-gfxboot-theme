@@ -37,8 +37,8 @@ msgid "Continue"
 msgstr "Continua"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2011 Beta"
-msgstr "Boot di Mandriva Linux 2011 Beta"
+msgid "Boot Mandriva Linux 2011"
+msgstr "Boot di Mandriva Linux 2011"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -54,8 +54,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux con il kernel %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2011 Beta"
-msgstr "Installa Mandriva Linux 2011 Beta"
+msgid "Install Mandriva Linux 2011"
+msgstr "Installa Mandriva Linux 2011"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -70,8 +70,8 @@ msgid "Installation--Safe Settings"
 msgstr "Installazione--Safe Settings"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 Beta (safe mode)"
-msgstr "Boot di Mandriva Linux 2011 Beta (safe mode)"
+msgid "Boot Mandriva Linux 2011 (safe mode)"
+msgstr "Boot di Mandriva Linux 2011 (safe mode)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

@@ -41,8 +41,8 @@ msgid "Continue"
 msgstr "Jarraitu"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2011 Beta"
-msgstr "Abiatu Mandriva Linux 2011 Beta"
+msgid "Boot Mandriva Linux 2011"
+msgstr "Abiatu Mandriva Linux 2011"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -58,8 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux %s kernelarekin"
 
 #. txt_install
-msgid "Install Mandriva Linux 2011 Beta"
-msgstr "Instalatu Mandriva Linux 2011 Beta"
+msgid "Install Mandriva Linux 2011"
+msgstr "Instalatu Mandriva Linux 2011"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -74,8 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalaketa -- Ezarpen seguruak"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 Beta (safe mode)"
-msgstr "Abiatu Mandriva Linux 2011 Beta (modu segurua)"
+msgid "Boot Mandriva Linux 2011 (safe mode)"
+msgstr "Abiatu Mandriva Linux 2011 (modu segurua)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

@@ -43,8 +43,8 @@ msgstr "Συνέχεια"
 #  msgid "SMB (Windows Share) Installation"
 #  msgstr "Εγκατάσταση SMB (Windows Share)"
 #. txt_linux
-msgid "Boot Mandriva Linux 2011 Beta"
-msgstr "Εκκίνηση Mandriva Linux 2011 Beta"
+msgid "Boot Mandriva Linux 2011"
+msgstr "Εκκίνηση Mandriva Linux 2011"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -60,8 +60,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux με kernel %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2011 Beta"
-msgstr "Εγκατάσταση Mandriva Linux 2011 Beta"
+msgid "Install Mandriva Linux 2011"
+msgstr "Εγκατάσταση Mandriva Linux 2011"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -79,8 +79,8 @@ msgstr "Εγκατάσταση --Ασφαλείς Ρυθμίσεις"
 #  msgid "SMB (Windows Share) Installation"
 #  msgstr "Εγκατάσταση SMB (Windows Share)"
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 Beta (safe mode)"
-msgstr "Εκκίνηση Mandriva Linux 2011 Beta (ασφαλής λειτουργία)"
+msgid "Boot Mandriva Linux 2011 (safe mode)"
+msgstr "Εκκίνηση Mandriva Linux 2011 (ασφαλής λειτουργία)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

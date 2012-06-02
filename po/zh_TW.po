@@ -33,8 +33,8 @@ msgid "Continue"
 msgstr "繼續"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2011"
-msgstr "啟動 Mandriva Linux 2011"
+msgid "Boot Mandriva Linux 2012"
+msgstr "啟動 Mandriva Linux 2012"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -50,8 +50,8 @@ msgid "Linux with kernel %s"
 msgstr "核心 %s 的 Linux"
 
 #. txt_install
-msgid "Install Mandriva Linux 2011"
-msgstr "安裝 Mandriva Linux 2011"
+msgid "Install Mandriva Linux 2012"
+msgstr "安裝 Mandriva Linux 2012"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -66,8 +66,8 @@ msgid "Installation--Safe Settings"
 msgstr "安裝 -- 安全設定"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 (safe mode)"
-msgstr "啟動 Mandriva Linux 2011 (安全模式)"
+msgid "Boot Mandriva Linux 2012 (safe mode)"
+msgstr "啟動 Mandriva Linux 2012 (安全模式)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

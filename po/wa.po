@@ -35,7 +35,7 @@ msgid "Continue"
 msgstr "Continouwer"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2011"
+msgid "Boot Mandriva Linux 2012"
 msgstr ""
 
 #. txt_windows
@@ -52,7 +52,7 @@ msgid "Linux with kernel %s"
 msgstr ""
 
 #. txt_install
-msgid "Install Mandriva Linux 2011"
+msgid "Install Mandriva Linux 2012"
 msgstr ""
 
 #. txt_manual_install
@@ -68,7 +68,7 @@ msgid "Installation--Safe Settings"
 msgstr "Astalaedje--Tchuzes di såvrité"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 (safe mode)"
+msgid "Boot Mandriva Linux 2012 (safe mode)"
 msgstr ""
 
 #. txt_boot_harddisk

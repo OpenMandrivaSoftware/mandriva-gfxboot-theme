@@ -38,8 +38,8 @@ msgid "Continue"
 msgstr "Улантуу"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2011"
-msgstr "Mandriva Linux 2011 жүктөө"
+msgid "Boot Mandriva Linux 2012"
+msgstr "Mandriva Linux 2012 жүктөө"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -55,8 +55,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux %s ядросу менен"
 
 #. txt_install
-msgid "Install Mandriva Linux 2011"
-msgstr "Mandriva Linux 2011 орнотуу"
+msgid "Install Mandriva Linux 2012"
+msgstr "Mandriva Linux 2012 орнотуу"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -71,8 +71,8 @@ msgid "Installation--Safe Settings"
 msgstr "Орнотуу--Коопсуз ырастоолор"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 (safe mode)"
-msgstr "Mandriva Linux 2011 жүктөө (коопсуз режими)"
+msgid "Boot Mandriva Linux 2012 (safe mode)"
+msgstr "Mandriva Linux 2012 жүктөө (коопсуз режими)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

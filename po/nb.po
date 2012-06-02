@@ -41,8 +41,8 @@ msgid "Continue"
 msgstr "Fortsett"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2011"
-msgstr "Start Mandriva Linux 2011"
+msgid "Boot Mandriva Linux 2012"
+msgstr "Start Mandriva Linux 2012"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -58,8 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux med kjerne %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2011"
-msgstr "Installer Mandriva Linux 2011"
+msgid "Install Mandriva Linux 2012"
+msgstr "Installer Mandriva Linux 2012"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -74,8 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Installering – trygge innstillinger"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 (safe mode)"
-msgstr "Start Mandriva Linux 2011 (sikkermodus)"
+msgid "Boot Mandriva Linux 2012 (safe mode)"
+msgstr "Start Mandriva Linux 2012 (sikkermodus)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

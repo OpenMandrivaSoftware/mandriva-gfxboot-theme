@@ -41,8 +41,8 @@ msgid "Continue"
 msgstr "Áfram"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2011"
-msgstr "Ræsa Mandriva Linux 2011"
+msgid "Boot Mandriva Linux 2012"
+msgstr "Ræsa Mandriva Linux 2012"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -58,8 +58,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux með kjarna %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2011"
-msgstr "Setja Mandriva Linux 2011 inn á tölvuna þína"
+msgid "Install Mandriva Linux 2012"
+msgstr "Setja Mandriva Linux 2012 inn á tölvuna þína"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -74,8 +74,8 @@ msgid "Installation--Safe Settings"
 msgstr "Uppsetning--Öruggar stillingar"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2011 (safe mode)"
-msgstr "Ræsa Mandriva Linux 2011 (öruggur hamur)"
+msgid "Boot Mandriva Linux 2012 (safe mode)"
+msgstr "Ræsa Mandriva Linux 2012 (öruggur hamur)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

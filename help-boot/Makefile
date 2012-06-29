@@ -1,5 +1,5 @@
 BINDIR    = $(shell [ -x ../../../gfxboot ] && echo ../../../ )
-GFXBOOT   = $(BINDIR)gfxboot
+GFXBOOT   = /usr/sbin/gfxboot
 PRODUCT   = $(shell perl -ne 'print if s/^product=//' ../config)
 HELPFILES = $(addsuffix .hlp, $(shell for i in * ; do [ -d $$i ] && echo $$i ; done))
 

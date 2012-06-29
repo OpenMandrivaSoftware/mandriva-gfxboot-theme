@@ -71,7 +71,7 @@
 /p.walk.xmin    80 def
 /p.walk.xmax   720 def
 /p.walk.x      200 def
-/p.walk.y      523 def
+/p.walk.y      525 def
 /p.walk.dx       4 def
 /p.walk.frame    0 def
 /p.walk.frames   8 def
@@ -87,7 +87,7 @@
 /p.read.src.y    1 def
 
 
-/p.fall.ymax   520 def
+/p.fall.ymax   530 def
 /p.fall.ymin   -31 def
 /p.fall.x      762 def
 /p.fall.y        0 def

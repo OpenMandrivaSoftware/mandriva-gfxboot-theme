@@ -25,3 +25,5 @@
 %% include keytables.inc
 %% include locale.inc
 %% include speech.inc
+
+%% include penguin.inc

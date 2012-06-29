@@ -128,6 +128,24 @@
     500 20 moveto dup print "  " print
   } if
 
+  ptheme {
+    % reverse direction
+    /p.xmas.dx p.xmas.dx neg def
+
+    key keyF9 eq
+    key keyF7 eq or {
+      % call super penguin
+      p.call.super
+    } {
+      key keyF1 ge
+      key keyF10 le and {
+        % read something
+        /p.read.timer rand 0x31 and neg -30 add def
+      } if
+    } ifelse
+
+  } if
+
   % some special keys
   debug.input
 
@@ -996,6 +1014,8 @@
 /init {
   0 0 moveto currentpoint clip.size image
 
+  ptheme { ptheme.init } if
+
   % set default language
   "lang" findfile dup {
     /tmp over length 1 add 2 max string def
@@ -1330,7 +1350,39 @@ screen.fallback {
 } if
 
 
-/ptheme false def
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Figure out whether to use penguin theme.
+%
+ 
+/config.penguin       "penguin"               0 gfxconfig.set.int
+ 
+% more likely during summer...
+config.penguin -1 eq {
+  date
+  0
+
+  over month 5 eq { 5 add } if
+  over month 6 eq { 5 add } if
+  over month 7 eq { 5 add } if
+  over month 8 eq { 5 add } if
+  over weekday 5 eq { 2 mul } if
+  over weekday 6 eq { 4 mul } if
+  over dup month 12 eq exch day dup 24 ge exch 6 eq or and { pop 100 } if
+  over dup month 1 eq exch day 1 eq and { pop 100 } if
+
+  /config.penguin exch def
+  pop
+} if
+
+/ptheme rand pop rand 100 mod config.penguin lt def
+
+0x417 cvp getbyte 0x40 and 0 ne { /ptheme  true def } if
+0x417 cvp getbyte 0x10 and 0 ne { /ptheme false def } if
+
+% prepend penguin section to layout section list
+ptheme {
+  /gfxconfig.layout [ "penguin" gfxconfig.layout { } forall ] gfxconfig.layout free def
+} if
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

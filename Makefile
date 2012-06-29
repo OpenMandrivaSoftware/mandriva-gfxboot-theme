@@ -11,7 +11,7 @@ endif
 ADDDIR       = gfxboot-adddir
 BFLAGS       = -O -v -L ../..
 
-SUBDIRS      = fonts help-boot help-install po src
+SUBDIRS      = fonts help-boot help-install penguin_src po src
 
 IN_CPIO_INSTALL = init $(notdir $(wildcard fonts/*.fnt)) $(notdir $(wildcard po/*.tr))
 
@@ -41,11 +41,12 @@ themes: all
 src/main.bin: src
 	make -C src
 
-bootlogo: src/main.bin help-install/.ready po/.ready fonts/.ready
+bootlogo: src/main.bin help-install/.ready po/.ready fonts/.ready penguin_src/.ready
 	@rm -rf bootlogo.dir
 	@mkdir bootlogo.dir
 	cp -rL data-install/* fonts/*.fnt po/*.tr bootlogo.dir
 	cp -rL help-install/*.hlp bootlogo.dir
+	cp -rL penguin_src/*.jpg bootlogo.dir
 	cp src/main.bin bootlogo.dir/init
 ifdef DEFAULT_LANG
 	@echo $(DEFAULT_LANG) >bootlogo.dir/lang
@@ -54,11 +55,12 @@ endif
 	@sh -c 'cd bootlogo.dir; echo $(IN_CPIO_INSTALL) | sed -e "s/ /\n/g" | cpio --quiet -o >../bootlogo'
 	@cd bootlogo.dir; rm $(IN_CPIO_INSTALL)
 
-message: src/main.bin help-boot/.ready po/.ready fonts/.ready
+message: src/main.bin help-boot/.ready po/.ready fonts/.ready penguin_src/.ready
 	@rm -rf message.dir
 	@mkdir message.dir
 	cp -rL data-boot/* fonts/*.fnt message.dir
 	cp -rL po/*.tr help-boot/*.hlp message.dir
+	cp -rL penguin_src/*.jpg message.dir
 	cp src/main.bin message.dir/init
 ifdef DEFAULT_LANG
 	cp -rL po/$(DEFAULT_LANG).tr help-boot/$(DEFAULT_LANG).hlp message.dir

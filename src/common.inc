@@ -1362,9 +1362,9 @@ config.penguin -1 eq {
   0
 
   over month 5 eq { 5 add } if
-  over month 6 eq { 5 add } if
-  over month 7 eq { 5 add } if
-  over month 8 eq { 5 add } if
+  over month 6 eq { 10 add } if
+  over month 7 eq { 25 add } if
+  over month 8 eq { 15 add } if
   over weekday 5 eq { 2 mul } if
   over weekday 6 eq { 4 mul } if
   over dup month 12 eq exch day dup 24 ge exch 6 eq or and { pop 100 } if

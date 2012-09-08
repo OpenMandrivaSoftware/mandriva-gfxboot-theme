@@ -1329,7 +1329,7 @@
 % First, figure out video mode.
 %
 
-/config.screen.width /config.screen.height "screen.size" 800 600 gfxconfig.set.int2
+/config.screen.width /config.screen.height "screen.size" 1024 768 gfxconfig.set.int2
 
 /screen.fallback false def
 
@@ -1397,7 +1397,7 @@ ptheme {
 /config._2space        "_2space"                  false gfxconfig.set.bool
 /transp                "menu.transparency"         0x20 gfxconfig.set.int
 /config.screen.width
-/config.screen.height  "screen.size"            800 600 gfxconfig.set.int2
+/config.screen.height  "screen.size"           1024 768 gfxconfig.set.int2
 /config.background     "background"          "back.jpg" gfxconfig.set.str
 /config.font.normal    "font.normal"        "16x16.fnt" gfxconfig.set.str
 /config.font.large     "font.large"         "16x16.fnt" gfxconfig.set.str

@@ -101,8 +101,8 @@ dist:
 dist-svn:
 	rm -rf $(NAME)-$(VERSION) 
 	svn export -q -rBASE . $(NAME)-$(VERSION)
-	tar cfJ ../$(NAME)-$(VERSION).tar.xz $(NAME)-$(VERSION)
+	tar cfJ $(NAME)-$(VERSION).tar.xz $(NAME)-$(VERSION)
 	rm -rf $(NAME)-$(VERSION)
 
 dist-git:
-	@git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz >../$(NAME)-$(VERSION).tar.xz;	
+	@git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz > $(NAME)-$(VERSION).tar.xz;	

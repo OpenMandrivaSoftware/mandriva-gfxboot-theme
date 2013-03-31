@@ -37,8 +37,8 @@ msgid "Continue"
 msgstr "Teruskan"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2012"
-msgstr "Boot Mandriva Linux 2012"
+msgid "Boot Mandriva Linux 2013"
+msgstr "Boot Mandriva Linux 2013"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -54,8 +54,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux dengan kernel %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2012"
-msgstr "Pasang Mandriva Linux 2012"
+msgid "Install Mandriva Linux 2013"
+msgstr "Pasang Mandriva Linux 2013"
 
 #. txt_manual_install
 #, fuzzy
@@ -74,7 +74,7 @@ msgstr "Ubah seting latar belakang"
 
 #. txt_safe_linux
 #, fuzzy
-msgid "Boot Mandriva Linux 2012 (safe mode)"
+msgid "Boot Mandriva Linux 2013 (safe mode)"
 msgstr "Boot Mandriva Linux 2009 Spring"
 
 #. txt_boot_harddisk

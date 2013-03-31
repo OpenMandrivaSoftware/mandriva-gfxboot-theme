@@ -46,8 +46,8 @@ msgid "Continue"
 msgstr "Folytatás"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2012"
-msgstr "Mandriva Linux 2012 indítása"
+msgid "Boot Mandriva Linux 2013"
+msgstr "Mandriva Linux 2013 indítása"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -63,8 +63,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux %s kernellel"
 
 #. txt_install
-msgid "Install Mandriva Linux 2012"
-msgstr "Mandriva Linux 2012 telepítése"
+msgid "Install Mandriva Linux 2013"
+msgstr "Mandriva Linux 2013 telepítése"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -79,8 +79,8 @@ msgid "Installation--Safe Settings"
 msgstr "Telepítés - Biztonságos beállításokkal"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2012 (safe mode)"
-msgstr "Mandriva Linux 2012 indítása (biztonsági üzem)"
+msgid "Boot Mandriva Linux 2013 (safe mode)"
+msgstr "Mandriva Linux 2013 indítása (biztonsági üzem)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

@@ -43,7 +43,7 @@ msgid "Continue"
 msgstr "Turpynuot"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2012"
+msgid "Boot Mandriva Linux 2013"
 msgstr ""
 
 #. txt_windows
@@ -60,7 +60,7 @@ msgid "Linux with kernel %s"
 msgstr ""
 
 #. txt_install
-msgid "Install Mandriva Linux 2012"
+msgid "Install Mandriva Linux 2013"
 msgstr ""
 
 #. txt_manual_install
@@ -76,7 +76,7 @@ msgid "Installation--Safe Settings"
 msgstr "Instalaceja drūšā režimā"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2012 (safe mode)"
+msgid "Boot Mandriva Linux 2013 (safe mode)"
 msgstr ""
 
 #. txt_boot_harddisk

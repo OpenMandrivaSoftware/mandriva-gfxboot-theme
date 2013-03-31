@@ -72,8 +72,8 @@ msgid "Continue"
 msgstr "Continuă"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2012"
-msgstr "Pornește Mandriva Linux 2012"
+msgid "Boot Mandriva Linux 2013"
+msgstr "Pornește Mandriva Linux 2013"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -89,8 +89,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux cu nucleu %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2012"
-msgstr "Instalează Mandriva Linux 2012"
+msgid "Install Mandriva Linux 2013"
+msgstr "Instalează Mandriva Linux 2013"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -105,8 +105,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalare--Opțiuni sigure"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2012 (safe mode)"
-msgstr "Pornește Mandriva Linux 2012 (mod degradat)"
+msgid "Boot Mandriva Linux 2013 (safe mode)"
+msgstr "Pornește Mandriva Linux 2013 (mod degradat)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

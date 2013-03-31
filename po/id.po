@@ -36,8 +36,8 @@ msgid "Continue"
 msgstr "Lanjutkan"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2012"
-msgstr "Boot Mandriva Linux 2012"
+msgid "Boot Mandriva Linux 2013"
+msgstr "Boot Mandriva Linux 2013"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -53,8 +53,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux dengan kernel %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2012"
-msgstr "Install Mandriva Linux 2012 pada sistem Anda"
+msgid "Install Mandriva Linux 2013"
+msgstr "Install Mandriva Linux 2013 pada sistem Anda"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -69,8 +69,8 @@ msgid "Installation--Safe Settings"
 msgstr "Instalasi--Seting Aman"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2012 (safe mode)"
-msgstr "Boot Mandriva Linux 2012 (mode aman)"
+msgid "Boot Mandriva Linux 2013 (safe mode)"
+msgstr "Boot Mandriva Linux 2013 (mode aman)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

@@ -39,8 +39,8 @@ msgid "Continue"
 msgstr "Devam et"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2012"
-msgstr "Mandriva Linux 2012 Sistemini Başlat"
+msgid "Boot Mandriva Linux 2013"
+msgstr "Mandriva Linux 2013 Sistemini Başlat"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -56,8 +56,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux Çekirdek Sürümü %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2012"
-msgstr "Mandriva Linux 2012 Sistemini Kur"
+msgid "Install Mandriva Linux 2013"
+msgstr "Mandriva Linux 2013 Sistemini Kur"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -72,8 +72,8 @@ msgid "Installation--Safe Settings"
 msgstr "Kurulum--Güvenli Ayarlar"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2012 (safe mode)"
-msgstr "Mandriva Linux 2012 Sistemini Başlat (Güvenli Kip)"
+msgid "Boot Mandriva Linux 2013 (safe mode)"
+msgstr "Mandriva Linux 2013 Sistemini Başlat (Güvenli Kip)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

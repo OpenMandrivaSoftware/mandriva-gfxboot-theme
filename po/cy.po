@@ -37,8 +37,8 @@ msgid "Continue"
 msgstr "Parhau"
 
 #. txt_linux
-msgid "Boot Mandriva Linux 2012"
-msgstr "Cychwyn Mandriva Linux 2012"
+msgid "Boot Mandriva Linux 2013"
+msgstr "Cychwyn Mandriva Linux 2013"
 
 #. txt_windows
 msgid "Boot Microsoft Windows"
@@ -54,8 +54,8 @@ msgid "Linux with kernel %s"
 msgstr "Linux gyda cnewyllyn %s"
 
 #. txt_install
-msgid "Install Mandriva Linux 2012"
-msgstr "Gosod Mandriva Linux 2012"
+msgid "Install Mandriva Linux 2013"
+msgstr "Gosod Mandriva Linux 2013"
 
 #. txt_manual_install
 msgid "Manual Installation"
@@ -70,8 +70,8 @@ msgid "Installation--Safe Settings"
 msgstr "Gosod--Gosodiadau Diogel"
 
 #. txt_safe_linux
-msgid "Boot Mandriva Linux 2012 (safe mode)"
-msgstr "Gosod Mandriva Linux 2012 (modd diogel)"
+msgid "Boot Mandriva Linux 2013 (safe mode)"
+msgstr "Gosod Mandriva Linux 2013 (modd diogel)"
 
 #. txt_boot_harddisk
 msgid "Boot from Hard Disk"

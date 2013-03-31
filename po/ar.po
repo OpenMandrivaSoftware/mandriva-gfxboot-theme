@@ -40,7 +40,7 @@ msgstr "تابع"
 
 #. txt_linux
 #, fuzzy
-msgid "Boot Mandriva Linux 2012"
+msgid "Boot Mandriva Linux 2013"
 msgstr "أقلع ماندريفا لينُكس 2009 الربيع"
 
 #. txt_windows
@@ -58,7 +58,7 @@ msgstr "لينُكس مع النواة %s"
 
 #. txt_install
 #, fuzzy
-msgid "Install Mandriva Linux 2012"
+msgid "Install Mandriva Linux 2013"
 msgstr "ثبِّت لينُكس ماندريفا 2009 الربيع"
 
 #. txt_manual_install
@@ -75,7 +75,7 @@ msgstr "تثبيت--إعدادات آمنة"
 
 #. txt_safe_linux
 #, fuzzy
-msgid "Boot Mandriva Linux 2012 (safe mode)"
+msgid "Boot Mandriva Linux 2013 (safe mode)"
 msgstr "أقلع ماندريفا لينُكس 2009 الربيع (الوضع الآمن)"
 
 #. txt_boot_harddisk

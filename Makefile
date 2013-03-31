@@ -96,7 +96,7 @@ dist:
 	    echo "Unknown SCM (not SVN nor GIT)";\
 	    exit 1; \
 	fi;
-	$(info $(NAME)-$(VERSION).tar.lzma is ready)
+	$(info $(NAME)-$(VERSION).tar.xz is ready)
 
 dist-svn:
 	rm -rf $(NAME)-$(VERSION) 
